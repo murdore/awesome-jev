@@ -10,10 +10,10 @@ Every catalogued example of this decision — 8 of them, official first, then ro
   <sub>`Official docs` · `Py` · `TS` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[ai-cookbook: Jev track](https://github.com/daveebbelaar/ai-cookbook)** — A graded course from a first call through each primitive, state shapes and criteria, to ticket triage and a multi-step workflow, mirroring all four official patterns.
-  <sub>`Tutorial` · ★4,578 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Tutorial` · ★4,606 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[spring-ai-typesafe](https://spring.io/blog/2026/09/21/spring-ai-typesafe-structured-judgment)** — A community Spring AI starter bringing typed decisions to Java, with a builder API over the three question types.
-  <sub>`Integration` · ★36 · `Java` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★40 · `Java` · `choice` · `score` · `noul`</sub>
 
 - **[jev-triage](https://github.com/boldbug1/jev-triage)** — Message triage CLI in Go, built on the Jev decision model from TypeSafe AI. Categorizes messages, scores urgency, and flags low-confidence ones for human review.
   <sub>`Project` · ★3 · boldbug1 · `Go`</sub>

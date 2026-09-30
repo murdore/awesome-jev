@@ -19,22 +19,22 @@ Every catalogued example of this decision — 16 of them, official first, then r
   <sub>`Official docs` · `Py`</sub>
 
 - **[smart-paste](https://github.com/nomanjack/smart-paste)** — Fills form fields from pasted text: the form's heading, labels and your text go to TypeSafe, and it inserts the values it matches for you to review before submitting.
-  <sub>`Plugin` · ★38 · nomanjack · `JS`</sub>
+  <sub>`Plugin` · ★42 · nomanjack · `JS`</sub>
 
 - **[jev-reviewer](https://github.com/choxos/jev-reviewer)** — Data extraction for systematic reviews, quoted from the papers. Ask a trial report and its supplements your extraction form or a RoB 2, ROBINS-I, QUADAS-2 or TIDieR template; Jev points at the lines, every answer is a verbatim quote with its page, you check it and export the table. Files stay i
-  <sub>`Project` · ★33 · choxos · `JS`</sub>
+  <sub>`Project` · ★38 · choxos · `JS`</sub>
 
 - **[jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)** — Open-source macOS AI computer use and native GUI automation on Apple silicon. Jev + OmniParser CoreML + Apple Vision OCR. Bring your own OpenRouter, Vercel AI Gateway, or TypesafeAI token.
-  <sub>`Project` · ★21 · jcpsimmons · `JS`</sub>
+  <sub>`Project` · ★24 · jcpsimmons · `JS`</sub>
 
 - **[jevfill](https://github.com/imohitmayank/jevfill)** — A Chrome extension that fills web forms from unstructured notes with Jev: paste your details once as plain text, with no structured profile, then fill forms on demand.
-  <sub>`Plugin` · ★18 · imohitmayank · `TS`</sub>
+  <sub>`Plugin` · ★21 · imohitmayank · `TS`</sub>
 
 - **[jeveryword](https://github.com/jkrup/jeveryword)** — Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.
-  <sub>`Project` · ★4 · jkrup · `JS`</sub>
+  <sub>`Project` · ★5 · jkrup · `JS`</sub>
 
 - **[jev-mcp-dispatcher](https://github.com/abhishekashokvkumar/jev-mcp-dispatcher)** — Natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev — no general-purpose LLM. Discovers a simple MCP server's tool signatures at runtime and uses Jev's typed primitives (Choice/Noul) to pick the right tool and extract its arguments straight out of the sentence.
-  <sub>`Plugin` · ★3 · abhishekashokvkumar · `Py` · ⚠ `no licence`</sub>
+  <sub>`Plugin` · ★4 · abhishekashokvkumar · `Py` · ⚠ `no licence`</sub>
 
 - **[jevsume](https://github.com/unownone/jevsume)** — ATS-friendly resume review powered by Jev (TypeSafe System One). The frontend extracts resume text the way a parser would, then a Cloudflare Worker runs typed JEV questions and composes a JevScore.
   <sub>`Project` · ★3 · unownone · `TS` · ⚠ `no licence`</sub>
@@ -49,7 +49,7 @@ Every catalogued example of this decision — 16 of them, official first, then r
   <sub>`Project` · ★1 · logicrw · `Py`</sub>
 
 - **[jev-data-questions](https://github.com/narulaskaran/jev-data-questions)** — Bring a dataset and see the right chart: the UI inspects the CSV's shape and proposes insights, and Jev fills in the values.
-  <sub>`Project` · ★0 · narulaskaran · `TS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★1 · narulaskaran · `TS` · ⚠ `no licence`</sub>
 
 - **[smoking-extraction-benchmark](https://github.com/vclic/smoking-extraction-benchmark)** — Synthetic smoking-history extraction benchmark comparing TypeSafe Jev and OpenAI structured outputs, with reproducible accuracy, cost, and latency results.
   <sub>`Benchmark` · ★0 · vclic · `Py` · ⚠ `no licence`</sub>

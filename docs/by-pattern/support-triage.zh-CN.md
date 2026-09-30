@@ -10,10 +10,10 @@ _按意图和紧急度路由支持工单与会话。_
   <sub>`官方文档` · `Py` · `TS` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[ai-cookbook: Jev track](https://github.com/daveebbelaar/ai-cookbook)** — 一套循序渐进的课程：从第一次调用、逐个原语、state 形状与 criteria，一直到工单分拣和多步工作流，并对应了全部四个官方模式。
-  <sub>`教程` · ★4,578 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`教程` · ★4,606 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[spring-ai-typesafe](https://spring.io/blog/2026/09/21/spring-ai-typesafe-structured-judgment)** — 社区维护的 Spring AI starter，把类型化决策带到 Java，用 builder API 封装三种问题类型。
-  <sub>`平台集成` · ★36 · `Java` · `choice` · `score` · `noul`</sub>
+  <sub>`平台集成` · ★40 · `Java` · `choice` · `score` · `noul`</sub>
 
 - **[jev-triage](https://github.com/boldbug1/jev-triage)** — 基于 TypeSafe AI Jev 决策模型的 Go 消息分诊 CLI：为消息归类、给紧急程度打分并决定去向。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · boldbug1 · `Go`</sub>
