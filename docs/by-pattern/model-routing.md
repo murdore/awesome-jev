@@ -13,37 +13,37 @@ Every catalogued example of this decision — 43 of them, official first, then r
   <sub>`Official docs` · `Py` · `choice`</sub>
 
 - **[claude-code-templates: three Jev plugins](https://github.com/davila7/claude-code-templates)** — Three independently installable Claude Code plugins — guardrails, model router and skill suggestion — each with its own hooks and tests.
-  <sub>`Plugin` · ★32,212 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★32,445 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[@langchain/typesafe](https://github.com/langchain-ai/langchainjs)** — The JavaScript counterpart of the LangChain integration, with the same classifier and middleware shapes.
-  <sub>`Integration` · ★18,241 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★18,245 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — Nine agent skills plus a CLI covering model routing, memory filtering, turn retention, one-of-many skill selection and next-action choice.
-  <sub>`Plugin` · ★918 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★1,044 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)** — Pre-screens code review with Jev to surface high-risk changes for a more expensive model or a person, with a local dashboard.
-  <sub>`Project` · ★643 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★675 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jevrouter](https://github.com/BillionsBobby/JevRouter)** — A router for models, tools and subagents.
-  <sub>`Project` · ★302 · billionsbobby · `TS`</sub>
+  <sub>`Project` · ★434 · billionsbobby · `TS`</sub>
 
 - **[Astra-Ares](https://github.com/miuuyy/Astra-Ares)** — Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.
-  <sub>`Plugin` · ★293 · miuuyy · `JS`</sub>
+  <sub>`Plugin` · ★300 · miuuyy · `JS`</sub>
 
 - **[jev-codex-router](https://github.com/0xNatoshi/jev-codex-router)** — Judges how hard a coding turn is, then picks the model tier, reasoning depth and speed mode to match.
-  <sub>`Plugin` · ★278 · `JS` · `choice` · `score` · ⚠ `archived`</sub>
+  <sub>`Plugin` · ★273 · `JS` · `choice` · `score` · ⚠ `archived`</sub>
 
 - **[jev-eval-agent](https://github.com/vinilana/jev-eval-agent)** — An agent that routes evaluation work through typed decisions.
   <sub>`Project` · ★106 · vinilana · `TS` · ⚠ `no licence`</sub>
 
 - **[stuntd](https://github.com/bladedevoff/stuntd)** — Local proxy that learns your app's typed LLM decisions and answers them with a Laya head. Jev and OpenAI compatible.
-  <sub>`Project` · ★38 · bladedevoff · `Py`</sub>
+  <sub>`Project` · ★68 · bladedevoff · `Py`</sub>
 
 - **[jev-use](https://github.com/shitianfang/jev-use)** — An agent plugin that hands steps needing no text output to Jev instead of the main model.
-  <sub>`Plugin` · ★31 · shitianfang · `JS`</sub>
+  <sub>`Plugin` · ★51 · shitianfang · `JS`</sub>
 
 - **[a3m-router](https://github.com/Das-rebel/a3m-router)** — ⚡ Adaptive multi-model LLM router — 80+ providers, Jev System One single-pass routing (model=jev-auto), pheromone-trail failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router
-  <sub>`Project` · ★17 · das-rebel · `TS`</sub>
+  <sub>`Project` · ★16 · das-rebel · `TS`</sub>
 
 - **[jevonian](https://github.com/xinyao27/jevonian)** — A local endpoint between a coding agent and its providers that routes each turn to the most cost-effective capable model, manages quota and cache, and logs every routing decision to a local ledger.
   <sub>`Project` · ★16 · xinyao27 · `TS`</sub>
@@ -52,10 +52,10 @@ Every catalogued example of this decision — 43 of them, official first, then r
   <sub>`Project` · ★16 · mejiasd3v · `JS`</sub>
 
 - **[jev-router](https://github.com/prismhq/jev-router)** — Open-source LLM router that uses TypeSafe's Jev to pick a model, on top of LiteLLM
-  <sub>`Project` · ★15 · prismhq · `Py`</sub>
+  <sub>`Project` · ★14 · prismhq · `Py`</sub>
 
 - **[pi-jev-router](https://github.com/philippdubach/pi-jev-router)** — A minimal Pareto-optimal OpenRouter model router for pi, based on Jev
-  <sub>`Plugin` · ★14 · philippdubach · `TS`</sub>
+  <sub>`Plugin` · ★13 · philippdubach · `TS`</sub>
 
 - **[jev-router](https://github.com/rajdhakad9826/jev-router)** — LLM router that picks the cheapest model capable of handling a query, using TypeSafe's Jev for fast classification instead of an LLM call.
   <sub>`Project` · ★10 · rajdhakad9826 · `TS`</sub>
@@ -66,47 +66,44 @@ Every catalogued example of this decision — 43 of them, official first, then r
 - **[slo-router](https://github.com/zeeshan8281/slo-router)** — SLO-aware LLM inference router with Jev decisions, live queue metrics, counterfactual evaluation, and reproducible latency/cost benchmarks
   <sub>`Project` · ★10 · zeeshan8281 · `Py` · ⚠ `no licence`</sub>
 
+- **[jev-engineering](https://github.com/eugeniughelbur/jev-engineering)** — The decision layer for AI agents. Typed, calibrated decisions in ~400ms for two hundredths of a cent: gate tool calls, route models, rank options. With the 300-call injection test that found what breaks.
+  <sub>`Project` · ★9 · eugeniughelbur · `Py`</sub>
+
 - **[jev-auto-router](https://github.com/miniLV/Jev-Auto-Router)** — Jev Auto Router (Jev Router): experimental per-call GPT model routing for Codex via TypeSafe Jev and a local Responses proxy, with independent task verification.
   <sub>`Plugin` · ★8 · minilv · `TS`</sub>
 
-- **[dsh-plugin-jev-effort-selector](https://github.com/justhalfbit/dsh-plugin-jev-effort-selector)** — A DeepSeek Harness plugin that picks the reasoning level automatically: Jev judges how much thought each message deserves, follow-ups inherit the topic's depth, low confidence rounds up, and any failure falls back silently.
-  <sub>`Plugin` · ★6 · justhalfbit · `JS`</sub>
-
 - **[jev-codex-bridge](https://github.com/ansidium/jev-codex-bridge)** — Model and reasoning routing for Codex Desktop and CLI, with a Windows service and validated updates
-  <sub>`Plugin` · ★6 · ansidium · `JS`</sub>
-
-- **[jev-engineering](https://github.com/eugeniughelbur/jev-engineering)** — The decision layer for AI agents. Typed, calibrated decisions in ~400ms for two hundredths of a cent: gate tool calls, route models, rank options. With the 300-call injection test that found what breaks.
-  <sub>`Project` · ★5 · eugeniughelbur · `Py`</sub>
+  <sub>`Plugin` · ★8 · ansidium · `JS`</sub>
 
 - **[Codex Jev Router](https://github.com/suenot/codex-jev-router)** — Uses Jev Choice and Noul judgments on short task summaries to select a Codex subagent model and reasoning effort with a Sol fallback.
-  <sub>`Project` · ★4 · suenot · `JS` · `choice` · `noul` · ⚠ `AI-written`</sub>
+  <sub>`Project` · ★7 · suenot · `JS` · `choice` · `noul` · ⚠ `AI-written`</sub>
 
-- **[jev-gate](https://github.com/MongLong0214/jev-gate)** — Not every coding task needs your best model. Experimental Jev-powered model routing for Claude Code — V3 prototype runs today, V4 routes at the task boundary.
-  <sub>`Plugin` · ★4 · monglong0214 · `TS` · ⚠ `no licence`</sub>
+- **[dsh-plugin-jev-effort-selector](https://github.com/justhalfbit/dsh-plugin-jev-effort-selector)** — A DeepSeek Harness plugin that picks the reasoning level automatically: Jev judges how much thought each message deserves, follow-ups inherit the topic's depth, low confidence rounds up, and any failure falls back silently.
+  <sub>`Plugin` · ★7 · justhalfbit · `JS`</sub>
 
 - **[jev-model-router](https://github.com/satviksinha/jev-model-router)** — Model router for Claude Code using Jev
-  <sub>`Plugin` · ★4 · satviksinha · `TS`</sub>
+  <sub>`Plugin` · ★5 · satviksinha · `TS`</sub>
 
 - **[jev-smart-router](https://github.com/rmosleydb/jev-smart-router)** — JEV Smart Router — a Databricks App that uses TypeSafe JEV to pick which model answers each message, then runs inference on the chosen Databricks Foundation Model API endpoint.
-  <sub>`Project` · ★4 · rmosleydb · `Py`</sub>
-
-- **[smart-switch](https://github.com/reycn/smart-switch)** — Reimagined window switcher for macOS using frontier artificial intelligence. Predicted by TypeSafe's Jev model
-  <sub>`Project` · ★4 · reycn · `Swift`</sub>
-
-- **[tiershift](https://github.com/iamvatsalpatel/tiershift)** — Shift every LLM call to the cheapest model that can handle it. Routing decided by TypeSafe Jev in ~180 ms. No training data. Policy in plain YAML. TypeScript and Python.
-  <sub>`Project` · ★4 · iamvatsalpatel · `TS`</sub>
-
-- **[janus](https://github.com/FirasSX914/Janus)** — Measure when to use Jev and other models on your data, then route accordingly.
-  <sub>`Project` · ★3 · firassx914 · `Py`</sub>
+  <sub>`Project` · ★5 · rmosleydb · `Py`</sub>
 
 - **[jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)** — Smart Codex overlay with JEV model routing, context optimization & Kanban automation. Reduce tokens, keep control
-  <sub>`Plugin` · ★3 · charlyhno-eng · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★4 · charlyhno-eng · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-harness-router](https://github.com/JoacoMarc/jev-harness-router)** — Per-turn router for agent harnesses: one 350ms Jev call picks the model tier, effort, tools and skill, behind a hard deadline with a regex fallback. Claude Agent SDK adapter included.
-  <sub>`SDK` · ★3 · joacomarc · `TS`</sub>
+  <sub>`SDK` · ★4 · joacomarc · `TS`</sub>
 
-- **[hermes-jev-router](https://github.com/ussyverse/hermes-jev-router)** — Experimental Hermes plugin: Jev-assisted model routing plans with budget and capability constraints. API access pending.
-  <sub>`Plugin` · ★2 · ussyverse · `Py`</sub>
+- **[jev-gate](https://github.com/MongLong0214/jev-gate)** — Not every coding task needs your best model. Experimental Jev-powered model routing for Claude Code — V3 prototype runs today, V4 routes at the task boundary.
+  <sub>`Plugin` · ★3 · monglong0214 · `TS` · ⚠ `no licence`</sub>
+
+- **[smart-switch](https://github.com/reycn/smart-switch)** — Reimagined window switcher for macOS using frontier artificial intelligence. Predicted by TypeSafe's Jev model
+  <sub>`Project` · ★3 · reycn · `Swift`</sub>
+
+- **[tiershift](https://github.com/iamvatsalpatel/tiershift)** — Shift every LLM call to the cheapest model that can handle it. Routing decided by TypeSafe Jev in ~180 ms. No training data. Policy in plain YAML. TypeScript and Python.
+  <sub>`Project` · ★3 · iamvatsalpatel · `TS`</sub>
+
+- **[janus](https://github.com/FirasSX914/Janus)** — Measure when to use Jev and other models on your data, then route accordingly.
+  <sub>`Project` · ★2 · firassx914 · `Py`</sub>
 
 - **[jev-model-router](https://github.com/az9713/jev-model-router)** — Jev (TypeSafe) model router on the Vercel AI Gateway
   <sub>`Project` · ★2 · az9713 · `JS` · ⚠ `no licence`</sub>
@@ -117,11 +114,14 @@ Every catalogued example of this decision — 43 of them, official first, then r
 - **[jev-synthetic-survey](https://github.com/jjd-lab/jev-synthetic-survey)** — Jev vs GPT-4.1 as synthetic survey respondents on Twin-2K-500. How you ask mattered more than which model you used.
   <sub>`Project` · ★2 · jjd-lab · `Py`</sub>
 
+- **[hermes-jev-router](https://github.com/ussyverse/hermes-jev-router)** — Experimental Hermes plugin: Jev-assisted model routing plans with budget and capability constraints. API access pending.
+  <sub>`Plugin` · ★1 · ussyverse · `Py`</sub>
+
 - **[stuntdouble](https://github.com/ReallyArtificial/stuntdouble)** — A drop-in /v1/systemone proxy: the app keeps calling Jev while local decision models answer the same requests in the shadow, then it reports whether they would have decided the same — per question, per confidence band, at the app's own decide() — plus Brier, ECE, latency and cost.
-  <sub>`Project` · ★2 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `AI-written`</sub>
+  <sub>`Project` · ★1 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `AI-written`</sub>
 
 - **[switchboard](https://github.com/aniruddh-krovvidi/switchboard)** — Guardrail + model router for LLM gateways on TypeSafe's Jev (System One model), with an independent accuracy/calibration/latency evaluation. Stdlib Python.
-  <sub>`Project` · ★2 · aniruddh-krovvidi · `Py` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★1 · aniruddh-krovvidi · `Py` · ⚠ `no licence`</sub>
 
 - **[Building a Harness with Jev](https://www.langchain.com/blog/building-a-harness-with-jev)** — LangChain's explainer and integration walkthrough: the three question types, plus model routing and gating risky tool calls before they run.
   <sub>`Article` · Sydney Runkle, Hunter Lovell · `Py` · ⚠ `vendor numbers`</sub>

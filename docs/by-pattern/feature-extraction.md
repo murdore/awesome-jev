@@ -10,22 +10,22 @@ Every catalogued example of this decision — 8 of them, official first, then ro
   <sub>`Official docs` · `Py`</sub>
 
 - **[nimble](https://github.com/bespokelabsai/nimble)** — Local typed decisions, contrastive data curation, and model evaluation.
-  <sub>`Project` · ★1,943 · bespokelabsai · `Py` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★2,101 · bespokelabsai · `Py` · ⚠ `no licence`</sub>
 
 - **[jev-align](https://github.com/sutro-sh/jev-align)** — Builds calibrated decision functions from human feedback.
-  <sub>`Project` · ★300 · sutro-sh · `Py`</sub>
+  <sub>`Project` · ★304 · sutro-sh · `Py`</sub>
 
 - **[Prism](https://github.com/irfndi/prism-liquidity-agent)** — Does not place orders. It judges market conditions such as toxic flow and mean reversion, and hands the assessment to the existing strategy.
-  <sub>`Project` · ★119 · `TS` · `choice` · `score`</sub>
+  <sub>`Project` · ★122 · `TS` · `choice` · `score`</sub>
 
 - **[jev-curate](https://github.com/AkashPriyadarshii/jev-curate)** — Curates training data: JSONL and Parquet rows are judged on quality, relevance and risk before deciding what reaches downstream training.
-  <sub>`Project` · ★92 · `Rs` · `score` · `noul`</sub>
+  <sub>`Project` · ★104 · `Rs` · `score` · `noul`</sub>
 
 - **[tiershift](https://github.com/iamvatsalpatel/tiershift)** — Shift every LLM call to the cheapest model that can handle it. Routing decided by TypeSafe Jev in ~180 ms. No training data. Policy in plain YAML. TypeScript and Python.
-  <sub>`Project` · ★4 · iamvatsalpatel · `TS`</sub>
+  <sub>`Project` · ★3 · iamvatsalpatel · `TS`</sub>
 
 - **[jev-board-lab](https://github.com/WebGrga/jev-board-lab)** — Interactive explorer and Jev question workspace for Jev Board datasets.
-  <sub>`Project` · ★1 · webgrga · `JS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★0 · webgrga · `JS` · ⚠ `no licence`</sub>
 
 - **[jev-calibrated-narrative-coding](https://github.com/pozapas/jev-calibrated-narrative-coding)** — Calibrated conversion of police crash narratives into probabilistic crash variables with a System One model. Pipeline, schema and aggregated results.
   <sub>`Project` · ★0 · pozapas · `Py`</sub>

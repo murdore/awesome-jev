@@ -15,7 +15,7 @@ is the point of dating it.
 | Carrying code | 1183 |
 | Official (TypeSafe AI's own) | 36 |
 | Links with a dated 2xx response record | 1204 |
-| Most recent successful link-check date (dates vary by row) | 2026-09-30 |
+| Most recent successful link-check date (dates vary by row) | 2026-10-07 |
 | Rows with call-site text evidence recorded (not a CI pass count) | 1121 |
 | Patterns covered | 18 of 18 |
 | Chinese summaries hand-written | 196 of 1207 |
