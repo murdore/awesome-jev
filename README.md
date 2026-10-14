@@ -128,13 +128,13 @@ Independent measurement reports in the catalogue, including **negative results**
 
 - **[Hermes Agent: Jev compaction evaluation](https://github.com/NousResearch/hermes-agent)**<br>
   Ported the Jev compaction approach, measured it against their shipping summariser, and published the conclusion not to adopt it.<br>
-  <sub>`Benchmark` · ★251,807 · `Py` · `noul`</sub>
+  <sub>`Benchmark` · ★253,630 · `Py` · `noul`</sub>
 
   > The single most credible row in this catalog. Recall came out below their existing summariser, and at a matched context budget it tied plain recency ordering. Cost was genuinely far lower. Publishing a negative result on a hyped model is rare.
 
 - **[worldmonitor: news threat classification](https://github.com/koala73/worldmonitor)**<br>
   Two Choice questions over threat level and category, held in shadow mode after a blind evaluation found Jev merely tied the incumbent model.<br>
-  <sub>`Benchmark` · ★87,949 · `TS` · `choice`</sub>
+  <sub>`Benchmark` · ★88,422 · `TS` · `choice`</sub>
 
   **Caveats:** `shadow mode`
 
@@ -142,17 +142,17 @@ Independent measurement reports in the catalogue, including **negative results**
 
 - **[no-mistakes: Jev review pre-brief, measured and retired](https://github.com/kunchenguid/no-mistakes/pull/1165)**<br>
   One Score per candidate file to pre-brief code review — measured twice, then removed: more billed input for essentially no wall-clock gain, and offline replay showed the candidate list could not reach where review findings land.<br>
-  <sub>`Benchmark` · ★8,764 · `Go` · `score`</sub>
+  <sub>`Benchmark` · ★8,872 · `Go` · `score`</sub>
 
   > Removed in PR #1165 (2026-09-22). Their offline measurement found the candidate generator excluded changed files by construction while nearly all review findings sit in changed files, and that per-file excerpts made the list less precise at higher token cost. The code is gone from the default branch, so this row cites the change that removed it.
 
 - **[hippo-memory](https://github.com/kitfunso/hippo-memory)**<br>
   Biologically-inspired memory for AI agents. Decay, retrieval strengthening, consolidation. Zero runtime deps, SQLite, MCP. Benchmarked retrieval with an opt-in TypeSafe Jev reranker.<br>
-  <sub>`Benchmark` · ★773 · kitfunso · `TS`</sub>
+  <sub>`Benchmark` · ★776 · kitfunso · `TS`</sub>
 
 - **[jevbench](https://github.com/fstandhartinger/jevbench)**<br>
   JevBench v1 - a benchmark for Jev-class typed decision models: smart, cheap, fast, reliable, open.<br>
-  <sub>`Benchmark` · ★235 · fstandhartinger · `Py`</sub>
+  <sub>`Benchmark` · ★269 · fstandhartinger · `Py`</sub>
 
 - **[Probing Jev's behaviour with repeated API calls](https://github.com/ahastudio/til)**<br>
   Independent Korean-language notes reporting that reversing the order of options shifted a probability enough to flip a 0.9 threshold.<br>
@@ -164,7 +164,7 @@ Independent measurement reports in the catalogue, including **negative results**
 
 - **[jev-arena](https://github.com/NanmiCoder/jev-arena)**<br>
   An introduction to Jev with hands-on tests: Choice, Score and Noul turn natural language into typed judgements for classification, scoring and routing, compared with DeepSeek on comment labelling, speed and results, with CSV import, replay and offline reports.<br>
-  <sub>`Benchmark` · ★119 · nanmicoder · `JS`</sub>
+  <sub>`Benchmark` · ★122 · nanmicoder · `JS`</sub>
 
 - **[windtunnel](https://github.com/nekuda-ai/WindTunnel)**<br>
   A WebMCP benchmark, measures WebMCP against other browser-agent interfaces.<br>
@@ -172,7 +172,7 @@ Independent measurement reports in the catalogue, including **negative results**
 
 - **[jev-robot-control](https://github.com/openroboto-ai/jev-robot-control)**<br>
   Jev against two LLMs on direct Cartesian control of an xArm7 in MuJoCo — intent, movement and gripper each step — with recorded responses, trajectories and replays. One seed-0 trial per controller, not a success rate.<br>
-  <sub>`Benchmark` · ★57 · openroboto-ai · `Py`</sub>
+  <sub>`Benchmark` · ★64 · openroboto-ai · `Py`</sub>
 
 - **[typesafe-ai-benchmark](https://github.com/iammrduncan/inference-benchmarks)**<br>
   A gateway that mimics the structured-output shape, used to benchmark against it.<br>
@@ -184,23 +184,23 @@ Independent measurement reports in the catalogue, including **negative results**
 
 - **[smartmoney-cub](https://github.com/myc0576/SmartMoney-Cub)**<br>
   Read-only trading journal and review harness: Jev typed judgments, agent integration, and a reproducible finance benchmark. No orders, no advice.<br>
-  <sub>`Benchmark` · ★26 · myc0576 · `Py`</sub>
+  <sub>`Benchmark` · ★27 · myc0576 · `Py`</sub>
 
 - **[jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks)**<br>
   Probability-aware evaluation for typed decision models: calibration, selective risk, latency, and reproducible benchmarks.<br>
-  <sub>`Benchmark` · ★24 · abdelstark · `Py`</sub>
+  <sub>`Benchmark` · ★26 · abdelstark · `Py`</sub>
 
 - **[jev-rag-benchmark](https://github.com/erendikmenn/jev-rag-benchmark)**<br>
   Reproducible benchmark for measuring Jev reranking quality, latency, and cost in RAG<br>
-  <sub>`Benchmark` · ★15 · erendikmenn · `Py`</sub>
+  <sub>`Benchmark` · ★17 · erendikmenn · `Py`</sub>
+
+- **[jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab)**<br>
+  Reproducible calibration and selective-risk benchmarks for Jev/TypeSafe decisions in DSPy workflows<br>
+  <sub>`Benchmark` · ★16 · jmanhype · `Py`</sub>
 
 - **[pdf-race](https://github.com/goodrahstar/pdf-race)**<br>
   Docling → Jev vs Docling → Gemini 3.8 Flash vs Gemini reading the PDF: same documents, one clock, scored against arXiv's own metadata<br>
   <sub>`Benchmark` · ★13 · goodrahstar · `JS`</sub>
-
-- **[jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab)**<br>
-  Reproducible calibration and selective-risk benchmarks for Jev/TypeSafe decisions in DSPy workflows<br>
-  <sub>`Benchmark` · ★12 · jmanhype · `Py`</sub>
 
 - **[jev-search-rerank-eval](https://github.com/zhuyansen/jev-search-rerank-eval)**<br>
   Does a TypeSafe Jev rerank beat embedding search? Graded relevance eval (9,831 pairs, 164 zh/en queries) over the Agent Skills Hub catalog, with the judge-circularity bias measured.<br>
@@ -212,15 +212,15 @@ Independent measurement reports in the catalogue, including **negative results**
 
   > An independent measurement rather than a vendor figure, and a direct comparison against purpose-built rerankers — the comparison that matters for the search-ranking pattern.
 
+- **[jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench)**<br>
+  Jev (TypeSafe) vs Claude Haiku 4.5 on 2 000 phishing emails: accuracy, calibration, latency, cost. Reproducible benchmark.<br>
+  <sub>`Benchmark` · ★9 · anisselbd · `Py`</sub>
+
+  **Caveats:** `no licence`
+
 - **[jev-benchmark](https://github.com/wondertwins/jev-benchmark)**<br>
   Benchmarks and a playground for TypeSafe's Jev (System One) model: chess, and who-is-the-player-talking-to for speech-to-text game NPCs<br>
   <sub>`Benchmark` · ★7 · wondertwins · `Py`</sub>
-
-- **[jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench)**<br>
-  Jev (TypeSafe) vs Claude Haiku 4.5 on 2 000 phishing emails: accuracy, calibration, latency, cost. Reproducible benchmark.<br>
-  <sub>`Benchmark` · ★7 · anisselbd · `Py`</sub>
-
-  **Caveats:** `no licence`
 
 - **[legalforecastbench](https://github.com/johnhughes3/LegalForecastBench)**<br>
   LegalForecast-MTD benchmark alpha and official evaluation workflows<br>
@@ -256,6 +256,10 @@ Independent measurement reports in the catalogue, including **negative results**
   A System One model plays Craftax while an LLM sets the goals: five agents on the same map, from Jev on raw actions to an LLM controlling every step, compared in logged episodes.<br>
   <sub>`Benchmark` · ★4 · mansicer · `Py`</sub>
 
+- **[decision-bench](https://github.com/Hanno-Labs/decision-bench)**<br>
+  Open benchmark runtime for document-grounded decision models<br>
+  <sub>`Benchmark` · ★3 · hanno-labs · `Py`</sub>
+
 - **[ego-jev-ultrafast](https://github.com/shikaizhong-design/ego-jev-ultrafast)**<br>
   Jev drives your Ego Lite browser: one typed-choice request per step. Single-file, zero-dependency port of browser-use/jev-ultrafast with multi-model benchmarks and extra guardrails. Unofficial.<br>
   <sub>`Benchmark` · ★3 · shikaizhong-design · `JS`</sub>
@@ -271,6 +275,10 @@ Independent measurement reports in the catalogue, including **negative results**
 - **[jev-exploration](https://github.com/SamuelSacco/jev-exploration)**<br>
   Jev (TypeSafe) exploratory thread: claim audit, live demos, and runnable code<br>
   <sub>`Benchmark` · ★3 · samuelsacco · `Py`</sub>
+
+- **[jevsbistro](https://github.com/andrewsilber/JevsBistro)**<br>
+  3D restaurant service simulator for benchmarking low-latency decision models<br>
+  <sub>`Benchmark` · ★3 · andrewsilber · `TS`</sub>
 
 - **[origin-civilization](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)**<br>
   AI life-and-civilization simulation: TypeSafe Jev makes every decision (typed, probabilistic, auditable); LLMs plan — OpenAI-compatible APIs, local models (Ollama, LM Studio), Claude Code, Codex.<br>
@@ -302,10 +310,6 @@ Independent measurement reports in the catalogue, including **negative results**
 
   **Caveats:** `no licence`
 
-- **[jevsbistro](https://github.com/andrewsilber/JevsBistro)**<br>
-  3D restaurant service simulator for benchmarking low-latency decision models<br>
-  <sub>`Benchmark` · ★2 · andrewsilber · `TS`</sub>
-
 - **[zerosweep](https://github.com/sysadarsh/zerosweep)**<br>
   Autonomous System-One Triage Engine & Benchmark powered by TypeSafe AI (Jev). 75ms inference, $0 output tokens, and RLCD epistemic safety gates.<br>
   <sub>`Benchmark` · ★2 · sysadarsh · `TS`</sub>
@@ -319,10 +323,6 @@ Independent measurement reports in the catalogue, including **negative results**
 - **[can-jev-bayes](https://github.com/TomRichner/can-jev-bayes)**<br>
   Jev Bayes, No? Testing TypeSafe AI's Jev against Bayesian-optimal strategies, and testing if Jev can effectivly use Bayesian priors.<br>
   <sub>`Benchmark` · ★1 · tomrichner · `Py`</sub>
-
-- **[decision-bench](https://github.com/Hanno-Labs/decision-bench)**<br>
-  Open benchmark runtime for document-grounded decision models<br>
-  <sub>`Benchmark` · ★1 · hanno-labs · `Py`</sub>
 
 - **[dsh-jev-verify](https://github.com/xienda/dsh-jev-verify)**<br>
   Jev (TypeSafe System One) decision tools + live verification benchmark for DeepSeek Harness: jev_decision (choice/score/noul) and jev_verify, honest by design.<br>
@@ -382,13 +382,15 @@ Independent measurement reports in the catalogue, including **negative results**
   An experimental protocol for evidence-aware agent handoffs, bounded worker continuation, and TypeSafe/Jev-assisted review, with reproducible evaluation.<br>
   <sub>`Benchmark` · ★0 · zsoxi · `Py`</sub>
 
+  **Caveats:** `archived`
+
 - **[jev-acento](https://github.com/marcosmartinez/jev-acento)**<br>
   ¿Jev entiende tu acento? Pre-registered audit of TypeSafe AI's Jev on Spanish — accuracy, calibration and token cost — plus a CLI to run the same comparison on your own labelled data.<br>
   <sub>`Benchmark` · ★0 · marcosmartinez · `Py`</sub>
 
   > An independent, pre-registered audit of the model outside English — the gap docs/status.md lists as worth watching.
 
-- **[jev-calibration-audit](https://github.com/jujumilk3/jev-calibration-audit)**<br>
+- **[jev-calibration-audit](https://github.com/tapesymbolstate/jev-calibration-audit)**<br>
   Independent API-only calibration audit of TypeSafe AI's Jev decision model<br>
   <sub>`Benchmark` · ★0 · jujumilk3 · `Py`</sub>
 
@@ -482,33 +484,33 @@ _Which tool or action the agent should call next._
 
 - **[ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)**<br>
   An AI Hedge Fund Team<br>
-  <sub>`Integration` · ★63,885 · virattt · `Py`</sub>
+  <sub>`Integration` · ★63,985 · virattt · `Py`</sub>
 
 - **[claude-code-templates: three Jev plugins](https://github.com/davila7/claude-code-templates)**<br>
   Three independently installable Claude Code plugins — guardrails, model router and skill suggestion — each with its own hooks and tests.<br>
-  <sub>`Plugin` · ★32,445 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★32,631 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[Composio TypeSafe provider](https://github.com/ComposioHQ/composio/tree/next/python/providers/typesafe)**<br>
   Compiles a tool catalogue into questions and reconstructs tool calls from the answers, with typed errors for abstention and confirmation-required cases.<br>
-  <sub>`Project` · ★30,456 · `Py` · `choice`</sub>
+  <sub>`Project` · ★30,543 · `Py` · `choice`</sub>
 
 - **[Cua driver: jev-use example](https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use)**<br>
   Computer-use action selection in Python and TypeScript: Jev picks the next browser action from an immutable candidate set, with reobserve and abstain as reserved options.<br>
-  <sub>`Project` · ★28,562 · `Py` · `TS` · `choice`</sub>
+  <sub>`Project` · ★29,691 · `Py` · `TS` · `choice`</sub>
 
 - **[FastMCP jev_search transform](https://github.com/PrefectHQ/fastmcp/blob/main/fastmcp_slim/fastmcp/experimental/transforms/jev_search.py)**<br>
   Two-stage MCP tool search: a wide Choice coarse-ranks the whole catalogue, then a shortlist gets full descriptions plus one Noul each to decide whether it does the job at all.<br>
-  <sub>`Project` · ★27,991 · `Py` · `choice` · `noul`</sub>
+  <sub>`Project` · ★28,070 · `Py` · `choice` · `noul`</sub>
 
 - **[jev-ultrafast](https://github.com/browser-use/jev-ultrafast)**<br>
   A high-speed browser agent from Browser Use: Jev decides the operation and which element to act on, and a small LLM is called only when text must be typed.<br>
-  <sub>`Project` · ★22,238 · Browser Use · `Py` · `choice`</sub>
+  <sub>`Project` · ★22,875 · Browser Use · `Py` · `choice`</sub>
 
   **Caveats:** `vendor numbers`
 
 - **[json-render](https://github.com/vercel-labs/json-render)**<br>
   Vercel Labs' generative UI framework. In its Jev experiment the model does not write JSON token by token — it only picks components, props and layout.<br>
-  <sub>`Project` · ★18,537 · Vercel Labs · `TS` · `choice`</sub>
+  <sub>`Project` · ★18,657 · Vercel Labs · `TS` · `choice`</sub>
 
 **10 of 230** shown · [all 230 on one page →](docs/by-pattern/tool-selection.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=tool-selection&lang=en)
 
@@ -532,31 +534,31 @@ _Classify what the user wants and send the request down the right branch._
 
 - **[AutoGPT TypeSafe blocks](https://github.com/Significant-Gravitas/AutoGPT/tree/master/autogpt_platform/backend/backend/blocks/typesafe)**<br>
   Seven production blocks — choice, score, yes/no, ask-many, route, pick-best, filter — with a UTF-8 byte budget, verbatim wire capture and eleven test files.<br>
-  <sub>`Project` · ★187,680 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★187,566 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[Airflow LLMBranchOperator with Jev](https://airflow.apache.org/docs/apache-airflow-providers-common-ai/stable/index.html)**<br>
   Turns downstream task ids into a choice option set, with a minimum-confidence gate that routes uncertain runs to a human.<br>
-  <sub>`Integration` · ★47,079 · `Py` · `choice`</sub>
+  <sub>`Integration` · ★47,171 · `Py` · `choice`</sub>
 
 - **[Inbox Zero: seven email decisions](https://github.com/elie222/inbox-zero)**<br>
   Seven distinct email decisions, each with its own separately chosen threshold, falling back to the normal LLM on any error.<br>
-  <sub>`Project` · ★12,424 · `TS` · `choice` · `noul`</sub>
+  <sub>`Project` · ★12,464 · `TS` · `choice` · `noul`</sub>
 
 - **[jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis)**<br>
   An Android reply co-pilot that judges intent, timing and risk from on-screen text, while separate models handle OCR and drafting.<br>
-  <sub>`Project` · ★7,417 · `Java` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★7,734 · `Java` · `choice` · `score` · `noul`</sub>
 
 - **[Real Python: hello-jev](https://github.com/realpython/materials/tree/master/hello-jev)**<br>
   A teaching example with a deliberate control group: the same station-enquiry task written in plain Python that only accepts Y/N, next to a Noul that reads intent.<br>
-  <sub>`Tutorial` · ★5,209 · Real Python · `Py` · `noul`</sub>
+  <sub>`Tutorial` · ★5,211 · Real Python · `Py` · `noul`</sub>
 
 - **[ai-cookbook: Jev track](https://github.com/daveebbelaar/ai-cookbook)**<br>
   A graded course from a first call through each primitive, state shapes and criteria, to ticket triage and a multi-step workflow, mirroring all four official patterns.<br>
-  <sub>`Tutorial` · ★4,625 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Tutorial` · ★4,642 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[shapeshift](https://github.com/anishfn/shapeshift)**<br>
   An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered by TypeSafe Jev, works offline.<br>
-  <sub>`Project` · ★834 · anishfn · `TS`</sub>
+  <sub>`Project` · ★889 · anishfn · `TS`</sub>
 
 **10 of 35** shown · [all 35 on one page →](docs/by-pattern/intent-routing.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=intent-routing&lang=en)
 
@@ -568,43 +570,43 @@ _Decide which tool calls and results still matter so stale context can be droppe
 
 - **[Hermes Agent: Jev compaction evaluation](https://github.com/NousResearch/hermes-agent)**<br>
   Ported the Jev compaction approach, measured it against their shipping summariser, and published the conclusion not to adopt it.<br>
-  <sub>`Benchmark` · ★251,807 · `Py` · `noul`</sub>
+  <sub>`Benchmark` · ★253,630 · `Py` · `noul`</sub>
 
 - **[jcode: memory recall without embeddings](https://github.com/1jehuang/jcode)**<br>
   Replaces the whole retrieval stack for memory recall — no embeddings, no BM25, no reranker — with one batched Noul per candidate memory.<br>
-  <sub>`Project` · ★20,331 · `Rs` · `noul`</sub>
+  <sub>`Project` · ★20,707 · `Rs` · `noul`</sub>
 
 - **[fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)**<br>
   A Claude Code plugin that replaces the compaction summary with per-item decisions: stale tool calls are dropped or truncated, everything kept stays verbatim.<br>
-  <sub>`Plugin` · ★7,457 · tamaratran · `TS` · `noul`</sub>
+  <sub>`Plugin` · ★7,625 · tamaratran · `TS` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)**<br>
   Nine agent skills plus a CLI covering model routing, memory filtering, turn retention, one-of-many skill selection and next-action choice.<br>
-  <sub>`Plugin` · ★1,044 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★1,114 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[compact-adviser](https://github.com/kunchenguid/compact-adviser)**<br>
   "Work appears completed or recorded. Run /compact to save tokens."<br>
-  <sub>`Project` · ★197 · kunchenguid · `TS`</sub>
+  <sub>`Project` · ★214 · kunchenguid · `TS`</sub>
 
 - **[jev-pruner](https://github.com/tamaratran/jev-pruner)**<br>
   Trims long shell output before the model sees it, asking one Noul per chunk.<br>
-  <sub>`Plugin` · ★160 · tamaratran · `TS` · `noul`</sub>
+  <sub>`Plugin` · ★163 · tamaratran · `TS` · `noul`</sub>
 
 - **[Winnow](https://github.com/GhalebDweikat/winnow)**<br>
   Context garbage collection for Claude Code: when Read, Bash or Grep dump a wall of output, each chunk is judged for relevance to the current task.<br>
-  <sub>`Plugin` · ★102 · `Py` · `noul`</sub>
+  <sub>`Plugin` · ★110 · `Py` · `noul`</sub>
 
 - **[save-token-jev-clean](https://github.com/IAmUnbounded/save-token-jev-clean)**<br>
   Portable, Jev-guided context compaction for coding agents: instead of an LLM rewriting old context into a lossy summary, Jev decides which tool calls and results still matter, and user and assistant text is kept verbatim.<br>
-  <sub>`Plugin` · ★80 · iamunbounded · `TS`</sub>
+  <sub>`Plugin` · ★81 · iamunbounded · `TS`</sub>
 
 - **[yoshi](https://github.com/compozy/yoshi)**<br>
   Context-pruning proxy for Claude Code and Codex: Jev judges which history is still needed, measured not claimed. POC here now, heading soon into https://github.com/compozy/compozy<br>
-  <sub>`Plugin` · ★29 · compozy · `TS`</sub>
+  <sub>`Plugin` · ★31 · compozy · `TS`</sub>
 
 - **[claude-jev](https://github.com/0x7067/claude-jev)**<br>
   Claude Code plugin: Jev for rule checks, verbatim compaction, and prompt routing<br>
-  <sub>`Plugin` · ★21 · 0x7067 · `Py`</sub>
+  <sub>`Plugin` · ★24 · 0x7067 · `Py`</sub>
 
 **10 of 34** shown · [all 34 on one page →](docs/by-pattern/context-compaction.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=context-compaction&lang=en)
 
@@ -624,35 +626,35 @@ _Decide whether an action is safe to run. Defence in depth, never a security bou
 
 - **[sub2api: Jev as a moderation endpoint](https://github.com/Wei-Shaw/sub2api)**<br>
   Drops in as a moderation API by asking many parallel Noul questions in one request, one per hazard category, with an anti-injection prefix on every instruction.<br>
-  <sub>`Project` · ★43,392 · `Go` · `noul`</sub>
+  <sub>`Project` · ★43,984 · `Go` · `noul`</sub>
 
 - **[claude-code-templates: three Jev plugins](https://github.com/davila7/claude-code-templates)**<br>
   Three independently installable Claude Code plugins — guardrails, model router and skill suggestion — each with its own hooks and tests.<br>
-  <sub>`Plugin` · ★32,445 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★32,631 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[@langchain/typesafe](https://github.com/langchain-ai/langchainjs)**<br>
   The JavaScript counterpart of the LangChain integration, with the same classifier and middleware shapes.<br>
-  <sub>`Integration` · ★18,245 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★18,267 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[DeepChat: agent tool-permission review](https://github.com/ThinkInAIXYZ/deepchat)**<br>
   Reviews each tool call on three axes — risk level, whether the user authorised it, and an explicit prompt-injection pressure check.<br>
-  <sub>`Project` · ★6,356 · `TS` · `choice` · `noul`</sub>
+  <sub>`Project` · ★6,361 · `TS` · `choice` · `noul`</sub>
 
 - **[agentgateway: CI-validated LLM guardrail](https://github.com/agentgateway/agentgateway)**<br>
   Three Score questions on a shared severity scale, blocking the request when two or more cross the line, and failing closed.<br>
-  <sub>`Project` · ★5,211 · `Rs` · `score`</sub>
+  <sub>`Project` · ★5,329 · `Rs` · `score`</sub>
 
 - **[atomic](https://github.com/bastani-inc/atomic)**<br>
   The verifiable coding agent runtime. Define your coding agent's process in natural language with stages, checks, and approval gates instead of hoping it follows your instructions.<br>
-  <sub>`Project` · ★846 · bastani-inc · `TS`</sub>
+  <sub>`Project` · ★861 · bastani-inc · `TS`</sub>
 
 - **[Jev-cu](https://github.com/Sac-Y/Jev-cu)**<br>
   A computer-use agent that asks which accessibility-tree element to act on, plus a separate noul for whether the action needs explicit user confirmation.<br>
-  <sub>`Project` · ★616 · `JS` · `choice` · `noul`</sub>
+  <sub>`Project` · ★622 · `JS` · `choice` · `noul`</sub>
 
 - **[jev-mcp](https://github.com/jkudish/jev-mcp)**<br>
   A ready-made judgement toolbox for agents: fact verification, content screening, semantic ranking, classification and extraction as separate tools.<br>
-  <sub>`Plugin` · ★505 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★523 · `JS` · `choice` · `score` · `noul`</sub>
 
 **10 of 138** shown · [all 138 on one page →](docs/by-pattern/safety-gating.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=safety-gating&lang=en)
 
@@ -672,15 +674,15 @@ _Check a model's output against a rubric before it reaches a user._
 
 - **[latitude-llm](https://github.com/latitude-dev/latitude-llm)**<br>
   Open-source observability for AI agents. Find where your agents fail, dispatch your coding agent to fix it, and verify the fix against real traces.<br>
-  <sub>`Project` · ★4,713 · latitude-dev · `TS`</sub>
+  <sub>`Project` · ★4,721 · latitude-dev · `TS`</sub>
 
 - **[reticle](https://github.com/reticlehq/reticle)**<br>
   AI agents can generate code, but still struggle to understand what they build. Reticle brings Jev-style machine-native runtime perception to web & desktop applications.<br>
-  <sub>`Project` · ★1,183 · reticlehq · `TS`</sub>
+  <sub>`Project` · ★1,219 · reticlehq · `TS`</sub>
 
 - **[atomic](https://github.com/bastani-inc/atomic)**<br>
   The verifiable coding agent runtime. Define your coding agent's process in natural language with stages, checks, and approval gates instead of hoping it follows your instructions.<br>
-  <sub>`Project` · ★846 · bastani-inc · `TS`</sub>
+  <sub>`Project` · ★861 · bastani-inc · `TS`</sub>
 
 - **[JevRev](https://github.com/Alex314618-create/JevRev)**<br>
   The decision layer beside an LLM: Jev filters plans, checks progress and keeps attention on work worth continuing, while the LLM supplies breadth and implementation.<br>
@@ -688,19 +690,19 @@ _Check a model's output against a rubric before it reaches a user._
 
 - **[abide](https://github.com/coldteadotai/abide)**<br>
   Make your coding agent abide by all your project rules<br>
-  <sub>`Plugin` · ★552 · coldteadotai · `TS`</sub>
+  <sub>`Plugin` · ★578 · coldteadotai · `TS`</sub>
 
 - **[jev-mcp](https://github.com/jkudish/jev-mcp)**<br>
   A ready-made judgement toolbox for agents: fact verification, content screening, semantic ranking, classification and extraction as separate tools.<br>
-  <sub>`Plugin` · ★505 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★523 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[vexjoy-agent](https://github.com/notque/vexjoy-agent)**<br>
   VexJoy AI Agent with Jev Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates the work with reviews, tests, and a learning loop.<br>
-  <sub>`Project` · ★435 · notque · `Py`</sub>
+  <sub>`Project` · ★441 · notque · `Py`</sub>
 
 - **[perch: semantic code linting](https://github.com/lakeday-org/perch)**<br>
   Tree-sitter finds and ranks methods, then user-authored YAML rules compile into nouls, with severity read as the rubric's expected value rather than the top band.<br>
-  <sub>`Project` · ★348 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★353 · `JS` · `choice` · `score` · `noul`</sub>
 
 **10 of 134** shown · [all 134 on one page →](docs/by-pattern/output-validation.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=output-validation&lang=en)
 
@@ -712,7 +714,7 @@ _Decide whether a failed step is worth retrying._
 
 - **[jev-harness](https://github.com/ismaelsoilet/jev-harness)**<br>
   Zero-dependency System One decision harness: 5 semantic gates saving frontier AI agent tokens on trivial errors & doom loops. Python + TypeScript + Rust. MCP-compatible.<br>
-  <sub>`Plugin` · ★11 · ismaelsoilet · `Py`</sub>
+  <sub>`Plugin` · ★12 · ismaelsoilet · `Py`</sub>
 
 - **[jevswiftsdk](https://github.com/NSStudent/JevSwiftSDK)**<br>
   An independent, type-safe Swift SDK for TypeSafe Jev, with async/await, batching, retries, and SPM support.<br>
@@ -720,7 +722,7 @@ _Decide whether a failed step is worth retrying._
 
 - **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)**<br>
   Ten runnable JavaScript agent decisions, one file each: reconciling a new memory against a stored one, gating whether an HTTP 200 really satisfied the task, retry vs. reconcile after an uncertain write, scoring context against a budget, checking a handoff for dropped prohibitions.<br>
-  <sub>`Project` · ★2 · Really Artificial · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★3 · Really Artificial · `JS` · `choice` · `score` · `noul`</sub>
 
   **Caveats:** `one commit` · `AI-written`
 
@@ -780,15 +782,15 @@ _Use calibrated confidence to decide what a person must see._
 
 - **[Airflow LLMBranchOperator with Jev](https://airflow.apache.org/docs/apache-airflow-providers-common-ai/stable/index.html)**<br>
   Turns downstream task ids into a choice option set, with a minimum-confidence gate that routes uncertain runs to a human.<br>
-  <sub>`Integration` · ★47,079 · `Py` · `choice`</sub>
+  <sub>`Integration` · ★47,171 · `Py` · `choice`</sub>
 
 - **[Composio TypeSafe provider](https://github.com/ComposioHQ/composio/tree/next/python/providers/typesafe)**<br>
   Compiles a tool catalogue into questions and reconstructs tool calls from the answers, with typed errors for abstention and confirmation-required cases.<br>
-  <sub>`Project` · ★30,456 · `Py` · `choice`</sub>
+  <sub>`Project` · ★30,543 · `Py` · `choice`</sub>
 
 - **[Inbox Zero: seven email decisions](https://github.com/elie222/inbox-zero)**<br>
   Seven distinct email decisions, each with its own separately chosen threshold, falling back to the normal LLM on any error.<br>
-  <sub>`Project` · ★12,424 · `TS` · `choice` · `noul`</sub>
+  <sub>`Project` · ★12,464 · `TS` · `choice` · `noul`</sub>
 
 **10 of 67** shown · [all 67 on one page →](docs/by-pattern/human-escalation.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=human-escalation&lang=en)
 
@@ -808,37 +810,37 @@ _Pick which downstream model or tier should handle a request._
 
 - **[claude-code-templates: three Jev plugins](https://github.com/davila7/claude-code-templates)**<br>
   Three independently installable Claude Code plugins — guardrails, model router and skill suggestion — each with its own hooks and tests.<br>
-  <sub>`Plugin` · ★32,445 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★32,631 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[@langchain/typesafe](https://github.com/langchain-ai/langchainjs)**<br>
   The JavaScript counterpart of the LangChain integration, with the same classifier and middleware shapes.<br>
-  <sub>`Integration` · ★18,245 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★18,267 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)**<br>
   Nine agent skills plus a CLI covering model routing, memory filtering, turn retention, one-of-many skill selection and next-action choice.<br>
-  <sub>`Plugin` · ★1,044 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★1,114 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)**<br>
   Pre-screens code review with Jev to surface high-risk changes for a more expensive model or a person, with a local dashboard.<br>
-  <sub>`Project` · ★675 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★685 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jevrouter](https://github.com/BillionsBobby/JevRouter)**<br>
   A router for models, tools and subagents.<br>
-  <sub>`Project` · ★434 · billionsbobby · `TS`</sub>
+  <sub>`Project` · ★463 · billionsbobby · `TS`</sub>
 
 - **[Astra-Ares](https://github.com/miuuyy/Astra-Ares)**<br>
   Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.<br>
-  <sub>`Plugin` · ★300 · miuuyy · `JS`</sub>
+  <sub>`Plugin` · ★306 · miuuyy · `JS`</sub>
 
 - **[jev-codex-router](https://github.com/0xNatoshi/jev-codex-router)**<br>
   Judges how hard a coding turn is, then picks the model tier, reasoning depth and speed mode to match.<br>
-  <sub>`Plugin` · ★273 · `JS` · `choice` · `score`</sub>
+  <sub>`Plugin` · ★274 · `JS` · `choice` · `score`</sub>
 
   **Caveats:** `archived`
 
 - **[jev-eval-agent](https://github.com/vinilana/jev-eval-agent)**<br>
   An agent that routes evaluation work through typed decisions.<br>
-  <sub>`Project` · ★106 · vinilana · `TS`</sub>
+  <sub>`Project` · ★107 · vinilana · `TS`</sub>
 
   **Caveats:** `no licence`
 
@@ -864,21 +866,21 @@ _Pack many questions — including speculative ones — into one request and let
 
 - **[AutoGPT TypeSafe blocks](https://github.com/Significant-Gravitas/AutoGPT/tree/master/autogpt_platform/backend/backend/blocks/typesafe)**<br>
   Seven production blocks — choice, score, yes/no, ask-many, route, pick-best, filter — with a UTF-8 byte budget, verbatim wire capture and eleven test files.<br>
-  <sub>`Project` · ★187,680 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★187,566 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[sub2api: Jev as a moderation endpoint](https://github.com/Wei-Shaw/sub2api)**<br>
   Drops in as a moderation API by asking many parallel Noul questions in one request, one per hazard category, with an anti-injection prefix on every instruction.<br>
-  <sub>`Project` · ★43,392 · `Go` · `noul`</sub>
+  <sub>`Project` · ★43,984 · `Go` · `noul`</sub>
 
 - **[jev-ultrafast](https://github.com/browser-use/jev-ultrafast)**<br>
   A high-speed browser agent from Browser Use: Jev decides the operation and which element to act on, and a small LLM is called only when text must be typed.<br>
-  <sub>`Project` · ★22,238 · Browser Use · `Py` · `choice`</sub>
+  <sub>`Project` · ★22,875 · Browser Use · `Py` · `choice`</sub>
 
   **Caveats:** `vendor numbers`
 
 - **[ai-cookbook: Jev track](https://github.com/daveebbelaar/ai-cookbook)**<br>
   A graded course from a first call through each primitive, state shapes and criteria, to ticket triage and a multi-step workflow, mirroring all four official patterns.<br>
-  <sub>`Tutorial` · ★4,625 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Tutorial` · ★4,642 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-forge](https://github.com/zwliJay/jev-forge)**<br>
   An open training and inference stack for Jev-style decision models. Train models to score dynamic candidate branches from a shared prefix, with support for high-cardinality choice, calibration, and fast batched inference.<br>
@@ -888,11 +890,13 @@ _Pack many questions — including speculative ones — into one request and let
 
 - **[jev-chat: a tool-calling chatbot with no LLM](https://github.com/w3cj/jev-chat)**<br>
   A chat bot that does tool calling with no language model anywhere: one request asks the request kind, the tool, and every tool's arguments at once.<br>
-  <sub>`Project` · ★114 · `TS` · `choice` · `noul`</sub>
+  <sub>`Project` · ★115 · `TS` · `choice` · `noul`</sub>
 
-- **[pi-typesafe](https://github.com/DevMortimer/pi-typesafe)**<br>
-  TypeSafe decisions for Pi: batched evaluation tool, terminal playground, and typed API for extension authors<br>
-  <sub>`Plugin` · ★48 · devmortimer · `TS`</sub>
+- **[jev-sift](https://github.com/kbhuw/jev-sift)**<br>
+  Classify first. Read selectively. A portable agent plugin and MCP tool for batch text classification.<br>
+  <sub>`Plugin` · ★48 · kbhuw · `JS`</sub>
+
+  **Caveats:** `no licence`
 
 **10 of 32** shown · [all 32 on one page →](docs/by-pattern/fan-out.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=fan-out&lang=en)
 
@@ -916,31 +920,31 @@ _Score or re-rank candidates from a cheaper retrieval step._
 
 - **[AutoGPT TypeSafe blocks](https://github.com/Significant-Gravitas/AutoGPT/tree/master/autogpt_platform/backend/backend/blocks/typesafe)**<br>
   Seven production blocks — choice, score, yes/no, ask-many, route, pick-best, filter — with a UTF-8 byte budget, verbatim wire capture and eleven test files.<br>
-  <sub>`Project` · ★187,680 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★187,566 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[OpenViking: retrieval reranking](https://github.com/volcengine/OpenViking)**<br>
   One Noul per candidate document in a single batched request, with the yes-probability used directly as the relevance score.<br>
-  <sub>`Project` · ★39,347 · `Py` · `noul`</sub>
+  <sub>`Project` · ★39,885 · `Py` · `noul`</sub>
 
 - **[FastMCP jev_search transform](https://github.com/PrefectHQ/fastmcp/blob/main/fastmcp_slim/fastmcp/experimental/transforms/jev_search.py)**<br>
   Two-stage MCP tool search: a wide Choice coarse-ranks the whole catalogue, then a shortlist gets full descriptions plus one Noul each to decide whether it does the job at all.<br>
-  <sub>`Project` · ★27,991 · `Py` · `choice` · `noul`</sub>
+  <sub>`Project` · ★28,070 · `Py` · `choice` · `noul`</sub>
 
 - **[jcode: memory recall without embeddings](https://github.com/1jehuang/jcode)**<br>
   Replaces the whole retrieval stack for memory recall — no embeddings, no BM25, no reranker — with one batched Noul per candidate memory.<br>
-  <sub>`Project` · ★20,331 · `Rs` · `noul`</sub>
+  <sub>`Project` · ★20,707 · `Rs` · `noul`</sub>
 
 - **[LanceDB TypeSafeReranker](https://github.com/lancedb/lancedb/blob/main/python/python/lancedb/rerankers/typesafe.py)**<br>
   A vector-database reranker that asks one Noul per result and uses the yes-probability as an absolute relevance score, comparable across queries.<br>
-  <sub>`Project` · ★11,613 · `Py` · `noul`</sub>
+  <sub>`Project` · ★11,670 · `Py` · `noul`</sub>
 
 - **[no-mistakes: Jev review pre-brief, measured and retired](https://github.com/kunchenguid/no-mistakes/pull/1165)**<br>
   One Score per candidate file to pre-brief code review — measured twice, then removed: more billed input for essentially no wall-clock gain, and offline replay showed the candidate list could not reach where review findings land.<br>
-  <sub>`Benchmark` · ★8,764 · `Go` · `score`</sub>
+  <sub>`Benchmark` · ★8,872 · `Go` · `score`</sub>
 
 - **[jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis)**<br>
   An Android reply co-pilot that judges intent, timing and risk from on-screen text, while separate models handle OCR and drafting.<br>
-  <sub>`Project` · ★7,417 · `Java` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★7,734 · `Java` · `choice` · `score` · `noul`</sub>
 
 **10 of 64** shown · [all 64 on one page →](docs/by-pattern/search-ranking.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=search-ranking&lang=en)
 
@@ -968,11 +972,11 @@ _Pull typed fields out of messy text by choosing among candidates rather than ge
 
 - **[jev-reviewer](https://github.com/choxos/jev-reviewer)**<br>
   Data extraction for systematic reviews, quoted from the papers. Ask a trial report and its supplements your extraction form or a RoB 2, ROBINS-I, QUADAS-2 or TIDieR template; Jev points at the lines, every answer is a verbatim quote with its page, you check it and export the table. Files stay i<br>
-  <sub>`Project` · ★44 · choxos · `JS`</sub>
+  <sub>`Project` · ★47 · choxos · `JS`</sub>
 
 - **[smart-paste](https://github.com/nomanjack/smart-paste)**<br>
   Fills form fields from pasted text: the form's heading, labels and your text go to TypeSafe, and it inserts the values it matches for you to review before submitting.<br>
-  <sub>`Plugin` · ★43 · nomanjack · `JS`</sub>
+  <sub>`Plugin` · ★45 · nomanjack · `JS`</sub>
 
 - **[jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)**<br>
   Open-source macOS AI computer use and native GUI automation on Apple silicon. Jev + OmniParser CoreML + Apple Vision OCR. Bring your own OpenRouter, Vercel AI Gateway, or TypesafeAI token.<br>
@@ -1018,29 +1022,29 @@ _Put an item into a taxonomy, including deep hierarchies walked with probabiliti
 
 - **[worldmonitor: news threat classification](https://github.com/koala73/worldmonitor)**<br>
   Two Choice questions over threat level and category, held in shadow mode after a blind evaluation found Jev merely tied the incumbent model.<br>
-  <sub>`Benchmark` · ★87,949 · `TS` · `choice`</sub>
+  <sub>`Benchmark` · ★88,422 · `TS` · `choice`</sub>
 
   **Caveats:** `shadow mode`
 
 - **[json-render](https://github.com/vercel-labs/json-render)**<br>
   Vercel Labs' generative UI framework. In its Jev experiment the model does not write JSON token by token — it only picks components, props and layout.<br>
-  <sub>`Project` · ★18,537 · Vercel Labs · `TS` · `choice`</sub>
+  <sub>`Project` · ★18,657 · Vercel Labs · `TS` · `choice`</sub>
 
 - **[Inbox Zero: seven email decisions](https://github.com/elie222/inbox-zero)**<br>
   Seven distinct email decisions, each with its own separately chosen threshold, falling back to the normal LLM on any error.<br>
-  <sub>`Project` · ★12,424 · `TS` · `choice` · `noul`</sub>
+  <sub>`Project` · ★12,464 · `TS` · `choice` · `noul`</sub>
 
 - **[pg-jev](https://github.com/realZachi/pg-jev)**<br>
   A real PostgreSQL extension exposing the primitives as SQL functions, so a semantic decision can appear in a WHERE clause over any row type.<br>
-  <sub>`Project` · ★1,011 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★1,162 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[docjev](https://github.com/jerryjliu/docjev)**<br>
   A very fast document classifier/splitter using Jev<br>
-  <sub>`Project` · ★516 · jerryjliu · `Py`</sub>
+  <sub>`Project` · ★526 · jerryjliu · `Py`</sub>
 
 - **[jev-mcp](https://github.com/jkudish/jev-mcp)**<br>
   A ready-made judgement toolbox for agents: fact verification, content screening, semantic ranking, classification and extraction as separate tools.<br>
-  <sub>`Plugin` · ★505 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★523 · `JS` · `choice` · `score` · `noul`</sub>
 
 **10 of 119** shown · [all 119 on one page →](docs/by-pattern/classification.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=classification&lang=en)
 
@@ -1056,17 +1060,17 @@ _Turn free text into numeric features for a classical downstream model._
 
 - **[nimble](https://github.com/bespokelabsai/nimble)**<br>
   Local typed decisions, contrastive data curation, and model evaluation.<br>
-  <sub>`Project` · ★2,101 · bespokelabsai · `Py`</sub>
+  <sub>`Project` · ★2,194 · bespokelabsai · `Py`</sub>
 
   **Caveats:** `no licence`
 
 - **[jev-align](https://github.com/sutro-sh/jev-align)**<br>
   Builds calibrated decision functions from human feedback.<br>
-  <sub>`Project` · ★304 · sutro-sh · `Py`</sub>
+  <sub>`Project` · ★308 · sutro-sh · `Py`</sub>
 
 - **[Prism](https://github.com/irfndi/prism-liquidity-agent)**<br>
   Does not place orders. It judges market conditions such as toxic flow and mean reversion, and hands the assessment to the existing strategy.<br>
-  <sub>`Project` · ★122 · `TS` · `choice` · `score`</sub>
+  <sub>`Project` · ★126 · `TS` · `choice` · `score`</sub>
 
 - **[jev-curate](https://github.com/AkashPriyadarshii/jev-curate)**<br>
   Curates training data: JSONL and Parquet rows are judged on quality, relevance and risk before deciding what reaches downstream training.<br>
@@ -1096,11 +1100,11 @@ _Classify and route incoming documents, invoices and forms._
 
 - **[docjev](https://github.com/jerryjliu/docjev)**<br>
   A very fast document classifier/splitter using Jev<br>
-  <sub>`Project` · ★516 · jerryjliu · `Py`</sub>
+  <sub>`Project` · ★526 · jerryjliu · `Py`</sub>
 
 - **[tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier)**<br>
   Tax document page classifier built on Jev decisions. 100% strict accuracy across 261 IRS forms, ~$0.001 per page.<br>
-  <sub>`Project` · ★498 · kyotofin · `TS`</sub>
+  <sub>`Project` · ★505 · kyotofin · `TS`</sub>
 
 - **[formanator](https://github.com/timrogers/formanator)**<br>
   Submit Forma <https://joinforma.com> benefit claims from the command line and Model Context Protocol (MCP) clients, with support for AI-powered receipt analysis with an LLM or Jev<br>
@@ -1108,7 +1112,7 @@ _Classify and route incoming documents, invoices and forms._
 
 - **[doc-router](https://github.com/misbahsy/doc-router)**<br>
   A Document OCR Router to help route pages based on content.<br>
-  <sub>`Project` · ★29 · misbahsy · `Rs`</sub>
+  <sub>`Project` · ★31 · misbahsy · `Rs`</sub>
 
 - **[jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas)**<br>
   Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down — real API-call receipts, not a leaderboard. 中文為主的雙語 repo。<br>
@@ -1130,9 +1134,9 @@ _Classify and route incoming documents, invoices and forms._
   JEV Document Classification enables the rapid and cost-effective classification of text-based documents using AI, leveraging TypeSafe's "System One" model.<br>
   <sub>`Project` · ★5 · charlyhno-eng · `TS`</sub>
 
-- **[jev-builder](https://github.com/collapseindex/jev-builder)**<br>
-  A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally.<br>
-  <sub>`Project` · ★3 · collapseindex · `JS`</sub>
+- **[jev-score](https://github.com/a-Fig/jev-score)**<br>
+  Local-first document evaluation workspaces powered by Jev<br>
+  <sub>`Project` · ★4 · a-fig · `JS`</sub>
 
 **10 of 20** shown · [all 20 on one page →](docs/by-pattern/document-triage.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=document-triage&lang=en)
 
@@ -1148,11 +1152,11 @@ _Route support tickets and conversations by intent and urgency._
 
 - **[ai-cookbook: Jev track](https://github.com/daveebbelaar/ai-cookbook)**<br>
   A graded course from a first call through each primitive, state shapes and criteria, to ticket triage and a multi-step workflow, mirroring all four official patterns.<br>
-  <sub>`Tutorial` · ★4,625 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Tutorial` · ★4,642 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[spring-ai-typesafe](https://spring.io/blog/2026/09/21/spring-ai-typesafe-structured-judgment)**<br>
   A community Spring AI starter bringing typed decisions to Java, with a builder API over the three question types.<br>
-  <sub>`Integration` · ★52 · `Java` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★53 · `Java` · `choice` · `score` · `noul`</sub>
 
 - **[jev-triage](https://github.com/boldbug1/jev-triage)**<br>
   Message triage CLI in Go, built on the Jev decision model from TypeSafe AI. Categorizes messages, scores urgency, and flags low-confidence ones for human review.<br>
@@ -1196,37 +1200,37 @@ _Score quality, risk or relevance on an ordered scale._
 
 - **[AutoGPT TypeSafe blocks](https://github.com/Significant-Gravitas/AutoGPT/tree/master/autogpt_platform/backend/backend/blocks/typesafe)**<br>
   Seven production blocks — choice, score, yes/no, ask-many, route, pick-best, filter — with a UTF-8 byte budget, verbatim wire capture and eleven test files.<br>
-  <sub>`Project` · ★187,680 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★187,566 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[worldmonitor: news threat classification](https://github.com/koala73/worldmonitor)**<br>
   Two Choice questions over threat level and category, held in shadow mode after a blind evaluation found Jev merely tied the incumbent model.<br>
-  <sub>`Benchmark` · ★87,949 · `TS` · `choice`</sub>
+  <sub>`Benchmark` · ★88,422 · `TS` · `choice`</sub>
 
   **Caveats:** `shadow mode`
 
 - **[gptcache](https://github.com/zilliztech/GPTCache)**<br>
   Semantic cache for LLMs. Fully integrated with LangChain and llama_index.<br>
-  <sub>`Project` · ★8,208 · zilliztech · `Py`</sub>
+  <sub>`Project` · ★8,210 · zilliztech · `Py`</sub>
 
 - **[jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis)**<br>
   An Android reply co-pilot that judges intent, timing and risk from on-screen text, while separate models handle OCR and drafting.<br>
-  <sub>`Project` · ★7,417 · `Java` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★7,734 · `Java` · `choice` · `score` · `noul`</sub>
 
 - **[ai-cookbook: Jev track](https://github.com/daveebbelaar/ai-cookbook)**<br>
   A graded course from a first call through each primitive, state shapes and criteria, to ticket triage and a multi-step workflow, mirroring all four official patterns.<br>
-  <sub>`Tutorial` · ★4,625 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Tutorial` · ★4,642 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[pg-jev](https://github.com/realZachi/pg-jev)**<br>
   A real PostgreSQL extension exposing the primitives as SQL functions, so a semantic decision can appear in a WHERE clause over any row type.<br>
-  <sub>`Project` · ★1,011 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★1,162 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)**<br>
   Pre-screens code review with Jev to surface high-risk changes for a more expensive model or a person, with a local dashboard.<br>
-  <sub>`Project` · ★675 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★685 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-seo](https://github.com/AgriciDaniel/jev-seo)**<br>
   Live SEO audit for any website from one homepage URL, judged by Jev. PDF, XLSX and Markdown reports.<br>
-  <sub>`Project` · ★516 · agricidaniel · `Py`</sub>
+  <sub>`Project` · ★632 · agricidaniel · `Py`</sub>
 
 **10 of 164** shown · [all 164 on one page →](docs/by-pattern/content-scoring.md) · [filter on the site](https://kydlikebtc.github.io/awesome-jev/?p=content-scoring&lang=en)
 
@@ -1250,23 +1254,23 @@ _Surveys the model or the space rather than one pattern._
 
 - **[Official agent skill for Claude Code](https://docs.typesafe.ai/agent-skill)** ⭐<br>
   Installs a TypeSafe skill into Claude Code so an agent can write correct Jev calls without you pasting the API shape each time.<br>
-  <sub>`Official docs` · ★2,614 · `sh`</sub>
+  <sub>`Official docs` · ★2,693 · `sh`</sub>
 
 - **[typesafe-ai/skills](https://github.com/typesafe-ai/skills)** ⭐<br>
   The official agent-skills repository behind the Claude Code plugin, holding the SKILL.md that teaches an agent the System One API.<br>
-  <sub>`Plugin` · ★2,614 · `sh`</sub>
+  <sub>`Plugin` · ★2,693 · `sh`</sub>
 
 - **[system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python)** ⭐<br>
   A drop-in TypeSafeClient replacement backed by ordinary LLM APIs, so you can run Jev-shaped code without Jev access.<br>
-  <sub>`SDK` · ★382 · `Py`</sub>
+  <sub>`SDK` · ★392 · `Py`</sub>
 
 - **[typesafe-sdk (Python)](https://github.com/typesafe-ai/typesafe-sdk-python)** ⭐<br>
   The official Python client. Sync and async clients, retry policy with retry-after support, and Choice/Score/Noul helper classes.<br>
-  <sub>`SDK` · ★272 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`SDK` · ★290 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[@typesafe-ai/sdk (TypeScript / JavaScript)](https://github.com/typesafe-ai/typesafe-sdk-js)** ⭐<br>
   The official TypeScript client. Ships ESM, CJS and type declarations, with lowercase choice()/score()/noul() helper factories.<br>
-  <sub>`SDK` · ★269 · `TS` · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`SDK` · ★276 · `TS` · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[API reference](https://docs.typesafe.ai/api)** ⭐<br>
   The one endpoint, POST /v1/systemone, with the exact request and answer shapes for all three question types.<br>
@@ -1320,7 +1324,7 @@ The parts that are not the catalog.
 <details>
 <summary><b>Preview the searchable catalogue</b></summary>
 
-<a href="https://kydlikebtc.github.io/awesome-jev/?lang=en"><img src="https://kydlikebtc.github.io/awesome-jev/img/site-en.png?v=a3d36fca80b78df1" alt="Searchable Jev catalogue with curated paths, filters, dated source evidence and entry cards" width="760"></a>
+<a href="https://kydlikebtc.github.io/awesome-jev/?lang=en"><img src="https://kydlikebtc.github.io/awesome-jev/img/site-en.png?v=b09299eb38bb71d1" alt="Searchable Jev catalogue with curated paths, filters, dated source evidence and entry cards" width="760"></a>
 
 <sub>Filter by clicking a bar. Two more views: <a href="https://kydlikebtc.github.io/awesome-jev/?view=prims">primitives</a> · <a href="https://kydlikebtc.github.io/awesome-jev/?view=compat">compatibility</a>. Every filter and entry is a shareable URL.</sub>
 

@@ -7,16 +7,16 @@ _Classify and route incoming documents, invoices and forms._
 Every catalogued example of this decision — 20 of them, official first, then rows with code, then by stars. The same rows, with caveats, are in [the index](../../README.md#document-triage); [the site](https://kydlikebtc.github.io/awesome-jev/?p=document-triage&lang=en) can filter them further by language, primitive and kind.
 
 - **[docjev](https://github.com/jerryjliu/docjev)** — A very fast document classifier/splitter using Jev
-  <sub>`Project` · ★516 · jerryjliu · `Py`</sub>
+  <sub>`Project` · ★526 · jerryjliu · `Py`</sub>
 
 - **[tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier)** — Tax document page classifier built on Jev decisions. 100% strict accuracy across 261 IRS forms, ~$0.001 per page.
-  <sub>`Project` · ★498 · kyotofin · `TS`</sub>
+  <sub>`Project` · ★505 · kyotofin · `TS`</sub>
 
 - **[formanator](https://github.com/timrogers/formanator)** — Submit Forma <https://joinforma.com> benefit claims from the command line and Model Context Protocol (MCP) clients, with support for AI-powered receipt analysis with an LLM or Jev
   <sub>`Plugin` · ★102 · timrogers · `Rs`</sub>
 
 - **[doc-router](https://github.com/misbahsy/doc-router)** — A Document OCR Router to help route pages based on content.
-  <sub>`Project` · ★29 · misbahsy · `Rs`</sub>
+  <sub>`Project` · ★31 · misbahsy · `Rs`</sub>
 
 - **[jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas)** — Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down — real API-call receipts, not a leaderboard. 中文為主的雙語 repo。
   <sub>`Benchmark` · ★27 · zaious · `Py`</sub>
@@ -33,14 +33,14 @@ Every catalogued example of this decision — 20 of them, official first, then r
 - **[jev-document-classification](https://github.com/Charlyhno-eng/jev-document-classification)** — JEV Document Classification enables the rapid and cost-effective classification of text-based documents using AI, leveraging TypeSafe's "System One" model.
   <sub>`Project` · ★5 · charlyhno-eng · `TS`</sub>
 
+- **[jev-score](https://github.com/a-Fig/jev-score)** — Local-first document evaluation workspaces powered by Jev
+  <sub>`Project` · ★4 · a-fig · `JS`</sub>
+
 - **[jev-builder](https://github.com/collapseindex/jev-builder)** — A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally.
   <sub>`Project` · ★3 · collapseindex · `JS`</sub>
 
 - **[jev-information-extraction](https://github.com/abhishekmamdapure/jev-information-extraction)** — Parsing the PDF and extracting the relevant information
   <sub>`Project` · ★3 · abhishekmamdapure · `Py` · ⚠ `no licence`</sub>
-
-- **[jev-score](https://github.com/a-Fig/jev-score)** — Local-first document evaluation workspaces powered by Jev
-  <sub>`Project` · ★3 · a-fig · `JS`</sub>
 
 - **[decision-first](https://github.com/harrymunro/decision-first)** — Agent skill that spots bounded-judgment steps, tries a typed decision model (TypeSafe's Jev) first, and documents every attempt
   <sub>`Plugin` · ★2 · harrymunro · `Py`</sub>

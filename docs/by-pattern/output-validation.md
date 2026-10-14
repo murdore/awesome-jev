@@ -13,58 +13,58 @@ Every catalogued example of this decision — 134 of them, official first, then 
   <sub>`Official docs` · `Py` · `noul` · `score`</sub>
 
 - **[latitude-llm](https://github.com/latitude-dev/latitude-llm)** — Open-source observability for AI agents. Find where your agents fail, dispatch your coding agent to fix it, and verify the fix against real traces.
-  <sub>`Project` · ★4,713 · latitude-dev · `TS`</sub>
+  <sub>`Project` · ★4,721 · latitude-dev · `TS`</sub>
 
 - **[reticle](https://github.com/reticlehq/reticle)** — AI agents can generate code, but still struggle to understand what they build. Reticle brings Jev-style machine-native runtime perception to web & desktop applications.
-  <sub>`Project` · ★1,183 · reticlehq · `TS`</sub>
+  <sub>`Project` · ★1,219 · reticlehq · `TS`</sub>
 
 - **[atomic](https://github.com/bastani-inc/atomic)** — The verifiable coding agent runtime. Define your coding agent's process in natural language with stages, checks, and approval gates instead of hoping it follows your instructions.
-  <sub>`Project` · ★846 · bastani-inc · `TS`</sub>
+  <sub>`Project` · ★861 · bastani-inc · `TS`</sub>
 
 - **[JevRev](https://github.com/Alex314618-create/JevRev)** — The decision layer beside an LLM: Jev filters plans, checks progress and keeps attention on work worth continuing, while the LLM supplies breadth and implementation.
   <sub>`Project` · ★706 · alex314618-create · `TS`</sub>
 
 - **[abide](https://github.com/coldteadotai/abide)** — Make your coding agent abide by all your project rules
-  <sub>`Plugin` · ★552 · coldteadotai · `TS`</sub>
+  <sub>`Plugin` · ★578 · coldteadotai · `TS`</sub>
 
 - **[jev-mcp](https://github.com/jkudish/jev-mcp)** — A ready-made judgement toolbox for agents: fact verification, content screening, semantic ranking, classification and extraction as separate tools.
-  <sub>`Plugin` · ★505 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★523 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[vexjoy-agent](https://github.com/notque/vexjoy-agent)** — VexJoy AI Agent with Jev Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates the work with reviews, tests, and a learning loop.
-  <sub>`Project` · ★435 · notque · `Py`</sub>
+  <sub>`Project` · ★441 · notque · `Py`</sub>
 
 - **[perch: semantic code linting](https://github.com/lakeday-org/perch)** — Tree-sitter finds and ranks methods, then user-authored YAML rules compile into nouls, with severity read as the rubric's expected value rather than the top band.
-  <sub>`Project` · ★348 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★353 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-review](https://github.com/NiazMorshed2007/jev-review)** — A local-first MCP plugin for continuous code-quality review by coding agents.
-  <sub>`Plugin` · ★235 · niazmorshed2007 · `TS`</sub>
+  <sub>`Plugin` · ★242 · niazmorshed2007 · `TS`</sub>
 
 - **[supercov](https://github.com/supercorp-ai/supercov)** — Code quality and coverage judgements for coding agents, in Rust.
-  <sub>`Project` · ★149 · supercorp-ai · `Rs`</sub>
+  <sub>`Project` · ★154 · supercorp-ai · `Rs`</sub>
 
 - **[Canny](https://github.com/qkal/Canny)** — Guards against a coding agent claiming it finished: reads tool output, the diff and test results, then judges whether the completion claim holds.
-  <sub>`Project` · ★121 · `TS` · `noul` · `score`</sub>
-
-- **[jev-lint](https://github.com/mizchi/jev-lint)** — lint text in code by jev scorerer
-  <sub>`Project` · ★117 · mizchi · `TS`</sub>
+  <sub>`Project` · ★122 · `TS` · `noul` · `score`</sub>
 
 - **[fastbrowse](https://github.com/agent-labs-dev/fastbrowse)** — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.
-  <sub>`Project` · ★113 · agent-labs-dev · `Py`</sub>
+  <sub>`Project` · ★119 · agent-labs-dev · `Py`</sub>
+
+- **[jev-lint](https://github.com/mizchi/jev-lint)** — lint text in code by jev scorerer
+  <sub>`Project` · ★119 · mizchi · `TS`</sub>
 
 - **[jev-eval-agent](https://github.com/vinilana/jev-eval-agent)** — An agent that routes evaluation work through typed decisions.
-  <sub>`Project` · ★106 · vinilana · `TS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★107 · vinilana · `TS` · ⚠ `no licence`</sub>
 
 - **[formanator](https://github.com/timrogers/formanator)** — Submit Forma <https://joinforma.com> benefit claims from the command line and Model Context Protocol (MCP) clients, with support for AI-powered receipt analysis with an LLM or Jev
   <sub>`Plugin` · ★102 · timrogers · `Rs`</sub>
 
 - **[oxlint-plugin-jev](https://github.com/wobsoriano/oxlint-plugin-jev)** — An oxlint rule that is a yes/no question about a function, call, JSX element or file: each match goes to Jev, and the plugin reports an error when the yes-probability clears your cutoff.
-  <sub>`Plugin` · ★85 · wobsoriano · `TS`</sub>
+  <sub>`Plugin` · ★88 · wobsoriano · `TS`</sub>
 
 - **[jev-libero](https://github.com/Dimweaker/jev-libero)** — Fine-grained robot control with Jev, physics previews, and configurable LIBERO tasks.
-  <sub>`Project` · ★80 · dimweaker · `Py`</sub>
+  <sub>`Project` · ★82 · dimweaker · `Py`</sub>
 
 - **[jev-guard](https://github.com/leepokai/jev-guard)** — Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.
-  <sub>`Plugin` · ★63 · leepokai · `JS`</sub>
+  <sub>`Plugin` · ★66 · leepokai · `JS`</sub>
 
 - **[jgrep (npm: jevgrep)](https://github.com/kyu1204/jgrep)** — grep for what code does: one Noul per code chunk, diff hunk or CSV row, printed as file:line hits with probabilities. --diff gates a PR in CI on a rule written in English (exit 0 match / 1 clean / 2 error); --tests lists the test files a diff can affect.
   <sub>`Project` · ★59 · kyu1204 · `TS` · `noul` · `choice` · `score` · ⚠ `unverified claims`</sub>
@@ -76,28 +76,34 @@ Every catalogued example of this decision — 134 of them, official first, then 
   <sub>`Plugin` · ★50 · rafalwilinski · `JS` · ⚠ `no licence`</sub>
 
 - **[jev-reviewer](https://github.com/choxos/jev-reviewer)** — Data extraction for systematic reviews, quoted from the papers. Ask a trial report and its supplements your extraction form or a RoB 2, ROBINS-I, QUADAS-2 or TIDieR template; Jev points at the lines, every answer is a verbatim quote with its page, you check it and export the table. Files stay i
-  <sub>`Project` · ★44 · choxos · `JS`</sub>
+  <sub>`Project` · ★47 · choxos · `JS`</sub>
 
 - **[jev-code](https://github.com/FrancoisChastel/jev-code)** — Jev, TypeSafe's System One classifier, as a tool inside Claude Code, Codex, Pi, and OpenCode: typed classify, check, score, rank, and ask, plus one-command setup.
-  <sub>`Plugin` · ★43 · francoischastel · `TS`</sub>
-
-- **[jev-cua](https://github.com/ronadin2002/jev-cua)** — Voice and text control for macOS. One floating bar, live UI action selection with Jev, and a continuous observe–act–verify loop.
-  <sub>`Project` · ★38 · ronadin2002 · `Swift` · ⚠ `no licence`</sub>
+  <sub>`Plugin` · ★45 · francoischastel · `TS`</sub>
 
 - **[hermes-jev](https://github.com/keeltrace/hermes-nerve)** — Typed System One decisions, ranking, verification, and an opt-in Hermes tool gate using TypeSafe Jev.
-  <sub>`Project` · ★35 · keeltrace · `Py`</sub>
+  <sub>`Project` · ★41 · keeltrace · `Py`</sub>
 
-- **[snifftest](https://github.com/DanRWilloughby/snifftest)** — A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model.
-  <sub>`Project` · ★34 · danrwilloughby · `TS`</sub>
+- **[jev-cua](https://github.com/ronadin2002/jev-cua)** — Voice and text control for macOS. One floating bar, live UI action selection with Jev, and a continuous observe–act–verify loop.
+  <sub>`Project` · ★39 · ronadin2002 · `Swift` · ⚠ `no licence`</sub>
+
+- **[jev-belay](https://github.com/valentynkit/jev-belay)** — Claude Code Stop hook that blocks an unverified done: reads the transcript for evidence, asks Jev once, fails open on everything else
+  <sub>`Plugin` · ★38 · valentynkit · `JS`</sub>
 
 - **[jev-suite](https://github.com/klauswg/jev-suite)** — Four decision-quality tools on Jev (TypeSafe System One): Jev answers structured questions, deterministic code keeps the final say.
-  <sub>`Project` · ★33 · klauswg · `Java`</sub>
+  <sub>`Project` · ★37 · klauswg · `Java`</sub>
+
+- **[snifftest](https://github.com/DanRWilloughby/snifftest)** — A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model.
+  <sub>`Project` · ★35 · danrwilloughby · `TS`</sub>
 
 - **[yoshi](https://github.com/compozy/yoshi)** — Context-pruning proxy for Claude Code and Codex: Jev judges which history is still needed, measured not claimed. POC here now, heading soon into https://github.com/compozy/compozy
-  <sub>`Plugin` · ★29 · compozy · `TS`</sub>
+  <sub>`Plugin` · ★31 · compozy · `TS`</sub>
 
 - **[smartmoney-cub](https://github.com/myc0576/SmartMoney-Cub)** — Read-only trading journal and review harness: Jev typed judgments, agent integration, and a reproducible finance benchmark. No orders, no advice.
-  <sub>`Benchmark` · ★26 · myc0576 · `Py`</sub>
+  <sub>`Benchmark` · ★27 · myc0576 · `Py`</sub>
+
+- **[claude-jev](https://github.com/0x7067/claude-jev)** — Claude Code plugin: Jev for rule checks, verbatim compaction, and prompt routing
+  <sub>`Plugin` · ★24 · 0x7067 · `Py`</sub>
 
 - **[invalidate](https://github.com/chopratejas/invalidate)** — The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev.
   <sub>`Project` · ★23 · chopratejas · `Py`</sub>
@@ -105,38 +111,38 @@ Every catalogued example of this decision — 134 of them, official first, then 
 - **[jev-column-race](https://github.com/goodrahstar/jev-column-race)** — Jev vs Gemini 3.8 Flash: labelling 1,000 app reviews, 4.1× faster and 7× cheaper
   <sub>`Project` · ★23 · goodrahstar · `JS`</sub>
 
-- **[jev-belay](https://github.com/valentynkit/jev-belay)** — Claude Code Stop hook that blocks an unverified done: reads the transcript for evidence, asks Jev once, fails open on everything else
-  <sub>`Plugin` · ★22 · valentynkit · `JS`</sub>
-
-- **[claude-jev](https://github.com/0x7067/claude-jev)** — Claude Code plugin: Jev for rule checks, verbatim compaction, and prompt routing
-  <sub>`Plugin` · ★21 · 0x7067 · `Py`</sub>
-
 - **[jev-feels](https://github.com/Qew7/jev-feels)** — Semantic decisions as ordinary Ruby — feels?, decide, score, Rails validations and pattern matching powered by Jev
-  <sub>`Project` · ★19 · qew7 · `Rb`</sub>
+  <sub>`Project` · ★20 · qew7 · `Rb`</sub>
 
 - **[cmd-mod-jev-nudge](https://github.com/CommandCodeAI/cmd-mod-jev-nudge)** — Command Code mod: nudges the agent to keep going when it stops with work left, judged by Jev
-  <sub>`Plugin` · ★16 · commandcodeai · `TS`</sub>
+  <sub>`Plugin` · ★19 · commandcodeai · `TS`</sub>
 
 - **[jev-rag-benchmark](https://github.com/erendikmenn/jev-rag-benchmark)** — Reproducible benchmark for measuring Jev reranking quality, latency, and cost in RAG
-  <sub>`Benchmark` · ★15 · erendikmenn · `Py`</sub>
+  <sub>`Benchmark` · ★17 · erendikmenn · `Py`</sub>
 
 - **[jev-commit](https://github.com/valentynkit/jev-commit)** — A pre-commit hook: one call judges whether the commit message matches the diff.
-  <sub>`Project` · ★14 · valentynkit · `Py`</sub>
-
-- **[patdown](https://github.com/tyler-dot-earth/patdown)** — Block, steer, and "fuzzy lint" with Jev to make agents follow your rules and conventions. CLI, github action, pi package, and more. Built with Effect.
-  <sub>`Project` · ★14 · tyler-dot-earth · `TS`</sub>
+  <sub>`Project` · ★16 · valentynkit · `Py`</sub>
 
 - **[typed_evals](https://github.com/TrustifAI/typed_evals)** — Fast, typed, calibrated evaluations for LLM and agent outputs, powered by Jev — with simple, framework-agnostic Python APIs
-  <sub>`Project` · ★14 · trustifai · `Py`</sub>
+  <sub>`Project` · ★16 · trustifai · `Py`</sub>
 
-- **[jev-e2e](https://github.com/perixtar/jev-e2e)** — Natural-language end-to-end tests for web apps, powered by Jev and Playwright.
-  <sub>`Project` · ★13 · perixtar · `TS`</sub>
+- **[patdown](https://github.com/tyler-dot-earth/patdown)** — Block, steer, and "fuzzy lint" with Jev to make agents follow your rules and conventions. CLI, github action, pi package, and more. Built with Effect.
+  <sub>`Project` · ★15 · tyler-dot-earth · `TS`</sub>
 
 - **[dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools)** — Jev judgment, not generation: prune long tool output, screen fetched pages for injected instructions, and gate completion claims inside DeepSeek Harness.
-  <sub>`Plugin` · ★12 · horusjiang · `TS`</sub>
+  <sub>`Plugin` · ★14 · horusjiang · `TS`</sub>
+
+- **[jev-e2e](https://github.com/perixtar/jev-e2e)** — Natural-language end-to-end tests for web apps, powered by Jev and Playwright.
+  <sub>`Project` · ★14 · perixtar · `TS`</sub>
+
+- **[jev-pref](https://github.com/doeixd/jev-pref)** — Turn your AGENTS.md preferences into a fast, Jev-powered AI linter.
+  <sub>`Project` · ★12 · doeixd · `JS`</sub>
 
 - **[jev-security-scan](https://github.com/win4r/jev-security-scan)** — 使用 TypeSafe Jev 审查 Skill 与 MCP 可疑行为 \| Review Agent Skills and MCP code with Jev, static evidence, and explicit coverage gaps
   <sub>`Plugin` · ★12 · win4r · `Py`</sub>
+
+- **[jevlint](https://github.com/iamtoomas/JevLint)** — Configurable semantic linting powered by Jev, with file-level NOUL judgments and a magic-strings plugin.
+  <sub>`Plugin` · ★12 · huntedman · `TS`</sub>
 
 - **[lintus](https://github.com/virolea/lintus)** — A linter whose rules are written in plain language.
   <sub>`Project` · ★12 · virolea · `Rs`</sub>
@@ -147,11 +153,11 @@ Every catalogued example of this decision — 134 of them, official first, then 
 - **[augustus](https://github.com/24601/Augustus)** — Agent skill for the decision-model class (classifiers, encoders/decoders, specialized AR heads, System One). TypeSafe Jev is the dominant exemplar. Composition algebra, question design, validation gates. MIT.
   <sub>`Plugin` · ★11 · 24601 · `Py`</sub>
 
+- **[hermes-jev-plugin](https://github.com/ajensenwaud/hermes-jev-plugin)** — TypeSafe Jev (System One) decision tools for Hermes Agent: jev_check / jev_route / jev_score / jev_evaluate
+  <sub>`Plugin` · ★11 · ajensenwaud · `Py`</sub>
+
 - **[jev-spec](https://github.com/nozomi-koborinai/jev-spec)** — ⚡ Catch spec drift on every commit: check your code against your Markdown specs with TypeSafe AI's Jev model.
   <sub>`Project` · ★11 · nozomi-koborinai · `TS`</sub>
-
-- **[jevlint](https://github.com/iamtoomas/JevLint)** — Configurable semantic linting powered by Jev, with file-level NOUL judgments and a magic-strings plugin.
-  <sub>`Plugin` · ★11 · huntedman · `TS`</sub>
 
 - **[citation-verifier](https://github.com/MarissaFamularo/citation-verifier)** — Check whether each cited paper supports the sentence citing it. Claude proves the quote, TypeSafe's Jev scores it, a human decides.
   <sub>`Project` · ★10 · marissafamularo · `JS`</sub>
@@ -159,17 +165,14 @@ Every catalogued example of this decision — 134 of them, official first, then 
 - **[jev-browser](https://github.com/tontoko/jev-browser)** — One grounded Jev/Playwright core: typed SDK, persistent CLI, and MCP server with native browser operations and deterministic assertions.
   <sub>`Project` · ★10 · tontoko · `JS`</sub>
 
-- **[jev-pref](https://github.com/doeixd/jev-pref)** — Turn your AGENTS.md preferences into a fast, Jev-powered AI linter.
-  <sub>`Project` · ★10 · doeixd · `JS`</sub>
-
 - **[JevPR](https://github.com/HexyeDEV/JevPR)** — PR Risk review, automated by Jev
   <sub>`Project` · ★10 · hexyedev · `Py`</sub>
 
 - **[lejudge-jev-jepa](https://github.com/AbdelStark/lejudge-jev-jepa)** — Natural-language constraints for JEPA world-model planning, judged by a decision model instead of an LLM.
   <sub>`Project` · ★10 · abdelstark · `Py`</sub>
 
-- **[hermes-jev-plugin](https://github.com/ajensenwaud/hermes-jev-plugin)** — TypeSafe Jev (System One) decision tools for Hermes Agent: jev_check / jev_route / jev_score / jev_evaluate
-  <sub>`Plugin` · ★9 · ajensenwaud · `Py`</sub>
+- **[taste-lint](https://github.com/mblode/taste-lint)** — Catch AI slop before you ship.
+  <sub>`Project` · ★10 · mblode · `TS`</sub>
 
 - **[jev-subtitle-translator](https://github.com/GeekLinkDev/jev-subtitle-translator)** — Translate SRT subtitles with structured LLM output and check every translation with Jev.
   <sub>`Project` · ★9 · geeklinkdev · `Py`</sub>
@@ -179,9 +182,6 @@ Every catalogued example of this decision — 134 of them, official first, then 
 
 - **[jev-auto-router](https://github.com/miniLV/Jev-Auto-Router)** — Jev Auto Router (Jev Router): experimental per-call GPT model routing for Codex via TypeSafe Jev and a local Responses proxy, with independent task verification.
   <sub>`Plugin` · ★8 · minilv · `TS`</sub>
-
-- **[taste-lint](https://github.com/mblode/taste-lint)** — Catch AI slop before you ship.
-  <sub>`Project` · ★8 · mblode · `TS`</sub>
 
 - **[zod-jev](https://github.com/jomatsu/zod-jev)** — Zod validates the shape; Jev validates the meaning. Semantic checks on a schema — personal data present? price plausible? category matches? — go to Jev in one request and come back as probabilities that become Zod issues.
   <sub>`SDK` · ★8 · jomatsu · `TS`</sub>
@@ -240,11 +240,17 @@ Every catalogued example of this decision — 134 of them, official first, then 
 - **[jevkit](https://github.com/ariel-frischer/jevkit)** — Fast Rust CLI for TypeSafe Jev: typed decisions, offline linting before you pay
   <sub>`Project` · ★4 · ariel-frischer · `Rs`</sub>
 
+- **[jevtest](https://github.com/realZachi/jevtest)** — Semantic test matchers for Vitest and Jest, powered by TypeSafe's Jev model. Write expectations in plain English, get calibrated probabilities back.
+  <sub>`SDK` · ★4 · realzachi · `TS`</sub>
+
 - **[semantic-assert](https://github.com/mondaychen/semantic-assert)** — Testing lib for asserting the real requirement.
   <sub>`SDK` · ★4 · mondaychen · `TS`</sub>
 
 - **[tenbin](https://github.com/simota/tenbin)** — MCP server and agent skill for the TypeSafe AI System One API (Jev): decompose a judgment into Choice / Score / Noul questions, lint them, measure on labelled data, and put calibrated thresholds in code
   <sub>`Plugin` · ★4 · simota · `TS`</sub>
+
+- **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — Ten runnable JavaScript agent decisions, one file each: reconciling a new memory against a stored one, gating whether an HTTP 200 really satisfied the task, retry vs. reconcile after an uncertain write, scoring context against a budget, checking a handoff for dropped prohibitions.
+  <sub>`Project` · ★3 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `one commit` `AI-written`</sub>
 
 - **[jev-behavior-study](https://github.com/RINNECODER/jev-behavior-study)** — Independent Jev 1.13.0 behavior study: report, controlled prompt experiments, raw results, and offline verification.
   <sub>`Project` · ★3 · rinnecoder · `Py`</sub>
@@ -264,9 +270,6 @@ Every catalogued example of this decision — 134 of them, official first, then 
 - **[jevsume](https://github.com/unownone/jevsume)** — ATS-friendly resume review powered by Jev (TypeSafe System One). The frontend extracts resume text the way a parser would, then a Cloudflare Worker runs typed JEV questions and composes a JevScore.
   <sub>`Project` · ★3 · unownone · `TS` · ⚠ `no licence`</sub>
 
-- **[jevtest](https://github.com/realZachi/jevtest)** — Semantic test matchers for Vitest and Jest, powered by TypeSafe's Jev model. Write expectations in plain English, get calibrated probabilities back.
-  <sub>`SDK` · ★3 · realzachi · `TS`</sub>
-
 - **[jod](https://github.com/mateonunez/jod)** — Semantic schemas over TypeSafe's Jev — validate the state locally, then project typed answers.
   <sub>`Project` · ★3 · mateonunez · `TS`</sub>
 
@@ -285,8 +288,8 @@ Every catalogued example of this decision — 134 of them, official first, then 
 - **[Footwork](https://github.com/Tom-R-Main/Footwork)** — A verified browser agent: a cheap Jev guard (evidence-checked completions, a destructive gate) in front of any LLM browser driver, with Jev taking the mechanical steps in dual mode. Built on browser-use; every number pre-registered and measured.
   <sub>`Project` · ★2 · tom-r-main · `Py`</sub>
 
-- **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — Ten runnable JavaScript agent decisions, one file each: reconciling a new memory against a stored one, gating whether an HTTP 200 really satisfied the task, retry vs. reconcile after an uncertain write, scoring context against a budget, checking a handoff for dropped prohibitions.
-  <sub>`Project` · ★2 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `one commit` `AI-written`</sub>
+- **[jackalope](https://github.com/Jackalope-Dev/jackalope)** — A desktop workspace for coding agents, parallel Git worktrees, and code review.
+  <sub>`Project` · ★2 · jackalope-dev · `Rs`</sub>
 
 - **[jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot)** — A bounded decision layer for browser and desktop automation: a decision-only model picks one next step; the code owns perception, content, actuation and verification.
   <sub>`Project` · ★2 · aidil2105 · `Py`</sub>
@@ -306,9 +309,6 @@ Every catalogued example of this decision — 134 of them, official first, then 
 - **[typesafe-ai-firewall](https://github.com/AnshChoudhary/typesafe-ai-firewall)** — Shadow-mode validation harness for a pre-execution firewall on AI agent tool calls (TypeSafe/Jev). Real run, findings in report.md.
   <sub>`Project` · ★2 · anshchoudhary · `Py` · ⚠ `no licence`</sub>
 
-- **[typesafe-as-a-judge](https://github.com/E-FL/typesafe-as-a-judge)** — Unofficial community MCP plugin for Codex and Claude Code using TypeSafe Jev for bounded routing, ranking, extraction, verification, and escalation
-  <sub>`Plugin` · ★2 · e-fl · `JS`</sub>
-
 - **[typesafe-migration-guard](https://github.com/opaielsheikh/typesafe-migration-guard)** — Automated database migration safety reviewer powered by TypeSafe AI (Jev System One model)
   <sub>`Project` · ★2 · opaielsheikh · `TS` · ⚠ `no licence`</sub>
 
@@ -321,9 +321,6 @@ Every catalogued example of this decision — 134 of them, official first, then 
 - **[human-compiler](https://github.com/asfarsadewa/human-compiler)** — A compiler for human language. Paste text, get diagnostics. Measured by TypeSafe Jev.
   <sub>`Project` · ★1 · asfarsadewa · `TS`</sub>
 
-- **[jackalope](https://github.com/Jackalope-Dev/jackalope)** — A desktop workspace for coding agents, parallel Git worktrees, and code review.
-  <sub>`Project` · ★1 · jackalope-dev · `Rs`</sub>
-
 - **[jev-bench](https://github.com/TheWayWithin/jev-bench)** — Does the cited source actually say it? A 42-claim benchmark: Jev (TypeSafe System One) against GPT-5.4, Claude Sonnet 5 and Gemini 3.1 Pro.
   <sub>`Benchmark` · ★1 · thewaywithin · `Py`</sub>
 
@@ -335,6 +332,9 @@ Every catalogued example of this decision — 134 of them, official first, then 
 
 - **[jev-resume-analyzer](https://github.com/awun8191/jev-resume-analyzer)** — CV diagnostics and job alignment with TypeSafe Jev, React and FastAPI
   <sub>`Project` · ★1 · awun8191 · `Py` · ⚠ `no licence`</sub>
+
+- **[jev-review](https://github.com/thiago-ss/jev-review)** — Autonomous Jev pull-request review with typed decisions, calibrated approval gates, and trusted-owner escalation
+  <sub>`Project` · ★1 · thiago-ss · `Py` · ⚠ `no licence`</sub>
 
 - **[jev-the-janitor](https://github.com/kylehovance-ai/jev-the-janitor)** — A janitor for markdown vaults powered by TypeSafe Jev: Jev votes on each note, your code files it, you review the low-confidence pile.
   <sub>`Project` · ★1 · kylehovance-ai · `Py`</sub>
@@ -360,11 +360,14 @@ Every catalogued example of this decision — 134 of them, official first, then 
 - **[system-one-playground](https://github.com/DonaldMurillo/system-one-playground)** — Readable scripting, semantic code checks, a Go System One client, and Studio.
   <sub>`Project` · ★1 · donaldmurillo · `Go`</sub>
 
+- **[typesafe-as-a-judge](https://github.com/E-FL/typesafe-as-a-judge)** — Unofficial community MCP plugin for Codex and Claude Code using TypeSafe Jev for bounded routing, ranking, extraction, verification, and escalation
+  <sub>`Plugin` · ★1 · e-fl · `JS`</sub>
+
 - **[agent-gate-loop](https://github.com/Ripwords/agent-gate-loop)** — Reusable GitHub Action: agent fix loop gated by checks, an AI reviewer, and TypeSafe Jev
   <sub>`Project` · ★0 · ripwords · `TS` · ⚠ `no licence`</sub>
 
 - **[agent-handoff-gate](https://github.com/zsoXi/agent-handoff-gate)** — An experimental protocol for evidence-aware agent handoffs, bounded worker continuation, and TypeSafe/Jev-assisted review, with reproducible evaluation.
-  <sub>`Benchmark` · ★0 · zsoxi · `Py`</sub>
+  <sub>`Benchmark` · ★0 · zsoxi · `Py` · ⚠ `archived`</sub>
 
 - **[assay-001](https://github.com/jourdanlabs/assay-001)** — ASSAY-001: independent, pre-registered verification of TypeSafe Jev's calibration and type-safety claims. Split verdict, published in full.
   <sub>`Project` · ★0 · jourdanlabs · `Py` · ⚠ `no licence`</sub>
@@ -380,9 +383,6 @@ Every catalogued example of this decision — 134 of them, official first, then 
 
 - **[jev-gates](https://github.com/rashedInt32/jev-gates)** — Six calibrated gates for Claude Code, judged by TypeSafe Jev: rules, scope, intent, done, claims, and commit honesty. Each one escalates, none ever approves.
   <sub>`Plugin` · ★0 · rashedint32 · `JS`</sub>
-
-- **[jev-review](https://github.com/thiago-ss/jev-review)** — Autonomous Jev pull-request review with typed decisions, calibrated approval gates, and trusted-owner escalation
-  <sub>`Project` · ★0 · thiago-ss · `Py` · ⚠ `no licence`</sub>
 
 - **[jev-shadcn-lint-eval](https://github.com/blas0/jev-shadcn-lint-eval)** — A small second eval for shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output.
   <sub>`Project` · ★0 · blas0 · `JS`</sub>

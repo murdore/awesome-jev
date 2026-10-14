@@ -7,19 +7,19 @@ _Surveys the model or the space rather than one pattern._
 Every catalogued example of this decision — 451 of them, official first, then rows with code, then by stars. The same rows, with caveats, are in [the index](../../README.md#overview); [the site](https://kydlikebtc.github.io/awesome-jev/?p=overview&lang=en) can filter them further by language, primitive and kind.
 
 - **[Official agent skill for Claude Code](https://docs.typesafe.ai/agent-skill)** ⭐ — Installs a TypeSafe skill into Claude Code so an agent can write correct Jev calls without you pasting the API shape each time.
-  <sub>`Official docs` · ★2,614 · `sh`</sub>
+  <sub>`Official docs` · ★2,693 · `sh`</sub>
 
 - **[typesafe-ai/skills](https://github.com/typesafe-ai/skills)** ⭐ — The official agent-skills repository behind the Claude Code plugin, holding the SKILL.md that teaches an agent the System One API.
-  <sub>`Plugin` · ★2,614 · `sh`</sub>
+  <sub>`Plugin` · ★2,693 · `sh`</sub>
 
 - **[system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python)** ⭐ — A drop-in TypeSafeClient replacement backed by ordinary LLM APIs, so you can run Jev-shaped code without Jev access.
-  <sub>`SDK` · ★382 · `Py`</sub>
+  <sub>`SDK` · ★392 · `Py`</sub>
 
 - **[typesafe-sdk (Python)](https://github.com/typesafe-ai/typesafe-sdk-python)** ⭐ — The official Python client. Sync and async clients, retry policy with retry-after support, and Choice/Score/Noul helper classes.
-  <sub>`SDK` · ★272 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`SDK` · ★290 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[@typesafe-ai/sdk (TypeScript / JavaScript)](https://github.com/typesafe-ai/typesafe-sdk-js)** ⭐ — The official TypeScript client. Ships ESM, CJS and type declarations, with lowercase choice()/score()/noul() helper factories.
-  <sub>`SDK` · ★269 · `TS` · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`SDK` · ★276 · `TS` · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[API reference](https://docs.typesafe.ai/api)** ⭐ — The one endpoint, POST /v1/systemone, with the exact request and answer shapes for all three question types.
   <sub>`Official docs` · `sh` · `Py` · `TS`</sub>
@@ -40,220 +40,229 @@ Every catalogued example of this decision — 451 of them, official first, then 
   <sub>`Official docs`</sub>
 
 - **[OpenCode Zen: Jev resale](https://github.com/anomalyco/opencode)** — A coding agent whose hosted gateway resells Jev, including a free tier model id.
-  <sub>`Integration` · ★212,130 · `TS`</sub>
+  <sub>`Integration` · ★213,385 · `TS`</sub>
 
 - **[langchain](https://github.com/langchain-ai/langchain)** — The agent engineering platform.
-  <sub>`Project` · ★147,524 · langchain-ai · `Py`</sub>
+  <sub>`Project` · ★147,833 · langchain-ai · `Py`</sub>
 
 - **[litellm](https://github.com/BerriAI/litellm)** — The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
-  <sub>`Integration` · ★60,274 · berriai · `Py`</sub>
+  <sub>`Integration` · ★61,218 · berriai · `Py`</sub>
 
 - **[oh-my-pi](https://github.com/can1357/oh-my-pi)** — ⌥ Coding agent with the IDE wired in
-  <sub>`Project` · ★34,512 · can1357 · `TS`</sub>
+  <sub>`Project` · ★35,388 · can1357 · `TS`</sub>
 
 - **[laya](https://github.com/NandhaKishorM/laya)** — Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.
-  <sub>`Jev-like alternative` · ★31,312 · nandhakishorm · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★32,840 · nandhakishorm · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[ai](https://github.com/vercel/ai)** — The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents
-  <sub>`SDK` · ★27,154 · vercel · `TS`</sub>
+  <sub>`SDK` · ★27,307 · vercel · `TS`</sub>
 
 - **[openwork](https://github.com/different-ai/openwork)** — The open-source alternative to Claude Cowork (powered by opencode)
-  <sub>`Jev-like alternative` · ★23,930 · different-ai · `TS` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★24,095 · different-ai · `TS` · ⚠ `not Jev itself`</sub>
 
 - **[Opik TypeSafe tracker](https://github.com/comet-ml/opik/blob/main/sdks/python/src/opik/integrations/typesafe/opik_tracker.py)** — Wraps the sync and async clients so every system_one call is recorded as a traced span.
-  <sub>`Project` · ★22,422 · `Py`</sub>
+  <sub>`Project` · ★22,592 · `Py`</sub>
 
 - **[pydantic-ai](https://github.com/pydantic/pydantic-ai)** — How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.
-  <sub>`Project` · ★20,467 · pydantic · `Py`</sub>
+  <sub>`Project` · ★20,608 · pydantic · `Py`</sub>
 
 - **[eliza](https://github.com/elizaOS/eliza)** — Open source agentic operating system
-  <sub>`Project` · ★19,550 · elizaos · `TS`</sub>
+  <sub>`Project` · ★19,596 · elizaos · `TS`</sub>
 
 - **[@effect/ai-typesafe](https://github.com/Effect-TS/effect)** — Implements Effect's DecisionModel interface over Jev, with an unusually candid caveat about unverified rounding behaviour.
-  <sub>`Integration` · ★17,131 · `TS` · `choice` · `score` · `noul`</sub>
-
-- **[rig-typesafeai](https://github.com/0xPlaygrounds/rig)** — A Rust integration with compile-time-checked option counts, so an over-255 Choice fails to build rather than at runtime.
-  <sub>`Integration` · ★8,821 · `Rs` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★17,277 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[kev](https://github.com/jaredpalmer/kev)** — A trainable, self-hostable family of Jev-like decision models with a System One compatible API, so the official SDK can point at your own server.
-  <sub>`Jev-like alternative` · ★8,630 · Jared Palmer · `Py` · `choice` · `score` · `noul` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★9,101 · Jared Palmer · `Py` · `choice` · `score` · `noul` · ⚠ `not Jev itself`</sub>
+
+- **[rig-typesafeai](https://github.com/0xPlaygrounds/rig)** — A Rust integration with compile-time-checked option counts, so an over-255 Choice fails to build rather than at runtime.
+  <sub>`Integration` · ★8,872 · `Rs` · `choice` · `score` · `noul`</sub>
 
 - **[Bifrost TypeSafe gateway route](https://github.com/maximhq/bifrost/tree/dev/core/providers/typesafe)** — A Go gateway provider that passes the native API through one-to-one, so the official SDKs work by changing only the base URL.
-  <sub>`Project` · ★8,600 · `Go`</sub>
+  <sub>`Project` · ★8,777 · `Go`</sub>
 
 - **[deep-searcher](https://github.com/zilliztech/deep-searcher)** — Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python.
-  <sub>`Jev-like alternative` · ★8,323 · zilliztech · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★8,329 · zilliztech · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[laya-mlx](https://github.com/mizorewww/laya-mlx)** — Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
-  <sub>`Project` · ★6,803 · mizorewww · `Py`</sub>
+  <sub>`Project` · ★6,921 · mizorewww · `Py`</sub>
 
 - **[Kiln: Jev adapter](https://github.com/Kiln-AI/Kiln)** — A JSON-Schema-to-question compiler wired into the adapter registry, with an honest note on what it cannot serve.
-  <sub>`Integration` · ★5,175 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★5,193 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[SemIf](https://github.com/TheoLeeCJ/SemIf-OpenJev)** — An independent semantic-if implementation that states up front it is unaffiliated with Jev or TypeSafe.
-  <sub>`Jev-like alternative` · ★4,722 · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★4,821 · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[ruby_llm: TypeSafe provider](https://github.com/crmne/ruby_llm)** — A Ruby provider with a dedicated System One protocol, the main route into Jev from Ruby.
-  <sub>`Integration` · ★4,434 · `Rb` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★4,461 · `Rb` · `choice` · `score` · `noul`</sub>
 
 - **[ax](https://github.com/ax-llm/ax)** — The pretty much "official" DSPy framework for Typescript
-  <sub>`Project` · ★2,960 · ax-llm · `TS`</sub>
+  <sub>`Project` · ★2,967 · ax-llm · `TS`</sub>
 
 - **[memsearch](https://github.com/zilliztech/memsearch)** — A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.
-  <sub>`Plugin` · ★2,724 · zilliztech · `Py`</sub>
+  <sub>`Plugin` · ★2,744 · zilliztech · `Py`</sub>
 
 - **[NanoJev](https://github.com/TianyuCodings/NanoJev)** — A self-described nano replica of Jev, for reading rather than for production.
-  <sub>`Jev-like alternative` · ★2,506 · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★2,544 · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[vellum-assistant](https://github.com/vellum-ai/vellum-assistant)** — An AI Assistant that’s easy to setup, does your work 24/7, knows your preferences and gets better over time.
-  <sub>`Project` · ★1,392 · vellum-ai · `TS`</sub>
+  <sub>`Project` · ★1,425 · vellum-ai · `TS`</sub>
 
 - **[jevlike](https://github.com/vinnylarouge/jevlike)** — An independent, trainable model with the same input and output shape as Jev: text plus N options in, one probability per option out, in a single pass.
-  <sub>`Jev-like alternative` · ★1,351 · vinnylarouge · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★1,353 · vinnylarouge · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[decider](https://github.com/Mapika/decider)** — A family of System One-style models fine-tuned from an open base for one-pass typed decisions.
-  <sub>`Jev-like alternative` · ★1,097 · mapika · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★1,140 · mapika · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[celesto](https://github.com/CelestoAI/celesto)** — Secure and persistent computer for AI agents -- build your own Grokbot, and Muse.
-  <sub>`Project` · ★1,016 · celestoai · `Py`</sub>
+  <sub>`Project` · ★1,029 · celestoai · `Py`</sub>
 
 - **[awesome-jev (heyjunpenn)](https://github.com/heyjunpenn/awesome-jev)** — The broadest sibling directory: hundreds of projects in six languages, with a README that is itself the parsed data source.
-  <sub>`Project` · ★942 · heyjunpenn · `TS`</sub>
-
-- **[von](https://github.com/wfzyx/von)** — The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.
-  <sub>`Jev-like alternative` · ★870 · wfzyx · `Py` · ⚠ `not Jev itself`</sub>
-
-- **[rizzo-flow](https://github.com/Rizzo-AI-Academy/rizzo-flow)** — The open, local take on Jev: typed decisions from an LLM, without generating a single token
-  <sub>`Jev-like alternative` · ★840 · rizzo-ai-academy · `Py` · ⚠ `not Jev itself`</sub>
-
-- **[localjev](https://github.com/githubnext/localjev)** — GitHub Next's local, Jev-compatible POST /v1/systemone API in TypeScript, reading probabilities from a DiffusionGemma model through a one-step structured read on a patched vLLM. It reimplements the wire, not the model.
-  <sub>`Jev-like alternative` · ★821 · githubnext · `TS` · ⚠ `not Jev itself`</sub>
+  <sub>`Project` · ★962 · heyjunpenn · `TS`</sub>
 
 - **[laya](https://github.com/receptron/laya)** — Run Laya, the open-source Jev-compatible System-1 decision model, from Node.js / TypeScript via ONNX Runtime
-  <sub>`Project` · ★819 · receptron · `TS`</sub>
+  <sub>`Project` · ★918 · receptron · `TS`</sub>
+
+- **[von](https://github.com/wfzyx/von)** — The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.
+  <sub>`Jev-like alternative` · ★898 · wfzyx · `Py` · ⚠ `not Jev itself`</sub>
+
+- **[rizzo-flow](https://github.com/Rizzo-AI-Academy/rizzo-flow)** — The open, local take on Jev: typed decisions from an LLM, without generating a single token
+  <sub>`Jev-like alternative` · ★890 · rizzo-ai-academy · `Py` · ⚠ `not Jev itself`</sub>
+
+- **[localjev](https://github.com/githubnext/localjev)** — GitHub Next's local, Jev-compatible POST /v1/systemone API in TypeScript, reading probabilities from a DiffusionGemma model through a one-step structured read on a patched vLLM. It reimplements the wire, not the model.
+  <sub>`Jev-like alternative` · ★824 · githubnext · `TS` · ⚠ `not Jev itself`</sub>
 
 - **[jev-chat-windows](https://github.com/jev-chat/jev-chat-windows)** — 微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动
-  <sub>`Project` · ★753 · jev-chat · `Py`</sub>
+  <sub>`Project` · ★802 · jev-chat · `Py`</sub>
 
 - **[kody](https://github.com/kentcdodds/kody)** — 🐨 Your assistant's home — the memory, keys, code, and automations your AI agent keeps, portable across every MCP host. Built on Cloudflare Workers.
-  <sub>`Plugin` · ★742 · kentcdodds · `TS`</sub>
-
-- **[distill](https://github.com/samuelfaj/distill)** — Get FAR MORE done with FAR FEWER tokens 🔥
-  <sub>`Project` · ★691 · samuelfaj · `Rs`</sub>
-
-- **[aiavatarkit](https://github.com/uezo/aiavatarkit)** — 🥰 Building AI-based conversational avatars lightning fast ⚡️💬
-  <sub>`Project` · ★689 · uezo · `Py`</sub>
-
-- **[awesome-jev-projects](https://github.com/logicrw/awesome-jev-projects)** — A sibling directory aiming at ecosystem breadth with commit-pinned sources, four README languages and a generated site.
-  <sub>`Project` · ★666 · logicrw · `JS`</sub>
+  <sub>`Plugin` · ★787 · kentcdodds · `TS`</sub>
 
 - **[openjev](https://github.com/razorback16/openjev)** — A Jev-compatible decision server on an open diffusion model.
-  <sub>`Jev-like alternative` · ★631 · razorback16 · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★703 · razorback16 · `Py` · ⚠ `not Jev itself`</sub>
 
-- **[req_llm](https://github.com/agentjido/req_llm)** — Composable Elixir library for LLM interactions built on Req and Finch
-  <sub>`Project` · ★592 · agentjido · `Ex`</sub>
+- **[distill](https://github.com/samuelfaj/distill)** — Get FAR MORE done with FAR FEWER tokens 🔥
+  <sub>`Project` · ★696 · samuelfaj · `Rs`</sub>
 
-- **[simple-jev](https://github.com/featherless-ai/simple-jev)** — Turns any open-weights model into a Jev-shaped endpoint by reading next-token logits, with the server constructing the JSON rather than the model generating it.
-  <sub>`Jev-like alternative` · ★591 · `Py` · ⚠ `not Jev itself`</sub>
+- **[aiavatarkit](https://github.com/uezo/aiavatarkit)** — 🥰 Building AI-based conversational avatars lightning fast ⚡️💬
+  <sub>`Project` · ★690 · uezo · `Py`</sub>
+
+- **[awesome-jev-projects](https://github.com/logicrw/awesome-jev-projects)** — A sibling directory aiming at ecosystem breadth with commit-pinned sources, four README languages and a generated site.
+  <sub>`Project` · ★682 · logicrw · `JS`</sub>
 
 - **[jev-skill](https://github.com/wuyoscar/jev-skill)** — An agent skill plus CLI that validates all three primitives, requires explicit consent before a billed call, and forbids inventing output when simulating.
-  <sub>`Plugin` · ★581 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★613 · `Py` · `choice` · `score` · `noul`</sub>
+
+- **[simple-jev](https://github.com/featherless-ai/simple-jev)** — Turns any open-weights model into a Jev-shaped endpoint by reading next-token logits, with the server constructing the JSON rather than the model generating it.
+  <sub>`Jev-like alternative` · ★602 · `Py` · ⚠ `not Jev itself`</sub>
+
+- **[req_llm](https://github.com/agentjido/req_llm)** — Composable Elixir library for LLM interactions built on Req and Finch
+  <sub>`Project` · ★596 · agentjido · `Ex`</sub>
 
 - **[jev-chat-jarvis-mac](https://github.com/jev-chat/jev-chat-jarvis-mac)** — 微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。
-  <sub>`Project` · ★467 · jev-chat · `Py`</sub>
+  <sub>`Project` · ★489 · jev-chat · `Py`</sub>
 
 - **[smithers](https://github.com/smithersai/smithers)** — Smithers is an agentic workflow framework for defining workflows in simple TypeScript configuration files and executing them quickly, durably, and reliably
-  <sub>`Project` · ★429 · smithersai · `TS`</sub>
-
-- **[jev-experiments](https://github.com/dabit3/jev-experiments)** — Nader Dabit's collection of small Jev experiments, one per folder: a commit reviewer, a shell guard, a send guard, a log sentinel, instant search, reranking, a voice-turn detector and more.
-  <sub>`Project` · ★399 · dabit3 · `TS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★432 · smithersai · `TS`</sub>
 
 - **[Open-Jev](https://github.com/Zefan-Cai/Open-Jev)** — Open-Jev-27B, an open-weight model that returns typed probabilities for a context, questions and candidates without generating an answer — a Jev-style decision model you can run yourself.
-  <sub>`Jev-like alternative` · ★394 · zefan-cai · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★411 · zefan-cai · `Py` · ⚠ `not Jev itself`</sub>
 
-- **[typesafe-mcp](https://github.com/itsmostafa/system-one-connector)** — The easiest first step once you have a key: registers Jev into Claude Code, Claude Desktop, Codex and Pi with one command.
-  <sub>`Plugin` · ★344 · `Go` · `choice` · `score` · `noul`</sub>
-
-- **[openjev-sglang](https://github.com/ekzhang/openjev-sglang)** — A Jev-compatible endpoint served from open models, prefill only.
-  <sub>`Jev-like alternative` · ★336 · ekzhang · `Py` · ⚠ `not Jev itself` `no licence`</sub>
-
-- **[third-hand](https://github.com/shhivv/third-hand)** — computer-use assistant w/ decision models
-  <sub>`Project` · ★322 · shhivv · `Swift`</sub>
-
-- **[jeff](https://github.com/logan-markewich/jeff)** — A self-hosted drop-in replacement for TypeSafe's jev, powered by GliFormer.
-  <sub>`Jev-like alternative` · ★296 · logan-markewich · `Py` · ⚠ `not Jev itself`</sub>
-
-- **[orchestkit](https://github.com/yonatangross/orchestkit)** — The Complete AI Development Toolkit for Claude Code. 106 skills, 36 agents, 171 hooks. Install `ork` for stable (v9.x), or `ork-alpha` for the v10 line, which ships daily.
-  <sub>`Plugin` · ★289 · yonatangross · `TS`</sub>
-
-- **[pi-fabric](https://github.com/fabric-runtime/pi-fabric)** — A programmable tool and agent runtime for Pi
-  <sub>`Project` · ★284 · monotykamary · `TS`</sub>
-
-- **[crush-monitor](https://github.com/FerryCorleone/crush-monitor)** — Crush 好感监控器：用 Jev 分析微信聊天的情绪、意图和回复表现。本机部署，使用自己的 API Key。
-  <sub>`Project` · ★279 · ferrycorleone · `TS`</sub>
-
-- **[laya-ultrafast](https://github.com/ipenywis/laya-ultrafast)** — Same as jev-ultrafast but using Laya
-  <sub>`Project` · ★246 · ipenywis · `Py`</sub>
-
-- **[jevbench](https://github.com/fstandhartinger/jevbench)** — JevBench v1 - a benchmark for Jev-class typed decision models: smart, cheap, fast, reliable, open.
-  <sub>`Benchmark` · ★235 · fstandhartinger · `Py`</sub>
-
-- **[djev-spark](https://github.com/mmastrac/djev-spark)** — DiffusionGemma NVFP4 structured decisions on a DGX Spark: container recipe
-  <sub>`Project` · ★222 · mmastrac · `TS` · ⚠ `no licence`</sub>
-
-- **[awesome-jev (fatwang2)](https://github.com/fatwang2/awesome-jev)** — A sibling directory whose submissions are reviewed by Jev itself, with a notably thorough list of multi-language community clients.
-  <sub>`Project` · ★220 · fatwang2 · `JS`</sub>
-
-- **[openwhisper](https://github.com/Knuckles92/OpenWhisper)** — Local speech-to-text, dictation, and meetings with Whisper and OpenAI API. Optional Windows x64 engines: Parakeet, Qwen3-ASR, Nemotron Streaming, and Moonshine.
-  <sub>`Project` · ★202 · knuckles92 · `Py`</sub>
+- **[jev-experiments](https://github.com/dabit3/jev-experiments)** — Nader Dabit's collection of small Jev experiments, one per folder: a commit reviewer, a shell guard, a send guard, a log sentinel, instant search, reranking, a voice-turn detector and more.
+  <sub>`Project` · ★403 · dabit3 · `TS` · ⚠ `no licence`</sub>
 
 - **[jev-docs-zh](https://github.com/datawhalechina/jev-cookbook)** — Jev 模型（TypeSafe AI）官方使用文档的中文翻译 \| Unofficial Chinese translation of the official Jev (TypeSafe AI) docs — https://docs.typesafe.ai
-  <sub>`Project` · ★194 · bald0wang · `Py`</sub>
+  <sub>`Project` · ★393 · bald0wang · `Py`</sub>
+
+- **[third-hand](https://github.com/shhivv/third-hand)** — computer-use assistant w/ decision models
+  <sub>`Project` · ★370 · shhivv · `Swift`</sub>
+
+- **[typesafe-mcp](https://github.com/itsmostafa/system-one-connector)** — The easiest first step once you have a key: registers Jev into Claude Code, Claude Desktop, Codex and Pi with one command.
+  <sub>`Plugin` · ★350 · `Go` · `choice` · `score` · `noul`</sub>
+
+- **[openjev-sglang](https://github.com/ekzhang/openjev-sglang)** — A Jev-compatible endpoint served from open models, prefill only.
+  <sub>`Jev-like alternative` · ★333 · ekzhang · `Py` · ⚠ `not Jev itself` `no licence` `archived`</sub>
+
+- **[crush-monitor](https://github.com/FerryCorleone/crush-monitor)** — Crush 好感监控器：用 Jev 分析微信聊天的情绪、意图和回复表现。本机部署，使用自己的 API Key。
+  <sub>`Project` · ★303 · ferrycorleone · `TS`</sub>
+
+- **[jeff](https://github.com/logan-markewich/jeff)** — A self-hosted drop-in replacement for TypeSafe's jev, powered by GliFormer.
+  <sub>`Jev-like alternative` · ★300 · logan-markewich · `Py` · ⚠ `not Jev itself`</sub>
+
+- **[orchestkit](https://github.com/yonatangross/orchestkit)** — The Complete AI Development Toolkit for Claude Code. 106 skills, 36 agents, 171 hooks. Install `ork` for stable (v9.x), or `ork-alpha` for the v10 line, which ships daily.
+  <sub>`Plugin` · ★292 · yonatangross · `TS`</sub>
+
+- **[pi-fabric](https://github.com/fabric-runtime/pi-fabric)** — A programmable tool and agent runtime for Pi
+  <sub>`Project` · ★288 · monotykamary · `TS`</sub>
+
+- **[jevbench](https://github.com/fstandhartinger/jevbench)** — JevBench v1 - a benchmark for Jev-class typed decision models: smart, cheap, fast, reliable, open.
+  <sub>`Benchmark` · ★269 · fstandhartinger · `Py`</sub>
+
+- **[laya-ultrafast](https://github.com/ipenywis/laya-ultrafast)** — Same as jev-ultrafast but using Laya
+  <sub>`Project` · ★256 · ipenywis · `Py`</sub>
+
+- **[awesome-jev (fatwang2)](https://github.com/fatwang2/awesome-jev)** — A sibling directory whose submissions are reviewed by Jev itself, with a notably thorough list of multi-language community clients.
+  <sub>`Project` · ★225 · fatwang2 · `JS`</sub>
+
+- **[djev-spark](https://github.com/mmastrac/djev-spark)** — DiffusionGemma NVFP4 structured decisions on a DGX Spark: container recipe
+  <sub>`Project` · ★220 · mmastrac · `TS` · ⚠ `no licence`</sub>
+
+- **[openwhisper](https://github.com/Knuckles92/OpenWhisper)** — Local speech-to-text, dictation, and meetings with Whisper and OpenAI API. Optional Windows x64 engines: Parakeet, Qwen3-ASR, Nemotron Streaming, and Moonshine.
+  <sub>`Project` · ★209 · knuckles92 · `Py`</sub>
 
 - **[Jevmind](https://github.com/dealerdefi/Jevmind)** — An agent's decisions pulled out of its prose into one place: typed answers with a confidence, behind a gate written in code, sealed in a ledger, graded and learned from. Runs offline on a local rules brain; Jev can be swapped in with one flag.
   <sub>`Project` · ★183 · dealerdefi · `Py`</sub>
 
 - **[OpenJev](https://github.com/SiliconLabAI/OpenJev)** — OpenSource Jev
-  <sub>`Jev-like alternative` · ★170 · siliconlabai · `TS` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★177 · siliconlabai · `TS` · ⚠ `not Jev itself`</sub>
 
 - **[runline](https://github.com/Michaelliv/runline)** — ⚡ Code mode for agents
-  <sub>`Project` · ★165 · michaelliv · `TS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★166 · michaelliv · `TS` · ⚠ `no licence`</sub>
 
 - **[webctl](https://github.com/dorkitude/webctl)** — Smart web search CLI for agents, backed by Jev. Saves a lot of tokens.
-  <sub>`Project` · ★153 · dorkitude · `Go`</sub>
-
-- **[dasheng](https://github.com/wquguru/dasheng)** — 大声读 — R2T2 流式 ASR 听，Jev 逐词判，英文朗读评分
-  <sub>`Project` · ★144 · wquguru · `JS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★161 · dorkitude · `Go`</sub>
 
 - **[jevk5](https://github.com/allebee/jevk5)** — JevK5: open-weight alternative to TypeSafe Jev. Typed decisions with probabilities in one forward pass; Apache-2.0 weights and code.
-  <sub>`Jev-like alternative` · ★139 · allebee · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★150 · allebee · `Py` · ⚠ `not Jev itself`</sub>
+
+- **[dasheng](https://github.com/wquguru/dasheng)** — 大声读 — R2T2 流式 ASR 听，Jev 逐词判，英文朗读评分
+  <sub>`Project` · ★143 · wquguru · `JS` · ⚠ `no licence`</sub>
 
 - **[Jev](https://github.com/cobusgreyling/Jev)** — Unofficial TypeSafe Jev showcase — System One decisions, not chat.
-  <sub>`Project` · ★133 · cobusgreyling · `Py`</sub>
+  <sub>`Project` · ★137 · cobusgreyling · `Py`</sub>
 
 - **[open-jev](https://github.com/daseinlabs/open-jev)** — Open Jev implementation with custom finetuning
-  <sub>`Jev-like alternative` · ★127 · daseinlabs · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★133 · daseinlabs · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[jevmem](https://github.com/Avinash-jetwani/jevmem)** — Automatic project memory for Claude Code. Also works with Cursor and Codex.
-  <sub>`Plugin` · ★122 · avinash-jetwani · `TS`</sub>
+  <sub>`Plugin` · ★123 · avinash-jetwani · `TS`</sub>
+
+- **[jev-foundation-models](https://github.com/peterfriese/system-one-foundation-models)** — A lightweight, native Swift 6 bridge integrating TypeSafe AI's Jev System One decision model into Apple's Foundation Models framework.
+  <sub>`Project` · ★116 · peterfriese · `Swift`</sub>
 
 - **[stanley-code](https://github.com/devagrawal09/stanley-code)** — Bounded TypeSafe Jev workflows for coding agents.
-  <sub>`Project` · ★118 · devagrawal09 · `TS`</sub>
-
-- **[djev](https://github.com/mmastrac/djev)** — Jev-style structured decisions on DiffusionGemma: the example server from vLLM PR 57250
-  <sub>`Jev-like alternative` · ★113 · mmastrac · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Project` · ★116 · devagrawal09 · `TS`</sub>
 
 - **[jev-voice](https://github.com/kevinbadi/jev-voice)** — Talk to your Mac. Local whisper.cpp + one Jev (TypeSafe) call per command + macOS automation.
-  <sub>`Project` · ★111 · kevinbadi · `Py`</sub>
+  <sub>`Project` · ★115 · kevinbadi · `Py`</sub>
+
+- **[agent-router](https://github.com/nidhi-singh02/agent-router)** — CLI that picks Cursor, Claude Code, Codex, or OpenCode + model/effort for a task, then launches it. Powered by Jev and Herdr
+  <sub>`Plugin` · ★114 · nidhi-singh02 · `TS`</sub>
+
+- **[djev](https://github.com/mmastrac/djev)** — Jev-style structured decisions on DiffusionGemma: the example server from vLLM PR 57250
+  <sub>`Jev-like alternative` · ★114 · mmastrac · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[laya-vs-jev](https://github.com/virajbhartiya/laya-vs-jev)** — Laya vs Jev: local MLX and hosted AI decisions playing T-Rex side by side, with live metrics and replay recording
   <sub>`Project` · ★111 · virajbhartiya · `Py`</sub>
 
-- **[agent-router](https://github.com/nidhi-singh02/agent-router)** — CLI that picks Cursor, Claude Code, Codex, or OpenCode + model/effort for a task, then launches it. Powered by Jev and Herdr
-  <sub>`Plugin` · ★110 · nidhi-singh02 · `TS`</sub>
-
 - **[jevcore](https://github.com/PerryLink/jevcore)** — TypeSafe Jev for DeepSeek Harness, the Model Context Protocol, and plain Node: typed judgments instead of prose, offline by default.
-  <sub>`SDK` · ★103 · perrylink · `TS`</sub>
+  <sub>`SDK` · ★109 · perrylink · `TS`</sub>
+
+- **[laya-server](https://github.com/1Panel-dev/laya-server)** — A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API format.
+  <sub>`Jev-like alternative` · ★100 · 1panel-dev · `TS` · ⚠ `not Jev itself`</sub>
+
+- **[jevchat](https://github.com/kyle-pena-nlp/jevchat)** — Turns Jev into a chatbot
+  <sub>`Project` · ★97 · kyle-pena-nlp · `Py` · ⚠ `no licence`</sub>
 
 - **[advocaat](https://github.com/pithings/advocaat)** — A small typed client for asking questions about your own data.
   <sub>`SDK` · ★96 · pithings · `TS`</sub>
@@ -261,14 +270,11 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-seo](https://github.com/AkashPriyadarshii/jev-seo)** — 100% free ₹0 agent-first SEO & GEO CLI suite and MCP server in Rust replacing Semrush and OpenSEO via DuckDuckGo and TypeSafe Jev System One https://akashpriyadarshii.github.io/jev-seo/
   <sub>`Plugin` · ★96 · akashpriyadarshii · `Rs`</sub>
 
-- **[jevchat](https://github.com/kyle-pena-nlp/jevchat)** — Turns Jev into a chatbot
-  <sub>`Project` · ★96 · kyle-pena-nlp · `Py` · ⚠ `no licence`</sub>
-
-- **[laya-server](https://github.com/1Panel-dev/laya-server)** — A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API format.
-  <sub>`Jev-like alternative` · ★94 · 1panel-dev · `TS` · ⚠ `not Jev itself`</sub>
-
 - **[jev-leftpad](https://github.com/f/jev-leftpad)** — Left-pad strings with TypeSafe AI's Jev. For reasons.
   <sub>`Project` · ★84 · f · `JS`</sub>
+
+- **[JevAny](https://github.com/SimpleJev/JevAny)** — JevAny: a calibrated decision layer for RL, agents and model harnesses that returns typed answers and option probabilities in one prefill pass — an open 27B model on a Qwen backbone, not Jev.
+  <sub>`Jev-like alternative` · ★79 · weitianxin · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[captaincore](https://github.com/CaptainCore/captaincore)** — 👨🏽‍💻 CaptainCore is a command line application for automating WordPress maintenance.
   <sub>`Project` · ★75 · captaincore · `Go`</sub>
@@ -276,35 +282,29 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-playground](https://github.com/mizchi/jev-playground)** — A playground for calling Jev from MoonBit, with a CLI per question type (score, choice, noul) and measured reports on which composition patterns win.
   <sub>`Project` · ★73 · mizchi · `TS` · ⚠ `no licence`</sub>
 
-- **[jev-judge-mcp](https://github.com/PyModel/jev-judge-mcp)** — Typed judgment tools for MCP agents. TypeSafe's Jev model as verify, screen, find, classify, rerank, decide, compare, extract, review, gate, and score: the model judges, policy decides auto, review, or escalate.
-  <sub>`Plugin` · ★71 · pymodel · `Py`</sub>
-
 - **[system-one](https://github.com/iamaamir/system-one)** — Provider-neutral System One runtime for TypeScript and Pi
-  <sub>`SDK` · ★70 · iamaamir · `TS` · ⚠ `no licence`</sub>
+  <sub>`SDK` · ★73 · iamaamir · `TS` · ⚠ `no licence`</sub>
+
+- **[jev-judge-mcp](https://github.com/PyModel/jev-judge-mcp)** — Typed judgment tools for MCP agents. TypeSafe's Jev model as verify, screen, find, classify, rerank, decide, compare, extract, review, gate, and score: the model judges, policy decides auto, review, or escalate.
+  <sub>`Plugin` · ★72 · pymodel · `Py`</sub>
 
 - **[openthai-systemone](https://github.com/iapp-technology/openthai-systemone)** — OpenThai-SystemOne: open Thai + English System One decision model (0.8B, 256-way slot head, Apache-2.0)
   <sub>`Project` · ★68 · iapp-technology · `Py`</sub>
 
-- **[jev-foundation-models](https://github.com/peterfriese/system-one-foundation-models)** — A lightweight, native Swift 6 bridge integrating TypeSafe AI's Jev System One decision model into Apple's Foundation Models framework.
-  <sub>`Project` · ★66 · peterfriese · `Swift`</sub>
+- **[dspy-typesafeify](https://github.com/typesafeainate/dspy-typesafeify)** — Add a decorator for dspy Signatures that automatically uses TypeSafe where relevant
+  <sub>`Project` · ★66 · typesafeainate · `Py`</sub>
 
 - **[jev-rules](https://github.com/EliaAlberti/jev-rules)** — Jev picks which of your rules apply to each prompt, so Claude only sees the ones that matter.
   <sub>`Project` · ★66 · eliaalberti · `JS`</sub>
-
-- **[dspy-typesafeify](https://github.com/typesafeainate/dspy-typesafeify)** — Add a decorator for dspy Signatures that automatically uses TypeSafe where relevant
-  <sub>`Project` · ★65 · typesafeainate · `Py`</sub>
-
-- **[JevAny](https://github.com/SimpleJev/JevAny)** — JevAny: a calibrated decision layer for RL, agents and model harnesses that returns typed answers and option probabilities in one prefill pass — an open 27B model on a Qwen backbone, not Jev.
-  <sub>`Jev-like alternative` · ★65 · weitianxin · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[jev-paint](https://github.com/achimala/jev-paint)** — Use Jev to make art!
   <sub>`Project` · ★63 · achimala · `JS`</sub>
 
 - **[jev-mcp](https://github.com/burnigtm/jev-mcp)** — MCP server that puts TypeSafe Jev on the coding loop in Cursor, Codex, and any MCP client
-  <sub>`Plugin` · ★61 · burnigtm · `TS`</sub>
+  <sub>`Plugin` · ★62 · burnigtm · `TS`</sub>
 
 - **[jeview](https://github.com/andududu/jeview)** — An unofficial local visualizer for Jev (TypeSafe): a live view of every call your code makes. Not affiliated with TypeSafe AI.
-  <sub>`Project` · ★61 · andududu · `JS`</sub>
+  <sub>`Project` · ★62 · andududu · `JS`</sub>
 
 - **[OpenDecision](https://github.com/deepanwadhwa/OpenDecision)** — An open-source semantic decision engine running a local zero-shot model, with a FastAPI server proven wire-compatible with the official SDK.
   <sub>`Jev-like alternative` · ★58 · deepanwadhwa · `Py` · `choice` · `score` · `noul` · ⚠ `not Jev itself`</sub>
@@ -313,61 +313,64 @@ Every catalogued example of this decision — 451 of them, official first, then 
   <sub>`Project` · ★56 · topherchris420 · `Rs` · ⚠ `archived`</sub>
 
 - **[ruby_decision_model](https://github.com/obie/ruby_decision_model)** — Ruby client for decision models such as Typesafe Jev
-  <sub>`SDK` · ★55 · obie · `Rb`</sub>
+  <sub>`SDK` · ★56 · obie · `Rb`</sub>
 
 - **[jevify](https://github.com/fidecastro/jevify)** — Supersimple way to serve LLMs as a Jev-like endpoint
-  <sub>`Jev-like alternative` · ★54 · fidecastro · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★55 · fidecastro · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[sys1](https://github.com/alvarobartt/sys1)** — System One compatible API for open decision models, e.g. Laya, written in Rust.
-  <sub>`Jev-like alternative` · ★48 · alvarobartt · `Rs` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★53 · alvarobartt · `Rs` · ⚠ `not Jev itself`</sub>
+
+- **[jev-trades](https://github.com/zadescoxp/Jev-Trades)** — Trading bot with the all new TypeSafe AI's first system one model named as Jev
+  <sub>`Project` · ★51 · zadescoxp · `Py`</sub>
+
+- **[call-coach-ai](https://github.com/ZeroGold/call-coach-ai)** — Jev powered call coach
+  <sub>`Project` · ★47 · zerogold · `TS`</sub>
 
 - **[litjev](https://github.com/zhengxuyu/litjev)** — Turn any off-the-shelf LLM into a Jev -like decision layer
   <sub>`Jev-like alternative` · ★47 · zhengxuyu · `Py` · ⚠ `not Jev itself`</sub>
 
-- **[call-coach-ai](https://github.com/ZeroGold/call-coach-ai)** — Jev powered call coach
-  <sub>`Project` · ★45 · zerogold · `TS`</sub>
+- **[go-jev](https://github.com/mattn/go-jev)** — Go SDK and CLI for TypeSafe Jev: typed decisions (yes/no, choice, score) from a model
+  <sub>`SDK` · ★46 · mattn · `Go`</sub>
 
 - **[solar-mini4-jev](https://github.com/hunkim/solar-mini4-jev)** — A drop-in wrapper that exposes Upstage's Solar models through the Jev System One API shape — noul, choice and score with the same schema — with a hosted bring-your-own-key endpoint.
   <sub>`Jev-like alternative` · ★45 · hunkim · `Py` · ⚠ `not Jev itself` `no licence`</sub>
 
-- **[jev-trades](https://github.com/zadescoxp/Jev-Trades)** — Trading bot with the all new TypeSafe AI's first system one model named as Jev
-  <sub>`Project` · ★44 · zadescoxp · `Py`</sub>
+- **[jevify](https://github.com/altryne/jevify)** — An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments.
+  <sub>`Plugin` · ★44 · altryne · `Py`</sub>
+
+- **[OpenSourceJev](https://github.com/sabeel111/OpenSourceJev)** — Turning an LLM model into a Jev like System.
+  <sub>`Jev-like alternative` · ★44 · sabeel111 · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[cultivar](https://github.com/pinecone-io/cultivar)** — Use cultivar to test your Agent Skills and Docs by running them in sandboxes, and across different agents.
   <sub>`Project` · ★42 · pinecone-io · `Py`</sub>
 
-- **[go-jev](https://github.com/mattn/go-jev)** — Go SDK and CLI for TypeSafe Jev: typed decisions (yes/no, choice, score) from a model
-  <sub>`SDK` · ★42 · mattn · `Go`</sub>
-
-- **[jev-tree](https://github.com/Chuf-H/jev-tree)** — Jev-native probability tree and graph runtime for verifiable multi-step decision making.
-  <sub>`Project` · ★42 · chuf-h · `Py`</sub>
+- **[OpenJev](https://github.com/zhangcy122/OpenJev)** — OpenJev: Open-source alternative to TypeSafe Jev. Typed probabilistic decision API (Choice, Noul, Score) powered by open LLMs & constrained logprob calibration.
+  <sub>`Jev-like alternative` · ★42 · zhangcy122 · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill)** — Skill for Hermes, and other agents, to ask typesafe's jev
   <sub>`Plugin` · ★41 · shantanugoel · `Py`</sub>
 
-- **[OpenSourceJev](https://github.com/sabeel111/OpenSourceJev)** — Turning an LLM model into a Jev like System.
-  <sub>`Jev-like alternative` · ★41 · sabeel111 · `Py` · ⚠ `not Jev itself`</sub>
+- **[jev-tree](https://github.com/Chuf-H/jev-tree)** — Jev-native probability tree and graph runtime for verifiable multi-step decision making.
+  <sub>`Project` · ★41 · chuf-h · `Py`</sub>
 
 - **[jev](https://github.com/BorisLeMeec/jev)** — A claude code plugin for jev
   <sub>`Plugin` · ★40 · borislemeec · `Go`</sub>
 
+- **[jevocks](https://github.com/unicodeveloper/jevocks)** — Everyday Stocks Status with Jev
+  <sub>`Project` · ★40 · unicodeveloper · `TS` · ⚠ `no licence`</sub>
+
 - **[jev-spring-boot-starter](https://github.com/danvega/jev-spring-boot-starter)** — A simple Spring Boot 4 starter for TypeSafe Jev using Spring MVC and RestClient
   <sub>`Plugin` · ★39 · danvega · `Java` · ⚠ `no licence`</sub>
 
-- **[jevify](https://github.com/altryne/jevify)** — An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments.
-  <sub>`Plugin` · ★39 · altryne · `Py`</sub>
+- **[jevgraph](https://github.com/chenmingtang830/jevgraph)** — Evidence-backed knowledge graph construction with typed Jev relation decisions
+  <sub>`Project` · ★39 · chenmingtang830 · `Py`</sub>
 
-- **[OpenJev](https://github.com/zhangcy122/OpenJev)** — OpenJev: Open-source alternative to TypeSafe Jev. Typed probabilistic decision API (Choice, Noul, Score) powered by open LLMs & constrained logprob calibration.
-  <sub>`Jev-like alternative` · ★38 · zhangcy122 · `Py` · ⚠ `not Jev itself`</sub>
+- **[jev_local](https://github.com/Argos1111/jev_local)** — Replicating Jev with a local LLM
+  <sub>`Jev-like alternative` · ★38 · argos1111 · `Py` · ⚠ `not Jev itself` `no licence`</sub>
 
 - **[typesafe-ai-benchmark](https://github.com/iammrduncan/inference-benchmarks)** — A gateway that mimics the structured-output shape, used to benchmark against it.
   <sub>`Benchmark` · ★38 · iammrduncan · `TS`</sub>
-
-- **[jev_local](https://github.com/Argos1111/jev_local)** — Replicating Jev with a local LLM
-  <sub>`Jev-like alternative` · ★37 · argos1111 · `Py` · ⚠ `not Jev itself` `no licence`</sub>
-
-- **[jevgraph](https://github.com/chenmingtang830/jevgraph)** — Evidence-backed knowledge graph construction with typed Jev relation decisions
-  <sub>`Project` · ★37 · chenmingtang830 · `Py`</sub>
 
 - **[clash-jev](https://github.com/bytelabs-oss/clash-jev)** — A Clash Royale bot with no trained policy: Jev (TypeSafe System One) makes every decision from the live game state
   <sub>`Project` · ★36 · bytelabs-oss · `Py`</sub>
@@ -376,31 +379,31 @@ Every catalogued example of this decision — 451 of them, official first, then 
   <sub>`SDK` · ★36 · dannote · `Ex`</sub>
 
 - **[jev-cli](https://github.com/shaharia-lab/jev-cli)** — Command-line tool for TypeSafe AI's Jev model. Ask yes/no, multiple-choice and rubric questions about any text and get calibrated probabilities back. Answers become exit codes for shells and CI, JSON for scripts, and MCP tools for AI agents.
-  <sub>`Project` · ★34 · shaharia-lab · `Rs`</sub>
+  <sub>`Project` · ★35 · shaharia-lab · `Rs`</sub>
+
+- **[jev-register-tool](https://github.com/2951461586/Jev-Register-Tool)** — TypeSafe（Jev / System One）申请 → 确认邮件 → 获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器
+  <sub>`Project` · ★35 · 2951461586 · `Py` · ⚠ `no licence`</sub>
+
+- **[refgarden](https://github.com/AlbionaHoti/refgarden)** — A spatial reference explorer for creators. Local Jev query choices, metadata highlights and source-linked collections.
+  <sub>`Jev-like alternative` · ★35 · albionahoti · `TS` · ⚠ `not Jev itself`</sub>
 
 - **[jev-explained](https://github.com/davila7/jev-explained)** — Jev Explained
   <sub>`Tutorial` · ★34 · davila7 · `TS`</sub>
 
+- **[jev-skill-suggester](https://github.com/win4r/jev-skill-suggester)** — 用 TypeSafe Jev 推荐已安装 Skill / Bounded installed-skill recommendations with TypeSafe Jev. Python CLI, Codex skill, bilingual docs and live examples.
+  <sub>`Plugin` · ★34 · win4r · `Py`</sub>
+
 - **[pijev](https://github.com/TypeLLM/pijev)** — Averages Jev's answers over option orderings — all permutations in one request — with Brier score and log loss guaranteed no worse than the average across the orderings included. A one-line import change.
   <sub>`SDK` · ★34 · typellm · `Py`</sub>
 
-- **[refgarden](https://github.com/AlbionaHoti/refgarden)** — A spatial reference explorer for creators. Local Jev query choices, metadata highlights and source-linked collections.
-  <sub>`Jev-like alternative` · ★34 · albionahoti · `TS` · ⚠ `not Jev itself`</sub>
-
 - **[is-jeven](https://github.com/wobsoriano/is-jeven)** — Is it even? Ask Jev.
   <sub>`Project` · ★33 · wobsoriano · `JS`</sub>
-
-- **[jev-skill-suggester](https://github.com/win4r/jev-skill-suggester)** — 用 TypeSafe Jev 推荐已安装 Skill / Bounded installed-skill recommendations with TypeSafe Jev. Python CLI, Codex skill, bilingual docs and live examples.
-  <sub>`Plugin` · ★33 · win4r · `Py`</sub>
 
 - **[st-jeved](https://github.com/mossyfield/ST-jeved)** — SillyTavern extension that measures each reply and instructs the narrator only when a rule matches.
   <sub>`Plugin` · ★33 · mossyfield · `JS`</sub>
 
 - **[Jev-Quantum](https://github.com/karminski/Jev-Quantum)** — A Jev-protocol random baseline: it speaks noul, choice and score but reads no prompt, answering from a fast pseudo-random generator — a mock, and a lower bound for routing evaluations.
   <sub>`Jev-like alternative` · ★32 · karminski · `Rs` · ⚠ `not Jev itself`</sub>
-
-- **[jev-register-tool](https://github.com/2951461586/Jev-Register-Tool)** — TypeSafe（Jev / System One）申请 → 确认邮件 → 获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器
-  <sub>`Project` · ★32 · 2951461586 · `Py` · ⚠ `no licence`</sub>
 
 - **[jpp](https://github.com/Towow-ai/jpp)** — J++: an experimental language with standalone source and a Rust runtime. Compose questions and methods. 独立源码，组合问题与方法。
   <sub>`Project` · ★30 · towow-ai · `Rs`</sub>
@@ -409,10 +412,13 @@ Every catalogued example of this decision — 451 of them, official first, then 
   <sub>`Project` · ★30 · promptengineer48 · `JS`</sub>
 
 - **[duckdb-jev](https://github.com/colliber/duckdb-jev)** — DuckDB extension: typed Jev answers as real SQL types
-  <sub>`Plugin` · ★28 · colliber · `C++`</sub>
+  <sub>`Plugin` · ★29 · colliber · `C++`</sub>
 
-- **[jevocks](https://github.com/unicodeveloper/jevocks)** — Everyday Stocks Status with Jev
-  <sub>`Project` · ★27 · unicodeveloper · `TS` · ⚠ `no licence`</sub>
+- **[edgejev](https://github.com/yzfly/edgejev)** — 离线可用的本地类型化决策：4 核 CPU 单题 15.6ms。Local & offline Jev / System One inference on CPU — ONNX + INT8, no torch at runtime. 支持 laya / kev / PlayJev
+  <sub>`Project` · ★28 · yzfly · `Py`</sub>
+
+- **[llm-typesafe](https://github.com/simonw/llm-typesafe)** — LLM plugin for accessing Jev and other TypeSafe AI models
+  <sub>`Plugin` · ★27 · simonw · `Py`</sub>
 
 - **[tinyjev](https://github.com/ankit-aglawe/tinyjev)** — A tiny jev-like model that answers Choice, Score and Noul questions in one forward pass and returns calibrated probabilities. MLX or PyTorch, fully offline, System One compatible.
   <sub>`Jev-like alternative` · ★27 · ankit-aglawe · `Py` · ⚠ `not Jev itself`</sub>
@@ -426,29 +432,35 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[loki](https://github.com/wundercorp/loki)** — The agent that evolves with you 𖤍
   <sub>`Project` · ★25 · wundercorp · `Py`</sub>
 
+- **[typesafe-playground](https://github.com/TypeSafeAI/typesafe-playground)** — Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
+  <sub>`Project` · ★24 · typesafeai · `TS`</sub>
+
 - **[jevloop](https://github.com/zjunlp/JevLoop)** — The agent loop where decisions don't cost a large language model call. Zero deps, runs offline, no API key needed.
-  <sub>`Project` · ★22 · zjunlp · `TS`</sub>
+  <sub>`Project` · ★23 · zjunlp · `TS`</sub>
+
+- **[notjev](https://github.com/9pings/notjev)** — Super fast Jev like server, model agnostic, working with any OpenAI compatible endpoint
+  <sub>`Jev-like alternative` · ★23 · 9pings · `JS` · ⚠ `not Jev itself`</sub>
 
 - **[open-spark-jev](https://github.com/abhishek085/open-spark-jev)** — Open-source, local decision models inspired by TypeSafe’s Jev and System One - built on Qwen3 for NVIDIA DGX Spark.
   <sub>`Project` · ★22 · abhishek085 · `Py`</sub>
 
-- **[typesafe-playground](https://github.com/TypeSafeAI/typesafe-playground)** — Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
-  <sub>`Project` · ★22 · typesafeai · `TS`</sub>
-
 - **[fastjev](https://github.com/chengyongru/fastjev)** — SDK-first, independently maintained SemIf fork for fast, self-hosted semantic decisions.
   <sub>`Jev-like alternative` · ★21 · chengyongru · `Py` · ⚠ `not Jev itself`</sub>
 
-- **[llm-typesafe](https://github.com/simonw/llm-typesafe)** — LLM plugin for accessing Jev and other TypeSafe AI models
-  <sub>`Plugin` · ★21 · simonw · `Py`</sub>
-
-- **[notjev](https://github.com/9pings/notjev)** — Super fast Jev like server, model agnostic, working with any OpenAI compatible endpoint
-  <sub>`Jev-like alternative` · ★21 · 9pings · `JS` · ⚠ `not Jev itself`</sub>
-
 - **[jev-to-answer](https://github.com/csskrtao/jev-to-answer)** — A Book of Answers toy: ask a question and Jev picks the answer.
-  <sub>`Project` · ★20 · csskrtao · `JS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★21 · csskrtao · `JS` · ⚠ `no licence`</sub>
 
 - **[jevvy](https://github.com/PanAchy/jevvy)** — Jev-powered plugins for coding agents
-  <sub>`Plugin` · ★20 · panachy · `TS`</sub>
+  <sub>`Plugin` · ★21 · panachy · `TS`</sub>
+
+- **[OpenJev](https://github.com/GPT-AGI/OpenJev)** — Jev-compatible System 开源Jev
+  <sub>`Jev-like alternative` · ★21 · gpt-agi · `Py` · ⚠ `not Jev itself`</sub>
+
+- **[jev-recipes](https://github.com/agencyenterprise/jev-recipes)** — 80+ composable TypeScript recipes powered by Jev for AI agents, retrieval, answer verification, and conversation workflows.
+  <sub>`Project` · ★20 · agencyenterprise · `TS`</sub>
+
+- **[jev-tetris](https://github.com/trungdq88/jev-tetris)** — Jev play Tetris in real-time against other AI models
+  <sub>`Project` · ★20 · trungdq88 · `JS` · ⚠ `no licence`</sub>
 
 - **[jot](https://github.com/runta-dev/jot)** — The first general-purpose System One agent for Jev
   <sub>`Project` · ★20 · runta-dev · `TS` · ⚠ `no licence`</sub>
@@ -459,38 +471,44 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[Jev](https://github.com/mayank953/Jev)** — Six live, side-by-side demos of Jev deciding while an LLM writes the words and code owns the control flow; the LLM side switches between Claude and Kimi models.
   <sub>`Project` · ★19 · mayank953 · `JS`</sub>
 
-- **[jev-recipes](https://github.com/agencyenterprise/jev-recipes)** — 80+ composable TypeScript recipes powered by Jev for AI agents, retrieval, answer verification, and conversation workflows.
-  <sub>`Project` · ★19 · agencyenterprise · `TS`</sub>
-
 - **[jevper](https://github.com/zhulinchng/jevper)** — Jev-shaped (TypeSafe System One) classification wrapper over OpenAI-like clients: probabilities and confidence instead of prose
   <sub>`Jev-like alternative` · ★19 · zhulinchng · `Py` · ⚠ `not Jev itself`</sub>
 
-- **[OpenJev](https://github.com/GPT-AGI/OpenJev)** — Jev-compatible System 开源Jev
-  <sub>`Jev-like alternative` · ★19 · gpt-agi · `Py` · ⚠ `not Jev itself`</sub>
+- **[switchboard](https://github.com/ruban-24/switchboard)** — An open-source, model-agnostic decision router for Claude Code and Codex.
+  <sub>`Plugin` · ★19 · ruban-24 · `TS`</sub>
 
-- **[jev-tetris](https://github.com/trungdq88/jev-tetris)** — Jev play Tetris in real-time against other AI models
-  <sub>`Project` · ★18 · trungdq88 · `JS` · ⚠ `no licence`</sub>
+- **[jev-skill-router](https://github.com/shimo4228/jev-skill-router)** — Claude Code plugin: asks TypeSafe Jev which installed skill fits each prompt and logs the answer (shadow-first). A working reference for the skill-suggestion cookbook on Claude Code — the README records why it is unlikely to help a strong model as a router.
+  <sub>`Plugin` · ★18 · shimo4228 · `Py`</sub>
 
 - **[ruby_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe)** — A structured-output provider for a Ruby LLM library.
   <sub>`Integration` · ★18 · kieranklaassen · `Rb`</sub>
 
-- **[jev-blindspot](https://github.com/jsk4581/jev-blindspot)** — A side-panel assistant that finds the blind spots in your prompts. For Claude Code and Codex CLI.
-  <sub>`Plugin` · ★17 · jsk4581 · `TS`</sub>
-
 - **[jev-vs-ml](https://github.com/QuicqDev/Jev-vs-ML)** — Jev-vs-ML
   <sub>`Project` · ★17 · quicqdev · `Py` · ⚠ `no licence`</sub>
 
-- **[edgejev](https://github.com/yzfly/edgejev)** — 离线可用的本地类型化决策：4 核 CPU 单题 15.6ms。Local & offline Jev / System One inference on CPU — ONNX + INT8, no torch at runtime. 支持 laya / kev / PlayJev
-  <sub>`Project` · ★16 · yzfly · `Py`</sub>
+- **[learn-jev-end-to-end](https://github.com/harshithsunku/learn-jev-end-to-end)** — Learn Jev end to end: a free hands-on course. Build 13 AI agent use cases with a fast brain (Jev) and a slow brain (LLM). One OpenRouter key.
+  <sub>`Tutorial` · ★17 · harshithsunku · `Py`</sub>
+
+- **[swift-typesafe](https://github.com/ainame/swift-typesafe)** — Unofficial Swift SDK for TypeSafe
+  <sub>`SDK` · ★17 · ainame · `Swift`</sub>
+
+- **[jev-canvas](https://github.com/gaborishka/jev-canvas)** — Draw on a tldraw canvas with your voice and a pointing finger. Jev (TypeSafe System One) decides action, target and place in ~350 ms per spoken word.
+  <sub>`Project` · ★16 · gaborishka · `JS`</sub>
+
+- **[jev-chat-windows-deepseek-jev](https://github.com/Aimark-dai/jev-chat-windows-deepseek-jev)** — Windows 微信回复助手：DeepSeek 官方生成话术，TypeSafe JEV 官方判断排序，支持可取消的 3 秒自动发送。
+  <sub>`Project` · ★16 · aimark-dai · `Py`</sub>
+
+- **[jev-cli](https://github.com/tumf/jev-cli)** — Small dependency-free CLI for TypeSafe Jev
+  <sub>`SDK` · ★16 · tumf · `Py`</sub>
 
 - **[jev-studio](https://github.com/utk2103/jev-studio)** — if you're experimenting with jev it will be easier from here
   <sub>`Project` · ★16 · utk2103 · `Py`</sub>
 
+- **[jev_stock](https://github.com/sosopop/jev_stock)** — An experimental JEV-powered framework for forecasting short-term stock price direction from structured market data.
+  <sub>`Project` · ★16 · sosopop · `Py` · ⚠ `no licence`</sub>
+
 - **[swift-jev](https://github.com/d-date/swift-jev)** — A Swift client for TypeSafe AI's Jev — typed judgements, not text
   <sub>`SDK` · ★16 · d-date · `Swift`</sub>
-
-- **[swift-typesafe](https://github.com/ainame/swift-typesafe)** — Unofficial Swift SDK for TypeSafe
-  <sub>`SDK` · ★16 · ainame · `Swift`</sub>
 
 - **[jevernetes](https://github.com/sunil-sadasivan/jevernetes)** — Live Kubernetes log analysis, contextual investigation, and agent handoff powered by Jev.
   <sub>`Project` · ★15 · sunil-sadasivan · `Py`</sub>
@@ -498,20 +516,14 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jevthoven](https://github.com/cocktailpeanut/jevthoven)** — AI Music (MIDI) generator powered by Jev
   <sub>`Project` · ★15 · cocktailpeanut · `TS`</sub>
 
-- **[learn-jev-end-to-end](https://github.com/harshithsunku/learn-jev-end-to-end)** — Learn Jev end to end: a free hands-on course. Build 13 AI agent use cases with a fast brain (Jev) and a slow brain (LLM). One OpenRouter key.
-  <sub>`Tutorial` · ★15 · harshithsunku · `Py`</sub>
-
-- **[switchboard](https://github.com/ruban-24/switchboard)** — An open-source, model-agnostic decision router for Claude Code and Codex.
-  <sub>`Plugin` · ★15 · ruban-24 · `TS`</sub>
+- **[typesafe-ai](https://github.com/Twister915/typesafe-ai)** — Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.
+  <sub>`SDK` · ★15 · twister915 · `Rs`</sub>
 
 - **[typesafe-playground](https://github.com/kavehmz/typesafe-playground)** — Interactive experiments with TypeSafe Jev, from support routing to 3D driving simulations with real AI decisions and visible sensor inputs.
   <sub>`Project` · ★15 · kavehmz · `JS` · ⚠ `no licence`</sub>
 
-- **[jev-cli](https://github.com/tumf/jev-cli)** — Small dependency-free CLI for TypeSafe Jev
-  <sub>`SDK` · ★14 · tumf · `Py`</sub>
-
-- **[jev_stock](https://github.com/sosopop/jev_stock)** — An experimental JEV-powered framework for forecasting short-term stock price direction from structured market data.
-  <sub>`Project` · ★14 · sosopop · `Py` · ⚠ `no licence`</sub>
+- **[awesome-jev](https://github.com/daftAI2026/awesome-jev)** — TypeSafe System One / Jev community directory — GitHub projects & posts around typed decisions (typesafe.ai)
+  <sub>`Project` · ★14 · daftai2026 · `TS` · ⚠ `no licence`</sub>
 
 - **[jevtown](https://github.com/gaborishka/jevtown)** — Jevtown: a social network where people write and 10,000 AI personas react
   <sub>`Project` · ★14 · gaborishka · `JS`</sub>
@@ -519,26 +531,20 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[snapjudge](https://github.com/Micha0827/snapjudge)** — Typed decisions (choice / score / yes-no) from local Qwen models on Apple Silicon. Probabilities come straight from the logits, no text generation. TypeSafe-compatible HTTP API, runs on MLX.
   <sub>`Jev-like alternative` · ★14 · micha0827 · `Py` · ⚠ `not Jev itself`</sub>
 
-- **[typesafe-ai](https://github.com/Twister915/typesafe-ai)** — Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.
-  <sub>`SDK` · ★14 · twister915 · `Rs`</sub>
-
 - **[typesafe-skill-router](https://github.com/DECRUX9812/typesafe-skill-router)** — TypeSafe (Jev) skill routing for Hermes Agent: names the one skill worth loading, before the model call. Opt-in, stdlib only, ~$0.001 per routed turn.
   <sub>`Plugin` · ★14 · decrux9812 · `Py`</sub>
-
-- **[jev-canvas](https://github.com/gaborishka/jev-canvas)** — Draw on a tldraw canvas with your voice and a pointing finger. Jev (TypeSafe System One) decides action, target and place in ~350 ms per spoken word.
-  <sub>`Project` · ★13 · gaborishka · `JS`</sub>
 
 - **[jev-chat-for-twitch](https://github.com/ethanplusai/jev-chat-for-twitch)** — Filter any live Twitch chat with Jev: a bring-your-own-key Chrome extension
   <sub>`Plugin` · ★13 · ethanplusai · `JS`</sub>
 
+- **[laya-jev-lab](https://github.com/yibie/laya-jev-lab)** — Independent measurements of typed-decision models: Jev (TypeSafe API) vs Laya (open weights), and a local-first cascade that matches Jev's accuracy at 1.8x the speed
+  <sub>`Project` · ★13 · yibie · `Py`</sub>
+
 - **[typesafe-sdk-go](https://github.com/atharvamhaske/typesafe-sdk-go)** — unofficial go sdk for typesafe ai. not affiliated with or endorsed by typesafe ai. a side project built to fill the missing go sdk gap, for the community to use.
   <sub>`SDK` · ★13 · atharvamhaske · `Go`</sub>
 
-- **[typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk)** — Community .NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers. Not affiliated with TypeSafe AI.
-  <sub>`SDK` · ★13 · saibimajdi · `C#`</sub>
-
-- **[jev-skill-router](https://github.com/shimo4228/jev-skill-router)** — Claude Code plugin: asks TypeSafe Jev which installed skill fits each prompt and logs the answer (shadow-first). A working reference for the skill-suggestion cookbook on Claude Code — the README records why it is unlikely to help a strong model as a router.
-  <sub>`Plugin` · ★12 · shimo4228 · `Py`</sub>
+- **[jev-blindspot](https://github.com/jsk4581/jev-blindspot)** — A side-panel assistant that finds the blind spots in your prompts. For Claude Code and Codex CLI.
+  <sub>`Plugin` · ★12 · jsk4581 · `TS`</sub>
 
 - **[jev4k](https://github.com/pambrose/jev4k)** — A Kotlin DSL and client for TypeSafe's Jev model
   <sub>`SDK` · ★12 · pambrose · `Kt`</sub>
@@ -555,8 +561,11 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[trade-jev](https://github.com/justinhe16/trade-jev)** — Backtest Jev (TypeSafe) as a BUY/SELL/HOLD trader on NQ L10 order-book data
   <sub>`Project` · ★12 · justinhe16 · `Py`</sub>
 
-- **[awesome-jev](https://github.com/daftAI2026/awesome-jev)** — TypeSafe System One / Jev community directory — GitHub projects & posts around typed decisions (typesafe.ai)
-  <sub>`Project` · ★11 · daftai2026 · `TS` · ⚠ `no licence`</sub>
+- **[typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk)** — Community .NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers. Not affiliated with TypeSafe AI.
+  <sub>`SDK` · ★12 · saibimajdi · `C#`</sub>
+
+- **[diffusion-jev-sglang](https://github.com/Hangzhi/diffusion-jev-sglang)** — A Jev-like decision engine powered by DiffusionGemma and SGLang. Jev with eyes.
+  <sub>`Jev-like alternative` · ★11 · hangzhi · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[dohnuts.cpp](https://github.com/DreamBlooms/dohnuts.cpp)** — The same decisions, on CPU. System One model that can run on your Personal Computer.
   <sub>`Jev-like alternative` · ★11 · dreamblooms · `C++` · ⚠ `not Jev itself`</sub>
@@ -564,8 +573,8 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev](https://github.com/okooo5km/jev)** — Typed decisions from the shell: an unofficial stdlib-Python CLI and Agent Skill for TypeSafe's Jev model, via the TypeSafe API (default) or OpenRouter. Yes/no, choice and ordinal scores with calibrated probabilities, semantic grep and batch mode.
   <sub>`Plugin` · ★11 · okooo5km · `Py`</sub>
 
-- **[laya-jev-lab](https://github.com/yibie/laya-jev-lab)** — Independent measurements of typed-decision models: Jev (TypeSafe API) vs Laya (open weights), and a local-first cascade that matches Jev's accuracy at 1.8x the speed
-  <sub>`Project` · ★11 · yibie · `Py`</sub>
+- **[jevplayspokemon](https://github.com/anxkhn/JevPlaysPokemon)** — Jev plays Generation 3 Pokémon via Showdown and a real FireRed ROM.
+  <sub>`Project` · ★11 · anxkhn · `TS`</sub>
 
 - **[midscene-jev-runner](https://github.com/KiritoKing/midscene-jev-runner)** — Community-maintained JEV runner integration for Midscene Test
   <sub>`Integration` · ★11 · kiritoking · `TS`</sub>
@@ -579,11 +588,20 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jeq](https://github.com/cristianoliveira/jeq)** — What happens when jev meets jq? Intelligence you can pipe for quick experimentation and scripts
   <sub>`Project` · ★10 · cristianoliveira · `Go`</sub>
 
-- **[jev-chat-windows-deepseek-jev](https://github.com/Aimark-dai/jev-chat-windows-deepseek-jev)** — Windows 微信回复助手：DeepSeek 官方生成话术，TypeSafe JEV 官方判断排序，支持可取消的 3 秒自动发送。
-  <sub>`Project` · ★10 · aimark-dai · `Py`</sub>
+- **[ruling](https://github.com/bradAGI/ruling)** — Typed, calibrated decisions from a local model. No text generated.
+  <sub>`Jev-like alternative` · ★10 · bradagi · `Py` · ⚠ `not Jev itself` `unverified claims`</sub>
+
+- **[typesafe-chess](https://github.com/TholeG/typesafe-chess)** — Chess where both players are TypeSafe's Jev model: every move is a typed Choice decision
+  <sub>`Project` · ★10 · tholeg · `JS`</sub>
+
+- **[go-system-one](https://github.com/rcarmo/go-system-one)** — when a gopher met Jev
+  <sub>`SDK` · ★9 · rcarmo · `Go`</sub>
 
 - **[jev-cookbook](https://github.com/paramjeetn/jev-cookbook)** — The complete cookbook for Jev by TypeSafe AI — 120+ use cases, 10 runnable examples, 4 composition patterns, and first-principles theory for the world's first System One AI model.
   <sub>`Tutorial` · ★9 · paramjeetn · `Py`</sub>
+
+- **[jev-search](https://github.com/larguesa/jev-search)** — Experimental semantic line search with TypeSafe Jev via OpenRouter. Python CLI with no runtime dependencies.
+  <sub>`Project` · ★9 · larguesa · `Py`</sub>
 
 - **[jev_project_context](https://github.com/poiuyjie/jev_project_context)** — Evidence-first long-term experiment memory skill for AI coding agents, with optional Jev decision-model layers
   <sub>`Plugin` · ★9 · poiuyjie · `Py`</sub>
@@ -591,17 +609,11 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[kojev](https://github.com/ItisNoMatter/kojev)** — Kotlin Multiplatform client for Jev that returns your own enum/sealed types instead of string keys.
   <sub>`SDK` · ★9 · itisnomatter · `Kt`</sub>
 
-- **[ruling](https://github.com/bradAGI/ruling)** — Typed, calibrated decisions from a local model. No text generated.
-  <sub>`Jev-like alternative` · ★9 · bradagi · `Py` · ⚠ `not Jev itself` `unverified claims`</sub>
-
-- **[typesafe-chess](https://github.com/TholeG/typesafe-chess)** — Chess where both players are TypeSafe's Jev model: every move is a typed Choice decision
-  <sub>`Project` · ★9 · tholeg · `JS`</sub>
+- **[soupbase](https://github.com/spoonnotfound/soupbase)** — Jev x 海龟汤
+  <sub>`Project` · ★9 · spoonnotfound · `TS`</sub>
 
 - **[typesafe-sdk-go](https://github.com/Tangerg/typesafe-sdk-go)** — Go SDK for the TypeSafe AI API — typed questions in, probability distributions out.
   <sub>`SDK` · ★9 · tangerg · `Go`</sub>
-
-- **[diffusion-jev-sglang](https://github.com/Hangzhi/diffusion-jev-sglang)** — A Jev-like decision engine powered by DiffusionGemma and SGLang. Jev with eyes.
-  <sub>`Jev-like alternative` · ★8 · hangzhi · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[jcm-router](https://github.com/adarshmishra07/jcm-router)** — Local proxy that picks the Claude model and effort per message using TypeSafe Jev. Routes subagents, leaves your cached main chat alone.
   <sub>`Project` · ★8 · adarshmishra07 · `TS`</sub>
@@ -609,23 +621,20 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-android](https://github.com/dougsong/jev-android)** — A Kotlin Android SDK for UI automation powered by TypeSafe Jev, with an accessibility runtime and sample app.
   <sub>`SDK` · ★8 · dougsong · `Kt`</sub>
 
+- **[jev-mcp](https://github.com/arunav25/jev-mcp)** — Connect JEV to MCP clients and compare its judgments against general-purpose LLMs using shared datasets and measurable accuracy.
+  <sub>`Plugin` · ★8 · arunav25 · `JS`</sub>
+
 - **[jev-minesweeper](https://github.com/comoc/jev-minesweeper)** — TypeSafe Jev (System One) にブラウザ上のマインスイーパーを解かせるデモ
   <sub>`Project` · ★8 · comoc · `JS` · ⚠ `no licence`</sub>
+
+- **[jev-realtime-trading](https://github.com/rthomas24/jev-realtime-trading)** — Paper trading agents on a live tape, decided every second by TypeSafe's Jev (System One). Electron desktop app.
+  <sub>`Project` · ★8 · rthomas24 · `TS`</sub>
 
 - **[jevgo](https://github.com/devbackend/jevgo)** — Unofficial Go client for the TypeSafe AI System One API (Jev) — typed questions in, calibrated answers out.
   <sub>`SDK` · ★8 · devbackend · `Go`</sub>
 
-- **[jevplayspokemon](https://github.com/anxkhn/JevPlaysPokemon)** — Jev plays Generation 3 Pokémon via Showdown and a real FireRed ROM.
-  <sub>`Project` · ★8 · anxkhn · `TS`</sub>
-
-- **[soupbase](https://github.com/spoonnotfound/soupbase)** — Jev x 海龟汤
-  <sub>`Project` · ★8 · spoonnotfound · `TS`</sub>
-
 - **[ai-elo-ranker](https://github.com/opaielsheikh/ai-elo-ranker)** — High-speed recursive AI Elo tournament engine powered by Jev and Swiss matchmaking
   <sub>`Project` · ★7 · opaielsheikh · `Py` · ⚠ `no licence`</sub>
-
-- **[go-system-one](https://github.com/rcarmo/go-system-one)** — when a gopher met Jev
-  <sub>`SDK` · ★7 · rcarmo · `Go`</sub>
 
 - **[jev-benchmark](https://github.com/wondertwins/jev-benchmark)** — Benchmarks and a playground for TypeSafe's Jev (System One) model: chess, and who-is-the-player-talking-to for speech-to-text game NPCs
   <sub>`Benchmark` · ★7 · wondertwins · `Py`</sub>
@@ -635,9 +644,6 @@ Every catalogued example of this decision — 451 of them, official first, then 
 
 - **[jev-mcp](https://github.com/rashedInt32/jev-mcp)** — MCP server exposing TypeSafe Jev as typed, calibrated judgment tools: classify, score, check, batched ask. Ships as a Claude Code plugin.
   <sub>`Plugin` · ★7 · rashedint32 · `TS`</sub>
-
-- **[jev-mcp](https://github.com/arunav25/jev-mcp)** — Connect JEV to MCP clients and compare its judgments against general-purpose LLMs using shared datasets and measurable accuracy.
-  <sub>`Plugin` · ★7 · arunav25 · `JS`</sub>
 
 - **[jev-t-rex-runner](https://github.com/joshlarsen/jev-t-rex-runner)** — Chrome dino game played by Typesafe AI Jev model
   <sub>`Project` · ★7 · joshlarsen · `JS`</sub>
@@ -656,6 +662,9 @@ Every catalogued example of this decision — 451 of them, official first, then 
 
 - **[mcts-agent](https://github.com/lhemerly/mcts-agent)** — Discriminative Monte Carlo Tree Search using TypeSafe Jev System One Primitives and Gemini
   <sub>`Project` · ★7 · lhemerly · `Py`</sub>
+
+- **[rubikjev](https://github.com/0xtrou/rubikjev)** — Challenge the Jev's intelligence in Rubik Cube puzzles
+  <sub>`Project` · ★7 · 0xtrou · `TS` · ⚠ `no licence`</sub>
 
 - **[secondlayer](https://github.com/ryanwaits/secondlayer)** — Decoded Stacks data in your own database. Self-hosted.
   <sub>`Project` · ★7 · ryanwaits · `TS`</sub>
@@ -681,14 +690,8 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-little-airways](https://github.com/lbotinelly/jev-little-airways)** — A show-and-tell capability study for Jev, TypeSafe's System One decision model.
   <sub>`Benchmark` · ★6 · lbotinelly · `TS`</sub>
 
-- **[jev-realtime-trading](https://github.com/rthomas24/jev-realtime-trading)** — Paper trading agents on a live tape, decided every second by TypeSafe's Jev (System One). Electron desktop app.
-  <sub>`Project` · ★6 · rthomas24 · `TS`</sub>
-
 - **[jev-sdk-java](https://github.com/luigivis/jev-sdk-java)** — Type-safe Java 21 client for the TypeSafe AI Jev (System One) decision API
   <sub>`SDK` · ★6 · luigivis · `Java`</sub>
-
-- **[jev-search](https://github.com/larguesa/jev-search)** — Experimental semantic line search with TypeSafe Jev via OpenRouter. Python CLI with no runtime dependencies.
-  <sub>`Project` · ★6 · larguesa · `Py`</sub>
 
 - **[n8n-nodes-jev](https://github.com/vibe-with-me-tools/n8n-nodes-jev)** — Helper n8n community node for Jev by TypeSafe. Classify, route, and score text with questions you define, and get a probability for every answer so unsure items can go to review.
   <sub>`Plugin` · ★6 · vibe-with-me-tools · `TS`</sub>
@@ -698,6 +701,12 @@ Every catalogued example of this decision — 451 of them, official first, then 
 
 - **[typesafeai.net](https://github.com/Hawxy/TypeSafeAI.Net)** — .NET SDK for the TypeSafe AI platform
   <sub>`SDK` · ★6 · hawxy · `C#`</sub>
+
+- **[btc-jev-signal](https://github.com/WebGrga/btc-jev-signal)** — Experimental multi-horizon BTC signal generator using TypeSafe Jev probabilities and Binance market data.
+  <sub>`Project` · ★5 · webgrga · `TS` · ⚠ `no licence`</sub>
+
+- **[cu-Jev](https://github.com/dtunai/cu-Jev)** — cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible benchmarks.
+  <sub>`Jev-like alternative` · ★5 · dtunai · `C` · ⚠ `not Jev itself`</sub>
 
 - **[decisions-judge-mcp](https://github.com/clouatre-labs/decisions-judge-mcp)** — Typed decisions for AI agents as an MCP tool: yes/no probability (noul), choice, and score in one fast request. Backed by the TypeSafe System One model.
   <sub>`Plugin` · ★5 · clouatre-labs · `JS`</sub>
@@ -709,7 +718,7 @@ Every catalogued example of this decision — 451 of them, official first, then 
   <sub>`Project` · ★5 · arcj137442 · `TS`</sub>
 
 - **[jev-arena-nanojev](https://github.com/liao96312/jev-arena-nanojev)** — 完全本地的 NanoJev 网格决策游戏实验场，支持中文 Pygame、多关卡与 GTX 1660S 训练
-  <sub>`Project` · ★5 · liao96312 · `Py` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★5 · liao96312 · `Py`</sub>
 
 - **[jev-go](https://github.com/Gaurav-Gosain/jev-go)** — Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text
   <sub>`SDK` · ★5 · gaurav-gosain · `Go`</sub>
@@ -723,6 +732,9 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-system-one](https://github.com/haseeb-heaven/jev-system-one)** — A polished OpenAI + TypeSafe Jev terminal interface for answers with transparent decision reports
   <sub>`Project` · ★5 · haseeb-heaven · `Py`</sub>
 
+- **[jev-wingman](https://github.com/1104480426-hash/jev-wingman)** — 基于 Jev 的聊天决策辅助，不挑 App（QQ / 微信 / 飞书皆可）· An on-device chat co-pilot that returns typed verdicts instead of prose, built on Jev
+  <sub>`Project` · ★5 · 1104480426-hash · `Java`</sub>
+
 - **[jevlang](https://github.com/sumanmichael/jevlang)** — The simplest way to write decision workflows in Python. Python with a smart if.
   <sub>`SDK` · ★5 · sumanmichael · `Py`</sub>
 
@@ -731,9 +743,6 @@ Every catalogued example of this decision — 451 of them, official first, then 
 
 - **[OpenJev](https://github.com/xingwudao/OpenJev)** — OpenJev: an independent Jev-inspired System One decision API based on TypeSafe.ai concepts. Choice, score and noul primitives, local mock server, Python and TypeScript SDKs. Real inference planned; not affiliated with TypeSafe AI.
   <sub>`Jev-like alternative` · ★5 · xingwudao · `Py` · ⚠ `not Jev itself` `no licence`</sub>
-
-- **[rubikjev](https://github.com/0xtrou/rubikjev)** — Challenge the Jev's intelligence in Rubik Cube puzzles
-  <sub>`Project` · ★5 · 0xtrou · `TS` · ⚠ `no licence`</sub>
 
 - **[typesafe_sdk (Elixir)](https://github.com/nshkrdotcom/typesafe_sdk)** — An Elixir port of the official SDK.
   <sub>`SDK` · ★5 · nshkrdotcom · `Ex`</sub>
@@ -747,14 +756,8 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[auto-mode-for-paseo](https://github.com/obetomuniz/auto-mode-for-paseo)** — A Paseo provider that uses TypeSafe Jev to route each Codex turn.
   <sub>`Plugin` · ★4 · obetomuniz · `TS`</sub>
 
-- **[btc-jev-signal](https://github.com/WebGrga/btc-jev-signal)** — Experimental multi-horizon BTC signal generator using TypeSafe Jev probabilities and Binance market data.
-  <sub>`Project` · ★4 · webgrga · `TS` · ⚠ `no licence`</sub>
-
 - **[cairn-jev-lab](https://github.com/Cairn-ink/cairn-jev-lab)** — Test what your AI should remember. An experimental, source-aware memory admission evaluator powered by Jev, with editable cases and inspectable results.
   <sub>`Project` · ★4 · cairn-ink · `JS`</sub>
-
-- **[cu-Jev](https://github.com/dtunai/cu-Jev)** — cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible benchmarks.
-  <sub>`Jev-like alternative` · ★4 · dtunai · `C` · ⚠ `not Jev itself`</sub>
 
 - **[jev-chat](https://github.com/adhyaay-karnwal/jev-chat)** — A chatbot from typed Jev decisions: hierarchical speculative decoding over System One probabilities.
   <sub>`Project` · ★4 · adhyaay-karnwal · `Py`</sub>
@@ -762,8 +765,8 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-grug](https://github.com/mkotlikov/jev-grug)** — Helping JEV speak <3
   <sub>`Project` · ★4 · mkotlikov · `TS`</sub>
 
-- **[jev-wingman](https://github.com/1104480426-hash/jev-wingman)** — 基于 Jev 的聊天决策辅助，不挑 App（QQ / 微信 / 飞书皆可）· An on-device chat co-pilot that returns typed verdicts instead of prose, built on Jev
-  <sub>`Project` · ★4 · 1104480426-hash · `Java`</sub>
+- **[jev-x-kit](https://github.com/Kadihx/jev-x-kit)** — Offline $0 decision layer for coding agents: Choice/Score/Noul primitives, BELKI confidence gatekeeper, ultra-planning, red-teaming, research and RLVR self-improvement -- as an MCP server + CLI + Claude Code skill.
+  <sub>`Project` · ★4 · kadihx · `TS`</sub>
 
 - **[jevseek](https://github.com/blingdivinity/jevseek)** — DeepSeek proposes the next token, TypeSafe's Jev chooses it: a decision model used as a sampler
   <sub>`Project` · ★4 · blingdivinity · `Py`</sub>
@@ -774,11 +777,17 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jevtok](https://github.com/LabGuy94/jevtok)** — Exact token counting and request-cost prediction for TypeSafe's Jev (tiktoken-style)
   <sub>`Project` · ★4 · labguy94 · `Py`</sub>
 
+- **[new-api-plugin-typesafe](https://github.com/FFatTiger/new-api-plugin-typesafe)** — TypeSafe AI System One (Jev) task plugin for QuantumNous/new-api — native /v1/systemone, synchronous evaluation, token billing
+  <sub>`Plugin` · ★4 · ffattiger · `JS`</sub>
+
 - **[pydantic-jev-examples](https://github.com/adtyavrdhn/pydantic-jev-examples)** — Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each
   <sub>`Project` · ★4 · adtyavrdhn · `Py` · ⚠ `no licence`</sub>
 
 - **[rust-sysone](https://github.com/zcoder-run/rust-sysone)** — System One TypeSafe AI Rust Client (unofficial)
   <sub>`Project` · ★4 · zcoder-run · `Rs`</sub>
+
+- **[skill-router](https://github.com/lomeshdutta/skill-router)** — Tell Claude Code which installed skill a session needs, using Jev (TypeSafe AI) for the decision and skills.sh for discovery.
+  <sub>`Plugin` · ★4 · lomeshdutta · `Py`</sub>
 
 - **[system-one-chess](https://github.com/dperezcabrera/ai-chess-lab)** — Chess against Jev, TypeSafe AI's System One model, through OpenRouter. Built with the pico framework.
   <sub>`Project` · ★4 · dperezcabrera · `Py`</sub>
@@ -809,6 +818,9 @@ Every catalogued example of this decision — 451 of them, official first, then 
 
 - **[dbt_jev](https://github.com/smithclay/dbt_jev)** — use jev in dbt
   <sub>`Plugin` · ★3 · smithclay · `Py`</sub>
+
+- **[decision-bench](https://github.com/Hanno-Labs/decision-bench)** — Open benchmark runtime for document-grounded decision models
+  <sub>`Benchmark` · ★3 · hanno-labs · `Py`</sub>
 
 - **[emoji-jev](https://github.com/colinmcdermott/emoji-jev)** — Emoji autocomplete at the speed of typing. TypeSafe AI Jev on a Whop-hosted TanStack Start app.
   <sub>`Project` · ★3 · colinmcdermott · `TS` · ⚠ `no licence`</sub>
@@ -843,6 +855,9 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-freeform](https://github.com/kesku/jev-freeform)** — An observable raw-character chat experiment powered entirely by TypeSafe Jev Choice
   <sub>`Project` · ★3 · kesku · `JS` · ⚠ `no licence`</sub>
 
+- **[jev-go-sdk](https://github.com/ajayk/jev-go-sdk)** — Dependency-free Go client for TypeSafe AI's System One API and the Jev model
+  <sub>`SDK` · ★3 · ajayk · `Go`</sub>
+
 - **[jev-gomoku](https://github.com/XieChengYuan/jev-gomoku)** — 弈瞬：双 Jev 五子棋九宫格输入实验台，逐手查看模型决策，支持真实对局回放与实时对战。
   <sub>`Project` · ★3 · xiechengyuan · `JS` · ⚠ `no licence`</sub>
 
@@ -864,23 +879,23 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-skills](https://github.com/laguagu/jev-skills)** — Practical agent skills and examples for building with Jev. API setup, routing, ranking, and evidence checks.
   <sub>`Plugin` · ★3 · laguagu · `JS`</sub>
 
-- **[jev-x-kit](https://github.com/Kadihx/jev-x-kit)** — Offline $0 decision layer for coding agents: Choice/Score/Noul primitives, BELKI confidence gatekeeper, ultra-planning, red-teaming, research and RLVR self-improvement -- as an MCP server + CLI + Claude Code skill.
-  <sub>`Project` · ★3 · kadihx · `TS`</sub>
-
 - **[jev4mellea](https://github.com/SoundBlaster/Jev4Mellea)** — Jev adapter for Mellea
   <sub>`Integration` · ★3 · soundblaster · `Py`</sub>
 
-- **[new-api-plugin-typesafe](https://github.com/FFatTiger/new-api-plugin-typesafe)** — TypeSafe AI System One (Jev) task plugin for QuantumNous/new-api — native /v1/systemone, synchronous evaluation, token billing
-  <sub>`Plugin` · ★3 · ffattiger · `JS`</sub>
+- **[jevgo](https://github.com/fgn/jevgo)** — Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation
+  <sub>`SDK` · ★3 · fgn · `Go`</sub>
+
+- **[jevsbistro](https://github.com/andrewsilber/JevsBistro)** — 3D restaurant service simulator for benchmarking low-latency decision models
+  <sub>`Benchmark` · ★3 · andrewsilber · `TS`</sub>
 
 - **[origin-civilization](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)** — AI life-and-civilization simulation: TypeSafe Jev makes every decision (typed, probabilistic, auditable); LLMs plan — OpenAI-compatible APIs, local models (Ollama, LM Studio), Claude Code, Codex.
   <sub>`Benchmark` · ★3 · jacquesgariepy · `TS`</sub>
 
+- **[research_desk](https://github.com/0xnairb/research_desk)** — TypeSafe Jev demonstration for new analyzation — experimenting with Jev for fast analysis of news and tickers
+  <sub>`Project` · ★3 · 0xnairb · `Py` · ⚠ `no licence`</sub>
+
 - **[should-ai-kill-us-all](https://github.com/hellogumbo/should-ai-kill-us-all)** — We ask Jev, TypeSafe AI's System One model, whether AI should kill us all. Every ten minutes. Using the actual headlines.
   <sub>`Project` · ★3 · hellogumbo · `JS`</sub>
-
-- **[skill-router](https://github.com/lomeshdutta/skill-router)** — Tell Claude Code which installed skill a session needs, using Jev (TypeSafe AI) for the decision and skills.sh for discovery.
-  <sub>`Plugin` · ★3 · lomeshdutta · `Py`</sub>
 
 - **[sqlite3-jev](https://github.com/mattn/sqlite3-jev)** — SQLite extension that calls TypeSafe Jev (or tensai serve) from SQL
   <sub>`Plugin` · ★3 · mattn · `C`</sub>
@@ -911,6 +926,9 @@ Every catalogued example of this decision — 451 of them, official first, then 
 
 - **[ailerix](https://github.com/tylerjharden/ailerix)** — Type-safe model router. Jev (System One) banks each request to a typed catalog route.
   <sub>`Project` · ★2 · tylerjharden · `TS` · ⚠ `no licence`</sub>
+
+- **[audio-jevlike](https://github.com/alperiox/audio-jevlike)** — Prosodia: an audio-native Jev-shaped decision model — typed calibrated decisions from speech, no ASR
+  <sub>`Jev-like alternative` · ★2 · alperiox · `Py` · ⚠ `not Jev itself` `no licence`</sub>
 
 - **[barrunto](https://github.com/elpumberto/barrunto)** — A Chrome extension that brings TypeSafe's Jev to X.com to analyze posts as you browse
   <sub>`Plugin` · ★2 · elpumberto · `TS`</sub>
@@ -972,12 +990,6 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jevclient](https://github.com/AboveColin/jevclient)** — Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.
   <sub>`SDK` · ★2 · abovecolin · `Py`</sub>
 
-- **[jevgo](https://github.com/fgn/jevgo)** — Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation
-  <sub>`SDK` · ★2 · fgn · `Go`</sub>
-
-- **[jevsbistro](https://github.com/andrewsilber/JevsBistro)** — 3D restaurant service simulator for benchmarking low-latency decision models
-  <sub>`Benchmark` · ★2 · andrewsilber · `TS`</sub>
-
 - **[JevTape](https://github.com/Hugo-DDT/JevTape)** — A record-and-replay tool for Jev decisions: a CLI, a local proxy and JSON tapes, with replay fully offline.
   <sub>`Project` · ★2 · hugo-ddt · `Java`</sub>
 
@@ -989,9 +1001,6 @@ Every catalogued example of this decision — 451 of them, official first, then 
 
 - **[pi-agent-foreman](https://github.com/alexshpunt/pi-agent-foreman)** — Send Pi agents back to work when they stop before the job is done.
   <sub>`Project` · ★2 · alexshpunt · `TS`</sub>
-
-- **[research_desk](https://github.com/0xnairb/research_desk)** — TypeSafe Jev demonstration for new analyzation — experimenting with Jev for fast analysis of news and tickers
-  <sub>`Project` · ★2 · 0xnairb · `Py` · ⚠ `no licence`</sub>
 
 - **[s1_ruby](https://github.com/innocentdiaz/s1_ruby)** — Makes S1-model 'measurement' (and the collapse that follows it) a Ruby primitive.
   <sub>`SDK` · ★2 · innocentdiaz · `Rb`</sub>
@@ -1023,9 +1032,6 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[askjev](https://github.com/pZacca/askjev)** — Unofficial MCP server for Jev (Typesafe AI)
   <sub>`Plugin` · ★1 · pzacca · `TS`</sub>
 
-- **[audio-jevlike](https://github.com/alperiox/audio-jevlike)** — Prosodia: an audio-native Jev-shaped decision model — typed calibrated decisions from speech, no ASR
-  <sub>`Jev-like alternative` · ★1 · alperiox · `Py` · ⚠ `not Jev itself` `no licence`</sub>
-
 - **[can-jev-bayes](https://github.com/TomRichner/can-jev-bayes)** — Jev Bayes, No? Testing TypeSafe AI's Jev against Bayesian-optimal strategies, and testing if Jev can effectivly use Bayesian priors.
   <sub>`Benchmark` · ★1 · tomrichner · `Py`</sub>
 
@@ -1034,9 +1040,6 @@ Every catalogued example of this decision — 451 of them, official first, then 
 
 - **[decido](https://github.com/yairshy/decido)** — Probabilistic decisions for Python. Use Jev or bring your own provider; crawl with Playwright.
   <sub>`Integration` · ★1 · yairshy · `Py`</sub>
-
-- **[decision-bench](https://github.com/Hanno-Labs/decision-bench)** — Open benchmark runtime for document-grounded decision models
-  <sub>`Benchmark` · ★1 · hanno-labs · `Py`</sub>
 
 - **[decision-circuits](https://github.com/Barneyjm/decision-circuits)** — Decision circuits: typed questions to a System One model, calibrated probabilities back, gates in code. Zero-dependency Python SDK with LangChain, OpenAI Agents, and Claude Agent SDK integrations.
   <sub>`SDK` · ★1 · barneyjm · `Py`</sub>
@@ -1059,9 +1062,6 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-go](https://github.com/guillemus/jev-go)** — Unofficial Go SDK for TypeSafe AI's Jev API
   <sub>`SDK` · ★1 · guillemus · `Go` · ⚠ `no licence`</sub>
 
-- **[jev-go-sdk](https://github.com/ajayk/jev-go-sdk)** — Dependency-free Go client for TypeSafe AI's System One API and the Jev model
-  <sub>`SDK` · ★1 · ajayk · `Go`</sub>
-
 - **[jev-jp-address](https://github.com/smasato/jev-jp-address)** — Jev (TypeSafe) 性能評価プロジェクト — 日本郵便 KEN_ALL をマスタに、AI SDK 経由の Jev が住所のあいまい一致にどこまで使えるかを検証
   <sub>`SDK` · ★1 · smasato · `TS` · ⚠ `no licence`</sub>
 
@@ -1070,6 +1070,9 @@ Every catalogued example of this decision — 451 of them, official first, then 
 
 - **[jev-lab](https://github.com/danielhirt/jev-lab)** — Experiments on TypeSafe Jev (System One decision model) via OpenRouter: repeatability, perturbation, and LLM baseline comparison
   <sub>`Benchmark` · ★1 · danielhirt · `TS` · ⚠ `no licence`</sub>
+
+- **[jev-measured](https://github.com/WallerChen/jev-measured)** — Measured cost, latency and raw output from the live Jev API (TypeSafe AI System One model) across 8 use cases — reproducible
+  <sub>`Project` · ★1 · wallerchen · `Py`</sub>
 
 - **[jev-pick-and-place-study](https://github.com/tryaksh/jev-pick-and-place-study)** — A small reproducible MuJoCo pilot comparing Jev, Claude Haiku, and reactive rules for pick-and-place.
   <sub>`Project` · ★1 · tryaksh · `Py` · ⚠ `no licence`</sub>
@@ -1224,9 +1227,6 @@ Every catalogued example of this decision — 451 of them, official first, then 
 - **[jev-lab](https://github.com/Menny1337/jev-lab)** — TypeScript experiments, evaluations, and latency benchmarks for TypeSafe's Jev model
   <sub>`Benchmark` · ★0 · menny1337 · `TS` · ⚠ `no licence`</sub>
 
-- **[jev-measured](https://github.com/WallerChen/jev-measured)** — Measured cost, latency and raw output from the live Jev API (TypeSafe AI System One model) across 8 use cases — reproducible
-  <sub>`Project` · ★0 · wallerchen · `Py`</sub>
-
 - **[jev-no-enem](https://github.com/patryckalves/jev-no-enem)** — Reproducible benchmark evaluating TypeSafe AI's Jev (System One paradigm) on Brazil's ENEM 2025 standardized exam. Evaluates typed decision-making, domain-specific accuracy, and RLCD uncertainty calibration against open LLM baselines with an interactive GitHub Pages dashboard.
   <sub>`Benchmark` · ★0 · patryckalves · `Py` · ⚠ `no licence`</sub>
 
@@ -1273,7 +1273,7 @@ Every catalogued example of this decision — 451 of them, official first, then 
   <sub>`Integration` · ★0 · codeitlikemiley · `Rs`</sub>
 
 - **[tinyjevclient](https://github.com/tinyhumansai/tinydecisionmodels)** — An integration with jev by typesafe.ai in Rust
-  <sub>`Integration` · ★0 · tinyhumansai · `Rs`</sub>
+  <sub>`Integration` · ★0 · tinyhumansai · `Rs` · ⚠ `archived`</sub>
 
 - **[Tracing Jev calls with Langfuse](https://langfuse.com/integrations/model-providers/typesafe)** — The only platform with dedicated Jev observability: an OpenInference instrumentor that traces every decision call over OpenTelemetry.
   <sub>`Integration` · `Py` · `choice` · `score` · `noul`</sub>
@@ -1318,7 +1318,7 @@ Every catalogued example of this decision — 451 of them, official first, then 
   <sub>`Project` · ★0 · aliceroselia · `Py`</sub>
 
 - **[awesome-jev (yibie)](https://github.com/yibie/awesome-jev)** — Currently the most-starred sibling directory in this space.
-  <sub>`Project` · ★2,199 · ⚠ `no licence`</sub>
+  <sub>`Project` · ★2,324 · ⚠ `no licence`</sub>
 
 - **[A new kind of AI model from a ChatGPT inventor is thrilling developers](https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/)** — The only launch coverage with first-hand developer quotes rather than vendor figures, including a caution that interpreting the thresholds is now your job.
   <sub>`Article` · Tim Fernholz</sub>

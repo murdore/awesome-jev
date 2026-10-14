@@ -13,40 +13,40 @@ Every catalogued example of this decision — 43 of them, official first, then r
   <sub>`Official docs` · `Py` · `choice`</sub>
 
 - **[claude-code-templates: three Jev plugins](https://github.com/davila7/claude-code-templates)** — Three independently installable Claude Code plugins — guardrails, model router and skill suggestion — each with its own hooks and tests.
-  <sub>`Plugin` · ★32,445 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★32,631 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[@langchain/typesafe](https://github.com/langchain-ai/langchainjs)** — The JavaScript counterpart of the LangChain integration, with the same classifier and middleware shapes.
-  <sub>`Integration` · ★18,245 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★18,267 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — Nine agent skills plus a CLI covering model routing, memory filtering, turn retention, one-of-many skill selection and next-action choice.
-  <sub>`Plugin` · ★1,044 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★1,114 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)** — Pre-screens code review with Jev to surface high-risk changes for a more expensive model or a person, with a local dashboard.
-  <sub>`Project` · ★675 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★685 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jevrouter](https://github.com/BillionsBobby/JevRouter)** — A router for models, tools and subagents.
-  <sub>`Project` · ★434 · billionsbobby · `TS`</sub>
+  <sub>`Project` · ★463 · billionsbobby · `TS`</sub>
 
 - **[Astra-Ares](https://github.com/miuuyy/Astra-Ares)** — Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.
-  <sub>`Plugin` · ★300 · miuuyy · `JS`</sub>
+  <sub>`Plugin` · ★306 · miuuyy · `JS`</sub>
 
 - **[jev-codex-router](https://github.com/0xNatoshi/jev-codex-router)** — Judges how hard a coding turn is, then picks the model tier, reasoning depth and speed mode to match.
-  <sub>`Plugin` · ★273 · `JS` · `choice` · `score` · ⚠ `archived`</sub>
+  <sub>`Plugin` · ★274 · `JS` · `choice` · `score` · ⚠ `archived`</sub>
 
 - **[jev-eval-agent](https://github.com/vinilana/jev-eval-agent)** — An agent that routes evaluation work through typed decisions.
-  <sub>`Project` · ★106 · vinilana · `TS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★107 · vinilana · `TS` · ⚠ `no licence`</sub>
 
 - **[stuntd](https://github.com/bladedevoff/stuntd)** — Local proxy that learns your app's typed LLM decisions and answers them with a Laya head. Jev and OpenAI compatible.
-  <sub>`Project` · ★68 · bladedevoff · `Py`</sub>
+  <sub>`Project` · ★70 · bladedevoff · `Py`</sub>
 
 - **[jev-use](https://github.com/shitianfang/jev-use)** — An agent plugin that hands steps needing no text output to Jev instead of the main model.
-  <sub>`Plugin` · ★51 · shitianfang · `JS`</sub>
+  <sub>`Plugin` · ★60 · shitianfang · `JS`</sub>
+
+- **[jevonian](https://github.com/xinyao27/jevonian)** — A local endpoint between a coding agent and its providers that routes each turn to the most cost-effective capable model, manages quota and cache, and logs every routing decision to a local ledger.
+  <sub>`Project` · ★19 · xinyao27 · `TS`</sub>
 
 - **[a3m-router](https://github.com/Das-rebel/a3m-router)** — ⚡ Adaptive multi-model LLM router — 80+ providers, Jev System One single-pass routing (model=jev-auto), pheromone-trail failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router
   <sub>`Project` · ★16 · das-rebel · `TS`</sub>
-
-- **[jevonian](https://github.com/xinyao27/jevonian)** — A local endpoint between a coding agent and its providers that routes each turn to the most cost-effective capable model, manages quota and cache, and logs every routing decision to a local ledger.
-  <sub>`Project` · ★16 · xinyao27 · `TS`</sub>
 
 - **[pi-jev-router](https://github.com/mejiasd3v/pi-jev-router)** — Automatic model routing for Pi using TypeSafe's Jev through Vercel AI Gateway
   <sub>`Project` · ★16 · mejiasd3v · `JS`</sub>
@@ -66,29 +66,29 @@ Every catalogued example of this decision — 43 of them, official first, then r
 - **[slo-router](https://github.com/zeeshan8281/slo-router)** — SLO-aware LLM inference router with Jev decisions, live queue metrics, counterfactual evaluation, and reproducible latency/cost benchmarks
   <sub>`Project` · ★10 · zeeshan8281 · `Py` · ⚠ `no licence`</sub>
 
+- **[Codex Jev Router](https://github.com/suenot/codex-jev-router)** — Uses Jev Choice and Noul judgments on short task summaries to select a Codex subagent model and reasoning effort with a Sol fallback.
+  <sub>`Project` · ★9 · suenot · `JS` · `choice` · `noul` · ⚠ `AI-written`</sub>
+
+- **[jev-codex-bridge](https://github.com/ansidium/jev-codex-bridge)** — Model and reasoning routing for Codex Desktop and CLI, with a Windows service and validated updates
+  <sub>`Plugin` · ★9 · ansidium · `JS`</sub>
+
 - **[jev-engineering](https://github.com/eugeniughelbur/jev-engineering)** — The decision layer for AI agents. Typed, calibrated decisions in ~400ms for two hundredths of a cent: gate tool calls, route models, rank options. With the 300-call injection test that found what breaks.
   <sub>`Project` · ★9 · eugeniughelbur · `Py`</sub>
 
 - **[jev-auto-router](https://github.com/miniLV/Jev-Auto-Router)** — Jev Auto Router (Jev Router): experimental per-call GPT model routing for Codex via TypeSafe Jev and a local Responses proxy, with independent task verification.
   <sub>`Plugin` · ★8 · minilv · `TS`</sub>
 
-- **[jev-codex-bridge](https://github.com/ansidium/jev-codex-bridge)** — Model and reasoning routing for Codex Desktop and CLI, with a Windows service and validated updates
-  <sub>`Plugin` · ★8 · ansidium · `JS`</sub>
-
-- **[Codex Jev Router](https://github.com/suenot/codex-jev-router)** — Uses Jev Choice and Noul judgments on short task summaries to select a Codex subagent model and reasoning effort with a Sol fallback.
-  <sub>`Project` · ★7 · suenot · `JS` · `choice` · `noul` · ⚠ `AI-written`</sub>
+- **[jev-model-router](https://github.com/satviksinha/jev-model-router)** — Model router for Claude Code using Jev
+  <sub>`Plugin` · ★7 · satviksinha · `TS`</sub>
 
 - **[dsh-plugin-jev-effort-selector](https://github.com/justhalfbit/dsh-plugin-jev-effort-selector)** — A DeepSeek Harness plugin that picks the reasoning level automatically: Jev judges how much thought each message deserves, follow-ups inherit the topic's depth, low confidence rounds up, and any failure falls back silently.
-  <sub>`Plugin` · ★7 · justhalfbit · `JS`</sub>
+  <sub>`Plugin` · ★6 · justhalfbit · `JS`</sub>
 
-- **[jev-model-router](https://github.com/satviksinha/jev-model-router)** — Model router for Claude Code using Jev
-  <sub>`Plugin` · ★5 · satviksinha · `TS`</sub>
+- **[jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)** — Smart Codex overlay with JEV model routing, context optimization & Kanban automation. Reduce tokens, keep control
+  <sub>`Plugin` · ★5 · charlyhno-eng · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-smart-router](https://github.com/rmosleydb/jev-smart-router)** — JEV Smart Router — a Databricks App that uses TypeSafe JEV to pick which model answers each message, then runs inference on the chosen Databricks Foundation Model API endpoint.
   <sub>`Project` · ★5 · rmosleydb · `Py`</sub>
-
-- **[jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)** — Smart Codex overlay with JEV model routing, context optimization & Kanban automation. Reduce tokens, keep control
-  <sub>`Plugin` · ★4 · charlyhno-eng · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-harness-router](https://github.com/JoacoMarc/jev-harness-router)** — Per-turn router for agent harnesses: one 350ms Jev call picks the model tier, effort, tools and skill, behind a hard deadline with a regex fallback. Claude Agent SDK adapter included.
   <sub>`SDK` · ★4 · joacomarc · `TS`</sub>

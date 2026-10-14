@@ -19,10 +19,10 @@ Every catalogued example of this decision — 16 of them, official first, then r
   <sub>`Official docs` · `Py`</sub>
 
 - **[jev-reviewer](https://github.com/choxos/jev-reviewer)** — Data extraction for systematic reviews, quoted from the papers. Ask a trial report and its supplements your extraction form or a RoB 2, ROBINS-I, QUADAS-2 or TIDieR template; Jev points at the lines, every answer is a verbatim quote with its page, you check it and export the table. Files stay i
-  <sub>`Project` · ★44 · choxos · `JS`</sub>
+  <sub>`Project` · ★47 · choxos · `JS`</sub>
 
 - **[smart-paste](https://github.com/nomanjack/smart-paste)** — Fills form fields from pasted text: the form's heading, labels and your text go to TypeSafe, and it inserts the values it matches for you to review before submitting.
-  <sub>`Plugin` · ★43 · nomanjack · `JS`</sub>
+  <sub>`Plugin` · ★45 · nomanjack · `JS`</sub>
 
 - **[jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)** — Open-source macOS AI computer use and native GUI automation on Apple silicon. Jev + OmniParser CoreML + Apple Vision OCR. Bring your own OpenRouter, Vercel AI Gateway, or TypesafeAI token.
   <sub>`Project` · ★24 · jcpsimmons · `JS`</sub>
@@ -42,11 +42,11 @@ Every catalogued example of this decision — 16 of them, official first, then r
 - **[jevsume](https://github.com/unownone/jevsume)** — ATS-friendly resume review powered by Jev (TypeSafe System One). The frontend extracts resume text the way a parser would, then a Cloudflare Worker runs typed JEV questions and composes a JevScore.
   <sub>`Project` · ★3 · unownone · `TS` · ⚠ `no licence`</sub>
 
+- **[ask-jev](https://github.com/logicrw/ask-jev)** — Ultra-fast, fail-open advisory decisions and verbatim extractive reading view for AI coding agents and CLI pipelines
+  <sub>`Project` · ★2 · logicrw · `Py`</sub>
+
 - **[typesafe-ai-jev-example](https://github.com/ItBayMax/typesafe-ai-jev-example)** — Hands-on demos for TypeSafe's Jev (System One) model: six runnable examples and four field notes. Runs offline with no API key; samples/ holds real measured output from jev-1.13.0.
   <sub>`Project` · ★2 · itbaymax · `Py`</sub>
-
-- **[ask-jev](https://github.com/logicrw/ask-jev)** — Ultra-fast, fail-open advisory decisions and verbatim extractive reading view for AI coding agents and CLI pipelines
-  <sub>`Project` · ★1 · logicrw · `Py`</sub>
 
 - **[jev-data-questions](https://github.com/narulaskaran/jev-data-questions)** — Bring a dataset and see the right chart: the UI inspects the CSV's shape and proposes insights, and Jev fills in the values.
   <sub>`Project` · ★0 · narulaskaran · `TS` · ⚠ `no licence`</sub>

@@ -19,10 +19,10 @@ _从杂乱文本中取出类型化字段 —— 靠在候选中选择，而不�
   <sub>`官方文档` · `Py`</sub>
 
 - **[jev-reviewer](https://github.com/choxos/jev-reviewer)** — 系统综述的数据抽取：让 Jev 从论文及其补充材料里按抽取表取值，并附原文引用。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★44 · choxos · `JS`</sub>
+  <sub>`开源项目` · ★47 · choxos · `JS`</sub>
 
 - **[smart-paste](https://github.com/nomanjack/smart-paste)** — 根据粘贴的文本自动填写表单：把表单标题、字段标签和你的文字交给 TypeSafe，插入匹配到的值，提交前由你检查。 <sub>(机翻)</sub>
-  <sub>`插件` · ★43 · nomanjack · `JS`</sub>
+  <sub>`插件` · ★45 · nomanjack · `JS`</sub>
 
 - **[jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)** — 开源的 macOS computer use 与原生 GUI 自动化，运行在 Apple 芯片上。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★24 · jcpsimmons · `JS`</sub>
@@ -42,11 +42,11 @@ _从杂乱文本中取出类型化字段 —— 靠在候选中选择，而不�
 - **[jevsume](https://github.com/unownone/jevsume)** — 由 Jev 驱动的 ATS 友好简历评审。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · unownone · `TS` · ⚠ `无许可证`</sub>
 
+- **[ask-jev](https://github.com/logicrw/ask-jev)** — 极快、失败即放行的建议式决策，以及面向 AI 编码智能体和 CLI 管道的逐字抽取式阅读视图。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★2 · logicrw · `Py`</sub>
+
 - **[typesafe-ai-jev-example](https://github.com/ItBayMax/typesafe-ai-jev-example)** — Jev 的动手演示：六个可运行示例与四则实战笔记。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★2 · itbaymax · `Py`</sub>
-
-- **[ask-jev](https://github.com/logicrw/ask-jev)** — 极快、失败即放行的建议式决策，以及面向 AI 编码智能体和 CLI 管道的逐字抽取式阅读视图。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★1 · logicrw · `Py`</sub>
 
 - **[jev-data-questions](https://github.com/narulaskaran/jev-data-questions)** — 带上数据集，看到合适的图表：界面检查 CSV 的结构并提出洞察，由 Jev 填入具体数值。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★0 · narulaskaran · `TS` · ⚠ `无许可证`</sub>
