@@ -7,25 +7,25 @@ _Decide which tool calls and results still matter so stale context can be droppe
 Every catalogued example of this decision — 34 of them, official first, then rows with code, then by stars. The same rows, with caveats, are in [the index](../../README.md#context-compaction); [the site](https://kydlikebtc.github.io/awesome-jev/?p=context-compaction&lang=en) can filter them further by language, primitive and kind.
 
 - **[Hermes Agent: Jev compaction evaluation](https://github.com/NousResearch/hermes-agent)** — Ported the Jev compaction approach, measured it against their shipping summariser, and published the conclusion not to adopt it.
-  <sub>`Benchmark` · ★253,630 · `Py` · `noul`</sub>
+  <sub>`Benchmark` · ★255,736 · `Py` · `noul`</sub>
 
 - **[jcode: memory recall without embeddings](https://github.com/1jehuang/jcode)** — Replaces the whole retrieval stack for memory recall — no embeddings, no BM25, no reranker — with one batched Noul per candidate memory.
-  <sub>`Project` · ★20,707 · `Rs` · `noul`</sub>
+  <sub>`Project` · ★21,087 · `Rs` · `noul`</sub>
 
 - **[fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)** — A Claude Code plugin that replaces the compaction summary with per-item decisions: stale tool calls are dropped or truncated, everything kept stays verbatim.
-  <sub>`Plugin` · ★7,625 · tamaratran · `TS` · `noul`</sub>
+  <sub>`Plugin` · ★7,725 · tamaratran · `TS` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — Nine agent skills plus a CLI covering model routing, memory filtering, turn retention, one-of-many skill selection and next-action choice.
-  <sub>`Plugin` · ★1,114 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★1,147 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[compact-adviser](https://github.com/kunchenguid/compact-adviser)** — "Work appears completed or recorded. Run /compact to save tokens."
-  <sub>`Project` · ★214 · kunchenguid · `TS`</sub>
+  <sub>`Project` · ★222 · kunchenguid · `TS`</sub>
 
 - **[jev-pruner](https://github.com/tamaratran/jev-pruner)** — Trims long shell output before the model sees it, asking one Noul per chunk.
-  <sub>`Plugin` · ★163 · tamaratran · `TS` · `noul`</sub>
+  <sub>`Plugin` · ★165 · tamaratran · `TS` · `noul`</sub>
 
 - **[Winnow](https://github.com/GhalebDweikat/winnow)** — Context garbage collection for Claude Code: when Read, Bash or Grep dump a wall of output, each chunk is judged for relevance to the current task.
-  <sub>`Plugin` · ★110 · `Py` · `noul`</sub>
+  <sub>`Plugin` · ★115 · `Py` · `noul`</sub>
 
 - **[save-token-jev-clean](https://github.com/IAmUnbounded/save-token-jev-clean)** — Portable, Jev-guided context compaction for coding agents: instead of an LLM rewriting old context into a lossy summary, Jev decides which tool calls and results still matter, and user and assistant text is kept verbatim.
   <sub>`Plugin` · ★81 · iamunbounded · `TS`</sub>
@@ -34,13 +34,13 @@ Every catalogued example of this decision — 34 of them, official first, then r
   <sub>`Plugin` · ★31 · compozy · `TS`</sub>
 
 - **[claude-jev](https://github.com/0x7067/claude-jev)** — Claude Code plugin: Jev for rule checks, verbatim compaction, and prompt routing
-  <sub>`Plugin` · ★24 · 0x7067 · `Py`</sub>
+  <sub>`Plugin` · ★25 · 0x7067 · `Py`</sub>
 
 - **[dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools)** — Jev judgment, not generation: prune long tool output, screen fetched pages for injected instructions, and gate completion claims inside DeepSeek Harness.
-  <sub>`Plugin` · ★14 · horusjiang · `TS`</sub>
+  <sub>`Plugin` · ★15 · horusjiang · `TS`</sub>
 
 - **[lcc](https://github.com/lucasmartins-ai/lcc)** — Local Context Compiler (lcc): clean, dedupe and compact prompt context before it reaches the model, then report every block dropped, the cache tokens a pass invalidates and when pruning pays off. Runs offline with a local 1K decision model. MIT, no API key, zero telemetry.
-  <sub>`Project` · ★12 · lucasmartins-ai · `Py`</sub>
+  <sub>`Project` · ★13 · lucasmartins-ai · `Py`</sub>
 
 - **[omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction)** — Verbatim Jev-scored context reduction for omp, over TypeSafe or OpenRouter
   <sub>`Project` · ★12 · jerryfane · `TS`</sub>
@@ -58,7 +58,7 @@ Every catalogued example of this decision — 34 of them, official first, then r
   <sub>`Plugin` · ★10 · nyarlathoteppppp · `TS`</sub>
 
 - **[jit-context](https://github.com/wojciechwiesner/jit-context)** — Architectural Moat: JIT-JEV Context OS — Epistemic runtime & JEV System 1 context gate for AI agents (L0 SQLite WAL <3ms, Epistemic Invariants I1–I10, CERN Zenodo DOI: 10.5281/zenodo.22649542)
-  <sub>`Project` · ★9 · wojciechwiesner · `Py`</sub>
+  <sub>`Project` · ★8 · wojciechwiesner · `Py`</sub>
 
 - **[jev-docs](https://github.com/chenrui333/jev-docs)** — Community-maintained history of Jev / TypeSafe System One APIs, SDKs, agent guidance, and engineering best practices.
   <sub>`SDK` · ★7 · chenrui333 · `Py`</sub>

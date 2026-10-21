@@ -7,10 +7,10 @@ _Classify and route incoming documents, invoices and forms._
 Every catalogued example of this decision — 20 of them, official first, then rows with code, then by stars. The same rows, with caveats, are in [the index](../../README.md#document-triage); [the site](https://kydlikebtc.github.io/awesome-jev/?p=document-triage&lang=en) can filter them further by language, primitive and kind.
 
 - **[docjev](https://github.com/jerryjliu/docjev)** — A very fast document classifier/splitter using Jev
-  <sub>`Project` · ★526 · jerryjliu · `Py`</sub>
+  <sub>`Project` · ★536 · jerryjliu · `Py`</sub>
 
 - **[tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier)** — Tax document page classifier built on Jev decisions. 100% strict accuracy across 261 IRS forms, ~$0.001 per page.
-  <sub>`Project` · ★505 · kyotofin · `TS`</sub>
+  <sub>`Project` · ★512 · kyotofin · `TS`</sub>
 
 - **[formanator](https://github.com/timrogers/formanator)** — Submit Forma <https://joinforma.com> benefit claims from the command line and Model Context Protocol (MCP) clients, with support for AI-powered receipt analysis with an LLM or Jev
   <sub>`Plugin` · ★102 · timrogers · `Rs`</sub>
@@ -19,19 +19,19 @@ Every catalogued example of this decision — 20 of them, official first, then r
   <sub>`Project` · ★31 · misbahsy · `Rs`</sub>
 
 - **[jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas)** — Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down — real API-call receipts, not a leaderboard. 中文為主的雙語 repo。
-  <sub>`Benchmark` · ★27 · zaious · `Py`</sub>
+  <sub>`Benchmark` · ★28 · zaious · `Py`</sub>
 
 - **[pdf-race](https://github.com/goodrahstar/pdf-race)** — Docling → Jev vs Docling → Gemini 3.8 Flash vs Gemini reading the PDF: same documents, one clock, scored against arXiv's own metadata
-  <sub>`Benchmark` · ★13 · goodrahstar · `JS`</sub>
+  <sub>`Benchmark` · ★14 · goodrahstar · `JS`</sub>
 
 - **[jevmory](https://github.com/romiluz13/jevmory)** — Coding-agent memory where every fact is a verbatim quote graded by TypeSafe Jev's calibrated confidence. Local-first, SQLite receipts, zero dependencies.
   <sub>`Project` · ★11 · romiluz13 · `Py`</sub>
 
 - **[jev-layer](https://github.com/typakon4/jev-layer)** — Portable System-1 decision layer for agent harnesses with host-owned routing, receipts, replay, and fail-open integrations.
-  <sub>`Integration` · ★6 · typakon4 · `JS`</sub>
+  <sub>`Integration` · ★7 · typakon4 · `JS`</sub>
 
 - **[jev-document-classification](https://github.com/Charlyhno-eng/jev-document-classification)** — JEV Document Classification enables the rapid and cost-effective classification of text-based documents using AI, leveraging TypeSafe's "System One" model.
-  <sub>`Project` · ★5 · charlyhno-eng · `TS`</sub>
+  <sub>`Project` · ★6 · charlyhno-eng · `TS`</sub>
 
 - **[jev-score](https://github.com/a-Fig/jev-score)** — Local-first document evaluation workspaces powered by Jev
   <sub>`Project` · ★4 · a-fig · `JS`</sub>

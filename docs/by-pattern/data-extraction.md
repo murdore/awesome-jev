@@ -25,7 +25,7 @@ Every catalogued example of this decision — 16 of them, official first, then r
   <sub>`Plugin` · ★45 · nomanjack · `JS`</sub>
 
 - **[jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)** — Open-source macOS AI computer use and native GUI automation on Apple silicon. Jev + OmniParser CoreML + Apple Vision OCR. Bring your own OpenRouter, Vercel AI Gateway, or TypesafeAI token.
-  <sub>`Project` · ★24 · jcpsimmons · `JS`</sub>
+  <sub>`Project` · ★25 · jcpsimmons · `JS`</sub>
 
 - **[jevfill](https://github.com/imohitmayank/jevfill)** — A Chrome extension that fills web forms from unstructured notes with Jev: paste your details once as plain text, with no structured profile, then fill forms on demand.
   <sub>`Plugin` · ★20 · imohitmayank · `TS`</sub>

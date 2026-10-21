@@ -25,7 +25,7 @@ _从杂乱文本中取出类型化字段 —— 靠在候选中选择，而不�
   <sub>`插件` · ★45 · nomanjack · `JS`</sub>
 
 - **[jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)** — 开源的 macOS computer use 与原生 GUI 自动化，运行在 Apple 芯片上。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★24 · jcpsimmons · `JS`</sub>
+  <sub>`开源项目` · ★25 · jcpsimmons · `JS`</sub>
 
 - **[jevfill](https://github.com/imohitmayank/jevfill)** — 一个 Chrome 扩展：用 Jev 根据零散的文字笔记自动填写网页表单。把个人信息以纯文本粘贴一次即可，无需结构化档案，随时按需填表。 <sub>(机翻)</sub>
   <sub>`插件` · ★20 · imohitmayank · `TS`</sub>

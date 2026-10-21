@@ -13,49 +13,52 @@ _选择由哪个下游模型或档位处理请求。_
   <sub>`官方文档` · `Py` · `choice`</sub>
 
 - **[claude-code-templates: three Jev plugins](https://github.com/davila7/claude-code-templates)** — 三个可独立安装的 Claude Code 插件 —— 护栏、模型路由、技能推荐 —— 各自带 hook 和测试。
-  <sub>`插件` · ★32,631 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★32,801 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[@langchain/typesafe](https://github.com/langchain-ai/langchainjs)** — LangChain 集成的 JavaScript 对应版本，分类器与 middleware 形状一致。
-  <sub>`平台集成` · ★18,267 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`平台集成` · ★18,286 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — 九个 agent 技能加一个 CLI，覆盖模型路由、记忆过滤、对话轮保留、多选一技能选择和下一步动作决策。
-  <sub>`插件` · ★1,114 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★1,147 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)** — 代码审查前先过一遍 Jev，把高风险改动挑出来，再交给更贵的大模型或人。带本地看板。
-  <sub>`开源项目` · ★685 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`开源项目` · ★686 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jevrouter](https://github.com/BillionsBobby/JevRouter)** — 面向模型、工具和子智能体的路由器。
-  <sub>`开源项目` · ★463 · billionsbobby · `TS`</sub>
+  <sub>`开源项目` · ★477 · billionsbobby · `TS`</sub>
 
 - **[Astra-Ares](https://github.com/miuuyy/Astra-Ares)** — 在 Codex 任务中为 GPT-6 自适应地调整推理力度，由 Jev 驱动，以减少 token 消耗。 <sub>(机翻)</sub>
-  <sub>`插件` · ★306 · miuuyy · `JS`</sub>
+  <sub>`插件` · ★308 · miuuyy · `JS`</sub>
 
 - **[jev-codex-router](https://github.com/0xNatoshi/jev-codex-router)** — 先让 Jev 判断这一轮编程任务有多难，再决定模型档位、推理深度和速度模式。
-  <sub>`插件` · ★274 · `JS` · `choice` · `score` · ⚠ `已归档`</sub>
+  <sub>`插件` · ★276 · `JS` · `choice` · `score` · ⚠ `已归档`</sub>
 
 - **[jev-eval-agent](https://github.com/vinilana/jev-eval-agent)** — 一个把评测工作通过类型化决策来路由的智能体。
-  <sub>`开源项目` · ★107 · vinilana · `TS` · ⚠ `无许可证`</sub>
+  <sub>`开源项目` · ★108 · vinilana · `TS` · ⚠ `无许可证`</sub>
 
 - **[stuntd](https://github.com/bladedevoff/stuntd)** — 本地代理：学习应用里带类型的 LLM 决策，并用一个 Laya 头来回答。兼容 Jev 与 OpenAI 接口。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★70 · bladedevoff · `Py`</sub>
 
 - **[jev-use](https://github.com/shitianfang/jev-use)** — 一个智能体插件：把不需要文本输出的步骤交给 Jev，而不是主模型。
-  <sub>`插件` · ★60 · shitianfang · `JS`</sub>
+  <sub>`插件` · ★64 · shitianfang · `JS`</sub>
 
 - **[jevonian](https://github.com/xinyao27/jevonian)** — 位于编码智能体与各模型提供方之间的本地端点：把每一轮路由到性价比最高且能胜任的模型，管理配额与缓存，并把每次路由决策记入本地账本。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★19 · xinyao27 · `TS`</sub>
+  <sub>`开源项目` · ★27 · xinyao27 · `TS`</sub>
 
 - **[a3m-router](https://github.com/Das-rebel/a3m-router)** — 自适应的多模型 LLM 路由器——覆盖 80 多个提供方，用 Jev System One 单次完成路由决策。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★16 · das-rebel · `TS`</sub>
+  <sub>`开源项目` · ★17 · das-rebel · `TS`</sub>
 
 - **[pi-jev-router](https://github.com/mejiasd3v/pi-jev-router)** — 通过 Vercel AI Gateway 为 Pi 做自动模型路由。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★16 · mejiasd3v · `JS`</sub>
+  <sub>`开源项目` · ★17 · mejiasd3v · `JS`</sub>
 
 - **[jev-router](https://github.com/prismhq/jev-router)** — 开源 LLM 路由器，在 LiteLLM 之上用 Jev 选模型。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★14 · prismhq · `Py`</sub>
 
 - **[pi-jev-router](https://github.com/philippdubach/pi-jev-router)** — 为 pi 打造的极简帕累托最优 OpenRouter 模型路由器，基于 Jev。 <sub>(机翻)</sub>
   <sub>`插件` · ★13 · philippdubach · `TS`</sub>
+
+- **[jev-engineering](https://github.com/eugeniughelbur/jev-engineering)** — 面向 AI 智能体的决策层：约 400 毫秒、两百分之一美分的类型化校准决策，用于拦截工具调用。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★11 · eugeniughelbur · `Py`</sub>
 
 - **[jev-router](https://github.com/rajdhakad9826/jev-router)** — LLM 路由器：用 TypeSafe Jev 做快速分类，而不是再调一次 LLM，为每个查询挑出能胜任的最便宜模型。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★10 · rajdhakad9826 · `TS`</sub>
@@ -69,23 +72,20 @@ _选择由哪个下游模型或档位处理请求。_
 - **[Codex Jev Router](https://github.com/suenot/codex-jev-router)** — 使用 Jev 的 Choice 和 Noul 判断简短任务摘要，为 Codex 子代理选择模型与推理档位；不确定时回退到 Sol。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★9 · suenot · `JS` · `choice` · `noul` · ⚠ `疑似 AI 生成`</sub>
 
+- **[jev-auto-router](https://github.com/miniLV/Jev-Auto-Router)** — 实验性的逐次调用 GPT 模型路由，通过 Jev 与一个本地 Rescue 层为 Codex 服务。 <sub>(机翻)</sub>
+  <sub>`插件` · ★9 · minilv · `TS`</sub>
+
 - **[jev-codex-bridge](https://github.com/ansidium/jev-codex-bridge)** — 为 Codex 桌面版与 CLI 做模型和推理力度路由，附带 Windows 服务与经过验证的更新。 <sub>(机翻)</sub>
   <sub>`插件` · ★9 · ansidium · `JS`</sub>
 
-- **[jev-engineering](https://github.com/eugeniughelbur/jev-engineering)** — 面向 AI 智能体的决策层：约 400 毫秒、两百分之一美分的类型化校准决策，用于拦截工具调用。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★9 · eugeniughelbur · `Py`</sub>
-
-- **[jev-auto-router](https://github.com/miniLV/Jev-Auto-Router)** — 实验性的逐次调用 GPT 模型路由，通过 Jev 与一个本地 Rescue 层为 Codex 服务。 <sub>(机翻)</sub>
-  <sub>`插件` · ★8 · minilv · `TS`</sub>
+- **[dsh-plugin-jev-effort-selector](https://github.com/justhalfbit/dsh-plugin-jev-effort-selector)** — DeepSeek Harness (DSH) 推理等级自动选择插件：由 Jev System One 模型判断每条消息值多少思考量，按模型声明的等级自动推导档位，上下文信封让「继续」这类追问继承话题深度，低置信度向上取，任何失败都静默沿用原等级。 \| Jev-driven reasoning effort per message: per-model ladders derived from what each model advertises, a fixed-size context envelope so follow-ups inherit topic depth…
+  <sub>`插件` · ★8 · justhalfbit · `JS`</sub>
 
 - **[jev-model-router](https://github.com/satviksinha/jev-model-router)** — 为 Claude Code 打造的模型路由器，基于 Jev。 <sub>(机翻)</sub>
   <sub>`插件` · ★7 · satviksinha · `TS`</sub>
 
-- **[dsh-plugin-jev-effort-selector](https://github.com/justhalfbit/dsh-plugin-jev-effort-selector)** — DeepSeek Harness (DSH) 推理等级自动选择插件：由 Jev System One 模型判断每条消息值多少思考量，按模型声明的等级自动推导档位，上下文信封让「继续」这类追问继承话题深度，低置信度向上取，任何失败都静默沿用原等级。 \| Jev-driven reasoning effort per message: per-model ladders derived from what each model advertises, a fixed-size context envelope so follow-ups inherit topic depth…
-  <sub>`插件` · ★6 · justhalfbit · `JS`</sub>
-
 - **[jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)** — 带 JEV 模型路由、上下文优化与看板自动化的 Codex 覆盖层。 <sub>(机翻)</sub>
-  <sub>`插件` · ★5 · charlyhno-eng · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★6 · charlyhno-eng · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-smart-router](https://github.com/rmosleydb/jev-smart-router)** — JEV Smart Router：一个 Databricks 应用，用 TypeSafe JEV 选择由哪个模型回答每条消息，再执行推理。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · rmosleydb · `Py`</sub>
@@ -94,7 +94,7 @@ _选择由哪个下游模型或档位处理请求。_
   <sub>`SDK` · ★4 · joacomarc · `TS`</sub>
 
 - **[jev-gate](https://github.com/MongLong0214/jev-gate)** — 不是每个编程任务都需要你最好的模型：实验性的 Jev 模型路由。 <sub>(机翻)</sub>
-  <sub>`插件` · ★3 · monglong0214 · `TS` · ⚠ `无许可证`</sub>
+  <sub>`插件` · ★3 · monglong0214 · `TS`</sub>
 
 - **[smart-switch](https://github.com/reycn/smart-switch)** — 用前沿 AI 重新想象的 macOS 窗口切换器，由 Jev 做预测。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · reycn · `Swift`</sub>

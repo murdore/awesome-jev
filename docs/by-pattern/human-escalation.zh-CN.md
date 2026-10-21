@@ -28,61 +28,61 @@ _用校准置信度决定哪些情况必须由人来看。_
   <sub>`官方文档`</sub>
 
 - **[Airflow LLMBranchOperator with Jev](https://airflow.apache.org/docs/apache-airflow-providers-common-ai/stable/index.html)** — 把下游任务 id 变成 choice 的选项集，并用最小置信度闸门把不确定的运行转给人处理。
-  <sub>`平台集成` · ★47,171 · `Py` · `choice`</sub>
+  <sub>`平台集成` · ★47,240 · `Py` · `choice`</sub>
 
 - **[Composio TypeSafe provider](https://github.com/ComposioHQ/composio/tree/next/python/providers/typesafe)** — 把工具目录编译成问题，再从答案还原出 tool call，并为「弃权」和「需确认」两种情况定义了专门的错误类型。
-  <sub>`开源项目` · ★30,543 · `Py` · `choice`</sub>
+  <sub>`开源项目` · ★30,662 · `Py` · `choice`</sub>
 
 - **[Inbox Zero: seven email decisions](https://github.com/elie222/inbox-zero)** — 七个互不相同的邮件决策，每个都有自己单独设定的阈值，任何出错都回落到普通 LLM。
-  <sub>`开源项目` · ★12,464 · `TS` · `choice` · `noul`</sub>
+  <sub>`开源项目` · ★12,723 · `TS` · `choice` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)** — 代码审查前先过一遍 Jev，把高风险改动挑出来，再交给更贵的大模型或人。带本地看板。
-  <sub>`开源项目` · ★685 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`开源项目` · ★686 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-align](https://github.com/sutro-sh/jev-align)** — 从人类反馈出发，构建经过校准的决策函数。
-  <sub>`开源项目` · ★308 · sutro-sh · `Py`</sub>
+  <sub>`开源项目` · ★310 · sutro-sh · `Py`</sub>
 
 - **[Probing Jev's behaviour with repeated API calls](https://github.com/ahastudio/til)** — 独立的韩语实测笔记，报告仅仅把选项顺序倒过来，就能让概率移动到足以翻转 0.9 阈值的程度。
-  <sub>`基准测试` · ★191 · `Py` · ⚠ `无许可证` `宣称未核实`</sub>
+  <sub>`基准测试` · ★192 · `Py` · ⚠ `无许可证` `宣称未核实`</sub>
 
 - **[jev-forge](https://github.com/zwliJay/jev-forge)** — 面向 Jev 式决策模型的开源训练与推理栈。 <sub>(机翻)</sub>
   <sub>`Jev 替代实现` · ★164 · zwlijay · `Py` · ⚠ `并非 Jev 本身`</sub>
 
 - **[neurolink](https://github.com/juspay/neurolink)** — 用一套 TypeScript 接口对接 40 家 AI 供应商，覆盖生成、流式与决策三种推理形态。 <sub>(机翻)</sub>
-  <sub>`插件` · ★156 · juspay · `TS`</sub>
+  <sub>`插件` · ★157 · juspay · `TS`</sub>
 
 - **[Jev-Moderation-Bot](https://github.com/brainstormity/Jev-Moderation-Bot)** — 一个 Discord 审核机器人：用 Choice 给每条消息定级、用 Noul 表示封禁紧急度，管理员一旦赦免，该消息会作为「安全先例」注入后续请求。
-  <sub>`开源项目` · ★47 · brainstormity · `Py` · `choice` · `noul`</sub>
+  <sub>`开源项目` · ★48 · brainstormity · `Py` · `choice` · `noul`</sub>
 
 - **[jev-calibrate](https://github.com/smkrv/jev-calibrate)** — 用你自己的标注数据校准 Jev 的问题：在标注样本上调 criteria，在留出集上确认。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★33 · smkrv · `TS`</sub>
 
 - **[jev-agent-skill-router](https://github.com/GodsBoy/jev-agent-skill-router)** — 类型化、带置信度感知的 agent 技能路由。 <sub>(机翻)</sub>
-  <sub>`插件` · ★29 · godsboy · `Py`</sub>
+  <sub>`插件` · ★31 · godsboy · `Py`</sub>
 
 - **[jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks)** — 面向类型化决策模型的概率感知评测：校准度、选择性风险、延迟，以及可复现的基准。 <sub>(机翻)</sub>
   <sub>`基准测试` · ★26 · abdelstark · `Py`</sub>
 
+- **[toolgate](https://github.com/RiskAverseTech/toolgate)** — 面向 AI 智能体的开源自动模式：一个校准过的工具调用防火墙。 <sub>(机翻)</sub>
+  <sub>`插件` · ★26 · riskaversetech · `TS`</sub>
+
 - **[muse-jev-playbook](https://github.com/Bodila51/muse-jev-playbook)** — 为 Muse 提供的 Jev 决策层：在昂贵的智能体工作之前加一道快速、便宜的 TypeSafe AI 关卡——置信度策略与配方。 <sub>(机翻)</sub>
   <sub>`插件` · ★25 · bodila51 · `Py`</sub>
 
-- **[toolgate](https://github.com/RiskAverseTech/toolgate)** — 面向 AI 智能体的开源自动模式：一个校准过的工具调用防火墙。 <sub>(机翻)</sub>
-  <sub>`插件` · ★25 · riskaversetech · `TS`</sub>
+- **[jeval](https://github.com/rlaope/jeval)** — 衡量 Jev 分类器的置信度究竟值多少，并根据出错的代价设定交给人类处理的分界线。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★24 · rlaope · `Py`</sub>
 
 - **[jevwire](https://github.com/Brainwires/jevwire)** — 给智能体的 Jev 决策层：MCP server、可嵌入的 DecisionModel 库，以及一个只做升级的 Claude Code 插件。 <sub>(机翻)</sub>
   <sub>`插件` · ★24 · brainwires · `TS`</sub>
 
-- **[jeval](https://github.com/rlaope/jeval)** — 衡量 Jev 分类器的置信度究竟值多少，并根据出错的代价设定交给人类处理的分界线。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★23 · rlaope · `Py`</sub>
-
 - **[jev-usecases](https://github.com/kenhuangus/jev-usecases)** — 生产级的 Jev 用例 harness，带置信度门控的决策逻辑。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★22 · kenhuangus · `Py`</sub>
+  <sub>`开源项目` · ★23 · kenhuangus · `Py`</sub>
 
 - **[jevalyn](https://github.com/Ray-Hughes/jevalyn)** — 给 Rails 应用的决策层：对 Jev System One API 的 Rails 原生封装。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★19 · ray-hughes · `Rb`</sub>
+  <sub>`开源项目` · ★20 · ray-hughes · `Rb`</sub>
 
 - **[discern](https://github.com/doeixd/discern)** — 类型安全、感知不确定性的语义模式匹配与控制流。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★16 · doeixd · `TS`</sub>
+  <sub>`开源项目` · ★17 · doeixd · `TS`</sub>
 
 - **[jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab)** — 在 DSPy 工作流中对 Jev 决策做可复现的校准与选择性风险基准。 <sub>(机翻)</sub>
   <sub>`基准测试` · ★16 · jmanhype · `Py`</sub>
@@ -106,7 +106,7 @@ _用校准置信度决定哪些情况必须由人来看。_
   <sub>`开源项目` · ★10 · kotoba-lang · `Py`</sub>
 
 - **[jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench)** — 在 2000 封钓鱼邮件上对比 Jev 与一个轻量 LLM：准确率、校准度、延迟、成本。 <sub>(机翻)</sub>
-  <sub>`基准测试` · ★9 · anisselbd · `Py` · ⚠ `无许可证`</sub>
+  <sub>`基准测试` · ★9 · anisselbd · `Py`</sub>
 
 - **[luce](https://github.com/scienthoon/luce)** — Luce：一份校准决策模型的配方 —— 输入一句任务描述，产出一个小模型。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★8 · scienthoon · `Py`</sub>
@@ -138,6 +138,9 @@ _用校准置信度决定哪些情况必须由人来看。_
 - **[tink-route](https://github.com/jon-devlapaz/tink-route)** — 动态的、感知置信度的 Agent 技能路由。 <sub>(机翻)</sub>
   <sub>`插件` · ★5 · jon-devlapaz · `Py`</sub>
 
+- **[jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage)** — 由 Jev 判断一批日志是否值得处理：类型化问题、置信闸门，不执行任何动作。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★4 · jyatesdotdev · `Py`</sub>
+
 - **[tenbin](https://github.com/simota/tenbin)** — MCP server 兼 agent 技能：把一个判断分解成多个类型化问题。 <sub>(机翻)</sub>
   <sub>`插件` · ★4 · simota · `TS`</sub>
 
@@ -147,6 +150,9 @@ _用校准置信度决定哪些情况必须由人来看。_
 - **[jev-mcp-server](https://github.com/wangkuangkuang/jev-mcp-server)** — Jev 的 MCP server：提供官方三种问题类型。 <sub>(机翻)</sub>
   <sub>`插件` · ★3 · wangkuangkuang · `Py`</sub>
 
+- **[jev-starter](https://github.com/hamakyo/jev-starter)** — 基于 Jev 的类型化、策略驱动决策工作流：置信路由、回退与评测。 <sub>(机翻)</sub>
+  <sub>`插件` · ★3 · hamakyo · `TS`</sub>
+
 - **[jevbus](https://github.com/zkjoie/jevbus)** — 一个流式事件总线：路由、订阅与消费都由概率决策决定。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · zkjoie · `Rs`</sub>
 
@@ -155,12 +161,6 @@ _用校准置信度决定哪些情况必须由人来看。_
 
 - **[grok-jev-guard](https://github.com/0xwhrari/grok-jev-guard)** — Grok Bot 的类型化预检与审批层：硬性边界由本地策略掌控，模糊情况交给 Jev 判断，Grok Bot 只在返回的范围内执行。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★2 · 0xwhrari · `Py`</sub>
-
-- **[jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage)** — 由 Jev 判断一批日志是否值得处理：类型化问题、置信闸门，不执行任何动作。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★2 · jyatesdotdev · `Py`</sub>
-
-- **[jev-starter](https://github.com/hamakyo/jev-starter)** — 基于 Jev 的类型化、策略驱动决策工作流：置信路由、回退与评测。 <sub>(机翻)</sub>
-  <sub>`插件` · ★2 · hamakyo · `TS`</sub>
 
 - **[opencode-jev-guard](https://github.com/CogFlux/opencode-jev-guard)** — OpenCode 2 插件：把每条 shell 命令发给 TypeSafe 的 Jev，看起来有风险时先询问你。 <sub>(机翻)</sub>
   <sub>`插件` · ★2 · cogflux · `TS`</sub>
