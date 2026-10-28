@@ -16,22 +16,22 @@ _把大量问题（包括推测性的）打包进一次请求，再由代码挑�
   <sub>`官方文档` · `Py` · `TS` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[AutoGPT TypeSafe blocks](https://github.com/Significant-Gravitas/AutoGPT/tree/master/autogpt_platform/backend/backend/blocks/typesafe)** — 七个生产级 block（choice/score/yes-no/ask-many/route/pick-best/filter），带 UTF-8 字节预算、逐字报文留存和十一个测试文件。
-  <sub>`开源项目` · ★187,689 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`开源项目` · ★187,801 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[sub2api: Jev as a moderation endpoint](https://github.com/Wei-Shaw/sub2api)** — 作为审核 API 的直接替代：一次请求并行问多个 Noul，每个危害类别一个，且每条指令都带反注入前缀。
-  <sub>`开源项目` · ★44,502 · `Go` · `noul`</sub>
+  <sub>`开源项目` · ★45,015 · `Go` · `noul`</sub>
 
 - **[jev-ultrafast](https://github.com/browser-use/jev-ultrafast)** — Browser Use 做的高速浏览器 Agent。Jev 每一步只判断「做什么、点哪个元素」，要打字才叫小模型。
-  <sub>`开源项目` · ★23,369 · Browser Use · `Py` · `choice` · ⚠ `厂商自报数据`</sub>
+  <sub>`开源项目` · ★23,799 · Browser Use · `Py` · `choice` · ⚠ `厂商自报数据`</sub>
 
 - **[ai-cookbook: Jev track](https://github.com/daveebbelaar/ai-cookbook)** — 一套循序渐进的课程：从第一次调用、逐个原语、state 形状与 criteria，一直到工单分拣和多步工作流，并对应了全部四个官方模式。
-  <sub>`教程` · ★4,656 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`教程` · ★4,678 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-forge](https://github.com/zwliJay/jev-forge)** — 面向 Jev 式决策模型的开源训练与推理栈。 <sub>(机翻)</sub>
-  <sub>`Jev 替代实现` · ★164 · zwlijay · `Py` · ⚠ `并非 Jev 本身`</sub>
+  <sub>`Jev 替代实现` · ★163 · zwlijay · `Py` · ⚠ `并非 Jev 本身`</sub>
 
 - **[jev-chat: a tool-calling chatbot with no LLM](https://github.com/w3cj/jev-chat)** — 一个完全不含语言模型的 tool calling 聊天机器人：一次请求同时问清请求类型、该调哪个工具、以及每个工具的参数。
-  <sub>`开源项目` · ★119 · `TS` · `choice` · `noul`</sub>
+  <sub>`开源项目` · ★121 · `TS` · `choice` · `noul`</sub>
 
 - **[jev-sift](https://github.com/kbhuw/jev-sift)** — 先分类，再选择性阅读：可移植的批量文本分类插件与 MCP 工具。 <sub>(机翻)</sub>
   <sub>`插件` · ★49 · kbhuw · `JS` · ⚠ `无许可证`</sub>
@@ -46,16 +46,16 @@ _把大量问题（包括推测性的）打包进一次请求，再由代码挑�
   <sub>`开源项目` · ★39 · sgoedecke · `Py` · ⚠ `无许可证`</sub>
 
 - **[slop-grader](https://github.com/lukstei/slop-grader)** — 基于规则的文本评分器：每条规则并行跑过每一行，不跳读、不漏行。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★35 · lukstei · `TS`</sub>
+  <sub>`开源项目` · ★37 · lukstei · `TS`</sub>
+
+- **[duckdb-jev](https://github.com/prasanthj/duckdb-jev)** — 高吞吐的原生 DuckDB 扩展，支持批量与流式的分类、打分与筛选。 <sub>(机翻)</sub>
+  <sub>`插件` · ★12 · prasanthj · `C++`</sub>
 
 - **[jev-ultralightspeed](https://github.com/collapseindex/jev-ultralightspeed)** — 对一大堆文本（工单、评论、日志）批量回答同一个问题：把多个条目打包进每次请求，并称吞吐量是逐条请求的 32 倍、成本低 41%。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★12 · collapseindex · `Py` · ⚠ `宣称未核实`</sub>
 
-- **[duckdb-jev](https://github.com/prasanthj/duckdb-jev)** — 高吞吐的原生 DuckDB 扩展，支持批量与流式的分类、打分与筛选。 <sub>(机翻)</sub>
-  <sub>`插件` · ★10 · prasanthj · `C++`</sub>
-
 - **[jev-tree](https://github.com/reachjalil/jev-tree)** — 在分类体系上做递归 Jev choice —— 在不突破 255 选项上限的前提下，从更多选项中做选择。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★10 · reachjalil · `TS`</sub>
+  <sub>`开源项目` · ★11 · reachjalil · `TS`</sub>
 
 - **[jevswiftsdk](https://github.com/NSStudent/JevSwiftSDK)** — 独立的类型安全 Swift SDK，支持 async/await、批处理与重试。 <sub>(机翻)</sub>
   <sub>`SDK` · ★8 · nsstudent · `Swift`</sub>

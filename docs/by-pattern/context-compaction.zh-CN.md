@@ -7,25 +7,25 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
 这个决策的全部已收录例子 —— 共 34 条，官方优先，其次是含代码的，再按 star 排序。同样这些行及其警示也在[索引](../../README.zh-CN.md#上下文压缩)里；[站点](https://kydlikebtc.github.io/awesome-jev/?p=context-compaction&lang=zh)还能按语言、原语和形态进一步筛选。
 
 - **[Hermes Agent: Jev compaction evaluation](https://github.com/NousResearch/hermes-agent)** — 把 Jev 压缩方案移植过来，与自家在用的摘要器对比实测，最后公开结论：不采用。
-  <sub>`基准测试` · ★255,736 · `Py` · `noul`</sub>
+  <sub>`基准测试` · ★257,924 · `Py` · `noul`</sub>
 
 - **[jcode: memory recall without embeddings](https://github.com/1jehuang/jcode)** — 把记忆召回的整套检索栈替换掉 —— 不用 embedding、不用 BM25、不用重排器 —— 改为对每条候选记忆批量问一个 Noul。
-  <sub>`开源项目` · ★21,087 · `Rs` · `noul`</sub>
+  <sub>`开源项目` · ★21,274 · `Rs` · `noul`</sub>
 
 - **[fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)** — 一个 Claude Code 插件，用逐条决策取代压缩式摘要：过期的工具调用被丢弃或截断，保留下来的全部逐字不变。
-  <sub>`插件` · ★7,725 · tamaratran · `TS` · `noul`</sub>
+  <sub>`插件` · ★7,792 · tamaratran · `TS` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — 九个 agent 技能加一个 CLI，覆盖模型路由、记忆过滤、对话轮保留、多选一技能选择和下一步动作决策。
-  <sub>`插件` · ★1,147 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★1,226 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[compact-adviser](https://github.com/kunchenguid/compact-adviser)** — 判断工作是否已完成或已记录，据此提示运行上下文压缩。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★222 · kunchenguid · `TS`</sub>
+  <sub>`开源项目` · ★224 · kunchenguid · `TS`</sub>
 
 - **[jev-pruner](https://github.com/tamaratran/jev-pruner)** — 在模型看到之前先修剪冗长的 shell 输出，每个片段问一个 Noul。
   <sub>`插件` · ★165 · tamaratran · `TS` · `noul`</sub>
 
 - **[Winnow](https://github.com/GhalebDweikat/winnow)** — 给 Claude Code 做上下文垃圾回收。Read / Bash / Grep 吐一大堆时，Jev 先判断哪些真和当前任务有关。
-  <sub>`插件` · ★115 · `Py` · `noul`</sub>
+  <sub>`插件` · ★114 · `Py` · `noul`</sub>
 
 - **[save-token-jev-clean](https://github.com/IAmUnbounded/save-token-jev-clean)** — 为编码智能体提供可移植的、由 Jev 引导的上下文压缩：不让另一个 LLM 把旧上下文改写成有损摘要，而是由 Jev 判断哪些工具调用和结果仍然重要，用户与助手的文字保持原样。 <sub>(机翻)</sub>
   <sub>`插件` · ★81 · iamunbounded · `TS`</sub>
@@ -34,16 +34,16 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
   <sub>`插件` · ★31 · compozy · `TS`</sub>
 
 - **[claude-jev](https://github.com/0x7067/claude-jev)** — Claude Code 插件：Jev 负责规则检查、逐字压缩与提示路由。 <sub>(机翻)</sub>
-  <sub>`插件` · ★25 · 0x7067 · `Py`</sub>
-
-- **[dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools)** — 用 Jev 做判断而不是生成：修剪过长的工具输出、筛查抓取页面中注入的指令、为“完成”把关。 <sub>(机翻)</sub>
-  <sub>`插件` · ★15 · horusjiang · `TS`</sub>
+  <sub>`插件` · ★26 · 0x7067 · `Py`</sub>
 
 - **[lcc](https://github.com/lucasmartins-ai/lcc)** — 本地上下文编译器（lcc）：在提示上下文送达模型之前清洗、去重并压缩，并报告每一处改动。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★13 · lucasmartins-ai · `Py`</sub>
+  <sub>`开源项目` · ★16 · lucasmartins-ai · `Py`</sub>
+
+- **[dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools)** — 用 Jev 做判断而不是生成：修剪过长的工具输出、筛查抓取页面中注入的指令、为“完成”把关。 <sub>(机翻)</sub>
+  <sub>`插件` · ★14 · horusjiang · `TS`</sub>
 
 - **[omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction)** — 给 omp 做的逐字保留式 Jev 打分上下文削减。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★12 · jerryfane · `TS`</sub>
+  <sub>`开源项目` · ★13 · jerryfane · `TS`</sub>
 
 - **[fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction)** — Codex 插件：在会话压缩前后，由 Jev 引导逐字恢复上下文。移植自 tamaratran/fast-jev-compaction，适配 Codex 的生命周期钩子。 <sub>(机翻)</sub>
   <sub>`插件` · ★10 · leonaaardob · `TS`</sub>
@@ -66,11 +66,11 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
 - **[pi-jev-context-curator](https://github.com/Shashank-H/pi-jev-context-curator)** — 基于 Jev 的 pi 上下文整理器。 <sub>(机翻)</sub>
   <sub>`插件` · ★7 · shashank-h · `TS`</sub>
 
+- **[dsh-jev-prune](https://github.com/yangyu666/dsh-jev-prune)** — 给 DeepSeek Harness 的 Jev 判定式上下文压缩：语义化的工具结果裁剪。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★6 · yangyu666 · `JS`</sub>
+
 - **[deepseek-harness-jev-pre-compaction](https://github.com/wjw66/deepseek-harness-jev-pre-compaction)** — 给 DeepSeek Harness 的压缩前顾问，在标准压缩流程之前运行。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · wjw66 · `TS`</sub>
-
-- **[dsh-jev-prune](https://github.com/yangyu666/dsh-jev-prune)** — 给 DeepSeek Harness 的 Jev 判定式上下文压缩：语义化的工具结果裁剪。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★5 · yangyu666 · `JS`</sub>
 
 - **[fast-compaction-dsh](https://github.com/kolawong/fast-compaction-dsh)** — 给 DeepSeek Harness 的判定式上下文压缩，取代有损的 LLM 摘要。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★4 · kolawong · `TS`</sub>

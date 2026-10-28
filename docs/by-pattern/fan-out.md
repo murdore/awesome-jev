@@ -16,22 +16,22 @@ Every catalogued example of this decision — 32 of them, official first, then r
   <sub>`Official docs` · `Py` · `TS` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[AutoGPT TypeSafe blocks](https://github.com/Significant-Gravitas/AutoGPT/tree/master/autogpt_platform/backend/backend/blocks/typesafe)** — Seven production blocks — choice, score, yes/no, ask-many, route, pick-best, filter — with a UTF-8 byte budget, verbatim wire capture and eleven test files.
-  <sub>`Project` · ★187,689 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★187,801 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[sub2api: Jev as a moderation endpoint](https://github.com/Wei-Shaw/sub2api)** — Drops in as a moderation API by asking many parallel Noul questions in one request, one per hazard category, with an anti-injection prefix on every instruction.
-  <sub>`Project` · ★44,502 · `Go` · `noul`</sub>
+  <sub>`Project` · ★45,015 · `Go` · `noul`</sub>
 
 - **[jev-ultrafast](https://github.com/browser-use/jev-ultrafast)** — A high-speed browser agent from Browser Use: Jev decides the operation and which element to act on, and a small LLM is called only when text must be typed.
-  <sub>`Project` · ★23,369 · Browser Use · `Py` · `choice` · ⚠ `vendor numbers`</sub>
+  <sub>`Project` · ★23,799 · Browser Use · `Py` · `choice` · ⚠ `vendor numbers`</sub>
 
 - **[ai-cookbook: Jev track](https://github.com/daveebbelaar/ai-cookbook)** — A graded course from a first call through each primitive, state shapes and criteria, to ticket triage and a multi-step workflow, mirroring all four official patterns.
-  <sub>`Tutorial` · ★4,656 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Tutorial` · ★4,678 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-forge](https://github.com/zwliJay/jev-forge)** — An open training and inference stack for Jev-style decision models. Train models to score dynamic candidate branches from a shared prefix, with support for high-cardinality choice, calibration, and fast batched inference.
-  <sub>`Jev-like alternative` · ★164 · zwlijay · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★163 · zwlijay · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[jev-chat: a tool-calling chatbot with no LLM](https://github.com/w3cj/jev-chat)** — A chat bot that does tool calling with no language model anywhere: one request asks the request kind, the tool, and every tool's arguments at once.
-  <sub>`Project` · ★119 · `TS` · `choice` · `noul`</sub>
+  <sub>`Project` · ★121 · `TS` · `choice` · `noul`</sub>
 
 - **[jev-sift](https://github.com/kbhuw/jev-sift)** — Classify first. Read selectively. A portable agent plugin and MCP tool for batch text classification.
   <sub>`Plugin` · ★49 · kbhuw · `JS` · ⚠ `no licence`</sub>
@@ -46,16 +46,16 @@ Every catalogued example of this decision — 32 of them, official first, then r
   <sub>`Project` · ★39 · sgoedecke · `Py` · ⚠ `no licence`</sub>
 
 - **[slop-grader](https://github.com/lukstei/slop-grader)** — Jev-powered, rule-based grader for text files. Runs every rule against every line in parallel. No skimming, no missed lines.
-  <sub>`Project` · ★35 · lukstei · `TS`</sub>
+  <sub>`Project` · ★37 · lukstei · `TS`</sub>
+
+- **[duckdb-jev](https://github.com/prasanthj/duckdb-jev)** — High-throughput, robust native DuckDB extension for batched and streaming TypeSafe/Jev classification, scoring, and semantic predicates from SQL.
+  <sub>`Plugin` · ★12 · prasanthj · `C++`</sub>
 
 - **[jev-ultralightspeed](https://github.com/collapseindex/jev-ultralightspeed)** — Answers one question over a pile of text — tickets, reviews, logs — by packing many items into each request, and reports 32x the throughput of one request per item at 41% lower cost.
   <sub>`Project` · ★12 · collapseindex · `Py` · ⚠ `unverified claims`</sub>
 
-- **[duckdb-jev](https://github.com/prasanthj/duckdb-jev)** — High-throughput, robust native DuckDB extension for batched and streaming TypeSafe/Jev classification, scoring, and semantic predicates from SQL.
-  <sub>`Plugin` · ★10 · prasanthj · `C++`</sub>
-
 - **[jev-tree](https://github.com/reachjalil/jev-tree)** — Recursive Jev choice over a taxonomy. Select from more than 255 options without breaking TypeSafe Jev's choice cap.
-  <sub>`Project` · ★10 · reachjalil · `TS`</sub>
+  <sub>`Project` · ★11 · reachjalil · `TS`</sub>
 
 - **[jevswiftsdk](https://github.com/NSStudent/JevSwiftSDK)** — An independent, type-safe Swift SDK for TypeSafe Jev, with async/await, batching, retries, and SPM support.
   <sub>`SDK` · ★8 · nsstudent · `Swift`</sub>

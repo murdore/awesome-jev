@@ -13,46 +13,46 @@ _在输出到达用户前，按评分标准检查模型产出。_
   <sub>`官方文档` · `Py` · `noul` · `score`</sub>
 
 - **[latitude-llm](https://github.com/latitude-dev/latitude-llm)** — 面向 AI 智能体的开源可观测性：定位智能体在哪里失败。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★4,730 · latitude-dev · `TS`</sub>
+  <sub>`开源项目` · ★4,738 · latitude-dev · `TS`</sub>
 
 - **[reticle](https://github.com/reticlehq/reticle)** — AI 智能体能生成代码，却仍难以理解自己构建的东西。Reticle 用 TypeSafe Jev 路由验证流程，并由 Jev 驱动对页面的探索。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★1,275 · reticlehq · `TS`</sub>
+  <sub>`开源项目` · ★1,277 · reticlehq · `TS`</sub>
 
 - **[atomic](https://github.com/bastani-inc/atomic)** — 可验证的编程智能体运行时：用自然语言定义智能体的流程。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★864 · bastani-inc · `TS`</sub>
+  <sub>`开源项目` · ★870 · bastani-inc · `TS`</sub>
 
 - **[JevRev](https://github.com/Alex314618-create/JevRev)** — LLM 身边的决策层：Jev 负责筛选方案、检查进度，把注意力留在值得继续的工作上；LLM 负责广度和具体实现。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★706 · alex314618-create · `TS`</sub>
 
 - **[abide](https://github.com/coldteadotai/abide)** — 让你的编码智能体遵守项目里的所有规则。 <sub>(机翻)</sub>
-  <sub>`插件` · ★590 · coldteadotai · `TS`</sub>
+  <sub>`插件` · ★613 · coldteadotai · `TS`</sub>
 
 - **[jev-mcp](https://github.com/jkudish/jev-mcp)** — 现成的 Agent 判断工具箱：事实核验、内容筛查、语义排序、分类和信息提取，各自独立成工具。
-  <sub>`插件` · ★544 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★555 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[vexjoy-agent](https://github.com/notque/vexjoy-agent)** — 带 Jev 智能路由的 AI 智能体：把大白话请求分派给合适的专家智能体。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★442 · notque · `Py`</sub>
+  <sub>`开源项目` · ★443 · notque · `Py`</sub>
 
 - **[perch: semantic code linting](https://github.com/lakeday-org/perch)** — 先用 tree-sitter 找出并排序方法，再把用户自写的 YAML 规则编译成 noul；严重度取评分量表的期望值，而不是概率最高的那一档。
-  <sub>`开源项目` · ★359 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`开源项目` · ★353 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-review](https://github.com/NiazMorshed2007/jev-review)** — 一个本地优先的 MCP 插件，供编程智能体做持续的代码质量审查。
-  <sub>`插件` · ★244 · niazmorshed2007 · `TS`</sub>
+  <sub>`插件` · ★249 · niazmorshed2007 · `TS`</sub>
 
 - **[supercov](https://github.com/supercorp-ai/supercov)** — 给编程智能体用的代码质量与覆盖率判断，Rust 实现。
   <sub>`开源项目` · ★157 · supercorp-ai · `Rs`</sub>
+
+- **[jev-guard](https://github.com/leepokai/jev-guard)** — 给所有编程智能体做的自动模式：结合会话上下文给每次工具调用打风险分（拒绝／询问／放行）。 <sub>(机翻)</sub>
+  <sub>`插件` · ★130 · leepokai · `JS`</sub>
 
 - **[Canny](https://github.com/qkal/Canny)** — 防 Coding Agent 嘴硬说自己做完了。看工具输出、代码 diff 和测试结果，再判断完成声明靠不靠谱。
   <sub>`开源项目` · ★125 · `TS` · `noul` · `score`</sub>
 
 - **[jev-lint](https://github.com/mizchi/jev-lint)** — 用 Jev 打分器给代码中的文本做 lint。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★121 · mizchi · `TS`</sub>
+  <sub>`开源项目` · ★125 · mizchi · `TS`</sub>
 
 - **[fastbrowse](https://github.com/agent-labs-dev/fastbrowse)** — 快速浏览器智能体：Jev 从页面现有内容里挑动作，LLM 负责阅读与规划。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★120 · agent-labs-dev · `Py`</sub>
-
-- **[jev-guard](https://github.com/leepokai/jev-guard)** — 给所有编程智能体做的自动模式：结合会话上下文给每次工具调用打风险分（拒绝／询问／放行）。 <sub>(机翻)</sub>
-  <sub>`插件` · ★112 · leepokai · `JS`</sub>
 
 - **[jev-eval-agent](https://github.com/vinilana/jev-eval-agent)** — 一个把评测工作通过类型化决策来路由的智能体。
   <sub>`开源项目` · ★108 · vinilana · `TS` · ⚠ `无许可证`</sub>
@@ -61,31 +61,31 @@ _在输出到达用户前，按评分标准检查模型产出。_
   <sub>`插件` · ★102 · timrogers · `Rs`</sub>
 
 - **[oxlint-plugin-jev](https://github.com/wobsoriano/oxlint-plugin-jev)** — oxlint 插件：一条规则就是针对函数、调用、JSX 元素或整个文件的是非题；每个匹配都交给 Jev，当“是”的概率超过阈值时报错。 <sub>(机翻)</sub>
-  <sub>`插件` · ★88 · wobsoriano · `TS`</sub>
+  <sub>`插件` · ★91 · wobsoriano · `TS`</sub>
 
 - **[jev-libero](https://github.com/Dimweaker/jev-libero)** — 精细的机器人控制，带物理预览与可配置的 LIBERO 任务。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★83 · dimweaker · `Py`</sub>
+  <sub>`开源项目` · ★84 · dimweaker · `Py`</sub>
 
 - **[jgrep (npm: jevgrep)](https://github.com/kyu1204/jgrep)** — 按代码的作用来 grep：对每个代码块、diff 块或 CSV 行问一个 Noul，输出带概率的 file:line 命中。--diff 用一条英文规则在 CI 里为 PR 把关（退出码 0 命中 / 1 干净 / 2 出错）；--tests 列出一次 diff 可能影响的测试文件。
-  <sub>`开源项目` · ★61 · kyu1204 · `TS` · `noul` · `choice` · `score` · ⚠ `宣称未核实`</sub>
+  <sub>`开源项目` · ★62 · kyu1204 · `TS` · `noul` · `choice` · `score` · ⚠ `宣称未核实`</sub>
+
+- **[jev-code](https://github.com/FrancoisChastel/jev-code)** — 把 Jev 作为工具接入多个编程智能体。 <sub>(机翻)</sub>
+  <sub>`插件` · ★56 · francoischastel · `TS`</sub>
 
 - **[jev-recruiter](https://github.com/skeptrunedev/jev-recruiter)** — 由 Jev 驱动的领英招聘智能体：浏览相关档案并保存链接。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★52 · skeptrunedev · `Py`</sub>
 
-- **[jev-code](https://github.com/FrancoisChastel/jev-code)** — 把 Jev 作为工具接入多个编程智能体。 <sub>(机翻)</sub>
-  <sub>`插件` · ★51 · francoischastel · `TS`</sub>
-
 - **[vibecheck](https://github.com/RafalWilinski/vibecheck)** — Chrome 扩展：发推之前先用 Jev 给你的帖子做个氛围检查。 <sub>(机翻)</sub>
   <sub>`插件` · ★50 · rafalwilinski · `JS` · ⚠ `无许可证`</sub>
+
+- **[hermes-jev](https://github.com/keeltrace/hermes-nerve)** — 类型化的 System One 决策、排序、校验，以及可选启用的 Hermes 工具闸门。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★47 · keeltrace · `Py`</sub>
 
 - **[jev-reviewer](https://github.com/choxos/jev-reviewer)** — 系统综述的数据抽取：让 Jev 从论文及其补充材料里按抽取表取值，并附原文引用。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★47 · choxos · `JS`</sub>
 
-- **[hermes-jev](https://github.com/keeltrace/hermes-nerve)** — 类型化的 System One 决策、排序、校验，以及可选启用的 Hermes 工具闸门。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★43 · keeltrace · `Py`</sub>
-
 - **[jev-belay](https://github.com/valentynkit/jev-belay)** — Claude Code 的 Stop 钩子：在未经验证的“完成”之前拦下——读取会话记录找证据，只问 Jev 一次，其余情况一律放行。 <sub>(机翻)</sub>
-  <sub>`插件` · ★40 · valentynkit · `JS`</sub>
+  <sub>`插件` · ★41 · valentynkit · `JS`</sub>
 
 - **[jev-cua](https://github.com/ronadin2002/jev-cua)** — 用语音和文字控制 macOS：一个悬浮栏，由 Jev 实时选择界面操作，并持续执行“观察—行动—验证”循环。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★40 · ronadin2002 · `Swift` · ⚠ `无许可证`</sub>
@@ -100,7 +100,7 @@ _在输出到达用户前，按评分标准检查模型产出。_
   <sub>`基准测试` · ★27 · myc0576 · `Py`</sub>
 
 - **[claude-jev](https://github.com/0x7067/claude-jev)** — Claude Code 插件：Jev 负责规则检查、逐字压缩与提示路由。 <sub>(机翻)</sub>
-  <sub>`插件` · ★25 · 0x7067 · `Py`</sub>
+  <sub>`插件` · ★26 · 0x7067 · `Py`</sub>
 
 - **[invalidate](https://github.com/chopratejas/invalidate)** — AI 记忆的失效层：每条事实都有租期，新证据会终结它。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★23 · chopratejas · `Py`</sub>
@@ -115,25 +115,31 @@ _在输出到达用户前，按评分标准检查模型产出。_
   <sub>`开源项目` · ★21 · qew7 · `Rb`</sub>
 
 - **[jev-rag-benchmark](https://github.com/erendikmenn/jev-rag-benchmark)** — 可复现的基准：衡量 Jev 在 RAG 里的重排质量、延迟与成本。 <sub>(机翻)</sub>
-  <sub>`基准测试` · ★18 · erendikmenn · `Py`</sub>
+  <sub>`基准测试` · ★19 · erendikmenn · `Py`</sub>
 
 - **[jev-commit](https://github.com/valentynkit/jev-commit)** — 一个 pre-commit 钩子：一次调用判断提交信息与 diff 是否相符。
   <sub>`开源项目` · ★16 · valentynkit · `Py`</sub>
 
+- **[jev-e2e](https://github.com/perixtar/jev-e2e)** — 为网页应用编写自然语言的端到端测试，由 Jev 与 Playwright 驱动。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★16 · perixtar · `TS`</sub>
+
 - **[typed_evals](https://github.com/TrustifAI/typed_evals)** — 为 LLM 与智能体输出提供快速、带类型、经校准的评估，由 Jev 驱动，附带简单且与框架无关的 Python API。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★16 · trustifai · `Py`</sub>
-
-- **[dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools)** — 用 Jev 做判断而不是生成：修剪过长的工具输出、筛查抓取页面中注入的指令、为“完成”把关。 <sub>(机翻)</sub>
-  <sub>`插件` · ★15 · horusjiang · `TS`</sub>
 
 - **[patdown](https://github.com/tyler-dot-earth/patdown)** — 用 Jev 做拦截、引导与「模糊 lint」，让智能体遵守你的规则与约定。含 CLI 与 GitHub Action。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★15 · tyler-dot-earth · `TS`</sub>
 
-- **[jev-e2e](https://github.com/perixtar/jev-e2e)** — 为网页应用编写自然语言的端到端测试，由 Jev 与 Playwright 驱动。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★14 · perixtar · `TS`</sub>
+- **[dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools)** — 用 Jev 做判断而不是生成：修剪过长的工具输出、筛查抓取页面中注入的指令、为“完成”把关。 <sub>(机翻)</sub>
+  <sub>`插件` · ★14 · horusjiang · `TS`</sub>
 
-- **[jev-suite](https://github.com/klauswg/jev-suite)** — 基于 Jev（TypeSafe System One）的四个决策质量工具：Jev 回答结构化问题，最终决定权留在确定性代码手里。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★14 · klauswg · `Java`</sub>
+- **[jevlint](https://github.com/iamtoomas/JevLint)** — 可配置的语义 lint，带文件级 NOUL 判断与一个「魔法字符串」插件。 <sub>(机翻)</sub>
+  <sub>`插件` · ★14 · huntedman · `TS`</sub>
+
+- **[jev-browser](https://github.com/tontoko/jev-browser)** — 一个基于 Jev 与 Playwright 的统一内核：带类型的 SDK、常驻 CLI，以及带原生浏览器操作和确定性断言的 MCP 服务器。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★13 · tontoko · `JS`</sub>
+
+- **[lejudge-jev-jepa](https://github.com/AbdelStark/lejudge-jev-jepa)** — 为 JEPA 世界模型规划写自然语言约束，由决策模型而非 LLM 来判定。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★13 · abdelstark · `Py`</sub>
 
 - **[pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)** — 给 pi 编程智能体的运行时约束：每个有副作用的工具调用执行前，先对照你说过的话检查。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★13 · nyarlathoteppppp · `TS`</sub>
@@ -141,17 +147,8 @@ _在输出到达用户前，按评分标准检查模型产出。_
 - **[augustus](https://github.com/24601/Augustus)** — 面向决策模型这一类别的 agent 技能：分类器、编解码器、专用 AR 头、System One。 <sub>(机翻)</sub>
   <sub>`插件` · ★12 · 24601 · `Py`</sub>
 
-- **[jev-browser](https://github.com/tontoko/jev-browser)** — 一个基于 Jev 与 Playwright 的统一内核：带类型的 SDK、常驻 CLI，以及带原生浏览器操作和确定性断言的 MCP 服务器。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★12 · tontoko · `JS`</sub>
-
 - **[jev-pref](https://github.com/doeixd/jev-pref)** — 把 AGENTS.md 里的偏好变成一个由 Jev 驱动的快速 AI linter。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★12 · doeixd · `JS`</sub>
-
-- **[jevlint](https://github.com/iamtoomas/JevLint)** — 可配置的语义 lint，带文件级 NOUL 判断与一个「魔法字符串」插件。 <sub>(机翻)</sub>
-  <sub>`插件` · ★12 · huntedman · `TS`</sub>
-
-- **[lejudge-jev-jepa](https://github.com/AbdelStark/lejudge-jev-jepa)** — 为 JEPA 世界模型规划写自然语言约束，由决策模型而非 LLM 来判定。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★12 · abdelstark · `Py`</sub>
 
 - **[lintus](https://github.com/virolea/lintus)** — 一个用自然语言写规则的代码检查器。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★12 · virolea · `Rs`</sub>
@@ -168,20 +165,26 @@ _在输出到达用户前，按评分标准检查模型产出。_
 - **[jev-spec](https://github.com/nozomi-koborinai/jev-spec)** — 每次提交都检查规格漂移：用 Jev 对照你的 Markdown 规格检查代码。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★11 · nozomi-koborinai · `TS`</sub>
 
+- **[taste-lint](https://github.com/mblode/taste-lint)** — 在发布前拦住 AI 水文。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★11 · mblode · `TS`</sub>
+
+- **[jev-subtitle-translator](https://github.com/GeekLinkDev/jev-subtitle-translator)** — 用结构化 LLM 输出翻译 SRT 字幕，并让 Jev 检查每一条译文。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★10 · geeklinkdev · `Py`</sub>
+
 - **[JevPR](https://github.com/HexyeDEV/JevPR)** — 由 Jev 自动完成的 PR 风险审查。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★10 · hexyedev · `Py`</sub>
-
-- **[taste-lint](https://github.com/mblode/taste-lint)** — 在发布前拦住 AI 水文。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★10 · mblode · `TS`</sub>
 
 - **[jev-auto-router](https://github.com/miniLV/Jev-Auto-Router)** — 实验性的逐次调用 GPT 模型路由，通过 Jev 与一个本地 Rescue 层为 Codex 服务。 <sub>(机翻)</sub>
   <sub>`插件` · ★9 · minilv · `TS`</sub>
 
-- **[jev-subtitle-translator](https://github.com/GeekLinkDev/jev-subtitle-translator)** — 用结构化 LLM 输出翻译 SRT 字幕，并让 Jev 检查每一条译文。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★9 · geeklinkdev · `Py`</sub>
+- **[jev-block-android-ad](https://github.com/ufec/jev-block-android-ad)** — Android 上的通知与短信过滤：不是匹配关键词，而是由模型判断。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★8 · ufec · `Kt`</sub>
 
 - **[jevgate](https://github.com/Tech-Byte-Frontier/jevgate)** — 面向 CI 与编码智能体的代码审查关卡：就函数、文件、测试与依赖向 TypeSafe Jev 提出小而具体的类型化问题。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★9 · tech-byte-frontier · `Rs`</sub>
+  <sub>`开源项目` · ★8 · tech-byte-frontier · `Rs`</sub>
+
+- **[pytest-jev](https://github.com/allebee/pytest-jev)** — 给 pytest 的语义断言：测试 LLM 应用输出的含义，由 Jev 判定。 <sub>(机翻)</sub>
+  <sub>`插件` · ★8 · allebee · `Py`</sub>
 
 - **[zod-jev](https://github.com/jomatsu/zod-jev)** — Zod 校验结构，Jev 校验含义：把 schema 上的语义检查（是否含个人数据、价格是否合理、类别是否匹配）一次性发给 Jev，得到的校准概率再转成 Zod 的校验问题。 <sub>(机翻)</sub>
   <sub>`SDK` · ★8 · jomatsu · `TS`</sub>
@@ -189,8 +192,8 @@ _在输出到达用户前，按评分标准检查模型产出。_
 - **[diffjury](https://github.com/raihankhan-rk/diffjury)** — PR 风险路由器兼代码审查教练。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★7 · raihankhan-rk · `TS` · ⚠ `无许可证`</sub>
 
-- **[jev-block-android-ad](https://github.com/ufec/jev-block-android-ad)** — Android 上的通知与短信过滤：不是匹配关键词，而是由模型判断。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★7 · ufec · `Kt`</sub>
+- **[jev-for-engineers](https://github.com/Foadsf/jev-for-engineers)** — 八个最小可运行示例：把 Jev 用在机械与电气工程场景。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★7 · foadsf · `Py`</sub>
 
 - **[jev-guard](https://github.com/muratcakmak/jev-guard)** — 为 Claude Code 提供概率评分的护栏：拒绝违反规则的修改和未经要求的部署，并把文档路由到合适的位置。 <sub>(机翻)</sub>
   <sub>`插件` · ★7 · muratcakmak · `TS`</sub>
@@ -200,9 +203,6 @@ _在输出到达用户前，按评分标准检查模型产出。_
 
 - **[n8n-nodes-jev-classification](https://github.com/khmuhtadin/n8n-nodes-jev-classification)** — Jev 的 n8n 社区节点：带校准概率的文本分类、打分与检查。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★7 · khmuhtadin · `TS`</sub>
-
-- **[pytest-jev](https://github.com/allebee/pytest-jev)** — 给 pytest 的语义断言：测试 LLM 应用输出的含义，由 Jev 判定。 <sub>(机翻)</sub>
-  <sub>`插件` · ★7 · allebee · `Py`</sub>
 
 - **[riff](https://github.com/scale-venture-partners/riff)** — 小而快的文风 linter：ruff 式的规则编码，由 Jev 支撑。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★7 · scale-venture-partners · `Py`</sub>
@@ -215,9 +215,6 @@ _在输出到达用户前，按评分标准检查模型产出。_
 
 - **[jev-code-review-benchmark](https://github.com/gemanor/jev-code-review-benchmark)** — 在 Python 代码审查规则上比较 Jev、Gemini Flash 与 Claude Fable：成本、速度、准确率与一致性。 <sub>(机翻)</sub>
   <sub>`基准测试` · ★6 · gemanor · `Py`</sub>
-
-- **[jev-for-engineers](https://github.com/Foadsf/jev-for-engineers)** — 八个最小可运行示例：把 Jev 用在机械与电气工程场景。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★6 · foadsf · `Py`</sub>
 
 - **[limpet](https://github.com/noplan-inc/limpet)** — 一个 Stop 钩子，阻止编程智能体过早收工 —— 用大白话写规则，由 Jev 裁定。 <sub>(机翻)</sub>
   <sub>`插件` · ★6 · noplan-inc · `Py`</sub>
@@ -267,6 +264,9 @@ _在输出到达用户前，按评分标准检查模型产出。_
 - **[jev-review-action](https://github.com/fatwang2/jev-review-action)** — 可配置的 GitHub 提交审查与 PR 分类，不使用任何文本生成模型。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · fatwang2 · `JS`</sub>
 
+- **[jev-rust-review](https://github.com/kindintelligence/jev-rust-review)** — 给 Claude Code 与编程智能体的 Rust 感知代码审查。 <sub>(机翻)</sub>
+  <sub>`插件` · ★3 · kindintelligence · `Rs`</sub>
+
 - **[jevsume](https://github.com/unownone/jevsume)** — 由 Jev 驱动的 ATS 友好简历评审。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · unownone · `TS` · ⚠ `无许可证`</sub>
 
@@ -300,11 +300,14 @@ _在输出到达用户前，按评分标准检查模型产出。_
 - **[jev-pr-judge](https://github.com/juanegido/jev-pr-judge)** — 用 TypeSafe System One（Jev）为拉取请求给出类型化结论：一次并行调用，策略写在代码里，可作为 GitHub Action 使用。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★2 · juanegido · `TS`</sub>
 
-- **[jev-rust-review](https://github.com/kindintelligence/jev-rust-review)** — 给 Claude Code 与编程智能体的 Rust 感知代码审查。 <sub>(机翻)</sub>
-  <sub>`插件` · ★2 · kindintelligence · `Rs`</sub>
+- **[jev-suite](https://github.com/klauswg/jev-suite)** — 基于 Jev（TypeSafe System One）的四个决策质量工具：Jev 回答结构化问题，最终决定权留在确定性代码手里。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★2 · klauswg · `Java`</sub>
 
 - **[jevibe-check](https://github.com/sriganesh/jevibe-check)** — 给 Bluesky 帖子与草稿做实时语气标注。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★2 · sriganesh · `JS`</sub>
+
+- **[omp-typesafe](https://github.com/siddicky/omp-typesafe)** — 为 omp 编码智能体提供的 TypeSafe AI（Jev）对抗式审查器与 typesafe_ask 工具。 <sub>(机翻)</sub>
+  <sub>`插件` · ★2 · siddicky · `TS`</sub>
 
 - **[typesafe-ai-firewall](https://github.com/AnshChoudhary/typesafe-ai-firewall)** — 智能体工具调用执行前防火墙的影子模式验证 harness。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★2 · anshchoudhary · `Py` · ⚠ `无许可证`</sub>
@@ -344,9 +347,6 @@ _在输出到达用户前，按评分标准检查模型产出。_
 
 - **[lossless-rewrite](https://github.com/dttfrancesco/lossless-rewrite)** — AI 文本改写与文档摘要，由 Jev 检查是否遗漏了观点并自动修复。提供本地编辑器。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★1 · dttfrancesco · `TS`</sub>
-
-- **[omp-typesafe](https://github.com/siddicky/omp-typesafe)** — 为 omp 编码智能体提供的 TypeSafe AI（Jev）对抗式审查器与 typesafe_ask 工具。 <sub>(机翻)</sub>
-  <sub>`插件` · ★1 · siddicky · `TS`</sub>
 
 - **[plotveil](https://github.com/Dearest/plotveil)** — YouTube 评论的安静剧透拦截器：每条评论一次类型化 Noul 决策。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★1 · dearest · `TS`</sub>
