@@ -19,85 +19,88 @@ Every catalogued example of this decision — 119 of them, official first, then 
   <sub>`Official docs` · `Py`</sub>
 
 - **[worldmonitor: news threat classification](https://github.com/koala73/worldmonitor)** — Two Choice questions over threat level and category, held in shadow mode after a blind evaluation found Jev merely tied the incumbent model.
-  <sub>`Benchmark` · ★89,702 · `TS` · `choice` · ⚠ `shadow mode`</sub>
+  <sub>`Benchmark` · ★90,139 · `TS` · `choice` · ⚠ `shadow mode`</sub>
 
 - **[json-render](https://github.com/vercel-labs/json-render)** — Vercel Labs' generative UI framework. In its Jev experiment the model does not write JSON token by token — it only picks components, props and layout.
-  <sub>`Project` · ★18,822 · Vercel Labs · `TS` · `choice`</sub>
+  <sub>`Project` · ★18,905 · Vercel Labs · `TS` · `choice`</sub>
 
 - **[Inbox Zero: seven email decisions](https://github.com/elie222/inbox-zero)** — Seven distinct email decisions, each with its own separately chosen threshold, falling back to the normal LLM on any error.
-  <sub>`Project` · ★12,845 · `TS` · `choice` · `noul`</sub>
+  <sub>`Project` · ★12,909 · `TS` · `choice` · `noul`</sub>
 
 - **[pg-jev](https://github.com/realZachi/pg-jev)** — A real PostgreSQL extension exposing the primitives as SQL functions, so a semantic decision can appear in a WHERE clause over any row type.
-  <sub>`Project` · ★1,224 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★1,256 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[jev-mcp](https://github.com/jkudish/jev-mcp)** — A ready-made judgement toolbox for agents: fact verification, content screening, semantic ranking, classification and extraction as separate tools.
-  <sub>`Plugin` · ★555 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★569 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[docjev](https://github.com/jerryjliu/docjev)** — A very fast document classifier/splitter using Jev
-  <sub>`Project` · ★543 · jerryjliu · `Py`</sub>
+  <sub>`Project` · ★548 · jerryjliu · `Py`</sub>
 
 - **[tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier)** — Tax document page classifier built on Jev decisions. 100% strict accuracy across 261 IRS forms, ~$0.001 per page.
-  <sub>`Project` · ★514 · kyotofin · `TS`</sub>
+  <sub>`Project` · ★516 · kyotofin · `TS`</sub>
 
 - **[classifier-dev](https://github.com/mrmps/classifier-dev)** — Zero-shot text classification over plain HTTP — no API key, no account. One Cloudflare Worker, a CLI, and an MCP server. https://classifier.dev
-  <sub>`Plugin` · ★434 · mrmps · `TS`</sub>
+  <sub>`Plugin` · ★436 · mrmps · `TS`</sub>
 
 - **[unclutter](https://github.com/kitze/unclutter)** — A browser extension that removes page clutter, with reusable template rules.
-  <sub>`Project` · ★386 · kitze · `TS`</sub>
+  <sub>`Project` · ★389 · kitze · `TS`</sub>
 
 - **[perch: semantic code linting](https://github.com/lakeday-org/perch)** — Tree-sitter finds and ranks methods, then user-authored YAML rules compile into nouls, with severity read as the rubric's expected value rather than the top band.
-  <sub>`Project` · ★353 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★360 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[Jev-X-Sentiment-Analysis](https://github.com/brainstormity/Jev-X-Sentiment-Analysis)** — An on-demand crypto market terminal: pick a coin and a tweet sample, and Jev turns market data, funding rates and social sentiment into a Buy, Sell, Hold or Take Profit decision card. It never places trades.
-  <sub>`Project` · ★225 · brainstormity · `Py`</sub>
+  <sub>`Project` · ★227 · brainstormity · `Py`</sub>
 
 - **[Probing Jev's behaviour with repeated API calls](https://github.com/ahastudio/til)** — Independent Korean-language notes reporting that reversing the order of options shifted a probability enough to flip a 0.9 threshold.
-  <sub>`Benchmark` · ★192 · `Py` · ⚠ `no licence` `unverified claims`</sub>
+  <sub>`Benchmark` · ★193 · `Py` · ⚠ `no licence` `unverified claims`</sub>
 
 - **[332_lab-jev-chat](https://github.com/Liyucheng1997/332_lab-jev-chat)** — A Windows WeChat assistant: Jev judges the intent of each incoming message and DeepSeek suggests replies.
-  <sub>`Project` · ★170 · liyucheng1997 · `Kt`</sub>
+  <sub>`Project` · ★171 · liyucheng1997 · `Kt`</sub>
 
 - **[taskuary](https://github.com/ldbumble/taskuary)** — Automate your job: local-first AI task hub. Email, Teams, Slack & reports -> one timeline -> AI triage -> your coding agents (Claude Code, Codex, Gemini) do the work, you approve.
-  <sub>`Plugin` · ★143 · ldbumble · `Py`</sub>
+  <sub>`Plugin` · ★145 · ldbumble · `Py`</sub>
 
 - **[Prism](https://github.com/irfndi/prism-liquidity-agent)** — Does not place orders. It judges market conditions such as toxic flow and mean reversion, and hands the assessment to the existing strategy.
-  <sub>`Project` · ★130 · `TS` · `choice` · `score`</sub>
+  <sub>`Project` · ★132 · `TS` · `choice` · `score`</sub>
 
 - **[jev-arena](https://github.com/NanmiCoder/jev-arena)** — An introduction to Jev with hands-on tests: Choice, Score and Noul turn natural language into typed judgements for classification, scoring and routing, compared with DeepSeek on comment labelling, speed and results, with CSV import, replay and offline reports.
-  <sub>`Benchmark` · ★124 · nanmicoder · `JS`</sub>
+  <sub>`Benchmark` · ★123 · nanmicoder · `JS`</sub>
 
 - **[youtube-sponsor-detection](https://github.com/trungdq88/youtube-sponsor-detection)** — Detect youtube sponsor segment with live audio and transcript powered by Jev
   <sub>`Project` · ★116 · trungdq88 · `JS` · ⚠ `no licence`</sub>
 
 - **[Blink](https://github.com/ellipsis-dev/blink)** — Uses Jev as a codebase navigator: at each directory level it decides which files are most relevant to the question, then descends.
-  <sub>`Project` · ★99 · `TS` · `choice` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★101 · `TS` · `choice` · ⚠ `no licence`</sub>
 
 - **[typesafe-adblock](https://github.com/realZachi/typesafe-adblock)** — A Chrome extension that asks whether a DOM element is an advert.
-  <sub>`Project` · ★92 · realzachi · `JS`</sub>
+  <sub>`Project` · ★94 · realzachi · `JS`</sub>
+
+- **[ha-jev](https://github.com/AboveColin/HA-Jev)** — A Home Assistant integration: typed answers as sensors, with actions for automations.
+  <sub>`Integration` · ★84 · abovecolin · `Py`</sub>
 
 - **[pg_typesafe](https://github.com/giuliosmall/pg_typesafe)** — Pre-alpha PostgreSQL extension for TypeSafe AI (Jev) categorical classification
   <sub>`Plugin` · ★84 · giuliosmall · `C`</sub>
 
-- **[ha-jev](https://github.com/AboveColin/HA-Jev)** — A Home Assistant integration: typed answers as sensors, with actions for automations.
-  <sub>`Integration` · ★81 · abovecolin · `Py`</sub>
-
 - **[SemDecide](https://github.com/sharziki/semdecide)** — Jev as a command-line tool: classify, score and filter straight from a shell, for crawlers, CI and data pipelines.
-  <sub>`Plugin` · ★81 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★84 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[JevIntent](https://github.com/Nisaka520/JevIntent)** — A WeChat plugin (FkWeChat): long-press a message to analyse its intent, emotion and a suggested reply stance, shown only as a local hint the sender never sees.
-  <sub>`Project` · ★71 · nisaka520 · `Java`</sub>
+  <sub>`Project` · ★70 · nisaka520 · `Java`</sub>
 
 - **[jgrep (npm: jevgrep)](https://github.com/kyu1204/jgrep)** — grep for what code does: one Noul per code chunk, diff hunk or CSV row, printed as file:line hits with probabilities. --diff gates a PR in CI on a rule written in English (exit 0 match / 1 clean / 2 error); --tests lists the test files a diff can affect.
   <sub>`Project` · ★62 · kyu1204 · `TS` · `noul` · `choice` · `score` · ⚠ `unverified claims`</sub>
 
 - **[jev-code](https://github.com/FrancoisChastel/jev-code)** — Jev, TypeSafe's System One classifier, as a tool inside Claude Code, Codex, Pi, and OpenCode: typed classify, check, score, rank, and ask, plus one-command setup.
-  <sub>`Plugin` · ★56 · francoischastel · `TS`</sub>
+  <sub>`Plugin` · ★57 · francoischastel · `TS`</sub>
 
 - **[jev-sift](https://github.com/kbhuw/jev-sift)** — Classify first. Read selectively. A portable agent plugin and MCP tool for batch text classification.
-  <sub>`Plugin` · ★49 · kbhuw · `JS` · ⚠ `no licence`</sub>
+  <sub>`Plugin` · ★50 · kbhuw · `JS` · ⚠ `no licence`</sub>
 
 - **[jev-poly-crypto-demo](https://github.com/frankda/jev-poly-crypto-demo)** — A research tool for Polymarket's five-minute BTC Up/Down markets: live market data becomes Jev class scores, independent logic decides, and a dashboard shows it. Paper trading only; it never connects a wallet.
-  <sub>`Project` · ★40 · frankda · `TS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★42 · frankda · `TS` · ⚠ `no licence`</sub>
+
+- **[jeveryword](https://github.com/jkrup/jeveryword)** — Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.
+  <sub>`Project` · ★40 · jkrup · `JS`</sub>
 
 - **[commit-miner](https://github.com/devanshbatham/commit-miner)** — Classify Git commit diffs and messages with Jev. Bug fixes, security fixes/CWEs, and change types.
   <sub>`Project` · ★38 · devanshbatham · `Rs` · ⚠ `no licence`</sub>
@@ -111,11 +114,11 @@ Every catalogued example of this decision — 119 of them, official first, then 
 - **[sharp](https://github.com/tshmieldev/sharp)** — Filter your X.com feed with Jev or any LLM
   <sub>`Project` · ★32 · tshmieldev · `TS`</sub>
 
+- **[jev-ids](https://github.com/jev-sec/jev-ids)** — Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev
+  <sub>`Project` · ★30 · jev-ids · `Py`</sub>
+
 - **[evoke](https://github.com/evoke-build/evoke)** — Software, by reflex. A sentence becomes a call of a small program, chosen by Jev, TypeSafe AI's classifier, and run only when it is sure enough. Reflexes are recipes anyone can write, share and improve. A CLI you talk to, a package manager for reflexes from git, and a TypeScript SDK.
   <sub>`Project` · ★27 · evoke-build · `Rs`</sub>
-
-- **[jev-ids](https://github.com/jev-sec/jev-ids)** — Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev
-  <sub>`Project` · ★26 · jev-ids · `Py`</sub>
 
 - **[jev-mcp](https://github.com/blakestone-x/jev-mcp)** — An MCP server exposing classify, score, check, match and screen to any agent.
   <sub>`Plugin` · ★25 · blakestone-x · `Py`</sub>
@@ -123,20 +126,20 @@ Every catalogued example of this decision — 119 of them, official first, then 
 - **[x-scanner](https://github.com/oso95/x-scanner)** — Chrome extension that labels every post you scroll past on X with typed Jev judgments and a live cost counter
   <sub>`Plugin` · ★25 · oso95 · `TS`</sub>
 
+- **[jev-gmail-ai-spam-filter-and-labeling](https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling)** — Self-hosted AI email classifier for Gmail powered by Jev. Create custom labels, organize your inbox, and filter spam with confidence and cost controls.
+  <sub>`Project` · ★24 · ilyamk · `JS`</sub>
+
+- **[local-jev](https://github.com/amithgc/local-jev)** — A local, offline System One server compatible with TypeSafe's Jev API. It answers typed yes/no, category and score questions with small open models.
+  <sub>`Project` · ★24 · amithgc · `Py`</sub>
+
 - **[jev-column-race](https://github.com/goodrahstar/jev-column-race)** — Jev vs Gemini 3.8 Flash: labelling 1,000 app reviews, 4.1× faster and 7× cheaper
   <sub>`Project` · ★23 · goodrahstar · `JS`</sub>
 
-- **[jev-gmail-ai-spam-filter-and-labeling](https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling)** — Self-hosted AI email classifier for Gmail powered by Jev. Create custom labels, organize your inbox, and filter spam with confidence and cost controls.
-  <sub>`Project` · ★23 · ilyamk · `JS`</sub>
-
 - **[jev-mail-classifier](https://github.com/parth-kp/jev-mail-classifier)** — Classify your inbox with Jev (TypeSafe's System One model) — tag, move, flag, and notify, all config-driven.
-  <sub>`Project` · ★21 · parth-kp · `Py`</sub>
+  <sub>`Project` · ★23 · parth-kp · `Py`</sub>
 
 - **[jevframe](https://github.com/ktaletsk/jevframe)** — Semantic AI for pandas and Polars: classify text, analyze sentiment, and score DataFrame rows with natural-language questions and full probabilities using TypeSafe Jev.
   <sub>`Project` · ★21 · ktaletsk · `Py`</sub>
-
-- **[local-jev](https://github.com/amithgc/local-jev)** — A local, offline System One server compatible with TypeSafe's Jev API. It answers typed yes/no, category and score questions with small open models.
-  <sub>`Project` · ★21 · amithgc · `Py`</sub>
 
 - **[jevlogs](https://github.com/reachjalil/jevlogs)** — Open-source Jev log triage for OpenTelemetry. Score the signal before expensive LLM analysis.
   <sub>`Project` · ★20 · reachjalil · `JS`</sub>
@@ -144,29 +147,29 @@ Every catalogued example of this decision — 119 of them, official first, then 
 - **[wechat-jev-assistant](https://github.com/yushen100/wechat-jev-assistant)** — A Windows WeChat conversation assistant: reads chats locally, redacts them, has TypeSafe Jev judge them, and keeps an encrypted history.
   <sub>`Project` · ★20 · yushen100 · `Py` · ⚠ `no licence`</sub>
 
-- **[JevBystander](https://github.com/Nisaka520/JevBystander)** — An Android accessibility reader for WeChat: it only reads the screen and pops three toasts — intent, emotion, urgency, a suggestion — and never writes or sends a reply. No third-party dependencies; an 861 KB APK.
-  <sub>`Project` · ★16 · nisaka520 · `Kt`</sub>
-
 - **[jev-agent-browser](https://github.com/forvela/jev-agent-browser)** — Fast, bounded browser agents powered by Jev and agent-browser — typed actions, research, classification, and safe orchestration.
-  <sub>`Project` · ★14 · forvela · `JS`</sub>
+  <sub>`Project` · ★15 · forvela · `JS`</sub>
+
+- **[JevBystander](https://github.com/Nisaka520/JevBystander)** — An Android accessibility reader for WeChat: it only reads the screen and pops three toasts — intent, emotion, urgency, a suggestion — and never writes or sends a reply. No third-party dependencies; an 861 KB APK.
+  <sub>`Project` · ★15 · nisaka520 · `Kt`</sub>
+
+- **[duckdb-jev](https://github.com/prasanthj/duckdb-jev)** — High-throughput, robust native DuckDB extension for batched and streaming TypeSafe/Jev classification, scoring, and semantic predicates from SQL.
+  <sub>`Plugin` · ★14 · prasanthj · `C++`</sub>
 
 - **[lkclean](https://github.com/stefw/lkclean)** — Chrome extension that cleans up your LinkedIn feed: hides engagement bait, self-promo and off-topic posts using Jev, TypeSafe AI's typed classification model — and explains every decision.
   <sub>`Plugin` · ★14 · stefw · `TS`</sub>
 
 - **[augustus](https://github.com/24601/Augustus)** — Agent skill for the decision-model class (classifiers, encoders/decoders, specialized AR heads, System One). TypeSafe Jev is the dominant exemplar. Composition algebra, question design, validation gates. MIT.
-  <sub>`Plugin` · ★12 · 24601 · `Py`</sub>
+  <sub>`Plugin` · ★13 · 24601 · `Py`</sub>
 
-- **[duckdb-jev](https://github.com/prasanthj/duckdb-jev)** — High-throughput, robust native DuckDB extension for batched and streaming TypeSafe/Jev classification, scoring, and semantic predicates from SQL.
-  <sub>`Plugin` · ★12 · prasanthj · `C++`</sub>
+- **[sift](https://github.com/bohutang/sift)** — Chrome extension that labels every post on X (Substance · Humor · Chit-chat · Promo · Junk · AI-written) with TypeSafe Jev, and hides the ones you don't want.
+  <sub>`Plugin` · ★13 · bohutang · `JS`</sub>
 
 - **[jev-ultralightspeed](https://github.com/collapseindex/jev-ultralightspeed)** — Answers one question over a pile of text — tickets, reviews, logs — by packing many items into each request, and reports 32x the throughput of one request per item at 41% lower cost.
   <sub>`Project` · ★12 · collapseindex · `Py` · ⚠ `unverified claims`</sub>
 
-- **[sift](https://github.com/bohutang/sift)** — Chrome extension that labels every post on X (Substance · Humor · Chit-chat · Promo · Junk · AI-written) with TypeSafe Jev, and hides the ones you don't want.
-  <sub>`Plugin` · ★12 · bohutang · `JS`</sub>
-
 - **[jev-tree](https://github.com/reachjalil/jev-tree)** — Recursive Jev choice over a taxonomy. Select from more than 255 options without breaking TypeSafe Jev's choice cap.
-  <sub>`Project` · ★11 · reachjalil · `TS`</sub>
+  <sub>`Project` · ★10 · reachjalil · `TS`</sub>
 
 - **[jev-skip](https://github.com/valentynkit/jev-skip)** — Skips video sponsor segments by reading the captions and deciding at watch time.
   <sub>`Project` · ★9 · valentynkit · `TS`</sub>
@@ -207,8 +210,8 @@ Every catalogued example of this decision — 119 of them, official first, then 
 - **[jev-linkedin-slop-filter](https://github.com/Arpit-Khandelwal/jev-linkedin-slop-filter)** — Slams a BAIT, CORP or BRAG stamp onto LinkedIn engagement-bait, judged live by Jev (TypeSafe System One).
   <sub>`Project` · ★5 · arpit-khandelwal · `JS`</sub>
 
-- **[jeveryword](https://github.com/jkrup/jeveryword)** — Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.
-  <sub>`Project` · ★5 · jkrup · `JS`</sub>
+- **[jev-pr-labeler](https://github.com/1jehuang/jev-pr-labeler)** — Semantic GitHub PR labels using Jev's typed decisions, with conceptual scope instead of line counts
+  <sub>`Project` · ★5 · 1jehuang · `Py`</sub>
 
 - **[notiq](https://github.com/chengyongru/notiq)** — Native Android notification filtering with natural-language rules, powered by Jev or self-hosted FastJev.
   <sub>`Project` · ★5 · chengyongru · `Kt` · ⚠ `no licence`</sub>
@@ -231,9 +234,6 @@ Every catalogued example of this decision — 119 of them, official first, then 
 - **[jev-mode](https://github.com/ddfeyes/jev-mode)** — I kept watching coding agents burn context on decisions that aren't hard - triage 400 tickets, tag 600 files, route to one of six teams. jev-mode moves those verdicts to a typed-judgment model. I A/B'd it: 78% fewer tokens, 16x less work-attributable input, accuracy 96.1% vs 93.7%. Python, no d
   <sub>`Project` · ★4 · ddfeyes · `Py`</sub>
 
-- **[jev-pr-labeler](https://github.com/1jehuang/jev-pr-labeler)** — Semantic GitHub PR labels using Jev's typed decisions, with conceptual scope instead of line counts
-  <sub>`Project` · ★4 · 1jehuang · `Py`</sub>
-
 - **[jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline)** — Daily research monitor for standing questions: deterministic Python owns the loop, TypeSafe Jev screens sources per question, Qwen writes the notes (pilot)
   <sub>`Project` · ★4 · shimo4228 · `Py`</sub>
 
@@ -246,6 +246,9 @@ Every catalogued example of this decision — 119 of them, official first, then 
 - **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — Ten runnable JavaScript agent decisions, one file each: reconciling a new memory against a stored one, gating whether an HTTP 200 really satisfied the task, retry vs. reconcile after an uncertain write, scoring context against a budget, checking a handoff for dropped prohibitions.
   <sub>`Project` · ★3 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `one commit` `AI-written`</sub>
 
+- **[jev-chess](https://github.com/hemanth/jev-chess)** — Chess moves, evaluations, persona opponents, and game classification with TypeSafe AI System One
+  <sub>`Project` · ★3 · hemanth · `TS` · ⚠ `no licence`</sub>
+
 - **[jev-guard](https://github.com/klauswg/jev-guard)** — Real-time risk triage gateway for exchange deposits and withdrawals — Jev (TypeSafe System One) handles triage only; adjudication stays in deterministic code.
   <sub>`Project` · ★3 · klauswg · `Java`</sub>
 
@@ -254,6 +257,9 @@ Every catalogued example of this decision — 119 of them, official first, then 
 
 - **[jev-mcp-server](https://github.com/wangkuangkuang/jev-mcp-server)** — MCP server for Jev (TypeSafe System One): the three official question types — choice, score, noul — plus batch classify. Calibrated probabilities, ~0.5s, <$0.001/call.
   <sub>`Plugin` · ★3 · wangkuangkuang · `Py`</sub>
+
+- **[jev-playwright-mcp](https://github.com/krw82/jev-playwright-mcp)** — Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent.
+  <sub>`Plugin` · ★3 · krw82 · `TS`</sub>
 
 - **[jev-review-action](https://github.com/fatwang2/jev-review-action)** — Configurable GitHub submission review and PR classification with TypeSafe Jev. No text-generation model.
   <sub>`Project` · ★3 · fatwang2 · `JS`</sub>
@@ -264,17 +270,11 @@ Every catalogued example of this decision — 119 of them, official first, then 
 - **[jevtriage](https://github.com/sathariels/jevtriage)** — GitHub Action + CLI: triage PRs with TypeSafe Jev (ready / needs review / risky) with confidence gates and jevcheck-friendly contracts.
   <sub>`Project` · ★3 · sathariels · `Py`</sub>
 
-- **[jev-chess](https://github.com/hemanth/jev-chess)** — Chess moves, evaluations, persona opponents, and game classification with TypeSafe AI System One
-  <sub>`Project` · ★2 · hemanth · `TS` · ⚠ `no licence`</sub>
-
 - **[jev-clean](https://github.com/Kunyanli230/jev-clean)** — decision-first data cleaning system powered by Jev
   <sub>`Project` · ★2 · kunyanli230 · `Py`</sub>
 
 - **[jev-organize](https://github.com/nexibeo/jev-organize)** — Throw in a pile of company files and get them classified and organized by department, type, sensitivity, date, counterparty and PII, with an index for AI agents. Powered by TypeSafe's Jev on OpenRouter (17¢ per 1,000 files). Zero-dependency Node CLI + Claude skill + Codex agent.
   <sub>`Plugin` · ★2 · nexibeo · `JS`</sub>
-
-- **[jev-playwright-mcp](https://github.com/krw82/jev-playwright-mcp)** — Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent.
-  <sub>`Plugin` · ★2 · krw82 · `TS`</sub>
 
 - **[jev-resilience](https://github.com/Vicente-MD/jev-resilience)** — Non-blocking Spring Boot Starter for Spring WebFlux that implements a Semantic Circuit Breaker to detect silent HTTP 200 failures using TypeSafe Jev.
   <sub>`Plugin` · ★2 · vicente-md · `Java` · ⚠ `no licence`</sub>

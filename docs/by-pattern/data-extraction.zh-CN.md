@@ -24,14 +24,14 @@ _从杂乱文本中取出类型化字段 —— 靠在候选中选择，而不�
 - **[smart-paste](https://github.com/nomanjack/smart-paste)** — 根据粘贴的文本自动填写表单：把表单标题、字段标签和你的文字交给 TypeSafe，插入匹配到的值，提交前由你检查。 <sub>(机翻)</sub>
   <sub>`插件` · ★45 · nomanjack · `JS`</sub>
 
+- **[jeveryword](https://github.com/jkrup/jeveryword)** — 用 Jev 做文本抽取：字段抽取、PII 检测与逐字引文。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★40 · jkrup · `JS`</sub>
+
 - **[jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)** — 开源的 macOS computer use 与原生 GUI 自动化，运行在 Apple 芯片上。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★25 · jcpsimmons · `JS`</sub>
 
 - **[jevfill](https://github.com/imohitmayank/jevfill)** — 一个 Chrome 扩展：用 Jev 根据零散的文字笔记自动填写网页表单。把个人信息以纯文本粘贴一次即可，无需结构化档案，随时按需填表。 <sub>(机翻)</sub>
   <sub>`插件` · ★20 · imohitmayank · `TS`</sub>
-
-- **[jeveryword](https://github.com/jkrup/jeveryword)** — 用 Jev 做文本抽取：字段抽取、PII 检测与逐字引文。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★5 · jkrup · `JS`</sub>
 
 - **[jev-mcp-dispatcher](https://github.com/abhishekashokvkumar/jev-mcp-dispatcher)** — 完全由 Jev 驱动的自然语言 MCP 工具分发器，不用通用 LLM。 <sub>(机翻)</sub>
   <sub>`插件` · ★4 · abhishekashokvkumar · `Py` · ⚠ `无许可证`</sub>

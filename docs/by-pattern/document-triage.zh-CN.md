@@ -7,10 +7,10 @@ _对进来的文档、发票、表单做分类和路由。_
 这个决策的全部已收录例子 —— 共 20 条，官方优先，其次是含代码的，再按 star 排序。同样这些行及其警示也在[索引](../../README.zh-CN.md#文档分拣)里；[站点](https://kydlikebtc.github.io/awesome-jev/?p=document-triage&lang=zh)还能按语言、原语和形态进一步筛选。
 
 - **[docjev](https://github.com/jerryjliu/docjev)** — 非常快的文档分类与切分器。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★543 · jerryjliu · `Py`</sub>
+  <sub>`开源项目` · ★548 · jerryjliu · `Py`</sub>
 
 - **[tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier)** — 基于 Jev 决策的税务文档分页分类器，在 261 种 IRS 表单上达到严格全对，每页约 $0.001。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★514 · kyotofin · `TS`</sub>
+  <sub>`开源项目` · ★516 · kyotofin · `TS`</sub>
 
 - **[formanator](https://github.com/timrogers/formanator)** — 从命令行和 MCP 客户端提交福利报销单。 <sub>(机翻)</sub>
   <sub>`插件` · ★102 · timrogers · `Rs`</sub>
@@ -28,7 +28,7 @@ _对进来的文档、发票、表单做分类和路由。_
   <sub>`开源项目` · ★11 · romiluz13 · `Py`</sub>
 
 - **[jev-layer](https://github.com/typakon4/jev-layer)** — 可移植的 System-1 决策层，面向智能体 harness，含宿主自控路由、凭据与回放。 <sub>(机翻)</sub>
-  <sub>`平台集成` · ★8 · typakon4 · `JS`</sub>
+  <sub>`平台集成` · ★9 · typakon4 · `JS`</sub>
 
 - **[jev-document-classification](https://github.com/Charlyhno-eng/jev-document-classification)** — 对文本文档做快速且低成本的分类。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★6 · charlyhno-eng · `TS`</sub>
@@ -45,14 +45,14 @@ _对进来的文档、发票、表单做分类和路由。_
 - **[decision-first](https://github.com/harrymunro/decision-first)** — 一个 agent 技能：识别出有界判断步骤，优先尝试用类型化决策模型解决。 <sub>(机翻)</sub>
   <sub>`插件` · ★2 · harrymunro · `Py`</sub>
 
+- **[jev-boe-demo](https://github.com/Tatuck/jev-boe-demo)** — 每天把 TypeSafe 的 Jev 模型应用于西班牙官方公报（BOE）的演示。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★2 · tatuck · `TS` · ⚠ `无许可证`</sub>
+
 - **[jev-organize](https://github.com/nexibeo/jev-organize)** — 把一堆公司文件扔进去，就能按部门、类型、敏感度、日期、交易方等分类整理好。 <sub>(机翻)</sub>
   <sub>`插件` · ★2 · nexibeo · `JS`</sub>
 
 - **[tiab-review-plugin](https://github.com/youkiti/tiab-review-plugin)** — 一个加速系统综述中“标题与摘要筛选”的 Chrome 扩展，已上架 Chrome 应用商店。 <sub>(机翻)</sub>
   <sub>`插件` · ★2 · youkiti · `TS`</sub>
-
-- **[jev-boe-demo](https://github.com/Tatuck/jev-boe-demo)** — 每天把 TypeSafe 的 Jev 模型应用于西班牙官方公报（BOE）的演示。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★1 · tatuck · `TS` · ⚠ `无许可证`</sub>
 
 - **[jev-report](https://github.com/HackSing/jev-report)** — 发明 RLHF 的人这次做了个不会说话的模型：Jev 独立研究报告，含中文实测复现包与可回溯数据表。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★1 · hacksing · `Py`</sub>

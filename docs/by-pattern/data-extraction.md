@@ -24,14 +24,14 @@ Every catalogued example of this decision — 16 of them, official first, then r
 - **[smart-paste](https://github.com/nomanjack/smart-paste)** — Fills form fields from pasted text: the form's heading, labels and your text go to TypeSafe, and it inserts the values it matches for you to review before submitting.
   <sub>`Plugin` · ★45 · nomanjack · `JS`</sub>
 
+- **[jeveryword](https://github.com/jkrup/jeveryword)** — Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.
+  <sub>`Project` · ★40 · jkrup · `JS`</sub>
+
 - **[jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)** — Open-source macOS AI computer use and native GUI automation on Apple silicon. Jev + OmniParser CoreML + Apple Vision OCR. Bring your own OpenRouter, Vercel AI Gateway, or TypesafeAI token.
   <sub>`Project` · ★25 · jcpsimmons · `JS`</sub>
 
 - **[jevfill](https://github.com/imohitmayank/jevfill)** — A Chrome extension that fills web forms from unstructured notes with Jev: paste your details once as plain text, with no structured profile, then fill forms on demand.
   <sub>`Plugin` · ★20 · imohitmayank · `TS`</sub>
-
-- **[jeveryword](https://github.com/jkrup/jeveryword)** — Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.
-  <sub>`Project` · ★5 · jkrup · `JS`</sub>
 
 - **[jev-mcp-dispatcher](https://github.com/abhishekashokvkumar/jev-mcp-dispatcher)** — Natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev — no general-purpose LLM. Discovers a simple MCP server's tool signatures at runtime and uses Jev's typed primitives (Choice/Noul) to pick the right tool and extract its arguments straight out of the sentence.
   <sub>`Plugin` · ★4 · abhishekashokvkumar · `Py` · ⚠ `no licence`</sub>

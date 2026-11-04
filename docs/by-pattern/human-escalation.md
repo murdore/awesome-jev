@@ -28,55 +28,55 @@ Every catalogued example of this decision — 67 of them, official first, then r
   <sub>`Official docs`</sub>
 
 - **[Airflow LLMBranchOperator with Jev](https://airflow.apache.org/docs/apache-airflow-providers-common-ai/stable/index.html)** — Turns downstream task ids into a choice option set, with a minimum-confidence gate that routes uncertain runs to a human.
-  <sub>`Integration` · ★47,294 · `Py` · `choice`</sub>
+  <sub>`Integration` · ★47,357 · `Py` · `choice`</sub>
 
 - **[Composio TypeSafe provider](https://github.com/ComposioHQ/composio/tree/next/python/providers/typesafe)** — Compiles a tool catalogue into questions and reconstructs tool calls from the answers, with typed errors for abstention and confirmation-required cases.
-  <sub>`Project` · ★30,782 · `Py` · `choice`</sub>
+  <sub>`Project` · ★30,906 · `Py` · `choice`</sub>
 
 - **[Inbox Zero: seven email decisions](https://github.com/elie222/inbox-zero)** — Seven distinct email decisions, each with its own separately chosen threshold, falling back to the normal LLM on any error.
-  <sub>`Project` · ★12,845 · `TS` · `choice` · `noul`</sub>
+  <sub>`Project` · ★12,909 · `TS` · `choice` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)** — Pre-screens code review with Jev to surface high-risk changes for a more expensive model or a person, with a local dashboard.
-  <sub>`Project` · ★688 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★696 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-align](https://github.com/sutro-sh/jev-align)** — Builds calibrated decision functions from human feedback.
-  <sub>`Project` · ★311 · sutro-sh · `Py`</sub>
+  <sub>`Project` · ★315 · sutro-sh · `Py`</sub>
 
 - **[Probing Jev's behaviour with repeated API calls](https://github.com/ahastudio/til)** — Independent Korean-language notes reporting that reversing the order of options shifted a probability enough to flip a 0.9 threshold.
-  <sub>`Benchmark` · ★192 · `Py` · ⚠ `no licence` `unverified claims`</sub>
+  <sub>`Benchmark` · ★193 · `Py` · ⚠ `no licence` `unverified claims`</sub>
 
 - **[jev-forge](https://github.com/zwliJay/jev-forge)** — An open training and inference stack for Jev-style decision models. Train models to score dynamic candidate branches from a shared prefix, with support for high-cardinality choice, calibration, and fast batched inference.
-  <sub>`Jev-like alternative` · ★163 · zwlijay · `Py` · ⚠ `not Jev itself`</sub>
+  <sub>`Jev-like alternative` · ★164 · zwlijay · `Py` · ⚠ `not Jev itself`</sub>
 
 - **[neurolink](https://github.com/juspay/neurolink)** — The pipe layer of an AI nervous system: one interface connecting provider neurons to an application, across three inference types — generate, stream, and decide. Decide returns typed, calibrated judgments (boolean/choice/score) via TypeSafe Jev, not text.
   <sub>`Plugin` · ★157 · juspay · `TS`</sub>
 
 - **[Jev-Moderation-Bot](https://github.com/brainstormity/Jev-Moderation-Bot)** — A Discord moderation bot: a Choice tiers each message while a Noul carries ban urgency, and an admin pardon is fed back as a safe precedent in later requests.
-  <sub>`Project` · ★49 · brainstormity · `Py` · `choice` · `noul`</sub>
+  <sub>`Project` · ★50 · brainstormity · `Py` · `choice` · `noul`</sub>
 
 - **[jev-calibrate](https://github.com/smkrv/jev-calibrate)** — Calibrate Jev questions against your own labels: tune criteria on labelled examples, confirm on a held-out set, get a verdict per question. Unofficial.
   <sub>`Project` · ★33 · smkrv · `TS`</sub>
 
 - **[jev-agent-skill-router](https://github.com/GodsBoy/jev-agent-skill-router)** — Typed, confidence-aware agent skill routing with TypeSafe Jev.
-  <sub>`Plugin` · ★31 · godsboy · `Py`</sub>
+  <sub>`Plugin` · ★32 · godsboy · `Py`</sub>
 
 - **[toolgate](https://github.com/RiskAverseTech/toolgate)** — Open auto mode for AI agents — a calibrated tool-call firewall powered by TypeSafe Jev. Ships as a Claude Code hook
-  <sub>`Plugin` · ★28 · riskaversetech · `TS`</sub>
+  <sub>`Plugin` · ★29 · riskaversetech · `TS`</sub>
 
 - **[jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks)** — Probability-aware evaluation for typed decision models: calibration, selective risk, latency, and reproducible benchmarks.
   <sub>`Benchmark` · ★27 · abdelstark · `Py`</sub>
 
 - **[jev-usecases](https://github.com/kenhuangus/jev-usecases)** — Production TypeSafe Jev (System One) use-case harnesses with confidence-gated decision logic
-  <sub>`Project` · ★25 · kenhuangus · `Py`</sub>
+  <sub>`Project` · ★27 · kenhuangus · `Py`</sub>
+
+- **[jevwire](https://github.com/Brainwires/jevwire)** — Jev decision layer for agents: MCP server, embeddable DecisionModel library, and an escalate-only Claude Code plugin (TypeSafe AI's Jev)
+  <sub>`Plugin` · ★25 · brainwires · `TS`</sub>
 
 - **[muse-jev-playbook](https://github.com/Bodila51/muse-jev-playbook)** — Jev decision layer for Muse: a fast, cheap TypeSafe AI gate before expensive agent work — confidence policy, recipes, reference router, honest measurement.
   <sub>`Plugin` · ★25 · bodila51 · `Py`</sub>
 
 - **[jeval](https://github.com/rlaope/jeval)** — Measures what your Jev classifier's confidence is really worth, and sets the human hand-off line from what a mistake costs.
   <sub>`Project` · ★24 · rlaope · `Py`</sub>
-
-- **[jevwire](https://github.com/Brainwires/jevwire)** — Jev decision layer for agents: MCP server, embeddable DecisionModel library, and an escalate-only Claude Code plugin (TypeSafe AI's Jev)
-  <sub>`Plugin` · ★24 · brainwires · `TS`</sub>
 
 - **[jevalyn](https://github.com/Ray-Hughes/jevalyn)** — The decision layer for your Rails app. A Rails-native wrapper around TypeSafe's Jev System One API: typed, calibrated decisions in your control flow.
   <sub>`Project` · ★20 · ray-hughes · `Rb`</sub>
@@ -91,7 +91,7 @@ Every catalogued example of this decision — 67 of them, official first, then r
   <sub>`Project` · ★15 · antoniocoppe · `TS`</sub>
 
 - **[jevflow](https://github.com/Mawfyy/jevflow)** — Probabilistic AI decisions as composable backend primitives — typed judgments (noul/score/choice), deterministic thresholds, and explainable workflows. Powered by TypeSafe's Jev, provider-agnostic.
-  <sub>`Integration` · ★11 · mawfyy · `TS` · ⚠ `no licence`</sub>
+  <sub>`Integration` · ★12 · mawfyy · `TS` · ⚠ `no licence`</sub>
 
 - **[jevmory](https://github.com/romiluz13/jevmory)** — Coding-agent memory where every fact is a verbatim quote graded by TypeSafe Jev's calibrated confidence. Local-first, SQLite receipts, zero dependencies.
   <sub>`Project` · ★11 · romiluz13 · `Py`</sub>
@@ -108,11 +108,11 @@ Every catalogued example of this decision — 67 of them, official first, then r
 - **[typed-decisions](https://github.com/mithril-lang/typed-decisions)** — Jev-shaped typed-decision model (state + Choice/Score/Noul questions -> calibrated probabilities, one pass) on ModernBERT / DeBERTa / LLaDA-MoE, with measured latency, accuracy, calibration and training cost
   <sub>`Project` · ★10 · kotoba-lang · `Py`</sub>
 
+- **[luce](https://github.com/scienthoon/luce)** — Luce: a recipe for calibrated decision models — a sentence about your task in, a small model that answers typed questions with honest probabilities out (init → synth → train → eval → serve)
+  <sub>`Project` · ★9 · scienthoon · `Py`</sub>
+
 - **[jev-block-android-ad](https://github.com/ufec/jev-block-android-ad)** — JevNoiseGate filters unwanted notifications and SMS on Android. Rather than matching keywords, an LLM decides what's noise — and only what it explicitly flags is blocked. Verification codes are matched on-device and never uploaded; anything uncertain passes through.
   <sub>`Project` · ★8 · ufec · `Kt`</sub>
-
-- **[luce](https://github.com/scienthoon/luce)** — Luce: a recipe for calibrated decision models — a sentence about your task in, a small model that answers typed questions with honest probabilities out (init → synth → train → eval → serve)
-  <sub>`Project` · ★8 · scienthoon · `Py`</sub>
 
 - **[typesafe-local](https://github.com/aabolfazl/typesafe-local)** — Inspired by TypeSafe Ai, Ask a local LLM typed questions, get calibrated probabilities instead of text. Structured output without generation or parsing. MLX / Apple Silicon.
   <sub>`Project` · ★8 · aabolfazl · `Py`</sub>
