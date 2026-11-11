@@ -16,52 +16,52 @@ _智能体下一步该调用哪个工具或动作。_
   <sub>`官方文档` · `Py`</sub>
 
 - **[ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)** — 一支 AI 对冲基金团队：多个投资者智能体协作做出交易决策；TypeSafe（Jev）是可选的模型提供方之一。 <sub>(机翻)</sub>
-  <sub>`平台集成` · ★64,477 · virattt · `Py`</sub>
+  <sub>`平台集成` · ★64,631 · virattt · `Py`</sub>
 
 - **[claude-code-templates: three Jev plugins](https://github.com/davila7/claude-code-templates)** — 三个可独立安装的 Claude Code 插件 —— 护栏、模型路由、技能推荐 —— 各自带 hook 和测试。
-  <sub>`插件` · ★33,116 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★33,308 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[Cua driver: jev-use example](https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use)** — Python 与 TypeScript 双实现的 computer-use 动作选择：Jev 从不可变候选集里挑下一个浏览器动作，保留 reobserve 和 abstain 两个特殊选项。
-  <sub>`开源项目` · ★31,718 · `Py` · `TS` · `choice`</sub>
+  <sub>`开源项目` · ★32,180 · `Py` · `TS` · `choice`</sub>
 
 - **[Composio TypeSafe provider](https://github.com/ComposioHQ/composio/tree/next/python/providers/typesafe)** — 把工具目录编译成问题，再从答案还原出 tool call，并为「弃权」和「需确认」两种情况定义了专门的错误类型。
-  <sub>`开源项目` · ★30,906 · `Py` · `choice`</sub>
+  <sub>`开源项目` · ★31,024 · `Py` · `choice`</sub>
 
 - **[FastMCP jev_search transform](https://github.com/PrefectHQ/fastmcp/blob/main/fastmcp_slim/fastmcp/experimental/transforms/jev_search.py)** — 两段式 MCP 工具检索：先用一个宽 Choice 对整个目录粗排，再给候选短名单配完整描述，每个候选各配一个 Noul 判断它到底是否胜任。
-  <sub>`开源项目` · ★28,303 · `Py` · `choice` · `noul`</sub>
+  <sub>`开源项目` · ★28,385 · `Py` · `choice` · `noul`</sub>
 
 - **[jev-ultrafast](https://github.com/browser-use/jev-ultrafast)** — Browser Use 做的高速浏览器 Agent。Jev 每一步只判断「做什么、点哪个元素」，要打字才叫小模型。
-  <sub>`开源项目` · ★24,161 · Browser Use · `Py` · `choice` · ⚠ `厂商自报数据`</sub>
-
-- **[json-render](https://github.com/vercel-labs/json-render)** — Vercel Labs 的生成式 UI 框架。实验里 Jev 不逐 token 写 JSON，只负责选组件、属性和布局。
-  <sub>`开源项目` · ★18,905 · Vercel Labs · `TS` · `choice`</sub>
+  <sub>`开源项目` · ★24,411 · Browser Use · `Py` · `choice` · ⚠ `厂商自报数据`</sub>
 
 - **[agent-desktop](https://github.com/vercel-labs/agent-desktop)** — 桌面自动化。读系统无障碍树，判断下一步该点哪个按钮、菜单或输入框。
-  <sub>`开源项目` · ★14,136 · `Rs` · `choice` · `noul`</sub>
+  <sub>`开源项目` · ★21,785 · `Rs` · `choice` · `noul`</sub>
+
+- **[json-render](https://github.com/vercel-labs/json-render)** — Vercel Labs 的生成式 UI 框架。实验里 Jev 不逐 token 写 JSON，只负责选组件、属性和布局。
+  <sub>`开源项目` · ★19,567 · Vercel Labs · `TS` · `choice`</sub>
 
 - **[DeepChat: agent tool-permission review](https://github.com/ThinkInAIXYZ/deepchat)** — 从三个维度审查每次工具调用：风险等级、用户是否授权、以及一个显式的提示注入压力检查。
-  <sub>`开源项目` · ★6,382 · `TS` · `choice` · `noul`</sub>
+  <sub>`开源项目` · ★6,388 · `TS` · `choice` · `noul`</sub>
 
 - **[jev-trader](https://github.com/jarrodwatts/jev-trader)** — 在 Monad 测试网上做高频做市。Jev 根据价差和成交方向判断下一步买还是卖。
-  <sub>`开源项目` · ★3,120 · `TS` · `choice` · ⚠ `宣称未核实`</sub>
-
-- **[reticle](https://github.com/reticlehq/reticle)** — AI 智能体能生成代码，却仍难以理解自己构建的东西。Reticle 用 TypeSafe Jev 路由验证流程，并由 Jev 驱动对页面的探索。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★1,309 · reticlehq · `TS`</sub>
+  <sub>`开源项目` · ★3,136 · `TS` · `choice` · ⚠ `宣称未核实`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — 九个 agent 技能加一个 CLI，覆盖模型路由、记忆过滤、对话轮保留、多选一技能选择和下一步动作决策。
-  <sub>`插件` · ★1,292 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★1,335 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)** — macOS 上的 computer use：OCR 屏幕、分类下一步动作、点击。每步成本不到一分钱的零头。
-  <sub>`开源项目` · ★1,284 · awlevin · `Py`</sub>
+  <sub>`开源项目` · ★1,297 · awlevin · `Py`</sub>
+
+- **[reticle](https://github.com/reticlehq/reticle)** — AI 智能体能生成代码，却仍难以理解自己构建的东西。Reticle 用 TypeSafe Jev 路由验证流程，并由 Jev 驱动对页面的探索。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★1,267 · reticlehq · `TS`</sub>
 
 - **[jev-browser-use](https://github.com/wy-coliney/jev-browser-use)** — 把循环拆开：Jev 负责点击，推理模型负责思考与验证。
-  <sub>`开源项目` · ★1,207 · wy-coliney · `JS`</sub>
+  <sub>`开源项目` · ★1,212 · wy-coliney · `JS`</sub>
 
 - **[foreman](https://github.com/thruwire/foreman)** — 一个「软件工厂工头」，用 Jev 决定智能体流水线下一步该做什么。
-  <sub>`开源项目` · ★808 · thruwire · `Py`</sub>
+  <sub>`开源项目` · ★822 · thruwire · `Py`</sub>
 
 - **[tiptour-macos](https://github.com/milind-soni/tiptour-macos)** — 开源的快速本地 computer use。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★693 · milind-soni · `Swift`</sub>
+  <sub>`开源项目` · ★698 · milind-soni · `Swift`</sub>
 
 - **[agent](https://github.com/AgentiLoop/Agent)** — 面向 Mac 的自主智能体 harness。 <sub>(机翻)</sub>
   <sub>`平台集成` · ★652 · agentiloop · `Swift`</sub>
@@ -69,116 +69,116 @@ _智能体下一步该调用哪个工具或动作。_
 - **[Jev-cu](https://github.com/Sac-Y/Jev-cu)** — 一个 computer-use 智能体：判断该对无障碍树里哪个元素操作，并单独用一个 noul 判断这个动作是否需要用户显式确认。
   <sub>`开源项目` · ★631 · `JS` · `choice` · `noul`</sub>
 
-- **[omg.dev](https://github.com/BennyKok/omg.dev)** — 用手机远程控制各类编程智能体。 <sub>(机翻)</sub>
-  <sub>`插件` · ★554 · bennykok · `TS`</sub>
-
 - **[jevharness](https://github.com/TianyuCodings/JevHarness)** — 由 LLM 撰写的任务专用 Jev harness，可选全轨迹奖励反思。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★552 · tianyucodings · `Py` · ⚠ `无许可证`</sub>
+  <sub>`开源项目` · ★559 · tianyucodings · `Py` · ⚠ `无许可证`</sub>
+
+- **[omg.dev](https://github.com/BennyKok/omg.dev)** — 用手机远程控制各类编程智能体。 <sub>(机翻)</sub>
+  <sub>`插件` · ★556 · bennykok · `TS`</sub>
 
 - **[jevrouter](https://github.com/BillionsBobby/JevRouter)** — 面向模型、工具和子智能体的路由器。
-  <sub>`开源项目` · ★466 · billionsbobby · `TS`</sub>
+  <sub>`开源项目` · ★469 · billionsbobby · `TS`</sub>
 
 - **[mobile-jev](https://github.com/droidrun/mobile-jev)** — 移动端 computer use：由 Jev 决定手机屏幕上的下一个动作。
-  <sub>`开源项目` · ★460 · droidrun · `JS`</sub>
+  <sub>`开源项目` · ★467 · droidrun · `JS`</sub>
 
 - **[typesafe-mario](https://github.com/fhshaik/typesafe-mario)** — 让 Jev 玩《超级马里奥》。不看截图，直接读模拟器 RAM 里的结构化状态，再决定跑、跳、躲。
-  <sub>`开源项目` · ★457 · `Py` · `choice` · `score` · `noul` · ⚠ `代码未实测` `仅一次提交` `无许可证`</sub>
+  <sub>`开源项目` · ★462 · `Py` · `choice` · `score` · `noul` · ⚠ `代码未实测` `仅一次提交` `无许可证`</sub>
 
 - **[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)** — 语音驱动的浏览器控制：目标选项每次请求都按当前实时元素列表重建，并且总是包含一个 none 选项。
-  <sub>`开源项目` · ★425 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`开源项目` · ★431 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[wrongstack](https://github.com/WrongStack/WrongStack)** — 一个 AI 编程智能体：读代码、改文件、跑命令、推理 bug。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★403 · wrongstack · `TS`</sub>
+  <sub>`开源项目` · ★409 · wrongstack · `TS`</sub>
 
 - **[jev-browser](https://github.com/jkudish/jev-browser)** — 浏览器自动化，下一步动作由 Jev 选择。
-  <sub>`开源项目` · ★367 · jkudish · `TS`</sub>
+  <sub>`开源项目` · ★368 · jkudish · `TS`</sub>
 
 - **[embodied-jev](https://github.com/FBddcz/embodied-jev)** — EmbodiedJev：基于 MuJoCo 的机器人决策工作台。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★332 · fbddcz · `Py`</sub>
+  <sub>`开源项目` · ★336 · fbddcz · `Py`</sub>
 
 - **[jev-gateway](https://github.com/vinilana/jev-gateway)** — 把 Jev 接进编程智能体，用于工具调用的推理判断。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★325 · vinilana · `TS`</sub>
+  <sub>`开源项目` · ★326 · vinilana · `TS`</sub>
 
 - **[jev-drone](https://github.com/RomanSlack/jev-drone)** — 拿 Jev 控无人机。底层飞控继续负责稳定和安全，Jev 只做爬升、刹车、穿越障碍这类上层判断。
   <sub>`开源项目` · ★300 · `Py` · `choice` · `score` · `noul` · ⚠ `宣称未核实`</sub>
 
 - **[quackd](https://github.com/rokbenko/quackd)** — 统管所有机器人的 CLI：每台机器人配一个 LLM 作大脑，由 Jev 做决策。 <sub>(机翻)</sub>
-  <sub>`插件` · ★289 · rokbenko · `Py`</sub>
+  <sub>`插件` · ★294 · rokbenko · `Py`</sub>
 
 - **[jev-dsh-decision](https://github.com/Devin-AXIS/jev-dsh-decision)** — Jev DSH 决策引擎：面向 Agent Harness 的结构化决策插件，原生支持 DeepSeek Harness。 <sub>(机翻)</sub>
-  <sub>`插件` · ★269 · devin-axis · `JS` · ⚠ `无许可证`</sub>
+  <sub>`插件` · ★271 · devin-axis · `JS` · ⚠ `无许可证`</sub>
 
 - **[jev-mem](https://github.com/libingzheren/Jev-Mem)** — Jev-Mem：由 System One 控制的智能体记忆。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★255 · libingzheren · `Py`</sub>
+  <sub>`开源项目` · ★262 · libingzheren · `Py`</sub>
 
 - **[jevpilot](https://github.com/standardagents/jevpilot)** — 驾驶模拟器的自动驾驶，每个 tick 问两个 choice；只剩单一选项的问题直接在本地短路，不花钱发出去。
-  <sub>`开源项目` · ★233 · `JS` · `choice` · ⚠ `无许可证`</sub>
+  <sub>`开源项目` · ★238 · `JS` · `choice` · ⚠ `无许可证`</sub>
 
 - **[jev-trade](https://github.com/aowang-ai/jev-trade)** — 在 Hyperliquid 上实盘运行的 Jev 交易机器人。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★225 · aowang-ai · `TS`</sub>
+  <sub>`开源项目` · ★227 · aowang-ai · `TS`</sub>
 
 - **[hyperedit](https://github.com/kevinbadi/hyperedit)** — 一个 AI 视频编辑器：把编辑指令路由到具体操作、目标片段和轨道，并以关键词路由作为兜底。
   <sub>`开源项目` · ★223 · `TS` · `choice` · `noul` · ⚠ `无许可证`</sub>
 
-- **[systemoneharness](https://github.com/HarnessRouter/SystemOneHarness)** — 面向 System One 模型的 harness。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★206 · harnessrouter · `Py`</sub>
+- **[fastbrowse](https://github.com/agent-labs-dev/fastbrowse)** — 快速浏览器智能体：Jev 从页面现有内容里挑动作，LLM 负责阅读与规划。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★222 · agent-labs-dev · `Py`</sub>
 
 - **[jev-social](https://github.com/socai-io/jev-social)** — 只读的 Instagram、TikTok 与 LinkedIn 调研：Jev 先路由平台，再从最新浏览器证据中选择受限的 socai CLI 动作；代码校验目标并保留来源链接。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★196 · socai-io · `JS` · `choice` · ⚠ `需第三方密钥`</sub>
+  <sub>`开源项目` · ★210 · socai-io · `JS` · `choice` · ⚠ `需第三方密钥`</sub>
+
+- **[systemoneharness](https://github.com/HarnessRouter/SystemOneHarness)** — 面向 System One 模型的 harness。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★207 · harnessrouter · `Py`</sub>
 
 - **[interlinked-cli](https://github.com/QuentinCody/interlinked-cli)** — 给你的 harness 做的 harness：本地钩子、品味约束与开发者可观测性。 <sub>(机翻)</sub>
-  <sub>`插件` · ★183 · quentincody · `TS`</sub>
+  <sub>`插件` · ★185 · quentincody · `TS`</sub>
 
 - **[neo4jev](https://github.com/jexp/neo4jev)** — 把 Jev 塞进知识图谱。每走到一个节点，判断下一条最值得走的边，再一路找下去。
-  <sub>`开源项目` · ★183 · `Py` · `choice`</sub>
+  <sub>`开源项目` · ★184 · `Py` · `choice`</sub>
 
 - **[system1-agents](https://github.com/ThinkFlowLab/system1-agents)** — 把 System 1 决策模型（Jev、Laya、Cua-S1）当作智能体的大脑：浏览器操作、电脑操作、游戏与机器人。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★180 · thinkflowlab · `Py`</sub>
-
-- **[fastbrowse](https://github.com/agent-labs-dev/fastbrowse)** — 快速浏览器智能体：Jev 从页面现有内容里挑动作，LLM 负责阅读与规划。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★173 · agent-labs-dev · `Py`</sub>
+  <sub>`开源项目` · ★182 · thinkflowlab · `Py`</sub>
 
 - **[pi-jev](https://github.com/y0usaf/pi-jev)** — 给编程智能体做的决策层：一个可度量的工具调用闸门，外加一个返回校准答案的类型化提问。
-  <sub>`插件` · ★169 · y0usaf · `TS`</sub>
+  <sub>`插件` · ★165 · y0usaf · `TS`</sub>
 
 - **[macbrow](https://github.com/timpratim/macbrow)** — 由 Gradium 驱动的免手操作 Mac 与浏览器控制。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★161 · timpratim · `Py`</sub>
+  <sub>`开源项目` · ★162 · timpratim · `Py`</sub>
 
 - **[jev-guard](https://github.com/leepokai/jev-guard)** — 给所有编程智能体做的自动模式：结合会话上下文给每次工具调用打风险分（拒绝／询问／放行）。 <sub>(机翻)</sub>
-  <sub>`插件` · ★144 · leepokai · `JS`</sub>
+  <sub>`插件` · ★152 · leepokai · `JS`</sub>
 
 - **[skillranker](https://github.com/Dicklesworthstone/skillranker)** — 用当前会话上下文给智能体的技能排序以决定下一步，带 Claude Code hook。
-  <sub>`插件` · ★138 · dicklesworthstone · `Rs`</sub>
+  <sub>`插件` · ★141 · dicklesworthstone · `Rs`</sub>
+
+- **[jev-browser](https://github.com/Ying-Kai-Liao/jev-browser)** — 浏览器自动化：LLM 负责规划，Jev（TypeSafe System One）负责决策。提供库、CLI 和 MCP 服务器。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★134 · ying-kai-liao · `JS`</sub>
 
 - **[jev-webmcp-extension](https://github.com/sdras/jev-webmcp-extension)** — 一个演示 Jev 与 WebMCP 结合的小扩展。 <sub>(机翻)</sub>
   <sub>`插件` · ★133 · sdras · `JS`</sub>
 
-- **[jev-browser](https://github.com/Ying-Kai-Liao/jev-browser)** — 浏览器自动化：LLM 负责规划，Jev（TypeSafe System One）负责决策。提供库、CLI 和 MCP 服务器。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★128 · ying-kai-liao · `JS`</sub>
-
 - **[jev-use](https://github.com/savka777/jev-use)** — 说出来，Mac 就去做。基于 Jev 的电脑操作框架，通过辅助功能接口读取屏幕，速度快，不需要视觉模型。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★128 · savka777 · `Swift`</sub>
+  <sub>`开源项目` · ★131 · savka777 · `Swift`</sub>
 
 - **[jev-chat: a tool-calling chatbot with no LLM](https://github.com/w3cj/jev-chat)** — 一个完全不含语言模型的 tool calling 聊天机器人：一次请求同时问清请求类型、该调哪个工具、以及每个工具的参数。
-  <sub>`开源项目` · ★122 · `TS` · `choice` · `noul`</sub>
+  <sub>`开源项目` · ★125 · `TS` · `choice` · `noul`</sub>
 
 - **[windtunnel](https://github.com/nekuda-ai/WindTunnel)** — 一个 WebMCP 基准，衡量 WebMCP 与其他浏览器智能体接口的差距。 <sub>(机翻)</sub>
-  <sub>`基准测试` · ★92 · nekuda-ai · `TS`</sub>
+  <sub>`基准测试` · ★93 · nekuda-ai · `TS`</sub>
 
 - **[jev-libero](https://github.com/Dimweaker/jev-libero)** — 精细的机器人控制，带物理预览与可配置的 LIBERO 任务。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★86 · dimweaker · `Py`</sub>
+  <sub>`开源项目` · ★87 · dimweaker · `Py`</sub>
 
 - **[jev-desktop](https://github.com/yikangy873-gif/jev-desktop)** — 在 Codex Computer Use 内部做动作选择。 <sub>(机翻)</sub>
-  <sub>`插件` · ★79 · yikangy873-gif · `JS`</sub>
+  <sub>`插件` · ★80 · yikangy873-gif · `JS`</sub>
 
 - **[pi-jev](https://github.com/TheoOliveira/pi-jev)** — 为 Pi 编码智能体提供语义化的工具路由和带类型的 System One 决策，基于 TypeSafe Jev。 <sub>(机翻)</sub>
-  <sub>`插件` · ★72 · theooliveira · `TS`</sub>
+  <sub>`插件` · ★73 · theooliveira · `TS`</sub>
 
 - **[jev-use](https://github.com/shitianfang/jev-use)** — 一个智能体插件：把不需要文本输出的步骤交给 Jev，而不是主模型。
-  <sub>`插件` · ★67 · shitianfang · `JS`</sub>
+  <sub>`插件` · ★70 · shitianfang · `JS`</sub>
 
 - **[jev-robot-control](https://github.com/openroboto-ai/jev-robot-control)** — 在 MuJoCo 中直接对 xArm7 做笛卡尔控制，对比 Jev 与两个 LLM：每一步选择意图、移动方向和夹爪动作，附原始响应、轨迹与回放。每个控制器只跑了一次（seed 0），不是成功率估计。 <sub>(机翻)</sub>
-  <sub>`基准测试` · ★65 · openroboto-ai · `Py`</sub>
+  <sub>`基准测试` · ★66 · openroboto-ai · `Py`</sub>
 
 - **[robojev](https://github.com/lykycy123/RoboJEV)** — 在 MuJoCo 里对 Franka Panda 做两阶段 JEV 控制。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★64 · lykycy123 · `Py`</sub>
@@ -189,17 +189,17 @@ _智能体下一步该调用哪个工具或动作。_
 - **[laya-jev-GraphRAG](https://github.com/bodepudimuneendra-netizen/ConsciousDB)** — 一个智能体式 GraphRAG 引擎，可切换 System One 决策模型（本地 Laya 或云端 Jev）。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★54 · bodepudimuneendra-netizen · `Py`</sub>
 
+- **[Jevbridge](https://github.com/tacticocc/Jevbridge)** — 把 TypeSafe Jev 与任意 LLM 连起来的 ACP 与 MCP 适配器：在 Codex、Claude 等旁边提供电脑操作和带类型的决策。 <sub>(机翻)</sub>
+  <sub>`插件` · ★51 · gamesonrblx · `TS`</sub>
+
 - **[Jev-as-Policy](https://github.com/YuanKJing/Jev-as-Policy)** — “JEV 作为策略”的开源仓库：一键搭建仿真环境，用 Jev 选择动作。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★50 · yuankjing · `Py`</sub>
 
-- **[Jevbridge](https://github.com/tacticocc/Jevbridge)** — 把 TypeSafe Jev 与任意 LLM 连起来的 ACP 与 MCP 适配器：在 Codex、Claude 等旁边提供电脑操作和带类型的决策。 <sub>(机翻)</sub>
-  <sub>`插件` · ★48 · gamesonrblx · `TS`</sub>
+- **[jev-for-chrome](https://github.com/chy4pro/jev-for-chrome)** — Jev for Chrome：用亚秒级决策模型驱动你正在看的那个标签页。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★47 · chy4pro · `TS`</sub>
 
 - **[jev-reviewer](https://github.com/choxos/jev-reviewer)** — 系统综述的数据抽取：让 Jev 从论文及其补充材料里按抽取表取值，并附原文引用。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★47 · choxos · `JS`</sub>
-
-- **[jev-for-chrome](https://github.com/chy4pro/jev-for-chrome)** — Jev for Chrome：用亚秒级决策模型驱动你正在看的那个标签页。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★46 · chy4pro · `TS`</sub>
 
 - **[live-jev](https://github.com/okinaaudio/live-jev)** — 用一句简短的话（日语或英语）控制 Ableton Live。⌘⇧Space 呼出，打字或口述，完成。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★46 · okinaaudio · `Py`</sub>
@@ -207,23 +207,23 @@ _智能体下一步该调用哪个工具或动作。_
 - **[OneVOneJev](https://github.com/emrickgarrett/OneVOneJev)** — 浏览器里的 1v1 FPS。每个决策 tick 都要判断走位、视角、瞄准、开火和跳跃。
   <sub>`开源项目` · ★44 · `TS` · `choice` · ⚠ `代码未实测` `无许可证`</sub>
 
+- **[browserclaw](https://github.com/GoldenLoaf24h/browserpaw)** — 高效率的 Chrome 浏览器自动化 MCP server。 <sub>(机翻)</sub>
+  <sub>`插件` · ★41 · goldenloaf24h · `TS`</sub>
+
 - **[jev-browser-skill](https://github.com/hqman/jev-browser-skill)** — 由 Jev 驱动的隔离 Playwright Chromium：编码智能体执行一个范围很窄的浏览器目标，由 Jev 选择页面内的操作；默认经 Vercel AI Gateway，也可直接调用 TypeSafe API。 <sub>(机翻)</sub>
   <sub>`插件` · ★41 · hqman · `TS`</sub>
 
-- **[browserclaw](https://github.com/GoldenLoaf24h/browserpaw)** — 高效率的 Chrome 浏览器自动化 MCP server。 <sub>(机翻)</sub>
-  <sub>`插件` · ★40 · goldenloaf24h · `TS`</sub>
-
 - **[jev-cua](https://github.com/ronadin2002/jev-cua)** — 用语音和文字控制 macOS：一个悬浮栏，由 Jev 实时选择界面操作，并持续执行“观察—行动—验证”循环。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★40 · ronadin2002 · `Swift` · ⚠ `无许可证`</sub>
+  <sub>`开源项目` · ★41 · ronadin2002 · `Swift` · ⚠ `无许可证`</sub>
+
+- **[jev-harness](https://github.com/TypeSafeAI/jev-harness)** — 为 TypeSafe AI Jev 打造的编码框架：LLM 提出方案，Jev 回答窄问题，代码做决定，每一步都有记录。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★39 · typesafeai · `TS`</sub>
 
 - **[JevScout](https://github.com/hqman/JevScout)** — 在真实公司官网上找工作的编码智能体技能：Chrome 负责看和操作，Jev 为每个链接和职位打分，宿主 LLM 从不决定点哪里。 <sub>(机翻)</sub>
   <sub>`插件` · ★38 · hqman · `Py` · ⚠ `无许可证`</sub>
 
-- **[jev-harness](https://github.com/TypeSafeAI/jev-harness)** — 为 TypeSafe AI Jev 打造的编码框架：LLM 提出方案，Jev 回答窄问题，代码做决定，每一步都有记录。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★37 · typesafeai · `TS`</sub>
-
 - **[jev-doom-agent](https://github.com/lukaske/jev-doom-agent)** — 浏览器原生的 Doom 智能体实验，带结构化空间状态与实时决策遥测。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★35 · lukaske · `TS` · ⚠ `无许可证`</sub>
+  <sub>`开源项目` · ★36 · lukaske · `TS` · ⚠ `无许可证`</sub>
 
 - **[pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode)** — 给 Pi 编程智能体做的自动模式：在语义层面自动批准 bash、写入和编辑类工具调用。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★33 · jomatsu · `TS`</sub>
@@ -232,28 +232,31 @@ _智能体下一步该调用哪个工具或动作。_
   <sub>`开源项目` · ★32 · bewinxed · `TS`</sub>
 
 - **[ego-jev](https://github.com/jiangkoumo/ego-decision-layer)** — 用 Jev 驱动轻量浏览器：输入一张带索引的元素表，输出一个动作。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★30 · jiangkoumo · `JS`</sub>
+  <sub>`开源项目` · ★31 · jiangkoumo · `JS`</sub>
+
+- **[CUA-JEV](https://github.com/ZJU-REAL/CUA-JEV)** — 用 Jev 做电脑操作。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★28 · zju-real · `Py`</sub>
 
 - **[tsai-sc](https://github.com/phyous/tsai-sc)** — 通过键鼠操作一款 90 年代即时战略游戏，并记录每次动作的概率。
   <sub>`开源项目` · ★28 · phyous · `Py`</sub>
 
-- **[evoke](https://github.com/evoke-build/evoke)** — 反射式软件：一句话变成对一个小程序的调用，由 Jev 选择。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★27 · evoke-build · `Rs`</sub>
-
 - **[jev-usecases](https://github.com/kenhuangus/jev-usecases)** — 生产级的 Jev 用例 harness，带置信度门控的决策逻辑。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★27 · kenhuangus · `Py`</sub>
 
-- **[smartmoney-cub](https://github.com/myc0576/SmartMoney-Cub)** — 只读的交易日志与复盘 harness：Jev 类型化判断、智能体集成，以及一个可复现的金融基准。 <sub>(机翻)</sub>
-  <sub>`基准测试` · ★27 · myc0576 · `Py`</sub>
+- **[laya-browser-agent](https://github.com/ChenneyZhuang/laya-browser-agent)** — 本地开源的 Jev 替代：用 Laya 做浏览器智能体决策。 <sub>(机翻)</sub>
+  <sub>`Jev 替代实现` · ★27 · chenneyzhuang · `Py` · ⚠ `并非 Jev 本身`</sub>
+
+- **[evoke](https://github.com/evoke-build/evoke)** — 反射式软件：一句话变成对一个小程序的调用，由 Jev 选择。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★26 · evoke-build · `Rs`</sub>
 
 - **[jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)** — 开源的 macOS computer use 与原生 GUI 自动化，运行在 Apple 芯片上。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★25 · jcpsimmons · `JS`</sub>
+  <sub>`开源项目` · ★26 · jcpsimmons · `JS`</sub>
 
-- **[laya-browser-agent](https://github.com/ChenneyZhuang/laya-browser-agent)** — 本地开源的 Jev 替代：用 Laya 做浏览器智能体决策。 <sub>(机翻)</sub>
-  <sub>`Jev 替代实现` · ★25 · chenneyzhuang · `Py` · ⚠ `并非 Jev 本身`</sub>
+- **[smartmoney-cub](https://github.com/myc0576/SmartMoney-Cub)** — 只读的交易日志与复盘 harness：Jev 类型化判断、智能体集成，以及一个可复现的金融基准。 <sub>(机翻)</sub>
+  <sub>`基准测试` · ★26 · myc0576 · `Py`</sub>
 
-- **[CUA-JEV](https://github.com/ZJU-REAL/CUA-JEV)** — 用 Jev 做电脑操作。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★24 · zju-real · `Py`</sub>
+- **[jev-mail-classifier](https://github.com/parth-kp/jev-mail-classifier)** — 用 Jev 给收件箱分类：打标、移动、标记、通知，全部配置驱动。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★25 · parth-kp · `Py`</sub>
 
 - **[dsh-jev](https://github.com/buberlo/dsh-jev)** — 为 DeepSeek Harness 提供的、由 Jev 驱动的决策层。 <sub>(机翻)</sub>
   <sub>`插件` · ★24 · buberlo · `TS` · ⚠ `已归档`</sub>
@@ -261,35 +264,29 @@ _智能体下一步该调用哪个工具或动作。_
 - **[jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)** — 多无人机自主实验室：展示 Jev 的反射式决策，可选叠加 System 2 战略指导。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★24 · khordoo · `TS`</sub>
 
-- **[jev-mail-classifier](https://github.com/parth-kp/jev-mail-classifier)** — 用 Jev 给收件箱分类：打标、移动、标记、通知，全部配置驱动。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★23 · parth-kp · `Py`</sub>
-
-- **[agent-chaperone](https://github.com/agent-chaperone/agent-chaperone)** — 在智能体工具调用执行前、以及工具结果被读取前做筛查。 <sub>(机翻)</sub>
-  <sub>`插件` · ★22 · agent-chaperone · `TS`</sub>
+- **[jev-ultrafast-mcp](https://github.com/jiawei686/jev-ultrafast-mcp)** — 把整个浏览器任务一次性交出去：决策模型在服务端驱动页面，一个流程只需一次调用，而不是每次点击一轮。基于 Chrome DevTools 协议，提供基于引用的元素表、代码检查的断言和零模型的宏回放。 <sub>(机翻)</sub>
+  <sub>`插件` · ★24 · jiawei686 · `Py`</sub>
 
 - **[jev-code](https://github.com/rhighs/jev-code)** — 由 Jev 类型化决策和受约束的 AST 生成驱动的交互式 TypeScript 编码 CLI。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★22 · rhighs · `TS` · ⚠ `无许可证`</sub>
 
+- **[live-jev](https://github.com/vinilana/live-jev)** — 浏览器里的 2D 自动驾驶仿真，由 Jev 决策模型驱动。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★22 · vinilana · `JS` · ⚠ `无许可证`</sub>
+
 - **[OmniJev](https://github.com/shapsider/OmniJev)** — OmniJev：多模态的有限选项决策接口与 MuJoCo 具身工作台，提供轨迹回放与决策概率。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★22 · shapsider · `Py`</sub>
 
-- **[live-jev](https://github.com/vinilana/live-jev)** — 浏览器里的 2D 自动驾驶仿真，由 Jev 决策模型驱动。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★21 · vinilana · `JS` · ⚠ `无许可证`</sub>
+- **[public-browser](https://github.com/Silbercue/public-browser)** — 让 Claude Code 和 Cursor 驱动 Chrome，使用你真实的浏览器配置，并称能减少 token、成本与工具调用。 <sub>(机翻)</sub>
+  <sub>`插件` · ★22 · silbercue · `TS` · ⚠ `宣称未核实`</sub>
 
 - **[jcr](https://github.com/NiazMorshed2007/jcr)** — 由 Jev 驱动的解析器，帮智能体 harness 在仓库里找到确定性命令及其上下文。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★20 · niazmorshed2007 · `JS`</sub>
-
-- **[jev-ultrafast-mcp](https://github.com/jiawei686/jev-ultrafast-mcp)** — 把整个浏览器任务一次性交出去：决策模型在服务端驱动页面，一个流程只需一次调用，而不是每次点击一轮。基于 Chrome DevTools 协议，提供基于引用的元素表、代码检查的断言和零模型的宏回放。 <sub>(机翻)</sub>
-  <sub>`插件` · ★20 · jiawei686 · `Py`</sub>
 
 - **[jevalyn](https://github.com/Ray-Hughes/jevalyn)** — 给 Rails 应用的决策层：对 Jev System One API 的 Rails 原生封装。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★20 · ray-hughes · `Rb`</sub>
 
 - **[playjev](https://github.com/filedcom/playjev)** — 由 Jev 与 Playwright 驱动的快速、带类型的浏览器自动化。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★20 · filedcom · `TS`</sub>
-
-- **[public-browser](https://github.com/Silbercue/public-browser)** — 让 Claude Code 和 Cursor 驱动 Chrome，使用你真实的浏览器配置，并称能减少 token、成本与工具调用。 <sub>(机翻)</sub>
-  <sub>`插件` · ★19 · silbercue · `TS` · ⚠ `宣称未核实`</sub>
 
 - **[jev-bot](https://github.com/bl888m/jev-bot)** — 由 JEV 驱动的股票、加密货币与迷因币市场决策机器人：输入状态，输出 BUY/SELL/HOLD/AVOID，默认模拟交易。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★18 · bl888m · `Py`</sub>
@@ -301,22 +298,31 @@ _智能体下一步该调用哪个工具或动作。_
   <sub>`插件` · ★17 · zephyrdeng · `JS`</sub>
 
 - **[jevscape](https://github.com/Skyvern-AI/jevscape)** — 给 Jev 的 RuneBench harness：有界动作目录、tick 模式控制器与实时看板。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★16 · skyvern-ai · `TS` · ⚠ `无许可证`</sub>
+  <sub>`开源项目` · ★17 · skyvern-ai · `TS` · ⚠ `无许可证`</sub>
+
+- **[mario-jev](https://github.com/shantanugoel/mario-jev)** — 一个玩《超级马力欧兄弟》的原型：Jev 读取结构化的内存观测，回答关于移动与跳跃的具体问题，再由代码把答案组合成手柄按键。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★17 · shantanugoel · `Py` · ⚠ `无许可证`</sub>
+
+- **[jev-engineering](https://github.com/eugeniughelbur/jev-engineering)** — 面向 AI 智能体的决策层：约 400 毫秒、两百分之一美分的类型化校准决策，用于拦截工具调用。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★16 · eugeniughelbur · `Py`</sub>
+
+- **[jev-mobile](https://github.com/Friedjof/jev-mobile)** — 结合 Mobile MCP 的快速 Android 结构化控制循环。 <sub>(机翻)</sub>
+  <sub>`插件` · ★16 · friedjof · `Py`</sub>
+
+- **[agent-chaperone](https://github.com/agent-chaperone/agent-chaperone)** — 在智能体工具调用执行前、以及工具结果被读取前做筛查。 <sub>(机翻)</sub>
+  <sub>`插件` · ★15 · agent-chaperone · `TS`</sub>
 
 - **[eutrya](https://github.com/hellozenstrategist-lab/eutrya)** — 原生面向 Jev 的 AI 安全研究框架，用于自主研究、多智能体集群、持久的狩猎看板和长时间运行的任务。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★15 · hellozenstrategist-lab · `JS`</sub>
 
-- **[jev-agent-browser](https://github.com/forvela/jev-agent-browser)** — 由 Jev 驱动的快速有界浏览器智能体：类型化动作、调研、分类与安全编排。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★15 · forvela · `JS`</sub>
-
 - **[jev-harness](https://github.com/AntonioCoppe/jev-harness)** — Jev 决策 harness：置信闸门、影子模式、配方与评测。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★15 · antoniocoppe · `TS`</sub>
 
-- **[mario-jev](https://github.com/shantanugoel/mario-jev)** — 一个玩《超级马力欧兄弟》的原型：Jev 读取结构化的内存观测，回答关于移动与跳跃的具体问题，再由代码把答案组合成手柄按键。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★15 · shantanugoel · `Py` · ⚠ `无许可证`</sub>
-
 - **[azdaja](https://github.com/kubet/azdaja)** — 与 harness 无关的极简递归语言模型层：单个二进制。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★14 · kubet · `Py`</sub>
+
+- **[jev-agent-browser](https://github.com/forvela/jev-agent-browser)** — 由 Jev 驱动的快速有界浏览器智能体：类型化动作、调研、分类与安全编排。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★14 · forvela · `JS`</sub>
 
 - **[jev-askable-arm](https://github.com/TarunTomar122/jev-askable-arm)** — 在仿真机械臂上执行零样本英文目标：Jev 串联写死的原语动作。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★14 · taruntomar122 · `Py`</sub>
@@ -324,20 +330,14 @@ _智能体下一步该调用哪个工具或动作。_
 - **[jev-autopilot](https://github.com/arielweinberger/jev-autopilot)** — 这个演示用 Jev 自主驾驶无人机在随机城市里从 A 点飞到 B 点。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★14 · arielweinberger · `TS` · ⚠ `无许可证`</sub>
 
-- **[jev-mobile](https://github.com/Friedjof/jev-mobile)** — 结合 Mobile MCP 的快速 Android 结构化控制循环。 <sub>(机翻)</sub>
-  <sub>`插件` · ★14 · friedjof · `Py`</sub>
-
-- **[pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)** — 给 pi 编程智能体的运行时约束：每个有副作用的工具调用执行前，先对照你说过的话检查。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★14 · nyarlathoteppppp · `TS`</sub>
-
 - **[super-jev](https://github.com/Kevthetech143/super-jev)** — 小而可扩展的「决策到动作」harness。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★14 · kevthetech143 · `Py`</sub>
 
 - **[jev-browser](https://github.com/tontoko/jev-browser)** — 一个基于 Jev 与 Playwright 的统一内核：带类型的 SDK、常驻 CLI，以及带原生浏览器操作和确定性断言的 MCP 服务器。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★13 · tontoko · `JS`</sub>
 
-- **[jev-engineering](https://github.com/eugeniughelbur/jev-engineering)** — 面向 AI 智能体的决策层：约 400 毫秒、两百分之一美分的类型化校准决策，用于拦截工具调用。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★13 · eugeniughelbur · `Py`</sub>
+- **[pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)** — 给 pi 编程智能体的运行时约束：每个有副作用的工具调用执行前，先对照你说过的话检查。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★13 · nyarlathoteppppp · `TS`</sub>
 
 - **[dsh-jev](https://github.com/zhangxaochen/dsh-jev)** — 面向 DeepSeek Harness（dsh）的 Jev（System One 决策模型）插件套件。 <sub>(机翻)</sub>
   <sub>`插件` · ★12 · zhangxaochen · `TS`</sub>
@@ -363,9 +363,6 @@ _智能体下一步该调用哪个工具或动作。_
 - **[heist-one](https://github.com/AbdelStark/heist-one)** — 可观测的浏览器潜行游戏：Jev 做类型化的守卫判断，确定性代码掌管世界规则。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★9 · abdelstark · `TS`</sub>
 
-- **[jev-layer](https://github.com/typakon4/jev-layer)** — 可移植的 System-1 决策层，面向智能体 harness，含宿主自控路由、凭据与回放。 <sub>(机翻)</sub>
-  <sub>`平台集成` · ★9 · typakon4 · `JS`</sub>
-
 - **[jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red)** — 在 PyBoy 上玩《宝可梦 红》：路线和算术交给代码，Jev 在分叉点约 100 毫秒做出选择，校准是实测的而不是假设的。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★9 · valentynkit · `Py`</sub>
 
@@ -387,6 +384,15 @@ _智能体下一步该调用哪个工具或动作。_
 - **[jev-lab](https://github.com/jammaru/jev-lab)** — 100 个 AI NPC 住在一个小镇里：Jev 选择下一步动作，世界自己写故事。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★8 · jammaru · `TS`</sub>
 
+- **[jev-layer](https://github.com/typakon4/jev-layer)** — 可移植的 System-1 决策层，面向智能体 harness，含宿主自控路由、凭据与回放。 <sub>(机翻)</sub>
+  <sub>`平台集成` · ★8 · typakon4 · `JS`</sub>
+
+- **[jev-robotics-demo](https://github.com/FazalAAli/jev-robotics-demo)** — Jev 对比某大模型：在 MuJoCo 里驾驶仿真机械臂。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★8 · fazalaali · `Py`</sub>
+
+- **[macos-computer-use-kit](https://github.com/Sur-Cai/macos-computer-use-kit)** — 面向 macOS AI 智能体的、以辅助功能为先的电脑操作工具包，可选配 Jev（TypeSafe System One）语义护栏。 <sub>(机翻)</sub>
+  <sub>`插件` · ★8 · sur-cai · `Py`</sub>
+
 - **[slidepilot](https://github.com/harshil1712/slidepilot)** — 给 Slidev 做的语音驱动语义自动翻页，由 Cloudflare Agents 与 Jev 驱动。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★8 · harshil1712 · `TS`</sub>
 
@@ -396,23 +402,17 @@ _智能体下一步该调用哪个工具或动作。_
 - **[gg-friggin-ez](https://github.com/ItisShikhar/gg-friggin-ez)** — 给 Node.js 的快速多语言脏话与毒性筛查器。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★7 · itisshikhar · `TS`</sub>
 
-- **[jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)** — 带 JEV 模型路由、上下文优化与看板自动化的 Codex 覆盖层。 <sub>(机翻)</sub>
-  <sub>`插件` · ★7 · charlyhno-eng · `TS` · `choice` · `score` · `noul`</sub>
-
 - **[jev-for-engineers](https://github.com/Foadsf/jev-for-engineers)** — 八个最小可运行示例：把 Jev 用在机械与电气工程场景。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★7 · foadsf · `Py`</sub>
 
 - **[jev-in-codex](https://github.com/teempai/jev-in-codex)** — 通过 MCP 为 Codex 提供由 Jev 驱动的工具与技能选择、上下文搜索和输出分诊。 <sub>(机翻)</sub>
   <sub>`插件` · ★7 · teempai · `TS`</sub>
 
-- **[jev-robotics-demo](https://github.com/FazalAAli/jev-robotics-demo)** — Jev 对比某大模型：在 MuJoCo 里驾驶仿真机械臂。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★7 · fazalaali · `Py`</sub>
+- **[jev-skills](https://github.com/eran-broder/jev-skills)** — 没有“上下文税”的技能：Claude Code 与 Codex 插件，由 TypeSafe 的 Jev 在每一轮决定模型需要哪些技能。 <sub>(机翻)</sub>
+  <sub>`插件` · ★7 · eran-broder · `TS`</sub>
 
 - **[jev-voice-control](https://github.com/chris-wozniczek/jev-voice-control)** — 用语音控制 Mac：语音 → Jev 类型化决策 → macOS 自动化。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★7 · chris-wozniczek · `Swift`</sub>
-
-- **[macos-computer-use-kit](https://github.com/Sur-Cai/macos-computer-use-kit)** — 面向 macOS AI 智能体的、以辅助功能为先的电脑操作工具包，可选配 Jev（TypeSafe System One）语义护栏。 <sub>(机翻)</sub>
-  <sub>`插件` · ★7 · sur-cai · `Py`</sub>
 
 - **[reflex](https://github.com/kaustav1996/reflex)** — 构建在 Pi 编码智能体之上的编码助手与个人助理，拥有 System One 式的“条件反射”（TypeSafe Jev）。 <sub>(机翻)</sub>
   <sub>`插件` · ★7 · kaustav1996 · `TS`</sub>
@@ -423,20 +423,17 @@ _智能体下一步该调用哪个工具或动作。_
 - **[agent-fastpath](https://github.com/abhishekswe/agent-fastpath)** — Jev MCP server：给编程智能体的决策层。 <sub>(机翻)</sub>
   <sub>`插件` · ★6 · abhishekswe · `TS`</sub>
 
-- **[agi-jev-containment](https://github.com/carlosedm10/agi-jev-containment)** — 本地 AI 智能体监控：链路级恶意智能体检测。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★6 · carlosedm10 · `Py` · ⚠ `无许可证`</sub>
-
 - **[computer-use-jev](https://github.com/paulsmith/computer-use-jev)** — 以 Jev 为决策者的 macOS computer use。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★6 · paulsmith · `Go`</sub>
 
 - **[jev-browse](https://github.com/0x7067/jev-browse)** — 以 Jev（TypeSafe）作为决策模型的浏览器自动化。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★6 · 0x7067 · `JS`</sub>
 
+- **[jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)** — 带 JEV 模型路由、上下文优化与看板自动化的 Codex 覆盖层。 <sub>(机翻)</sub>
+  <sub>`插件` · ★6 · charlyhno-eng · `TS` · `choice` · `score` · `noul`</sub>
+
 - **[jev-market-reflex](https://github.com/zzsong1023/jev-market-reflex)** — 用 TypeSafe AI Jev 在实时加密市场上做快速的类型化决策。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★6 · zzsong1023 · `TS`</sub>
-
-- **[jev-skills](https://github.com/eran-broder/jev-skills)** — 没有“上下文税”的技能：Claude Code 与 Codex 插件，由 TypeSafe 的 Jev 在每一轮决定模型需要哪些技能。 <sub>(机翻)</sub>
-  <sub>`插件` · ★6 · eran-broder · `TS`</sub>
 
 - **[jev-tetris](https://github.com/thelau/jev-tetris)** — 由判断模型来玩的俄罗斯方块：代码找出方块所有可能的落点，并把每一种写成一句话，交给 JEV 选择。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★6 · thelau · `JS`</sub>
@@ -446,6 +443,9 @@ _智能体下一步该调用哪个工具或动作。_
 
 - **[pijev](https://github.com/tonyzdev/pijev)** — PiJev：Jev 参与循环的终端编码智能体——在第一次调用前由 Jev 给仓库文件排序，并挑选技能。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★6 · tonyzdev · `TS`</sub>
+
+- **[agi-jev-containment](https://github.com/carlosedm10/agi-jev-containment)** — 本地 AI 智能体监控：链路级恶意智能体检测。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★5 · carlosedm10 · `Py` · ⚠ `无许可证`</sub>
 
 - **[deepseek-harness-jev-pre-compaction](https://github.com/wjw66/deepseek-harness-jev-pre-compaction)** — 给 DeepSeek Harness 的压缩前顾问，在标准压缩流程之前运行。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · wjw66 · `TS`</sub>
@@ -464,6 +464,9 @@ _智能体下一步该调用哪个工具或动作。_
 
 - **[jevshield](https://github.com/lgy1027/jevshield)** — 亚 100 毫秒的智能体工具调用安全闸门。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · lgy1027 · `Py`</sub>
+
+- **[robo-harness](https://github.com/grmkris/robo-harness)** — SO-101 机械臂智能体工作台：Bun/Effect 协调器、React 工作台、Python 电机控制。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★5 · grmkris · `TS` · ⚠ `无许可证`</sub>
 
 - **[fast-compaction-dsh](https://github.com/kolawong/fast-compaction-dsh)** — 给 DeepSeek Harness 的判定式上下文压缩，取代有损的 LLM 摘要。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★4 · kolawong · `TS`</sub>
@@ -504,17 +507,11 @@ _智能体下一步该调用哪个工具或动作。_
 - **[otto](https://github.com/NobleSpartan6/otto)** — 面向 macOS 与 Windows 的开源原生 computer use：Jev 加本地 OCR。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★4 · noblespartan6 · `TS`</sub>
 
-- **[robo-harness](https://github.com/grmkris/robo-harness)** — SO-101 机械臂智能体工作台：Bun/Effect 协调器、React 工作台、Python 电机控制。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★4 · grmkris · `TS` · ⚠ `无许可证`</sub>
-
 - **[ego-jev-ultrafast](https://github.com/shikaizhong-design/ego-jev-ultrafast)** — Jev 驱动你的轻量浏览器：每步一次类型化选择请求，单文件零依赖。 <sub>(机翻)</sub>
   <sub>`基准测试` · ★3 · shikaizhong-design · `JS`</sub>
 
 - **[jev-A-share-trader](https://github.com/Eric-Zhou-0302/jev-A-share-trader)** — 由 Jev 驱动的中国 A 股技术分析工作台，支持 AKShare/Tushare、市场扫描以及买入/持有/卖出建议。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · eric-zhou-0302 · `Py`</sub>
-
-- **[jev-behavior-study](https://github.com/RINNECODER/jev-behavior-study)** — 独立的 Jev 1.13.0 行为研究：报告、受控提示实验、原始结果与离线验证。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★3 · rinnecoder · `Py`</sub>
 
 - **[jev-browse](https://github.com/kyrylosyzonenko/jev-browse)** — 驱动真实浏览器，每个决定都由 Jev 做出——点哪里、把你的哪段文字填进哪个输入框、目标何时达成——由 agent-browser 执行操作。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · kyrylosyzonenko · `JS`</sub>
@@ -561,8 +558,14 @@ _智能体下一步该调用哪个工具或动作。_
 - **[typesafe-minecraft-demo](https://github.com/ellistev/typesafe-minecraft-demo)** — 由 TypeSafe AI 控制的 Minecraft Java 版玩家：实时决策、建造加拿大国旗，并配有并排的数据看板。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · ellistev · `JS` · ⚠ `无许可证`</sub>
 
+- **[jev-behavior-study](https://github.com/RINNECODER/jev-behavior-study)** — 独立的 Jev 1.13.0 行为研究：报告、受控提示实验、原始结果与离线验证。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★2 · rinnecoder · `Py`</sub>
+
 - **[jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot)** — 给浏览器与桌面自动化的有界决策层：只做决策的模型负责选择。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★2 · aidil2105 · `Py`</sub>
+
+- **[jev-decision-benchmarks](https://github.com/baibizhe/jev-decision-benchmarks)** — JEV 在 MetaTool、When2Call 与 BFCL V4 上的决策基准结果，附双语表格和可复现报告。 <sub>(机翻)</sub>
+  <sub>`基准测试` · ★2 · baibizhe · `Py` · ⚠ `无许可证`</sub>
 
 - **[jev-play-ping-pong](https://github.com/Icohen007/jev-play-ping-pong)** — 让 Jev 实时玩浏览器乒乓球：结构化遥测与类型化决策。 <sub>(机翻)</sub>
   <sub>`基准测试` · ★2 · icohen007 · `JS`</sub>
@@ -603,6 +606,9 @@ _智能体下一步该调用哪个工具或动作。_
 - **[jev-agent-design-with-topk-logits-choices](https://github.com/6Mikao9/jev-native-agent-with-extended-options)** — 一个原生面向 Jev 的智能体系统研究设计：工具集成、推测性参数提议、外部辅助 logits 等。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★1 · 6mikao9 · `Py` · ⚠ `无许可证`</sub>
 
+- **[jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill)** — 给 AI 智能体的免费类型化判断：把分类／筛查／打分／校验卸载给 Jev。 <sub>(机翻)</sub>
+  <sub>`插件` · ★1 · yuyang2230 · `Py`</sub>
+
 - **[jev-browser](https://github.com/MahmoudAdelbghany/jev-browser)** — 由 Jev 驱动、面向 LLM 智能体的浏览器 MCP——约 300 毫秒一次决策，循环中不消耗 LLM token，附与 Playwright MCP 的对比基准。 <sub>(机翻)</sub>
   <sub>`插件` · ★1 · mahmoudadelbghany · `JS` · ⚠ `无许可证`</sub>
 
@@ -611,9 +617,6 @@ _智能体下一步该调用哪个工具或动作。_
 
 - **[jev-connect4](https://github.com/hazlema/jev-connect4)** — 四子棋：Jev 对人，或 Jev 对 Jev。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★1 · hazlema · `TS`</sub>
-
-- **[jev-decision-benchmarks](https://github.com/baibizhe/jev-decision-benchmarks)** — JEV 在 MetaTool、When2Call 与 BFCL V4 上的决策基准结果，附双语表格和可复现报告。 <sub>(机翻)</sub>
-  <sub>`基准测试` · ★1 · baibizhe · `Py` · ⚠ `无许可证`</sub>
 
 - **[jev-pong](https://github.com/ably-labs/jev-pong)** — 一个每次模型决策球才走一步的乒乓游戏：Jev 对阵多个 LLM，经由 Vercel AI Gateway。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★1 · ably-labs · `TS`</sub>
@@ -659,9 +662,6 @@ _智能体下一步该调用哪个工具或动作。_
 
 - **[harnessjudge](https://github.com/ndolinschi/harnessjudge)** — 评判智能体的每一步：通过／重试／升级／停止。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★0 · ndolinschi · `TS` · ⚠ `无许可证`</sub>
-
-- **[jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill)** — 给 AI 智能体的免费类型化判断：把分类／筛查／打分／校验卸载给 Jev。 <sub>(机翻)</sub>
-  <sub>`插件` · ★0 · yuyang2230 · `Py`</sub>
 
 - **[jev-browser](https://github.com/KesavanKing/jev-browser)** — 本地浏览器自动化界面：用 TypeSafe Jev 选择有界的页面操作，只在需要填写字段时才调用文本模型。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★0 · kesavanking · `Py` · ⚠ `无许可证`</sub>
