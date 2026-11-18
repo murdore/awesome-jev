@@ -13,61 +13,61 @@ Every catalogued example of this decision — 43 of them, official first, then r
   <sub>`Official docs` · `Py` · `choice`</sub>
 
 - **[claude-code-templates: three Jev plugins](https://github.com/davila7/claude-code-templates)** — Three independently installable Claude Code plugins — guardrails, model router and skill suggestion — each with its own hooks and tests.
-  <sub>`Plugin` · ★33,308 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★33,957 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[@langchain/typesafe](https://github.com/langchain-ai/langchainjs)** — The JavaScript counterpart of the LangChain integration, with the same classifier and middleware shapes.
-  <sub>`Integration` · ★18,341 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Integration` · ★18,352 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — Nine agent skills plus a CLI covering model routing, memory filtering, turn retention, one-of-many skill selection and next-action choice.
-  <sub>`Plugin` · ★1,335 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★1,350 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)** — Pre-screens code review with Jev to surface high-risk changes for a more expensive model or a person, with a local dashboard.
-  <sub>`Project` · ★703 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★704 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jevrouter](https://github.com/BillionsBobby/JevRouter)** — A router for models, tools and subagents.
-  <sub>`Project` · ★469 · billionsbobby · `TS`</sub>
+  <sub>`Project` · ★470 · billionsbobby · `TS`</sub>
 
 - **[Astra-Ares](https://github.com/miuuyy/Astra-Ares)** — Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.
-  <sub>`Plugin` · ★314 · miuuyy · `JS`</sub>
+  <sub>`Plugin` · ★316 · miuuyy · `JS`</sub>
 
 - **[jev-codex-router](https://github.com/0xNatoshi/jev-codex-router)** — Judges how hard a coding turn is, then picks the model tier, reasoning depth and speed mode to match.
-  <sub>`Plugin` · ★274 · `JS` · `choice` · `score` · ⚠ `archived`</sub>
+  <sub>`Plugin` · ★275 · `JS` · `choice` · `score` · ⚠ `archived`</sub>
 
 - **[jev-eval-agent](https://github.com/vinilana/jev-eval-agent)** — An agent that routes evaluation work through typed decisions.
-  <sub>`Project` · ★110 · vinilana · `TS` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★111 · vinilana · `TS` · ⚠ `no licence`</sub>
+
+- **[jev-use](https://github.com/shitianfang/jev-use)** — An agent plugin that hands steps needing no text output to Jev instead of the main model.
+  <sub>`Plugin` · ★83 · shitianfang · `JS`</sub>
 
 - **[stuntd](https://github.com/bladedevoff/stuntd)** — Local proxy that learns your app's typed LLM decisions and answers them with a Laya head. Jev and OpenAI compatible.
   <sub>`Project` · ★76 · bladedevoff · `Py`</sub>
-
-- **[jev-use](https://github.com/shitianfang/jev-use)** — An agent plugin that hands steps needing no text output to Jev instead of the main model.
-  <sub>`Plugin` · ★70 · shitianfang · `JS`</sub>
 
 - **[jevonian](https://github.com/xinyao27/jevonian)** — A local endpoint between a coding agent and its providers that routes each turn to the most cost-effective capable model, manages quota and cache, and logs every routing decision to a local ledger.
   <sub>`Project` · ★30 · xinyao27 · `TS`</sub>
 
 - **[a3m-router](https://github.com/Das-rebel/a3m-router)** — ⚡ Adaptive multi-model LLM router — 80+ providers, Jev System One single-pass routing (model=jev-auto), pheromone-trail failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router
-  <sub>`Project` · ★17 · das-rebel · `TS`</sub>
+  <sub>`Project` · ★18 · das-rebel · `TS`</sub>
+
+- **[pi-jev-router](https://github.com/mejiasd3v/pi-jev-router)** — Automatic model routing for Pi using TypeSafe's Jev through Vercel AI Gateway
+  <sub>`Project` · ★17 · mejiasd3v · `JS`</sub>
 
 - **[jev-engineering](https://github.com/eugeniughelbur/jev-engineering)** — The decision layer for AI agents. Typed, calibrated decisions in ~400ms for two hundredths of a cent: gate tool calls, route models, rank options. With the 300-call injection test that found what breaks.
   <sub>`Project` · ★16 · eugeniughelbur · `Py`</sub>
-
-- **[pi-jev-router](https://github.com/mejiasd3v/pi-jev-router)** — Automatic model routing for Pi using TypeSafe's Jev through Vercel AI Gateway
-  <sub>`Project` · ★16 · mejiasd3v · `JS`</sub>
 
 - **[jev-router](https://github.com/prismhq/jev-router)** — Open-source LLM router that uses TypeSafe's Jev to pick a model, on top of LiteLLM
   <sub>`Project` · ★15 · prismhq · `Py`</sub>
 
 - **[jev-router](https://github.com/rajdhakad9826/jev-router)** — LLM router that picks the cheapest model capable of handling a query, using TypeSafe's Jev for fast classification instead of an LLM call.
-  <sub>`Project` · ★12 · rajdhakad9826 · `TS`</sub>
+  <sub>`Project` · ★13 · rajdhakad9826 · `TS`</sub>
 
 - **[Codex Jev Router](https://github.com/suenot/codex-jev-router)** — Uses Jev Choice and Noul judgments on short task summaries to select a Codex subagent model and reasoning effort with a Sol fallback.
-  <sub>`Project` · ★11 · suenot · `JS` · `choice` · `noul` · ⚠ `AI-written`</sub>
+  <sub>`Project` · ★12 · suenot · `JS` · `choice` · `noul` · ⚠ `AI-written`</sub>
+
+- **[pi-jev](https://github.com/iefnaf/pi-jev)** — Pi extension suite powered by Jev: selective context compaction and model routing
+  <sub>`Plugin` · ★11 · iefnaf · `TS`</sub>
 
 - **[jev-auto-router](https://github.com/miniLV/Jev-Auto-Router)** — Jev Auto Router (Jev Router): experimental per-call GPT model routing for Codex via TypeSafe Jev and a local Responses proxy, with independent task verification.
   <sub>`Plugin` · ★10 · minilv · `TS`</sub>
-
-- **[pi-jev](https://github.com/iefnaf/pi-jev)** — Pi extension suite powered by Jev: selective context compaction and model routing
-  <sub>`Plugin` · ★10 · iefnaf · `TS`</sub>
 
 - **[slo-router](https://github.com/zeeshan8281/slo-router)** — SLO-aware LLM inference router with Jev decisions, live queue metrics, counterfactual evaluation, and reproducible latency/cost benchmarks
   <sub>`Project` · ★10 · zeeshan8281 · `Py` · ⚠ `no licence`</sub>
