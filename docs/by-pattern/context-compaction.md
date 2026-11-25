@@ -7,28 +7,28 @@ _Decide which tool calls and results still matter so stale context can be droppe
 Every catalogued example of this decision — 34 of them, official first, then rows with code, then by stars. The same rows, with caveats, are in [the index](../../README.md#context-compaction); [the site](https://kydlikebtc.github.io/awesome-jev/?p=context-compaction&lang=en) can filter them further by language, primitive and kind.
 
 - **[Hermes Agent: Jev compaction evaluation](https://github.com/NousResearch/hermes-agent)** — Ported the Jev compaction approach, measured it against their shipping summariser, and published the conclusion not to adopt it.
-  <sub>`Benchmark` · ★264,423 · `Py` · `noul`</sub>
+  <sub>`Benchmark` · ★266,041 · `Py` · `noul`</sub>
 
 - **[jcode: memory recall without embeddings](https://github.com/1jehuang/jcode)** — Replaces the whole retrieval stack for memory recall — no embeddings, no BM25, no reranker — with one batched Noul per candidate memory.
-  <sub>`Project` · ★21,881 · `Rs` · `noul`</sub>
+  <sub>`Project` · ★22,039 · `Rs` · `noul`</sub>
 
 - **[fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)** — A Claude Code plugin that replaces the compaction summary with per-item decisions: stale tool calls are dropped or truncated, everything kept stays verbatim.
-  <sub>`Plugin` · ★7,996 · tamaratran · `TS` · `noul`</sub>
+  <sub>`Plugin` · ★8,023 · tamaratran · `TS` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — Nine agent skills plus a CLI covering model routing, memory filtering, turn retention, one-of-many skill selection and next-action choice.
-  <sub>`Plugin` · ★1,350 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Plugin` · ★1,366 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[compact-adviser](https://github.com/kunchenguid/compact-adviser)** — "Work appears completed or recorded. Run /compact to save tokens."
   <sub>`Project` · ★235 · kunchenguid · `TS`</sub>
 
 - **[jev-pruner](https://github.com/tamaratran/jev-pruner)** — Trims long shell output before the model sees it, asking one Noul per chunk.
-  <sub>`Plugin` · ★167 · tamaratran · `TS` · `noul`</sub>
+  <sub>`Plugin` · ★170 · tamaratran · `TS` · `noul`</sub>
 
 - **[Winnow](https://github.com/GhalebDweikat/winnow)** — Context garbage collection for Claude Code: when Read, Bash or Grep dump a wall of output, each chunk is judged for relevance to the current task.
   <sub>`Plugin` · ★115 · `Py` · `noul`</sub>
 
 - **[save-token-jev-clean](https://github.com/IAmUnbounded/save-token-jev-clean)** — Portable, Jev-guided context compaction for coding agents: instead of an LLM rewriting old context into a lossy summary, Jev decides which tool calls and results still matter, and user and assistant text is kept verbatim.
-  <sub>`Plugin` · ★82 · iamunbounded · `TS`</sub>
+  <sub>`Plugin` · ★83 · iamunbounded · `TS`</sub>
 
 - **[yoshi](https://github.com/compozy/yoshi)** — Context-pruning proxy for Claude Code and Codex: Jev judges which history is still needed, measured not claimed. POC here now, heading soon into https://github.com/compozy/compozy
   <sub>`Plugin` · ★32 · compozy · `TS`</sub>
@@ -46,13 +46,13 @@ Every catalogued example of this decision — 34 of them, official first, then r
   <sub>`Plugin` · ★13 · horusjiang · `TS`</sub>
 
 - **[fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction)** — Codex plugin: verbatim Jev-guided context restoration around session compaction. Port of tamaratran/fast-jev-compaction to Codex lifecycle hooks.
-  <sub>`Plugin` · ★12 · leonaaardob · `TS`</sub>
+  <sub>`Plugin` · ★13 · leonaaardob · `TS`</sub>
+
+- **[pi-jev-context](https://github.com/Nyarlathoteppppp/pi-jev-context)** — Model performance first. Token savings second. A Pi extension with freshness-aware read dedupe, Jev log filtering, and searchable verbatim recall. Keeps existing message history intact.
+  <sub>`Plugin` · ★12 · nyarlathoteppppp · `TS`</sub>
 
 - **[pi-jev](https://github.com/iefnaf/pi-jev)** — Pi extension suite powered by Jev: selective context compaction and model routing
   <sub>`Plugin` · ★11 · iefnaf · `TS`</sub>
-
-- **[pi-jev-context](https://github.com/Nyarlathoteppppp/pi-jev-context)** — Model performance first. Token savings second. A Pi extension with freshness-aware read dedupe, Jev log filtering, and searchable verbatim recall. Keeps existing message history intact.
-  <sub>`Plugin` · ★11 · nyarlathoteppppp · `TS`</sub>
 
 - **[jev-compact](https://github.com/fatelei/jev-compact)** — Jev-scored context compaction for OpenAI Codex CLI — scores every tool call before compaction and restores critical tool outputs verbatim after it
   <sub>`Plugin` · ★9 · fatelei · `TS`</sub>
@@ -72,23 +72,23 @@ Every catalogued example of this decision — 34 of them, official first, then r
 - **[deepseek-harness-jev-pre-compaction](https://github.com/wjw66/deepseek-harness-jev-pre-compaction)** — A pre-compaction advisor for DeepSeek Harness. Runs before the standard `compaction-basic` backend, using TypeSafe JEV to safely prune low-value tool results from model context. Original session events stay in the append-only log; only the model-visible view is replaced with compact markers or
   <sub>`Project` · ★6 · wjw66 · `TS`</sub>
 
+- **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — Ten runnable JavaScript agent decisions, one file each: reconciling a new memory against a stored one, gating whether an HTTP 200 really satisfied the task, retry vs. reconcile after an uncertain write, scoring context against a budget, checking a handoff for dropped prohibitions.
+  <sub>`Project` · ★5 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `one commit` `AI-written`</sub>
+
 - **[jev-compaction](https://github.com/Waxmell114514/jev-compaction)** — A context compactor that can only score, never write — so an agent's memory can't hold a fact the transcript never contained. Working demo, runs offline.
   <sub>`Project` · ★5 · waxmell114514 · `Py`</sub>
 
 - **[fast-compaction-dsh](https://github.com/kolawong/fast-compaction-dsh)** — Verdict-based context compaction for DeepSeek Harness — replaces lossy LLM summaries with fast keep/truncate/drop decisions from jev-latest; everything kept stays verbatim. Port of tamaratran/fast-jev-compaction.
   <sub>`Project` · ★4 · kolawong · `TS`</sub>
 
-- **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — Ten runnable JavaScript agent decisions, one file each: reconciling a new memory against a stored one, gating whether an HTTP 200 really satisfied the task, retry vs. reconcile after an uncertain write, scoring context against a budget, checking a handoff for dropped prohibitions.
-  <sub>`Project` · ★4 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `one commit` `AI-written`</sub>
+- **[jselect](https://github.com/keltokhy/jselect)** — Useful evidence for your AI, within a token budget. A fast, source-linked context selector for files, records, and agents.
+  <sub>`Project` · ★4 · keltokhy · `Py`</sub>
 
 - **[pi-jev-compaction](https://github.com/nourhelmi/pi-jev-compaction)** — Automatic Jev context clearing for Pi. Keep the conversation, prune stale tool output, retrieve originals without rerunning commands.
   <sub>`Plugin` · ★4 · nourhelmi · `TS`</sub>
 
 - **[jev-compaction](https://github.com/picaye/jev-compaction)** — Context compaction for Hermes sessions that never summarises: every tool call is scored by TypeSafe's Jev model, stale calls are dropped, everything kept stays verbatim.
   <sub>`Project` · ★3 · picaye · `JS`</sub>
-
-- **[jselect](https://github.com/keltokhy/jselect)** — Useful evidence for your AI, within a token budget. A fast, source-linked context selector for files, records, and agents.
-  <sub>`Project` · ★3 · keltokhy · `Py`</sub>
 
 - **[pi-fast-jev-compaction](https://github.com/QuentinDanblon/pi-fast-jev-compaction)** — Verbatim context pruning for the pi coding agent, scored by TypeSafe Jev: stale tool calls and results are dropped or truncated, everything kept stays verbatim.
   <sub>`Plugin` · ★3 · quentindanblon · `TS`</sub>

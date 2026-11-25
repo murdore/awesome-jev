@@ -28,25 +28,25 @@ _用校准置信度决定哪些情况必须由人来看。_
   <sub>`官方文档`</sub>
 
 - **[Airflow LLMBranchOperator with Jev](https://airflow.apache.org/docs/apache-airflow-providers-common-ai/stable/index.html)** — 把下游任务 id 变成 choice 的选项集，并用最小置信度闸门把不确定的运行转给人处理。
-  <sub>`平台集成` · ★47,527 · `Py` · `choice`</sub>
+  <sub>`平台集成` · ★47,665 · `Py` · `choice`</sub>
 
 - **[Composio TypeSafe provider](https://github.com/ComposioHQ/composio/tree/next/python/providers/typesafe)** — 把工具目录编译成问题，再从答案还原出 tool call，并为「弃权」和「需确认」两种情况定义了专门的错误类型。
-  <sub>`开源项目` · ★31,161 · `Py` · `choice`</sub>
+  <sub>`开源项目` · ★31,290 · `Py` · `choice`</sub>
 
 - **[Inbox Zero: seven email decisions](https://github.com/elie222/inbox-zero)** — 七个互不相同的邮件决策，每个都有自己单独设定的阈值，任何出错都回落到普通 LLM。
-  <sub>`开源项目` · ★13,065 · `TS` · `choice` · `noul`</sub>
+  <sub>`开源项目` · ★13,118 · `TS` · `choice` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)** — 代码审查前先过一遍 Jev，把高风险改动挑出来，再交给更贵的大模型或人。带本地看板。
-  <sub>`开源项目` · ★704 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`开源项目` · ★708 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-align](https://github.com/sutro-sh/jev-align)** — 从人类反馈出发，构建经过校准的决策函数。
-  <sub>`开源项目` · ★320 · sutro-sh · `Py`</sub>
+  <sub>`开源项目` · ★323 · sutro-sh · `Py`</sub>
 
 - **[Probing Jev's behaviour with repeated API calls](https://github.com/ahastudio/til)** — 独立的韩语实测笔记，报告仅仅把选项顺序倒过来，就能让概率移动到足以翻转 0.9 阈值的程度。
-  <sub>`基准测试` · ★194 · `Py` · ⚠ `无许可证` `宣称未核实`</sub>
+  <sub>`基准测试` · ★195 · `Py` · ⚠ `无许可证` `宣称未核实`</sub>
 
 - **[neurolink](https://github.com/juspay/neurolink)** — 用一套 TypeScript 接口对接 40 家 AI 供应商，覆盖生成、流式与决策三种推理形态。 <sub>(机翻)</sub>
-  <sub>`插件` · ★169 · juspay · `TS`</sub>
+  <sub>`插件` · ★167 · juspay · `TS`</sub>
 
 - **[jev-forge](https://github.com/zwliJay/jev-forge)** — 面向 Jev 式决策模型的开源训练与推理栈。 <sub>(机翻)</sub>
   <sub>`Jev 替代实现` · ★165 · zwlijay · `Py` · ⚠ `并非 Jev 本身`</sub>
@@ -61,10 +61,10 @@ _用校准置信度决定哪些情况必须由人来看。_
   <sub>`开源项目` · ★33 · smkrv · `TS`</sub>
 
 - **[jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks)** — 面向类型化决策模型的概率感知评测：校准度、选择性风险、延迟，以及可复现的基准。 <sub>(机翻)</sub>
-  <sub>`基准测试` · ★28 · abdelstark · `Py`</sub>
+  <sub>`基准测试` · ★29 · abdelstark · `Py`</sub>
 
 - **[toolgate](https://github.com/RiskAverseTech/toolgate)** — 面向 AI 智能体的开源自动模式：一个校准过的工具调用防火墙。 <sub>(机翻)</sub>
-  <sub>`插件` · ★28 · riskaversetech · `TS`</sub>
+  <sub>`插件` · ★29 · riskaversetech · `TS`</sub>
 
 - **[jev-usecases](https://github.com/kenhuangus/jev-usecases)** — 生产级的 Jev 用例 harness，带置信度门控的决策逻辑。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★27 · kenhuangus · `Py`</sub>
@@ -91,25 +91,28 @@ _用校准置信度决定哪些情况必须由人来看。_
   <sub>`开源项目` · ★15 · antoniocoppe · `TS`</sub>
 
 - **[jevcal](https://github.com/abhixhek/jevcal)** — 对着一个 LLM 教师模型做校准、定阈值和漂移检查 —— 而不是靠猜。
-  <sub>`开源项目` · ★12 · abhixhek · `Py`</sub>
+  <sub>`开源项目` · ★13 · abhixhek · `Py`</sub>
 
 - **[jevflow](https://github.com/Mawfyy/jevflow)** — 把概率式 AI 决策做成可组合的后端原语。 <sub>(机翻)</sub>
-  <sub>`平台集成` · ★12 · mawfyy · `TS` · ⚠ `无许可证`</sub>
+  <sub>`平台集成` · ★13 · mawfyy · `TS` · ⚠ `无许可证`</sub>
 
 - **[jevmory](https://github.com/romiluz13/jevmory)** — 编程智能体的记忆：每条事实都是一句逐字引文，由 Jev 的校准置信度评级。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★12 · romiluz13 · `Py`</sub>
+  <sub>`开源项目` · ★13 · romiluz13 · `Py`</sub>
+
+- **[jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench)** — 在 2000 封钓鱼邮件上对比 Jev 与一个轻量 LLM：准确率、校准度、延迟、成本。 <sub>(机翻)</sub>
+  <sub>`基准测试` · ★11 · anisselbd · `Py`</sub>
 
 - **[poorjev](https://github.com/rupeshpoojary9/poorjev)** — 开源的本地 Jev 替代品：一个有可证校准置信度的 System One 决策层。 <sub>(机翻)</sub>
   <sub>`Jev 替代实现` · ★11 · rupeshpoojary9 · `Py` · ⚠ `并非 Jev 本身`</sub>
 
-- **[jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench)** — 在 2000 封钓鱼邮件上对比 Jev 与一个轻量 LLM：准确率、校准度、延迟、成本。 <sub>(机翻)</sub>
-  <sub>`基准测试` · ★10 · anisselbd · `Py`</sub>
-
 - **[typed-decisions](https://github.com/mithril-lang/typed-decisions)** — Jev 形状的类型化决策模型：状态加问题进，校准概率出。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★10 · kotoba-lang · `Py`</sub>
+  <sub>`开源项目` · ★10 · kotoba-lang · `Py` · ⚠ `已归档`</sub>
 
 - **[luce](https://github.com/scienthoon/luce)** — Luce：一份校准决策模型的配方 —— 输入一句任务描述，产出一个小模型。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★9 · scienthoon · `Py`</sub>
+
+- **[system-one-gemma](https://github.com/akash-kamat/system-one-gemma)** — 开源的 Jev 式 System One 决策模型：Gemma 3 270M 加一个打分头。 <sub>(机翻)</sub>
+  <sub>`Jev 替代实现` · ★9 · akash-kamat · `Py` · ⚠ `并非 Jev 本身` `无许可证`</sub>
 
 - **[daf-jev](https://github.com/docxology/daf-jev)** — 可组合的 Python 工具包：问题构造器、置信闸门等。 <sub>(机翻)</sub>
   <sub>`插件` · ★8 · docxology · `Py`</sub>
@@ -118,10 +121,7 @@ _用校准置信度决定哪些情况必须由人来看。_
   <sub>`开源项目` · ★8 · ufec · `Kt`</sub>
 
 - **[opencode-jev-orchestrator](https://github.com/aaronshaf/opencode-jev-orchestrator)** — 让 OpenCode 粘在便宜模型上以保持缓存热度，由 Jev 把困难的轮次升级给更强的模型。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★8 · aaronshaf · `TS`</sub>
-
-- **[system-one-gemma](https://github.com/akash-kamat/system-one-gemma)** — 开源的 Jev 式 System One 决策模型：Gemma 3 270M 加一个打分头。 <sub>(机翻)</sub>
-  <sub>`Jev 替代实现` · ★8 · akash-kamat · `Py` · ⚠ `并非 Jev 本身` `无许可证`</sub>
+  <sub>`开源项目` · ★8 · aaronshaf · `TS` · ⚠ `已归档`</sub>
 
 - **[typesafe-local](https://github.com/aabolfazl/typesafe-local)** — 受 TypeSafe 启发：向本地 LLM 提类型化问题，拿到校准概率。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★8 · aabolfazl · `Py`</sub>
@@ -135,20 +135,20 @@ _用校准置信度决定哪些情况必须由人来看。_
 - **[qwen-rlcd](https://github.com/shamazharikh/qwen-rlcd)** — 基于 Qwen3.5-0.8B 的 Jev 风格校准决策模型（Choice／Score／Noul）。 <sub>(机翻)</sub>
   <sub>`Jev 替代实现` · ★5 · shamazharikh · `Py` · ⚠ `并非 Jev 本身` `无许可证`</sub>
 
+- **[tenbin](https://github.com/simota/tenbin)** — MCP server 兼 agent 技能：把一个判断分解成多个类型化问题。 <sub>(机翻)</sub>
+  <sub>`插件` · ★5 · simota · `TS`</sub>
+
+- **[jev-flash-router](https://github.com/Ravinder82/jev-flash-router)** — 开源的 jev-flash-router：给 Jev 的 MCP server。 <sub>(机翻)</sub>
+  <sub>`插件` · ★4 · ravinder82 · `TS`</sub>
+
 - **[jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage)** — 由 Jev 判断一批日志是否值得处理：类型化问题、置信闸门，不执行任何动作。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★4 · jyatesdotdev · `Py`</sub>
 
 - **[jev-starter](https://github.com/hamakyo/jev-starter)** — 基于 Jev 的类型化、策略驱动决策工作流：置信路由、回退与评测。 <sub>(机翻)</sub>
   <sub>`插件` · ★4 · hamakyo · `TS`</sub>
 
-- **[tenbin](https://github.com/simota/tenbin)** — MCP server 兼 agent 技能：把一个判断分解成多个类型化问题。 <sub>(机翻)</sub>
-  <sub>`插件` · ★4 · simota · `TS`</sub>
-
 - **[tink-route](https://github.com/jon-devlapaz/tink-route)** — 动态的、感知置信度的 Agent 技能路由。 <sub>(机翻)</sub>
   <sub>`插件` · ★4 · jon-devlapaz · `Py`</sub>
-
-- **[jev-flash-router](https://github.com/Ravinder82/jev-flash-router)** — 开源的 jev-flash-router：给 Jev 的 MCP server。 <sub>(机翻)</sub>
-  <sub>`插件` · ★3 · ravinder82 · `TS`</sub>
 
 - **[jev-mcp-server](https://github.com/wangkuangkuang/jev-mcp-server)** — Jev 的 MCP server：提供官方三种问题类型。 <sub>(机翻)</sub>
   <sub>`插件` · ★3 · wangkuangkuang · `Py`</sub>

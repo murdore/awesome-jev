@@ -7,28 +7,28 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
 这个决策的全部已收录例子 —— 共 34 条，官方优先，其次是含代码的，再按 star 排序。同样这些行及其警示也在[索引](../../README.zh-CN.md#上下文压缩)里；[站点](https://kydlikebtc.github.io/awesome-jev/?p=context-compaction&lang=zh)还能按语言、原语和形态进一步筛选。
 
 - **[Hermes Agent: Jev compaction evaluation](https://github.com/NousResearch/hermes-agent)** — 把 Jev 压缩方案移植过来，与自家在用的摘要器对比实测，最后公开结论：不采用。
-  <sub>`基准测试` · ★264,423 · `Py` · `noul`</sub>
+  <sub>`基准测试` · ★266,041 · `Py` · `noul`</sub>
 
 - **[jcode: memory recall without embeddings](https://github.com/1jehuang/jcode)** — 把记忆召回的整套检索栈替换掉 —— 不用 embedding、不用 BM25、不用重排器 —— 改为对每条候选记忆批量问一个 Noul。
-  <sub>`开源项目` · ★21,881 · `Rs` · `noul`</sub>
+  <sub>`开源项目` · ★22,039 · `Rs` · `noul`</sub>
 
 - **[fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)** — 一个 Claude Code 插件，用逐条决策取代压缩式摘要：过期的工具调用被丢弃或截断，保留下来的全部逐字不变。
-  <sub>`插件` · ★7,996 · tamaratran · `TS` · `noul`</sub>
+  <sub>`插件` · ★8,023 · tamaratran · `TS` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — 九个 agent 技能加一个 CLI，覆盖模型路由、记忆过滤、对话轮保留、多选一技能选择和下一步动作决策。
-  <sub>`插件` · ★1,350 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★1,366 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[compact-adviser](https://github.com/kunchenguid/compact-adviser)** — 判断工作是否已完成或已记录，据此提示运行上下文压缩。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★235 · kunchenguid · `TS`</sub>
 
 - **[jev-pruner](https://github.com/tamaratran/jev-pruner)** — 在模型看到之前先修剪冗长的 shell 输出，每个片段问一个 Noul。
-  <sub>`插件` · ★167 · tamaratran · `TS` · `noul`</sub>
+  <sub>`插件` · ★170 · tamaratran · `TS` · `noul`</sub>
 
 - **[Winnow](https://github.com/GhalebDweikat/winnow)** — 给 Claude Code 做上下文垃圾回收。Read / Bash / Grep 吐一大堆时，Jev 先判断哪些真和当前任务有关。
   <sub>`插件` · ★115 · `Py` · `noul`</sub>
 
 - **[save-token-jev-clean](https://github.com/IAmUnbounded/save-token-jev-clean)** — 为编码智能体提供可移植的、由 Jev 引导的上下文压缩：不让另一个 LLM 把旧上下文改写成有损摘要，而是由 Jev 判断哪些工具调用和结果仍然重要，用户与助手的文字保持原样。 <sub>(机翻)</sub>
-  <sub>`插件` · ★82 · iamunbounded · `TS`</sub>
+  <sub>`插件` · ★83 · iamunbounded · `TS`</sub>
 
 - **[yoshi](https://github.com/compozy/yoshi)** — 给 Claude Code 和 Codex 做的上下文裁剪代理：由 Jev 判断哪些历史还需要 —— 实测而非宣称。 <sub>(机翻)</sub>
   <sub>`插件` · ★32 · compozy · `TS`</sub>
@@ -46,13 +46,13 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
   <sub>`插件` · ★13 · horusjiang · `TS`</sub>
 
 - **[fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction)** — Codex 插件：在会话压缩前后，由 Jev 引导逐字恢复上下文。移植自 tamaratran/fast-jev-compaction，适配 Codex 的生命周期钩子。 <sub>(机翻)</sub>
-  <sub>`插件` · ★12 · leonaaardob · `TS`</sub>
+  <sub>`插件` · ★13 · leonaaardob · `TS`</sub>
+
+- **[pi-jev-context](https://github.com/Nyarlathoteppppp/pi-jev-context)** — 一个 Pi 扩展：感知新鲜度的读取去重、Jev 日志过滤，模型表现优先、省 token 其次。 <sub>(机翻)</sub>
+  <sub>`插件` · ★12 · nyarlathoteppppp · `TS`</sub>
 
 - **[pi-jev](https://github.com/iefnaf/pi-jev)** — 由 Jev 驱动的 Pi 扩展套件：选择性上下文压缩与模型路由。 <sub>(机翻)</sub>
   <sub>`插件` · ★11 · iefnaf · `TS`</sub>
-
-- **[pi-jev-context](https://github.com/Nyarlathoteppppp/pi-jev-context)** — 一个 Pi 扩展：感知新鲜度的读取去重、Jev 日志过滤，模型表现优先、省 token 其次。 <sub>(机翻)</sub>
-  <sub>`插件` · ★11 · nyarlathoteppppp · `TS`</sub>
 
 - **[jev-compact](https://github.com/fatelei/jev-compact)** — 为 OpenAI Codex CLI 提供由 Jev 打分的上下文压缩——在压缩前为每个工具调用打分，并恢复关键内容。 <sub>(机翻)</sub>
   <sub>`插件` · ★9 · fatelei · `TS`</sub>
@@ -72,23 +72,23 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
 - **[deepseek-harness-jev-pre-compaction](https://github.com/wjw66/deepseek-harness-jev-pre-compaction)** — 给 DeepSeek Harness 的压缩前顾问，在标准压缩流程之前运行。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★6 · wjw66 · `TS`</sub>
 
+- **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — 十个可运行的 JavaScript 智能体决策，一个文件一个：新记忆与旧记忆冲突时该改还是该留、工具返回 200 是否真的完成了任务、写入超时后该重试还是该对账、上下文分块在预算内如何取舍、压缩后的交接是否丢掉了某条禁令。Jev 只回答带类型的问题，阈值和最终提案由普通代码决定。
+  <sub>`开源项目` · ★5 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `仅一次提交` `疑似 AI 生成`</sub>
+
 - **[jev-compaction](https://github.com/Waxmell114514/jev-compaction)** — 只能打分、不能写作的上下文压缩器——因此智能体的记忆里不可能出现对话记录中从未有过的事实。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · waxmell114514 · `Py`</sub>
 
 - **[fast-compaction-dsh](https://github.com/kolawong/fast-compaction-dsh)** — 给 DeepSeek Harness 的判定式上下文压缩，取代有损的 LLM 摘要。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★4 · kolawong · `TS`</sub>
 
-- **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — 十个可运行的 JavaScript 智能体决策，一个文件一个：新记忆与旧记忆冲突时该改还是该留、工具返回 200 是否真的完成了任务、写入超时后该重试还是该对账、上下文分块在预算内如何取舍、压缩后的交接是否丢掉了某条禁令。Jev 只回答带类型的问题，阈值和最终提案由普通代码决定。
-  <sub>`开源项目` · ★4 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `仅一次提交` `疑似 AI 生成`</sub>
+- **[jselect](https://github.com/keltokhy/jselect)** — 在 token 预算内给 AI 挑出有用证据：快速、带来源链接的上下文选择器。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★4 · keltokhy · `Py`</sub>
 
 - **[pi-jev-compaction](https://github.com/nourhelmi/pi-jev-compaction)** — 为 Pi 自动清理 Jev 上下文：保留对话，修剪过期的工具输出，无需重跑命令即可取回原始内容。 <sub>(机翻)</sub>
   <sub>`插件` · ★4 · nourhelmi · `TS`</sub>
 
 - **[jev-compaction](https://github.com/picaye/jev-compaction)** — 从不做摘要的 Hermes 会话上下文压缩：每次工具调用都被打分。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · picaye · `JS`</sub>
-
-- **[jselect](https://github.com/keltokhy/jselect)** — 在 token 预算内给 AI 挑出有用证据：快速、带来源链接的上下文选择器。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★3 · keltokhy · `Py`</sub>
 
 - **[pi-fast-jev-compaction](https://github.com/QuentinDanblon/pi-fast-jev-compaction)** — 为 pi 编码智能体提供逐字的上下文修剪，由 TypeSafe Jev 打分：过期的工具调用和结果被丢弃或截短。 <sub>(机翻)</sub>
   <sub>`插件` · ★3 · quentindanblon · `TS`</sub>

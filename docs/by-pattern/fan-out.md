@@ -16,16 +16,16 @@ Every catalogued example of this decision — 32 of them, official first, then r
   <sub>`Official docs` · `Py` · `TS` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[AutoGPT TypeSafe blocks](https://github.com/Significant-Gravitas/AutoGPT/tree/master/autogpt_platform/backend/backend/blocks/typesafe)** — Seven production blocks — choice, score, yes/no, ask-many, route, pick-best, filter — with a UTF-8 byte budget, verbatim wire capture and eleven test files.
-  <sub>`Project` · ★188,083 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Project` · ★188,183 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[sub2api: Jev as a moderation endpoint](https://github.com/Wei-Shaw/sub2api)** — Drops in as a moderation API by asking many parallel Noul questions in one request, one per hazard category, with an anti-injection prefix on every instruction.
-  <sub>`Project` · ★46,255 · `Go` · `noul`</sub>
+  <sub>`Project` · ★46,621 · `Go` · `noul`</sub>
 
 - **[jev-ultrafast](https://github.com/browser-use/jev-ultrafast)** — A high-speed browser agent from Browser Use: Jev decides the operation and which element to act on, and a small LLM is called only when text must be typed.
-  <sub>`Project` · ★24,621 · Browser Use · `Py` · `choice` · ⚠ `vendor numbers`</sub>
+  <sub>`Project` · ★24,737 · Browser Use · `Py` · `choice` · ⚠ `vendor numbers`</sub>
 
 - **[ai-cookbook: Jev track](https://github.com/daveebbelaar/ai-cookbook)** — A graded course from a first call through each primitive, state shapes and criteria, to ticket triage and a multi-step workflow, mirroring all four official patterns.
-  <sub>`Tutorial` · ★4,717 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`Tutorial` · ★4,724 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-forge](https://github.com/zwliJay/jev-forge)** — An open training and inference stack for Jev-style decision models. Train models to score dynamic candidate branches from a shared prefix, with support for high-cardinality choice, calibration, and fast batched inference.
   <sub>`Jev-like alternative` · ★165 · zwlijay · `Py` · ⚠ `not Jev itself`</sub>
@@ -43,7 +43,7 @@ Every catalogued example of this decision — 32 of them, official first, then r
   <sub>`Project` · ★44 · `TS` · `choice` · ⚠ `code untested` `no licence`</sub>
 
 - **[system-one](https://github.com/sgoedecke/system-one)** — Batched single-token choice inference for open language models, compatible with TypeSafe
-  <sub>`Project` · ★40 · sgoedecke · `Py` · ⚠ `no licence`</sub>
+  <sub>`Project` · ★41 · sgoedecke · `Py` · ⚠ `no licence`</sub>
 
 - **[slop-grader](https://github.com/lukstei/slop-grader)** — Jev-powered, rule-based grader for text files. Runs every rule against every line in parallel. No skimming, no missed lines.
   <sub>`Project` · ★37 · lukstei · `TS`</sub>
@@ -60,11 +60,11 @@ Every catalogued example of this decision — 32 of them, official first, then r
 - **[jevswiftsdk](https://github.com/NSStudent/JevSwiftSDK)** — An independent, type-safe Swift SDK for TypeSafe Jev, with async/await, batching, retries, and SPM support.
   <sub>`SDK` · ★8 · nsstudent · `Swift`</sub>
 
+- **[jackalope](https://github.com/Jackalope-Dev/jackalope)** — A desktop workspace for coding agents, parallel Git worktrees, and code review.
+  <sub>`Project` · ★5 · jackalope-dev · `Rs`</sub>
+
 - **[sqlite-jev](https://github.com/mgaitan/sqlite-jev)** — Batched natural-language judgments for SQLite, powered by TypeSafe Jev
   <sub>`Plugin` · ★5 · mgaitan · `C` · ⚠ `no licence`</sub>
-
-- **[jackalope](https://github.com/Jackalope-Dev/jackalope)** — A desktop workspace for coding agents, parallel Git worktrees, and code review.
-  <sub>`Project` · ★2 · jackalope-dev · `Rs`</sub>
 
 - **[jev-pr-judge](https://github.com/juanegido/jev-pr-judge)** — Typed verdicts on pull requests with TypeSafe System One (Jev): one parallel call, policy in code, usable as a GitHub Action
   <sub>`Project` · ★2 · juanegido · `TS`</sub>

@@ -19,7 +19,7 @@ _从杂乱文本中取出类型化字段 —— 靠在候选中选择，而不�
   <sub>`官方文档` · `Py`</sub>
 
 - **[jeveryword](https://github.com/jkrup/jeveryword)** — 用 Jev 做文本抽取：字段抽取、PII 检测与逐字引文。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★48 · jkrup · `JS`</sub>
+  <sub>`开源项目` · ★51 · jkrup · `JS`</sub>
 
 - **[jev-reviewer](https://github.com/choxos/jev-reviewer)** — 系统综述的数据抽取：让 Jev 从论文及其补充材料里按抽取表取值，并附原文引用。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★47 · choxos · `JS`</sub>

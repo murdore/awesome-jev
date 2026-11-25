@@ -19,7 +19,7 @@ Every catalogued example of this decision — 16 of them, official first, then r
   <sub>`Official docs` · `Py`</sub>
 
 - **[jeveryword](https://github.com/jkrup/jeveryword)** — Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.
-  <sub>`Project` · ★48 · jkrup · `JS`</sub>
+  <sub>`Project` · ★51 · jkrup · `JS`</sub>
 
 - **[jev-reviewer](https://github.com/choxos/jev-reviewer)** — Data extraction for systematic reviews, quoted from the papers. Ask a trial report and its supplements your extraction form or a RoB 2, ROBINS-I, QUADAS-2 or TIDieR template; Jev points at the lines, every answer is a verbatim quote with its page, you check it and export the table. Files stay i
   <sub>`Project` · ★47 · choxos · `JS`</sub>

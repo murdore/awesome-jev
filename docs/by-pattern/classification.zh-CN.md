@@ -19,64 +19,64 @@ _把条目归入分类体系，包括用概率遍历的深层层级。_
   <sub>`官方文档` · `Py`</sub>
 
 - **[worldmonitor: news threat classification](https://github.com/koala73/worldmonitor)** — 用两个 Choice 判断威胁等级与类别；盲测发现 Jev 只是与原有模型打平，于是一直保持影子运行。
-  <sub>`基准测试` · ★90,882 · `TS` · `choice` · ⚠ `仅影子运行`</sub>
+  <sub>`基准测试` · ★91,174 · `TS` · `choice` · ⚠ `仅影子运行`</sub>
 
 - **[json-render](https://github.com/vercel-labs/json-render)** — Vercel Labs 的生成式 UI 框架。实验里 Jev 不逐 token 写 JSON，只负责选组件、属性和布局。
-  <sub>`开源项目` · ★19,768 · Vercel Labs · `TS` · `choice`</sub>
+  <sub>`开源项目` · ★19,837 · Vercel Labs · `TS` · `choice`</sub>
 
 - **[Inbox Zero: seven email decisions](https://github.com/elie222/inbox-zero)** — 七个互不相同的邮件决策，每个都有自己单独设定的阈值，任何出错都回落到普通 LLM。
-  <sub>`开源项目` · ★13,065 · `TS` · `choice` · `noul`</sub>
+  <sub>`开源项目` · ★13,118 · `TS` · `choice` · `noul`</sub>
 
 - **[pg-jev](https://github.com/realZachi/pg-jev)** — 一个真正的 PostgreSQL 扩展，把三个原语暴露成 SQL 函数 —— 语义判断可以直接写进任意行类型的 WHERE 子句。
-  <sub>`开源项目` · ★1,313 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
+  <sub>`开源项目` · ★1,316 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
 
 - **[jev-mcp](https://github.com/jkudish/jev-mcp)** — 现成的 Agent 判断工具箱：事实核验、内容筛查、语义排序、分类和信息提取，各自独立成工具。
-  <sub>`插件` · ★585 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★593 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[docjev](https://github.com/jerryjliu/docjev)** — 非常快的文档分类与切分器。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★563 · jerryjliu · `Py`</sub>
+  <sub>`开源项目` · ★565 · jerryjliu · `Py`</sub>
 
 - **[tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier)** — 基于 Jev 决策的税务文档分页分类器，在 261 种 IRS 表单上达到严格全对，每页约 $0.001。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★521 · kyotofin · `TS`</sub>
+  <sub>`开源项目` · ★522 · kyotofin · `TS`</sub>
 
 - **[classifier-dev](https://github.com/mrmps/classifier-dev)** — 基于纯 HTTP 的零样本文本分类 —— 不需要密钥、不需要账号，一个 Cloudflare Worker。 <sub>(机翻)</sub>
-  <sub>`插件` · ★441 · mrmps · `TS`</sub>
+  <sub>`插件` · ★442 · mrmps · `TS`</sub>
 
 - **[unclutter](https://github.com/kitze/unclutter)** — 一个浏览器扩展，用可复用的模板规则清除页面杂物。
   <sub>`开源项目` · ★395 · kitze · `TS`</sub>
 
 - **[perch: semantic code linting](https://github.com/lakeday-org/perch)** — 先用 tree-sitter 找出并排序方法，再把用户自写的 YAML 规则编译成 noul；严重度取评分量表的期望值，而不是概率最高的那一档。
-  <sub>`开源项目` · ★317 · `JS` · `choice` · `score` · `noul`</sub>
+  <sub>`开源项目` · ★308 · `JS` · `choice` · `score` · `noul`</sub>
 
 - **[Jev-X-Sentiment-Analysis](https://github.com/brainstormity/Jev-X-Sentiment-Analysis)** — 按需使用的加密市场情报终端：选定币种和推文样本数量，Jev 结合行情、资金费率与社交情绪给出买入、卖出、持有或止盈的决策卡片，不会自动下单。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★232 · brainstormity · `Py`</sub>
+  <sub>`开源项目` · ★235 · brainstormity · `Py`</sub>
 
 - **[Probing Jev's behaviour with repeated API calls](https://github.com/ahastudio/til)** — 独立的韩语实测笔记，报告仅仅把选项顺序倒过来，就能让概率移动到足以翻转 0.9 阈值的程度。
-  <sub>`基准测试` · ★194 · `Py` · ⚠ `无许可证` `宣称未核实`</sub>
+  <sub>`基准测试` · ★195 · `Py` · ⚠ `无许可证` `宣称未核实`</sub>
 
 - **[332_lab-jev-chat](https://github.com/Liyucheng1997/332_lab-jev-chat)** — 电脑版微信助手：由 Jev 判断每条消息的意图，DeepSeek 给出建议回复。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★174 · liyucheng1997 · `Kt`</sub>
+  <sub>`开源项目` · ★177 · liyucheng1997 · `Kt`</sub>
 
 - **[taskuary](https://github.com/ldbumble/taskuary)** — 本地优先的 AI 任务中枢：把邮件、Teams、Slack 与报表汇成一条时间线。 <sub>(机翻)</sub>
-  <sub>`插件` · ★151 · ldbumble · `Py`</sub>
+  <sub>`插件` · ★154 · ldbumble · `Py`</sub>
 
 - **[Prism](https://github.com/irfndi/prism-liquidity-agent)** — 不直接让 Jev 下单。它判断 toxic flow、市场压力、均值回归之类的状态，再交给原来的策略。
   <sub>`开源项目` · ★135 · `TS` · `choice` · `score`</sub>
 
 - **[jev-arena](https://github.com/NanmiCoder/jev-arena)** — Jev 模型介绍与实测：通过 Choice / Score / Noul 将自然语言转为带类型的判断与概率，用于分类、评分和路由；支持与 DeepSeek 等模型对比评论打标、速度与结果，含 CSV/Excel 导入、原速回放与离线报告。
-  <sub>`基准测试` · ★125 · nanmicoder · `JS`</sub>
+  <sub>`基准测试` · ★126 · nanmicoder · `JS`</sub>
 
 - **[youtube-sponsor-detection](https://github.com/trungdq88/youtube-sponsor-detection)** — 结合实时音频与字幕检测 YouTube 视频里的赞助片段。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★117 · trungdq88 · `JS` · ⚠ `无许可证`</sub>
+  <sub>`开源项目` · ★118 · trungdq88 · `JS` · ⚠ `无许可证`</sub>
 
 - **[Blink](https://github.com/ellipsis-dev/blink)** — 把 Jev 当代码库导航器。每走到一层目录，就判断哪些文件和当前问题最相关，再继续往下找。
-  <sub>`开源项目` · ★105 · `TS` · `choice` · ⚠ `无许可证`</sub>
+  <sub>`开源项目` · ★106 · `TS` · `choice` · ⚠ `无许可证`</sub>
 
 - **[typesafe-adblock](https://github.com/realZachi/typesafe-adblock)** — 一个 Chrome 扩展，逐个询问 DOM 元素是不是广告。
   <sub>`开源项目` · ★97 · realzachi · `JS`</sub>
 
 - **[ha-jev](https://github.com/AboveColin/HA-Jev)** — 一个 Home Assistant 集成：把类型化答案变成传感器，并提供可用于自动化的动作。
-  <sub>`平台集成` · ★89 · abovecolin · `Py`</sub>
+  <sub>`平台集成` · ★91 · abovecolin · `Py`</sub>
 
 - **[SemDecide](https://github.com/sharziki/semdecide)** — 把 Jev 做成命令行。Shell 里直接分类、打分、过滤，适合接爬虫、CI 和数据流水线。
   <sub>`插件` · ★87 · `Py` · `sh` · `choice` · `score` · `noul`</sub>
@@ -85,19 +85,19 @@ _把条目归入分类体系，包括用概率遍历的深层层级。_
   <sub>`开源项目` · ★72 · nisaka520 · `Java`</sub>
 
 - **[jgrep (npm: jevgrep)](https://github.com/kyu1204/jgrep)** — 按代码的作用来 grep：对每个代码块、diff 块或 CSV 行问一个 Noul，输出带概率的 file:line 命中。--diff 用一条英文规则在 CI 里为 PR 把关（退出码 0 命中 / 1 干净 / 2 出错）；--tests 列出一次 diff 可能影响的测试文件。
-  <sub>`开源项目` · ★63 · kyu1204 · `TS` · `noul` · `choice` · `score` · ⚠ `宣称未核实`</sub>
+  <sub>`开源项目` · ★64 · kyu1204 · `TS` · `noul` · `choice` · `score` · ⚠ `宣称未核实`</sub>
 
 - **[jev-code](https://github.com/FrancoisChastel/jev-code)** — 把 Jev 作为工具接入多个编程智能体。 <sub>(机翻)</sub>
-  <sub>`插件` · ★59 · francoischastel · `TS`</sub>
+  <sub>`插件` · ★63 · francoischastel · `TS`</sub>
 
 - **[pg_typesafe](https://github.com/giuliosmall/pg_typesafe)** — 用于 Jev 分类决策的 PostgreSQL 扩展（预 alpha）。 <sub>(机翻)</sub>
-  <sub>`插件` · ★57 · giuliosmall · `C`</sub>
+  <sub>`插件` · ★53 · giuliosmall · `C`</sub>
+
+- **[jeveryword](https://github.com/jkrup/jeveryword)** — 用 Jev 做文本抽取：字段抽取、PII 检测与逐字引文。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★51 · jkrup · `JS`</sub>
 
 - **[jev-sift](https://github.com/kbhuw/jev-sift)** — 先分类，再选择性阅读：可移植的批量文本分类插件与 MCP 工具。 <sub>(机翻)</sub>
   <sub>`插件` · ★50 · kbhuw · `JS` · ⚠ `无许可证`</sub>
-
-- **[jeveryword](https://github.com/jkrup/jeveryword)** — 用 Jev 做文本抽取：字段抽取、PII 检测与逐字引文。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★48 · jkrup · `JS`</sub>
 
 - **[jev-poly-crypto-demo](https://github.com/frankda/jev-poly-crypto-demo)** — 面向 Polymarket 五分钟 BTC 涨跌市场的研究工具：实时行情变成 Jev 的类别分数，由独立逻辑做决定，并在看板上展示。仅做模拟交易，从不连接钱包。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★42 · frankda · `TS` · ⚠ `无许可证`</sub>
@@ -105,20 +105,20 @@ _把条目归入分类体系，包括用概率遍历的深层层级。_
 - **[commit-miner](https://github.com/devanshbatham/commit-miner)** — 用 Jev 对 Git 提交的 diff 与信息做分类：缺陷修复、安全修复、变更类型。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★39 · devanshbatham · `Rs` · ⚠ `无许可证`</sub>
 
+- **[dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor)** — 为 DeepSeek Harness 中的每一次工具调用提供毫秒级 System-1 判断——由 Jev 驱动的风险分类与证据检查。 <sub>(机翻)</sub>
+  <sub>`插件` · ★35 · asktheway · `TS`</sub>
+
 - **[jev-ids](https://github.com/jev-sec/jev-ids)** — 基于 Jev 的高速、省 token 的入侵检测系统。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★34 · jev-ids · `Py`</sub>
-
-- **[dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor)** — 为 DeepSeek Harness 中的每一次工具调用提供毫秒级 System-1 判断——由 Jev 驱动的风险分类与证据检查。 <sub>(机翻)</sub>
-  <sub>`插件` · ★33 · asktheway · `TS`</sub>
 
 - **[jev-calibrate](https://github.com/smkrv/jev-calibrate)** — 用你自己的标注数据校准 Jev 的问题：在标注样本上调 criteria，在留出集上确认。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★33 · smkrv · `TS`</sub>
 
-- **[sharp](https://github.com/tshmieldev/sharp)** — 用 Jev 或任意 LLM 过滤你的 X.com 信息流。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★32 · tshmieldev · `TS`</sub>
-
 - **[local-jev](https://github.com/amithgc/local-jev)** — 本地离线的 System One 服务，兼容 Jev API，回答类型化的是非问题。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★31 · amithgc · `Py`</sub>
+  <sub>`开源项目` · ★33 · amithgc · `Py`</sub>
+
+- **[sharp](https://github.com/tshmieldev/sharp)** — 用 Jev 或任意 LLM 过滤你的 X.com 信息流。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★33 · tshmieldev · `TS`</sub>
 
 - **[evoke](https://github.com/evoke-build/evoke)** — 反射式软件：一句话变成对一个小程序的调用，由 Jev 选择。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★26 · evoke-build · `Rs`</sub>
@@ -136,7 +136,7 @@ _把条目归入分类体系，包括用概率遍历的深层层级。_
   <sub>`插件` · ★25 · oso95 · `TS`</sub>
 
 - **[jev-column-race](https://github.com/goodrahstar/jev-column-race)** — Jev 对比一个轻量 LLM：标注 1000 条应用评论，快 4.1 倍、便宜 7 倍。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★23 · goodrahstar · `JS`</sub>
+  <sub>`开源项目` · ★24 · goodrahstar · `JS`</sub>
 
 - **[jevlogs](https://github.com/reachjalil/jevlogs)** — 面向 OpenTelemetry 的开源 Jev 日志分拣：在昂贵的 LLM 分析之前先给信号打分。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★22 · reachjalil · `JS`</sub>
@@ -171,11 +171,14 @@ _把条目归入分类体系，包括用概率遍历的深层层级。_
 - **[hunch](https://github.com/steven-shoemaker/hunch)** — 对数据列向 Jev 提问：封闭集合的问题，带缓存，并把结果连接回原表。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★10 · steven-shoemaker · `Py`</sub>
 
+- **[jev-skip](https://github.com/valentynkit/jev-skip)** — 读字幕、在观看时判断，从而跳过视频里的赞助段落。
+  <sub>`开源项目` · ★10 · valentynkit · `TS`</sub>
+
 - **[jev-tree](https://github.com/reachjalil/jev-tree)** — 在分类体系上做递归 Jev choice —— 在不突破 255 选项上限的前提下，从更多选项中做选择。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★10 · reachjalil · `TS`</sub>
 
-- **[jev-skip](https://github.com/valentynkit/jev-skip)** — 读字幕、在观看时判断，从而跳过视频里的赞助段落。
-  <sub>`开源项目` · ★9 · valentynkit · `TS`</sub>
+- **[jlink](https://github.com/keltokhy/jlink)** — 给经济学家用的记录链接：用自然语言写匹配规则，对每一对记录得到一个概率，可审计、可引用。支持 Python、CLI、Stata 和 R。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★9 · keltokhy · `Py`</sub>
 
 - **[one-system](https://github.com/rawwerks/one-system)** — 通过统一接口使用本地与托管的分类器（即决策模型）。 <sub>(机翻)</sub>
   <sub>`Jev 替代实现` · ★9 · rawwerks · `TS` · ⚠ `并非 Jev 本身`</sub>
@@ -183,11 +186,11 @@ _把条目归入分类体系，包括用概率遍历的深层层级。_
 - **[twitter-jev-guard](https://github.com/qs-lll/twitter-jev-guard)** — 使用 TypeSafe Jev 在 X/Twitter 时间线上识别低质量、垃圾和广告帖子，并在文字区域显示醒目的半透明水印。
   <sub>`插件` · ★9 · qs-lll · `JS` · ⚠ `无许可证`</sub>
 
+- **[agent-fastpath](https://github.com/abhishekswe/agent-fastpath)** — Jev MCP server：给编程智能体的决策层。 <sub>(机翻)</sub>
+  <sub>`插件` · ★8 · abhishekswe · `TS`</sub>
+
 - **[jev-dsl](https://github.com/inanna-malick/jev-dsl)** — 面向智能体的 Haskell DSL：类型化数据包、类型推断，答案与问题同构。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★8 · inanna-malick · `Hs`</sub>
-
-- **[jlink](https://github.com/keltokhy/jlink)** — 给经济学家用的记录链接：用自然语言写匹配规则，对每一对记录得到一个概率，可审计、可引用。支持 Python、CLI、Stata 和 R。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★8 · keltokhy · `Py`</sub>
 
 - **[jev-for-engineers](https://github.com/Foadsf/jev-for-engineers)** — 八个最小可运行示例：把 Jev 用在机械与电气工程场景。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★7 · foadsf · `Py`</sub>
@@ -195,14 +198,14 @@ _把条目归入分类体系，包括用概率遍历的深层层级。_
 - **[n8n-nodes-jev-classification](https://github.com/khmuhtadin/n8n-nodes-jev-classification)** — Jev 的 n8n 社区节点：带校准概率的文本分类、打分与检查。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★7 · khmuhtadin · `TS`</sub>
 
-- **[agent-fastpath](https://github.com/abhishekswe/agent-fastpath)** — Jev MCP server：给编程智能体的决策层。 <sub>(机翻)</sub>
-  <sub>`插件` · ★6 · abhishekswe · `TS`</sub>
-
 - **[agi-jev-containment](https://github.com/carlosedm10/agi-jev-containment)** — 本地 AI 智能体监控：链路级恶意智能体检测。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · carlosedm10 · `Py` · ⚠ `无许可证`</sub>
 
 - **[hush](https://github.com/emreozyoruk/hush)** — 不确定时保持沉默的 issue 分拣：校准过的标签，含垃圾与重复检测。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · emreozyoruk · `JS`</sub>
+
+- **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — 十个可运行的 JavaScript 智能体决策，一个文件一个：新记忆与旧记忆冲突时该改还是该留、工具返回 200 是否真的完成了任务、写入超时后该重试还是该对账、上下文分块在预算内如何取舍、压缩后的交接是否丢掉了某条禁令。Jev 只回答带类型的问题，阈值和最终提案由普通代码决定。
+  <sub>`开源项目` · ★5 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `仅一次提交` `疑似 AI 生成`</sub>
 
 - **[jev-document-classification](https://github.com/Charlyhno-eng/jev-document-classification)** — 对文本文档做快速且低成本的分类。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · charlyhno-eng · `TS`</sub>
@@ -231,14 +234,17 @@ _把条目归入分类体系，包括用概率遍历的深层层级。_
 - **[dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide)** — DSH 插件：把 Jev 注册成一个智能体工具。 <sub>(机翻)</sub>
   <sub>`插件` · ★4 · nanami-0713 · `JS`</sub>
 
-- **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — 十个可运行的 JavaScript 智能体决策，一个文件一个：新记忆与旧记忆冲突时该改还是该留、工具返回 200 是否真的完成了任务、写入超时后该重试还是该对账、上下文分块在预算内如何取舍、压缩后的交接是否丢掉了某条禁令。Jev 只回答带类型的问题，阈值和最终提案由普通代码决定。
-  <sub>`开源项目` · ★4 · Really Artificial · `JS` · `choice` · `score` · `noul` · ⚠ `仅一次提交` `疑似 AI 生成`</sub>
-
 - **[jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage)** — 由 Jev 判断一批日志是否值得处理：类型化问题、置信闸门，不执行任何动作。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★4 · jyatesdotdev · `Py`</sub>
 
 - **[jev-mail](https://github.com/muhammedilyasy/jev-mail)** — 用 TypeSafe Jev 模型为 Gmail 做分诊的 Chrome 扩展：为每封邮件给出类别、优先级、垃圾邮件概率和需回复概率。 <sub>(机翻)</sub>
   <sub>`插件` · ★4 · muhammedilyasy · `JS`</sub>
+
+- **[jev-playwright-mcp](https://github.com/krw82/jev-playwright-mcp)** — Jev 增强的 Playwright MCP 代理：页面状态分拣与提示注入防护。 <sub>(机翻)</sub>
+  <sub>`插件` · ★4 · krw82 · `TS`</sub>
+
+- **[jev-slop-guard](https://github.com/davertor/jev-slop-guard)** — Jev Slop Guard：一个 Chrome 扩展，在你浏览 X 和 LinkedIn 时为 AI 生成的垃圾内容打分并盖章。 <sub>(机翻)</sub>
+  <sub>`插件` · ★4 · davertor · `JS`</sub>
 
 - **[jev-triage](https://github.com/cephalization/jev-triage)** — 拉取并同步大型仓库以做 issue 分拣。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★4 · cephalization · `TS`</sub>
@@ -258,14 +264,8 @@ _把条目归入分类体系，包括用概率遍历的深层层级。_
 - **[jev-mcp-server](https://github.com/wangkuangkuang/jev-mcp-server)** — Jev 的 MCP server：提供官方三种问题类型。 <sub>(机翻)</sub>
   <sub>`插件` · ★3 · wangkuangkuang · `Py`</sub>
 
-- **[jev-playwright-mcp](https://github.com/krw82/jev-playwright-mcp)** — Jev 增强的 Playwright MCP 代理：页面状态分拣与提示注入防护。 <sub>(机翻)</sub>
-  <sub>`插件` · ★3 · krw82 · `TS`</sub>
-
 - **[jev-review-action](https://github.com/fatwang2/jev-review-action)** — 可配置的 GitHub 提交审查与 PR 分类，不使用任何文本生成模型。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · fatwang2 · `JS`</sub>
-
-- **[jev-slop-guard](https://github.com/davertor/jev-slop-guard)** — Jev Slop Guard：一个 Chrome 扩展，在你浏览 X 和 LinkedIn 时为 AI 生成的垃圾内容打分并盖章。 <sub>(机翻)</sub>
-  <sub>`插件` · ★3 · davertor · `JS`</sub>
 
 - **[jevtriage](https://github.com/sathariels/jevtriage)** — GitHub Action 与 CLI：用 TypeSafe Jev 为 PR 分诊（可以合并 / 需要审查 / 有风险），并带置信度关卡。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · sathariels · `Py`</sub>

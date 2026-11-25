@@ -7,13 +7,13 @@ _对进来的文档、发票、表单做分类和路由。_
 这个决策的全部已收录例子 —— 共 20 条，官方优先，其次是含代码的，再按 star 排序。同样这些行及其警示也在[索引](../../README.zh-CN.md#文档分拣)里；[站点](https://kydlikebtc.github.io/awesome-jev/?p=document-triage&lang=zh)还能按语言、原语和形态进一步筛选。
 
 - **[docjev](https://github.com/jerryjliu/docjev)** — 非常快的文档分类与切分器。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★563 · jerryjliu · `Py`</sub>
+  <sub>`开源项目` · ★565 · jerryjliu · `Py`</sub>
 
 - **[tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier)** — 基于 Jev 决策的税务文档分页分类器，在 261 种 IRS 表单上达到严格全对，每页约 $0.001。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★521 · kyotofin · `TS`</sub>
+  <sub>`开源项目` · ★522 · kyotofin · `TS`</sub>
 
 - **[formanator](https://github.com/timrogers/formanator)** — 从命令行和 MCP 客户端提交福利报销单。 <sub>(机翻)</sub>
-  <sub>`插件` · ★103 · timrogers · `Rs`</sub>
+  <sub>`插件` · ★104 · timrogers · `Rs`</sub>
 
 - **[doc-router](https://github.com/misbahsy/doc-router)** — 文档 OCR 路由器，按页面内容分流。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★33 · misbahsy · `Rs`</sub>
@@ -25,10 +25,10 @@ _对进来的文档、发票、表单做分类和路由。_
   <sub>`基准测试` · ★14 · goodrahstar · `JS`</sub>
 
 - **[jevmory](https://github.com/romiluz13/jevmory)** — 编程智能体的记忆：每条事实都是一句逐字引文，由 Jev 的校准置信度评级。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★12 · romiluz13 · `Py`</sub>
+  <sub>`开源项目` · ★13 · romiluz13 · `Py`</sub>
 
 - **[jev-layer](https://github.com/typakon4/jev-layer)** — 可移植的 System-1 决策层，面向智能体 harness，含宿主自控路由、凭据与回放。 <sub>(机翻)</sub>
-  <sub>`平台集成` · ★8 · typakon4 · `JS`</sub>
+  <sub>`平台集成` · ★9 · typakon4 · `JS`</sub>
 
 - **[jev-document-classification](https://github.com/Charlyhno-eng/jev-document-classification)** — 对文本文档做快速且低成本的分类。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · charlyhno-eng · `TS`</sub>

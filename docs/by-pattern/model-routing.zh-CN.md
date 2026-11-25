@@ -13,19 +13,19 @@ _选择由哪个下游模型或档位处理请求。_
   <sub>`官方文档` · `Py` · `choice`</sub>
 
 - **[claude-code-templates: three Jev plugins](https://github.com/davila7/claude-code-templates)** — 三个可独立安装的 Claude Code 插件 —— 护栏、模型路由、技能推荐 —— 各自带 hook 和测试。
-  <sub>`插件` · ★33,957 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★34,196 · `Py` · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[@langchain/typesafe](https://github.com/langchain-ai/langchainjs)** — LangChain 集成的 JavaScript 对应版本，分类器与 middleware 形状一致。
-  <sub>`平台集成` · ★18,352 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`平台集成` · ★18,366 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — 九个 agent 技能加一个 CLI，覆盖模型路由、记忆过滤、对话轮保留、多选一技能选择和下一步动作决策。
-  <sub>`插件` · ★1,350 · `Py` · `choice` · `score` · `noul`</sub>
+  <sub>`插件` · ★1,366 · `Py` · `choice` · `score` · `noul`</sub>
 
 - **[jev-review](https://github.com/devagrawal09/jev-review)** — 代码审查前先过一遍 Jev，把高风险改动挑出来，再交给更贵的大模型或人。带本地看板。
-  <sub>`开源项目` · ★704 · `TS` · `choice` · `score` · `noul`</sub>
+  <sub>`开源项目` · ★708 · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jevrouter](https://github.com/BillionsBobby/JevRouter)** — 面向模型、工具和子智能体的路由器。
-  <sub>`开源项目` · ★470 · billionsbobby · `TS`</sub>
+  <sub>`开源项目` · ★473 · billionsbobby · `TS`</sub>
 
 - **[Astra-Ares](https://github.com/miuuyy/Astra-Ares)** — 在 Codex 任务中为 GPT-6 自适应地调整推理力度，由 Jev 驱动，以减少 token 消耗。 <sub>(机翻)</sub>
   <sub>`插件` · ★316 · miuuyy · `JS`</sub>
@@ -37,7 +37,7 @@ _选择由哪个下游模型或档位处理请求。_
   <sub>`开源项目` · ★111 · vinilana · `TS` · ⚠ `无许可证`</sub>
 
 - **[jev-use](https://github.com/shitianfang/jev-use)** — 一个智能体插件：把不需要文本输出的步骤交给 Jev，而不是主模型。
-  <sub>`插件` · ★83 · shitianfang · `JS`</sub>
+  <sub>`插件` · ★86 · shitianfang · `JS`</sub>
 
 - **[stuntd](https://github.com/bladedevoff/stuntd)** — 本地代理：学习应用里带类型的 LLM 决策，并用一个 Laya 头来回答。兼容 Jev 与 OpenAI 接口。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★76 · bladedevoff · `Py`</sub>
@@ -49,10 +49,10 @@ _选择由哪个下游模型或档位处理请求。_
   <sub>`开源项目` · ★18 · das-rebel · `TS`</sub>
 
 - **[pi-jev-router](https://github.com/mejiasd3v/pi-jev-router)** — 通过 Vercel AI Gateway 为 Pi 做自动模型路由。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★17 · mejiasd3v · `JS`</sub>
+  <sub>`开源项目` · ★18 · mejiasd3v · `JS`</sub>
 
 - **[jev-engineering](https://github.com/eugeniughelbur/jev-engineering)** — 面向 AI 智能体的决策层：约 400 毫秒、两百分之一美分的类型化校准决策，用于拦截工具调用。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★16 · eugeniughelbur · `Py`</sub>
+  <sub>`开源项目` · ★17 · eugeniughelbur · `Py`</sub>
 
 - **[jev-router](https://github.com/prismhq/jev-router)** — 开源 LLM 路由器，在 LiteLLM 之上用 Jev 选模型。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★15 · prismhq · `Py`</sub>
@@ -81,14 +81,14 @@ _选择由哪个下游模型或档位处理请求。_
 - **[jev-model-router](https://github.com/satviksinha/jev-model-router)** — 为 Claude Code 打造的模型路由器，基于 Jev。 <sub>(机翻)</sub>
   <sub>`插件` · ★7 · satviksinha · `TS`</sub>
 
-- **[pi-jev-router](https://github.com/philippdubach/pi-jev-router)** — 为 pi 打造的极简帕累托最优 OpenRouter 模型路由器，基于 Jev。 <sub>(机翻)</sub>
-  <sub>`插件` · ★7 · philippdubach · `TS`</sub>
-
 - **[jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)** — 带 JEV 模型路由、上下文优化与看板自动化的 Codex 覆盖层。 <sub>(机翻)</sub>
   <sub>`插件` · ★6 · charlyhno-eng · `TS` · `choice` · `score` · `noul`</sub>
 
 - **[jev-smart-router](https://github.com/rmosleydb/jev-smart-router)** — JEV Smart Router：一个 Databricks 应用，用 TypeSafe JEV 选择由哪个模型回答每条消息，再执行推理。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★5 · rmosleydb · `Py`</sub>
+
+- **[pi-jev-router](https://github.com/philippdubach/pi-jev-router)** — 为 pi 打造的极简帕累托最优 OpenRouter 模型路由器，基于 Jev。 <sub>(机翻)</sub>
+  <sub>`插件` · ★5 · philippdubach · `TS`</sub>
 
 - **[jev-gate](https://github.com/MongLong0214/jev-gate)** — 不是每个编程任务都需要你最好的模型：实验性的 Jev 模型路由。 <sub>(机翻)</sub>
   <sub>`插件` · ★4 · monglong0214 · `TS`</sub>
@@ -97,7 +97,7 @@ _选择由哪个下游模型或档位处理请求。_
   <sub>`SDK` · ★4 · joacomarc · `TS`</sub>
 
 - **[jev-model-router](https://github.com/Mandrilsquad1441/jev-model-router)** — 约 1 秒内为任意任务选出最合适的 AI 模型与推理力度。适用于 Claude Code、Claude Desktop 与 Codex 的插件。 <sub>(机翻)</sub>
-  <sub>`插件` · ★3 · mandrilsquad1441 · `TS`</sub>
+  <sub>`插件` · ★4 · mandrilsquad1441 · `TS`</sub>
 
 - **[smart-switch](https://github.com/reycn/smart-switch)** — 用前沿 AI 重新想象的 macOS 窗口切换器，由 Jev 做预测。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★3 · reycn · `Swift`</sub>
